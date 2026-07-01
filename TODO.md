@@ -16,7 +16,7 @@
 - [x] Update `index.html` to the new GDP ranking order.
 - [x] Convert all existing city pages to static HTML.
 - [ ] Generate AI-only images for Tokyo, inspect candidates, and adopt final `tokyo/header.png` and `tokyo/street.png`.
-- [ ] Continue city pages in GDP ranking order.
+- [ ] Continue city pages in editorial importance ranking order.
 
 ## Static Page Rules
 
@@ -30,9 +30,214 @@
 - [ ] Do not use web-downloaded images.
 - [ ] For each generated image set, create candidates and visually inspect before adoption.
 
+## Editorial Implementation Ranking
+
+Implement the 200-city atlas in this order. This replaces GDP order as the working sequence. Ranking criteria: global economic gravity, political power, religion and pilgrimage, culture and language, migration, colonial and indigenous history, conflict and recovery, climate risk, everyday life, tourism, world heritage, and whether the city helps explain a major region or world system.
+
+- [ ] 001 `new-york` - New York
+- [ ] 002 `tokyo` - Tokyo
+- [ ] 003 `london` - London
+- [ ] 004 `paris` - Paris
+- [ ] 005 `istanbul` - Istanbul
+- [ ] 006 `mecca` - Mecca
+- [ ] 007 `beijing` - Beijing
+- [ ] 008 `delhi` - Delhi
+- [ ] 009 `shanghai` - Shanghai
+- [ ] 010 `jerusalem` - Jerusalem
+- [ ] 011 `washington-dc` - Washington DC
+- [ ] 012 `moscow` - Moscow
+- [ ] 013 `hong-kong` - Hong Kong
+- [ ] 014 `singapore` - Singapore
+- [ ] 015 `dubai` - Dubai
+- [ ] 016 `seoul` - Seoul
+- [ ] 017 `los-angeles` - Los Angeles
+- [ ] 018 `mexico-city` - Mexico City
+- [ ] 019 `sao-paulo` - Sao Paulo
+- [ ] 020 `mumbai` - Mumbai
+- [ ] 021 `cairo` - Cairo
+- [ ] 022 `bangkok` - Bangkok
+- [ ] 023 `jakarta` - Jakarta
+- [ ] 024 `lagos` - Lagos
+- [ ] 025 `dhaka` - Dhaka
+- [ ] 026 `manila` - Manila
+- [ ] 027 `rio-de-janeiro` - Rio de Janeiro
+- [ ] 028 `berlin` - Berlin
+- [ ] 029 `rome` - Rome
+- [ ] 030 `vatican-city` - Vatican City
+- [ ] 031 `varanasi` - Varanasi
+- [ ] 032 `medina` - Medina
+- [ ] 033 `amritsar` - Amritsar
+- [ ] 034 `lhasa` - Lhasa
+- [ ] 035 `kathmandu` - Kathmandu
+- [ ] 036 `bodh-gaya` - Bodh Gaya
+- [ ] 037 `karbala` - Karbala
+- [ ] 038 `najaf` - Najaf
+- [ ] 039 `qom` - Qom
+- [ ] 040 `mashhad` - Mashhad
+- [ ] 041 `tel-aviv` - Tel Aviv
+- [ ] 042 `beirut` - Beirut
+- [ ] 043 `riyadh` - Riyadh
+- [ ] 044 `baghdad` - Baghdad
+- [ ] 045 `kabul` - Kabul
+- [ ] 046 `tehran` - Tehran
+- [ ] 047 `karachi` - Karachi
+- [ ] 048 `lahore` - Lahore
+- [ ] 049 `kolkata` - Kolkata
+- [ ] 050 `chennai` - Chennai
+- [ ] 051 `bengaluru` - Bengaluru
+- [ ] 052 `hanoi` - Hanoi
+- [ ] 053 `ho-chi-minh-city` - Ho Chi Minh City
+- [ ] 054 `phnom-penh` - Phnom Penh
+- [ ] 055 `siem-reap` - Siem Reap
+- [ ] 056 `yangon` - Yangon
+- [ ] 057 `taipei` - Taipei
+- [ ] 058 `shenzhen` - Shenzhen
+- [ ] 059 `guangzhou` - Guangzhou
+- [ ] 060 `chengdu` - Chengdu
+- [ ] 061 `chongqing` - Chongqing
+- [ ] 062 `wuhan` - Wuhan
+- [ ] 063 `hangzhou` - Hangzhou
+- [ ] 064 `nanjing` - Nanjing
+- [ ] 065 `tianjin` - Tianjin
+- [ ] 066 `osaka` - Osaka
+- [ ] 067 `nagoya` - Nagoya
+- [ ] 068 `busan` - Busan
+- [ ] 069 `sydney` - Sydney
+- [ ] 070 `melbourne` - Melbourne
+- [ ] 071 `toronto` - Toronto
+- [ ] 072 `san-francisco` - San Francisco
+- [ ] 073 `chicago` - Chicago
+- [ ] 074 `miami` - Miami
+- [ ] 075 `houston` - Houston
+- [ ] 076 `dallas` - Dallas
+- [ ] 077 `boston` - Boston
+- [ ] 078 `philadelphia` - Philadelphia
+- [ ] 079 `seattle` - Seattle
+- [ ] 080 `atlanta` - Atlanta
+- [ ] 081 `detroit` - Detroit
+- [ ] 082 `san-jose` - San Jose
+- [ ] 083 `san-diego` - San Diego
+- [ ] 084 `phoenix` - Phoenix
+- [ ] 085 `denver` - Denver
+- [ ] 086 `minneapolis` - Minneapolis
+- [ ] 087 `baltimore` - Baltimore
+- [ ] 088 `austin` - Austin
+- [ ] 089 `orlando` - Orlando
+- [ ] 090 `new-orleans` - New Orleans
+- [ ] 091 `havana` - Havana
+- [ ] 092 `san-juan` - San Juan
+- [ ] 093 `santo-domingo` - Santo Domingo
+- [ ] 094 `port-au-prince` - Port-au-Prince
+- [ ] 095 `kingston` - Kingston
+- [ ] 096 `guatemala-city` - Guatemala City
+- [ ] 097 `san-salvador` - San Salvador
+- [ ] 098 `tegucigalpa` - Tegucigalpa
+- [ ] 099 `managua` - Managua
+- [ ] 100 `panama-city` - Panama City
+- [ ] 101 `bogota` - Bogota
+- [ ] 102 `medellin` - Medellin
+- [ ] 103 `cartagena` - Cartagena
+- [ ] 104 `quito` - Quito
+- [ ] 105 `lima` - Lima
+- [ ] 106 `cusco` - Cusco
+- [ ] 107 `la-paz` - La Paz
+- [ ] 108 `sucre` - Sucre
+- [ ] 109 `santiago` - Santiago
+- [ ] 110 `valparaiso` - Valparaiso
+- [ ] 111 `buenos-aires` - Buenos Aires
+- [ ] 112 `montevideo` - Montevideo
+- [ ] 113 `brasilia` - Brasilia
+- [ ] 114 `salvador-bahia` - Salvador da Bahia
+- [ ] 115 `recife` - Recife
+- [ ] 116 `belem` - Belem
+- [ ] 117 `manaus` - Manaus
+- [ ] 118 `casablanca` - Casablanca
+- [ ] 119 `marrakech` - Marrakech
+- [ ] 120 `fez` - Fez
+- [ ] 121 `timbuktu` - Timbuktu
+- [ ] 122 `dakar` - Dakar
+- [ ] 123 `accra` - Accra
+- [ ] 124 `addis-ababa` - Addis Ababa
+- [ ] 125 `nairobi` - Nairobi
+- [ ] 126 `mombasa` - Mombasa
+- [ ] 127 `zanzibar-city` - Zanzibar City
+- [ ] 128 `kigali` - Kigali
+- [ ] 129 `kinshasa` - Kinshasa
+- [ ] 130 `goma` - Goma
+- [ ] 131 `luanda` - Luanda
+- [ ] 132 `maputo` - Maputo
+- [ ] 133 `cape-town` - Cape Town
+- [ ] 134 `mogadishu` - Mogadishu
+- [ ] 135 `hargeisa` - Hargeisa
+- [ ] 136 `khartoum` - Khartoum
+- [ ] 137 `juba` - Juba
+- [ ] 138 `tunis` - Tunis
+- [ ] 139 `algiers` - Algiers
+- [ ] 140 `luxor` - Luxor
+- [ ] 141 `giza` - Giza
+- [ ] 142 `alexandria` - Alexandria
+- [ ] 143 `aswan` - Aswan
+- [ ] 144 `wadi-musa-petra` - Wadi Musa / Petra
+- [ ] 145 `isfahan` - Isfahan
+- [ ] 146 `shiraz` - Shiraz
+- [ ] 147 `yazd` - Yazd
+- [ ] 148 `samarkand` - Samarkand
+- [ ] 149 `bukhara` - Bukhara
+- [ ] 150 `khiva` - Khiva
+- [ ] 151 `madrid` - Madrid
+- [ ] 152 `barcelona` - Barcelona
+- [ ] 153 `granada` - Granada
+- [ ] 154 `seville` - Seville
+- [ ] 155 `lisbon` - Lisbon
+- [ ] 156 `dublin` - Dublin
+- [ ] 157 `belfast` - Belfast
+- [ ] 158 `amsterdam` - Amsterdam
+- [ ] 159 `brussels` - Brussels
+- [ ] 160 `zurich` - Zurich
+- [ ] 161 `frankfurt` - Frankfurt
+- [ ] 162 `munich` - Munich
+- [ ] 163 `hamburg` - Hamburg
+- [ ] 164 `stuttgart` - Stuttgart
+- [ ] 165 `central-german` - Central German Metropolitan Region
+- [ ] 166 `rhine-ruhr` - Rhine-Ruhr
+- [ ] 167 `ruhr` - Ruhr
+- [ ] 168 `milan` - Milan
+- [ ] 169 `naples` - Naples
+- [ ] 170 `palermo` - Palermo
+- [ ] 171 `florence` - Florence
+- [ ] 172 `venice` - Venice
+- [ ] 173 `sarajevo` - Sarajevo
+- [ ] 174 `mostar` - Mostar
+- [ ] 175 `belgrade` - Belgrade
+- [ ] 176 `kyiv` - Kyiv
+- [ ] 177 `odesa` - Odesa
+- [ ] 178 `lviv` - Lviv
+- [ ] 179 `vilnius` - Vilnius
+- [ ] 180 `riga` - Riga
+- [ ] 181 `tallinn` - Tallinn
+- [ ] 182 `krakow` - Krakow
+- [ ] 183 `gdansk` - Gdansk
+- [ ] 184 `dubrovnik` - Dubrovnik
+- [ ] 185 `nicosia` - Nicosia
+- [ ] 186 `valletta` - Valletta
+- [ ] 187 `reykjavik` - Reykjavik
+- [ ] 188 `stockholm` - Stockholm
+- [ ] 189 `montreal` - Montreal
+- [ ] 190 `portland` - Portland
+- [ ] 191 `nashville` - Nashville
+- [ ] 192 `pittsburgh` - Pittsburgh
+- [ ] 193 `cincinnati` - Cincinnati
+- [ ] 194 `st-louis` - St. Louis
+- [ ] 195 `indianapolis` - Indianapolis
+- [ ] 196 `charlotte` - Charlotte
+- [ ] 197 `tampa` - Tampa
+- [ ] 198 `riverside` - Riverside
+- [ ] 199 `sacramento` - Sacramento
+- [ ] 200 `colombo` - Colombo
+
 ## GDP Ranking Implementation Queue
 
-Use the user-supplied GDP ranking order. Slugs are simplified where the listed item is a metropolitan statistical area or region.
+Reference only. Use the editorial implementation ranking above for actual work. The GDP queue is retained so economic ranking context is not lost. Slugs are simplified where the listed item is a metropolitan statistical area or region.
 
 - [ ] 001 `new-york` - New York-Newark-Jersey City
 - [ ] 002 `tokyo` - Greater Tokyo Area
@@ -138,3 +343,108 @@ Use the user-supplied GDP ranking order. Slugs are simplified where the listed i
 ## Later Ranking Items To Continue
 
 Continue after item 100 in the same order from the user-provided GDP list, starting with Copenhagen, Foshan, Xi'an, Kansas City, Quanzhou, Fukuoka-Kitakyushu, San Antonio, Columbus, Las Vegas, Brisbane, Nuremberg, Nantong, Cleveland, Dongguan, Rio de Janeiro, Vienna, Lisbon, Kuala Lumpur, Vancouver, Changzhou, Yantai, Aix-Marseille-Provence, Salt Lake City, Ankara, Tangshan, Monterrey, Jeddah, Manchester, Metropolitan Cork, Wenzhou, Ahmedabad, Johannesburg, Xuzhou, Dalian, Raleigh, Milwaukee, Jacksonville, Santiago, Saint Petersburg, Virginia Beach, Shenyang, Northwest Metropolitan Region, Hartford, Bogota, Xiamen, Kuwait City, Warsaw, Shaoxing, Helsinki, Rhine-Neckar, Richmond, Bridgeport, Prague, Lyon, Lima, Rotterdam, Providence, Perth, Yangzhou, Nanchang, Yancheng, Jiaxing, Karachi, Baghdad, Yulin, Abu Dhabi, Gothenburg, Cairo, Auckland, Memphis, New Orleans, Lagos, Lille, Oklahoma City, Calgary, Taizhou, Utrecht, Louisville, Athens, Kunming, Ho Chi Minh City, Changchun, Harbin, Taizhou Zhejiang, Bern, Omaha, Buffalo, Turin, Ordos, Surabaya, Katowice-Ostrava, Yichang, Budapest, Huizhou, Izmir, Xiangyang, Zhangzhou, Albany, Sapporo, and Birmingham-Hoover.
+
+## Cultural / Social Expansion Queue
+
+After the GDP top 100 pages are complete, add these 100 cities by editorial judgment. This queue prioritizes religion, pilgrimage, everyday life, indigenous and minority cultures, colonial history, world heritage, tourism, social problems, post-conflict recovery, border politics, climate risk, and cities that explain the world even when they are not in the GDP ranking.
+
+- [ ] 101 `jerusalem` - Jerusalem
+- [ ] 102 `mecca` - Mecca
+- [ ] 103 `medina` - Medina
+- [ ] 104 `vatican-city` - Vatican City
+- [ ] 105 `varanasi` - Varanasi
+- [ ] 106 `amritsar` - Amritsar
+- [ ] 107 `lhasa` - Lhasa
+- [ ] 108 `kathmandu` - Kathmandu
+- [ ] 109 `bodh-gaya` - Bodh Gaya
+- [ ] 110 `najaf` - Najaf
+- [ ] 111 `karbala` - Karbala
+- [ ] 112 `qom` - Qom
+- [ ] 113 `mashhad` - Mashhad
+- [ ] 114 `fez` - Fez
+- [ ] 115 `marrakech` - Marrakech
+- [ ] 116 `timbuktu` - Timbuktu
+- [ ] 117 `samarkand` - Samarkand
+- [ ] 118 `bukhara` - Bukhara
+- [ ] 119 `khiva` - Khiva
+- [ ] 120 `isfahan` - Isfahan
+- [ ] 121 `shiraz` - Shiraz
+- [ ] 122 `yazd` - Yazd
+- [ ] 123 `wadi-musa-petra` - Wadi Musa / Petra
+- [ ] 124 `luxor` - Luxor
+- [ ] 125 `alexandria` - Alexandria
+- [ ] 126 `giza` - Giza
+- [ ] 127 `aswan` - Aswan
+- [ ] 128 `tunis` - Tunis
+- [ ] 129 `algiers` - Algiers
+- [ ] 130 `casablanca` - Casablanca
+- [ ] 131 `dakar` - Dakar
+- [ ] 132 `accra` - Accra
+- [ ] 133 `addis-ababa` - Addis Ababa
+- [ ] 134 `kigali` - Kigali
+- [ ] 135 `nairobi` - Nairobi
+- [ ] 136 `mombasa` - Mombasa
+- [ ] 137 `zanzibar-city` - Zanzibar City
+- [ ] 138 `maputo` - Maputo
+- [ ] 139 `cape-town` - Cape Town
+- [ ] 140 `luanda` - Luanda
+- [ ] 141 `kinshasa` - Kinshasa
+- [ ] 142 `goma` - Goma
+- [ ] 143 `mogadishu` - Mogadishu
+- [ ] 144 `hargeisa` - Hargeisa
+- [ ] 145 `khartoum` - Khartoum
+- [ ] 146 `juba` - Juba
+- [ ] 147 `havana` - Havana
+- [ ] 148 `san-juan` - San Juan
+- [ ] 149 `santo-domingo` - Santo Domingo
+- [ ] 150 `port-au-prince` - Port-au-Prince
+- [ ] 151 `kingston` - Kingston
+- [ ] 152 `guatemala-city` - Guatemala City
+- [ ] 153 `san-salvador` - San Salvador
+- [ ] 154 `tegucigalpa` - Tegucigalpa
+- [ ] 155 `managua` - Managua
+- [ ] 156 `panama-city` - Panama City
+- [ ] 157 `medellin` - Medellin
+- [ ] 158 `cartagena` - Cartagena
+- [ ] 159 `quito` - Quito
+- [ ] 160 `cusco` - Cusco
+- [ ] 161 `la-paz` - La Paz
+- [ ] 162 `sucre` - Sucre
+- [ ] 163 `montevideo` - Montevideo
+- [ ] 164 `valparaiso` - Valparaiso
+- [ ] 165 `manaus` - Manaus
+- [ ] 166 `salvador-bahia` - Salvador da Bahia
+- [ ] 167 `brasilia` - Brasilia
+- [ ] 168 `recife` - Recife
+- [ ] 169 `belem` - Belem
+- [ ] 170 `belfast` - Belfast
+- [ ] 171 `sarajevo` - Sarajevo
+- [ ] 172 `mostar` - Mostar
+- [ ] 173 `belgrade` - Belgrade
+- [ ] 174 `kyiv` - Kyiv
+- [ ] 175 `odesa` - Odesa
+- [ ] 176 `lviv` - Lviv
+- [ ] 177 `vilnius` - Vilnius
+- [ ] 178 `riga` - Riga
+- [ ] 179 `tallinn` - Tallinn
+- [ ] 180 `krakow` - Krakow
+- [ ] 181 `gdansk` - Gdansk
+- [ ] 182 `dubrovnik` - Dubrovnik
+- [ ] 183 `nicosia` - Nicosia
+- [ ] 184 `valletta` - Valletta
+- [ ] 185 `reykjavik` - Reykjavik
+- [ ] 186 `bilbao` - Bilbao
+- [ ] 187 `granada` - Granada
+- [ ] 188 `seville` - Seville
+- [ ] 189 `naples` - Naples
+- [ ] 190 `palermo` - Palermo
+- [ ] 191 `florence` - Florence
+- [ ] 192 `venice` - Venice
+- [ ] 193 `kabul` - Kabul
+- [ ] 194 `lahore` - Lahore
+- [ ] 195 `colombo` - Colombo
+- [ ] 196 `yangon` - Yangon
+- [ ] 197 `phnom-penh` - Phnom Penh
+- [ ] 198 `siem-reap` - Siem Reap
+- [ ] 199 `hanoi` - Hanoi
+- [ ] 200 `beirut` - Beirut
