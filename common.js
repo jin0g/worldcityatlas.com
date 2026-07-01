@@ -30,6 +30,21 @@ const WORLD_CITY_NAV = [
   }
 ];
 
+function injectGoogleTag() {
+  const measurementId = "G-90EK6260ZV";
+  if (document.querySelector(`script[src*="${measurementId}"]`)) return;
+
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+  document.head.appendChild(script);
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function gtag(){ window.dataLayer.push(arguments); };
+  window.gtag("js", new Date());
+  window.gtag("config", measurementId);
+}
+
 function renderSiteHeader() {
   const current = document.body.dataset.city || "";
   const menu = WORLD_CITY_NAV.map(group => `
@@ -59,6 +74,8 @@ function renderSiteFooter() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  injectGoogleTag();
+
   const headerTarget = document.querySelector("[data-site-header]");
   const footerTarget = document.querySelector("[data-site-footer]");
   if (headerTarget) headerTarget.outerHTML = renderSiteHeader();

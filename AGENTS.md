@@ -9,13 +9,14 @@ Build a static visual city atlas under this directory. The site uses an editoria
 - When the user writes an instruction beginning with `永続：`, append or incorporate that instruction into this `AGENTS.md`.
 - This rule is itself persistent: future `永続：` instructions must also be recorded in `AGENTS.md`.
 - When committing, make sure junk files such as `.DS_Store` and the `_ai/` directory are not included.
+- Include Google Analytics / Google tag `G-90EK6260ZV` on every page. It may be injected from `common.js` so future pages inherit it automatically.
 
 ## Architecture
 
 - Use ordinary static HTML for page content.
 - Do not render city page body content with JavaScript.
 - `common.css` is allowed and should hold shared visual styles.
-- `common.js` is allowed for the shared header and footer only.
+- `common.js` is allowed for the shared header, footer, and the Google tag injection.
 - The shared header should be hierarchical and interactive, for example `アジア -> 日本 -> 東京`.
 - The shared footer should be centered and read `© WORLD CITY ATLAS 2026`.
 - City-specific statistics, prose, sections, and layout belong directly in each city page HTML.
