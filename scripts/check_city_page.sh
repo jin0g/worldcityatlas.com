@@ -98,7 +98,7 @@ for label, value in parser.stats:
 print("MINI_SECTIONS")
 for title, text in parser.stories:
     count = sum(len(match) for match in JP_RE.findall(text))
-    status = "OK" if 170 <= count <= 230 else "NG"
+    status = "OK" if 98 <= count <= 102 else "NG"
     failed = failed or status == "NG"
     print(f"{title}\t{count}\t{status}")
 

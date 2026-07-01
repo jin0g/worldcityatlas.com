@@ -354,7 +354,7 @@ img { display: block; max-width: 100%; }
   background: var(--line);
 }
 .story-block {
-  min-height: 360px;
+  min-height: 250px;
   padding: 28px;
   background: #fffdf7;
 }
@@ -450,16 +450,17 @@ img { display: block; max-width: 100%; }
 }
 .feature-visual {
   position: relative;
-  min-height: clamp(360px, 48vw, 620px);
+  height: clamp(220px, 29vw, 380px);
   margin: 0;
   overflow: hidden;
   background: #11181f;
   color: white;
 }
 .feature-visual img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  min-height: inherit;
   object-fit: cover;
 }
 .feature-visual::after {
