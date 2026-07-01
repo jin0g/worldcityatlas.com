@@ -76,6 +76,19 @@ Each city page should include:
 - The GDP ranking is economic, but pages must not become only business or finance pages.
 - Write in Japanese unless the user asks otherwise.
 - The prose should be detailed and useful, but divided into readable sections.
+- For city pages, target at least 4000 Japanese characters in the main explanatory body text, counted from normal prose paragraphs only. Do not count scripts, navigation, labels, stats, metadata, or footer text toward this target.
+- Before finalizing generated city prose, run a local script to verify each main prose section is 950-1050 Japanese characters where that section is intended to carry body text. Check only the Japanese prose itself, not scripts, navigation, labels, stats, metadata, or footer text.
+- Tokyo is the template city page. Prefer a 10000 Japanese character target for full city pages where the city has enough topics.
+- A full city page should normally have 10 prose sections: four common sections for geopolitics, industry and labor, culture and religion, and daily life and tourism, plus six city-specific sections. Use fewer only when the city truly lacks enough distinct topics; use more when the city needs them.
+- Each main prose section should be around 1000 Japanese characters and should avoid creating large empty visual gaps. Prefer one continuous prose paragraph per counted section unless the layout clearly benefits from subdivision.
+- Each main prose section should ideally include one small representative image. Images may be temporary Python-generated placeholders until the local AI image pipeline produces final assets.
+- Top mini sections such as geopolitics, industry and labor, culture and religion, and daily life and tourism should be concise, around 200 Japanese characters each. Do not count these mini sections toward the 950-1050 character main-section check.
+- The short stat texts for climate, main industries, and main tourism must be exactly 24 Japanese-visible characters each, including punctuation. Apply this to every city.
+- Record layout and content instructions in this file as they are given, and periodically re-read this file while working.
+- Tokyo's page layout is the current template: shared site header, large hero city image with city name, overview stats, short city catchphrase, four mini sections, then main prose sections.
+- Main prose sections should not use a vertical split with a separate heading/caption column. Instead, each section starts with one wide horizontal image. Overlay the section eyebrow and title on the image, then place the prose body below it.
+- Do not include a standalone "Image Plan" gallery on city pages. Planned or generated images should be used directly in the relevant sections, exactly one section image per main prose section where possible.
+- Remove small catchcopy paragraphs from main section headings when using the wide image overlay style; the prose should flow from the image/title into the body text.
 
 ## Image Rules
 
@@ -90,6 +103,7 @@ Each city page should include:
 - Visually inspect generated candidates before adopting them.
 - Final adopted images must be copied into each city directory as `header.png`, `street.png`, or another simple role name.
 - `street.png` should be a Python-generated geometric illustration representing the city's character, not an AI photo.
+- No image may contain embedded text, lettering, labels, logos, captions, or readable signs. This applies to both Python-generated images and AI-generated images. Section titles and labels must be HTML overlay text, not pixels inside the image.
 
 ## Current Implementation State
 
