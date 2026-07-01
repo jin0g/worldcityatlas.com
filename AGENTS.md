@@ -9,6 +9,7 @@ Build a static visual city atlas under this directory. The site uses an editoria
 - When the user writes an instruction beginning with `永続：`, append or incorporate that instruction into this `AGENTS.md`.
 - This rule is itself persistent: future `永続：` instructions must also be recorded in `AGENTS.md`.
 - When committing, make sure junk files such as `.DS_Store` and the `_ai/` directory are not included.
+- When preparing uploaded or published site files, do not include auxiliary project files or working directories: `_ai/`, `scripts/`, `.gitignore`, `AGENTS.md`, and `TODO.md`.
 - Include Google Analytics / Google tag `G-90EK6260ZV` on every page. It may be injected from `common.js` so future pages inherit it automatically.
 
 ## Architecture
