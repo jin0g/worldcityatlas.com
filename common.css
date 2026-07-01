@@ -196,7 +196,10 @@ img { display: block; max-width: 100%; }
   flex-direction: column;
   justify-content: flex-end;
   overflow: hidden;
-  background: #111;
+  background:
+    linear-gradient(180deg, rgba(17, 24, 31, .18), rgba(17, 24, 31, .92)),
+    radial-gradient(circle at 20% 18%, color-mix(in srgb, var(--accent) 40%, transparent), transparent 34%),
+    linear-gradient(135deg, color-mix(in srgb, var(--accent) 18%, #11181f), #111);
   color: white;
 }
 .city-card img {
@@ -216,6 +219,15 @@ img { display: block; max-width: 100%; }
 }
 .city-card:hover img { transform: scale(1.05); }
 .city-card > *:not(img) { position: relative; z-index: 1; }
+.city-card.is-skeleton {
+  border: 1px solid rgba(255,255,255,.06);
+}
+.city-card.is-skeleton::before {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  border: 1px solid rgba(255,255,255,.12);
+}
 .card-num {
   width: 44px;
   height: 44px;
