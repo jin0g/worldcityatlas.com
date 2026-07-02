@@ -53,6 +53,7 @@ Progress notes:
 - Mumbai is completed under the current image-and-section template.
 - Sao Paulo is completed under the current image-and-section template.
 - Hong Kong is completed under the current image-and-section template.
+- San Francisco is completed under the current image-and-section template.
 - Jakarta is completed under the current image-and-section template.
 - Manila is completed under the current image-and-section template.
 - Bangkok is completed under the current image-and-section template.
@@ -71,7 +72,7 @@ Progress notes:
 - [x] 007 `beijing` - Beijing - DONE
 - [x] 008 `istanbul` - Istanbul - DONE
 - [x] 009 `hong-kong` - Hong Kong - DONE
-- [ ] 010 `san-francisco` - San Francisco
+- [x] 010 `san-francisco` - San Francisco - DONE
 - [x] 011 `washington-dc` - Washington DC - DONE
 - [x] 012 `moscow` - Moscow - DONE
 - [ ] 013 `taipei` - Taipei
@@ -462,7 +463,5 @@ Progress notes:
 - [ ] 398 `luanda` - Luanda
 - [ ] 399 `maputo` - Maputo
 - [ ] 400 `hargeisa` - Hargeisa
-
-
 
 
