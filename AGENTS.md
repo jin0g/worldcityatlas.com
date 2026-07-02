@@ -15,7 +15,7 @@ Build a static visual city atlas under this directory. The site uses an editoria
 - Include Google Analytics / Google tag `G-90EK6260ZV` on every page. It may be injected from `common.js` so future pages inherit it automatically.
 - Commit and push `AGENTS.md` and `TODO.md` whenever they are updated.
 - Do not show `世界都市ランキング`, ranking numbers, or ranking labels on existing or future city pages. The editorial order may remain internal in `TODO.md` and index ordering, but city pages should not display it as a ranking.
-- Starting at item 201 in `TODO.md`, include every sovereign country's capital that is not already present in the first 200-city list. Add missing national capitals progressively and keep existing 1-200 editorial order intact.
+- Starting at item 201 in `TODO.md`, include every sovereign country's capital that is not already present in the earlier editorial city list. Add missing national capitals progressively while preserving the current scored implementation order.
 - Keep local AI image generation from becoming idle. Because GPU image generation is the bottleneck, keep image queues flowing continuously whenever possible, use both GPUs with parallel city batches, and do writing, implementation, validation, visual inspection, and sub-agent work in parallel while images generate. Aim to keep both GPUs as close to fully utilized as practical until the remaining city images are complete.
 
 ## Architecture
@@ -37,8 +37,8 @@ Build a static visual city atlas under this directory. The site uses an editoria
 
 - The visited feature uses `localStorage` key `worldcityatlas.visited`, storing an array of city slugs.
 - `common.js` injects visit stars into every `.world-grid .city-card[href]`, including `is-skeleton` cards, and into city detail `.city-hero` sections via `body[data-city]`.
-- `visited/index.html` renders all 200 `index.html` city slugs on a latitude/longitude map.
-- City coordinates are stored in `VISITED_CITIES` as `{ id, name, label, lat, lon }`. The current 200-city coordinate set was derived from GeoNames `cities15000`; special/ambiguous metro entries may use representative city coordinates.
+- `visited/index.html` renders all 400 `index.html` city slugs on a latitude/longitude map.
+- City coordinates are stored in `VISITED_CITIES` as `{ id, name, label, lat, lon }`. The current 400-city coordinate set was derived from the previous GeoNames-based set plus checked geocoding/manual representative coordinates for newly added capitals, regions, islands, and ambiguous metro entries.
 - Land shapes are generated from Natural Earth 110m land GeoJSON and embedded as simplified SVG paths in `LAND_PATHS`.
 - Do not replace the map with copied image/SVG artwork. If improving accuracy, regenerate coordinate-derived SVG paths from open geodata and keep the projection consistent with `project(lon, lat)`.
 - Visited markers are drawn above unvisited markers by moving visited SVG marker groups to the end of `markerLayer` during `syncView()`.
@@ -57,7 +57,7 @@ Build a static visual city atlas under this directory. The site uses an editoria
   - `Kyoto-Osaka-Kobe` -> `osaka`
   - `Washington-Arlington-Alexandria` -> `washington-dc`
 - Visible page titles should say `大阪`, not `京阪神`; `東京`, not `Greater Tokyo Area`; `ニューヨーク`, not the full MSA name.
-- The final atlas target is 200 cities: the initial 100-city set plus 100 additional editorially selected cities important for tourism, culture, religion, daily life, conflict, world heritage, indigenous or minority history, climate risk, and social understanding.
+- The current atlas target is 400 cities, ordered by the scored editorial priority tracked in `TODO.md`.
 - Items 201 onward in `TODO.md` are a capital-completion extension and should include missing national capitals plus explicitly requested regions such as Guam, Hawaii, Saipan, Bali, Macau, Kaohsiung, Phuket, Hokkaido, and Okinawa when not already listed.
 
 ## Page Requirements
