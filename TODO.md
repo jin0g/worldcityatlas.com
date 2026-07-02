@@ -59,6 +59,7 @@ Progress notes:
 - Chicago is completed under the current image-and-section template.
 - Rio de Janeiro is completed under the current image-and-section template.
 - Miami is completed under the current image-and-section template.
+- Rome is completed under the current image-and-section template.
 - Jakarta is completed under the current image-and-section template.
 - Manila is completed under the current image-and-section template.
 - Bangkok is completed under the current image-and-section template.
@@ -89,7 +90,7 @@ Progress notes:
 - [x] 019 `singapore` - Singapore - DONE
 - [x] 020 `rio-de-janeiro` - Rio de Janeiro - DONE
 - [x] 021 `miami` - Miami - DONE
-- [ ] 022 `rome` - Rome
+- [x] 022 `rome` - Rome - DONE
 - [ ] 023 `barcelona` - Barcelona
 - [ ] 024 `tel-aviv` - Tel Aviv
 - [x] 025 `cairo` - Cairo - DONE
