@@ -313,30 +313,21 @@ img { display: block; max-width: 100%; }
   padding: 18px;
   background: #fffdf7;
 }
-.stat > span {
+.stat span {
   display: block;
   margin-bottom: 18px;
   color: var(--accent);
   font-size: 12px;
   font-weight: 900;
+  margin-top: 18px;
+}
+.stat span:first-child {
+  margin-top: 0;
 }
 .stat strong {
   display: block;
   font-size: 18px;
   line-height: 1.45;
-}
-.stat strong span {
-  display: block;
-}
-.stat strong .stat-subhead {
-  margin-top: 8px;
-  color: var(--ink);
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: .08em;
-}
-.stat strong .stat-subhead:first-child {
-  margin-top: 0;
 }
 
 .split-visual {
