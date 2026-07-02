@@ -402,6 +402,71 @@ Items 201 onward ensure that every sovereign country capital missing from the fi
 - [ ] 333 `phuket` - Phuket - Thai island tourism, migration, and coastal risk
 - [ ] 334 `hokkaido` - Hokkaido / Sapporo - Northern Japan, Ainu history, climate, and food culture
 - [ ] 335 `okinawa` - Okinawa / Naha - Ryukyu history, bases, tourism, and island life
+- [ ] 336 `xian` - Xi'an - Chinese ancient capital, Silk Road memory, and Buddhist heritage
+- [ ] 337 `suzhou` - Suzhou - Jiangnan gardens, canals, silk culture, and water-town urbanism
+- [ ] 338 `qingdao` - Qingdao - German treaty-port history, beer culture, beaches, and port industry
+- [ ] 339 `dunhuang` - Dunhuang - Mogao Caves, Silk Road art, desert pilgrimage, and oasis history
+- [ ] 340 `guilin` - Guilin - Karst landscape tourism, river settlements, and Chinese scenic imagination
+- [ ] 341 `luoyang` - Luoyang - Ancient dynastic capital, Longmen Buddhist caves, and Yellow River culture
+- [ ] 342 `urumqi` - Urumqi - Uyghur culture, Inner Asian trade routes, and frontier urban politics
+- [ ] 343 `harbin` - Harbin - Russian architecture, ice festival, Manchurian history, and winter city life
+- [ ] 344 `tainan` - Tainan - Taiwan's historic capital, temples, food culture, and port memory
+- [ ] 345 `hualien` - Hualien - Taroko gateway, Indigenous culture, seismic risk, and mountain-coast life
+- [ ] 346 `jeju` - Jeju - Korean island tourism, volcanic landscape, migration, and modern memory
+- [ ] 347 `gyeongju` - Gyeongju - Silla capital, Buddhist heritage, royal tombs, and East Asian exchange
+- [ ] 348 `incheon` - Incheon - Airport gateway, port, Chinatown, and Korean War landing history
+- [ ] 349 `chiang-mai` - Chiang Mai - Northern Thai temples, mountain cultures, crafts, and long-stay tourism
+- [ ] 350 `ayutthaya` - Ayutthaya - Former Siamese capital, Japanese trading history, and river ruins
+- [ ] 351 `luang-prabang` - Luang Prabang - Buddhist ritual city, Mekong culture, and World Heritage townscape
+- [ ] 352 `hue` - Hue - Vietnamese imperial capital, court culture, war memory, and Perfume River landscape
+- [ ] 353 `hoi-an` - Hoi An - Historic trading port, Japanese bridge memory, lantern streets, and food culture
+- [ ] 354 `da-nang` - Da Nang - Central Vietnam beach hub, wartime base history, and rapid urban growth
+- [ ] 355 `george-town-penang` - George Town, Penang - Multicultural port, street food, clan houses, and heritage streets
+- [ ] 356 `malacca` - Malacca - Strait trade, Malay, Chinese, Portuguese, Dutch, and British urban layers
+- [ ] 357 `yogyakarta` - Yogyakarta - Javanese court city, student culture, and Borobudur-Prambanan gateway
+- [ ] 358 `borobudur` - Borobudur - Buddhist monument landscape, pilgrimage, tourism, and Javanese village life
+- [ ] 359 `agra` - Agra - Taj Mahal city, Mughal urban history, craft labor, and Yamuna riverfront
+- [ ] 360 `edinburgh` - Edinburgh - Castle city, Scottish capital, literature, festivals, and Old Town heritage
+- [ ] 361 `oxford` - Oxford - University city, publishing, colleges, and knowledge-economy townscape
+- [ ] 362 `cambridge` - Cambridge - University, science history, river colleges, and student urban life
+- [ ] 363 `liverpool` - Liverpool - Beatles culture, Atlantic port history, football, and working-class memory
+- [ ] 364 `manchester` - Manchester - Industrial revolution city, music, football, migration, and media economy
+- [ ] 365 `bath` - Bath - Roman baths, Georgian architecture, spa tourism, and World Heritage urban form
+- [ ] 366 `versailles` - Versailles - Palace city, absolutist monarchy, revolution memory, and planned court landscape
+- [ ] 367 `mont-saint-michel` - Mont Saint-Michel - Tidal abbey, pilgrimage, tourism, and coastal heritage landscape
+- [ ] 368 `nice` - Nice - Riviera tourism, Mediterranean art, border history, and resort-city life
+- [ ] 369 `cannes` - Cannes - Film festival city, Riviera tourism, luxury economy, and media spectacle
+- [ ] 370 `lourdes` - Lourdes - Catholic pilgrimage, healing faith, hotels, and religious tourism economy
+- [ ] 371 `strasbourg` - Strasbourg - Alsatian border culture, European institutions, canals, and cathedral cityscape
+- [ ] 372 `geneva` - Geneva - International organizations, diplomacy, humanitarian history, and lakefront urban life
+- [ ] 373 `salzburg` - Salzburg - Mozart city, Baroque heritage, Alpine tourism, and music festival culture
+- [ ] 374 `cologne` - Cologne - Cathedral city, Rhine trade, carnival, media, and Roman-German history
+- [ ] 375 `heidelberg` - Heidelberg - University town, castle landscape, romantic tourism, and student culture
+- [ ] 376 `marseille` - Marseille - Mediterranean port, migration, North African links, and working waterfront culture
+- [ ] 377 `las-vegas` - Las Vegas - Casino resort city, desert water risk, entertainment economy, and spectacle urbanism
+- [ ] 378 `vancouver` - Vancouver - Pacific Rim port, Asian migration, film industry, and mountain-coast urbanism
+- [ ] 379 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
+- [ ] 380 `brisbane` - Brisbane - Subtropical Australian metropolis, river life, floods, and Queensland tourism gateway
+- [ ] 381 `perth` - Perth - Indian Ocean city, mining economy, isolation, beaches, and Western Australian identity
+- [ ] 382 `cancun` - Cancun - Caribbean resort city, Mayan tourism gateway, and coastal risk
+- [ ] 383 `oaxaca` - Oaxaca - Indigenous culture, food, crafts, Day of the Dead, and colonial streets
+- [ ] 384 `quebec-city` - Quebec City - Francophone North America, fortified old town, and winter cultural identity
+- [ ] 385 `niagara-falls` - Niagara Falls - Waterfall tourism, border city, hydroelectricity, and mass leisure history
+- [ ] 386 `memphis` - Memphis - Blues, soul, Elvis memory, Mississippi river port, and Black history
+- [ ] 387 `santa-fe` - Santa Fe - Pueblo, Spanish colonial, art markets, adobe urban form, and desert culture
+- [ ] 388 `charleston` - Charleston - Atlantic port, slavery memory, Southern culture, and coastal heritage risk
+- [ ] 389 `foz-do-iguacu` - Foz do Iguacu - Iguazu Falls gateway, tri-border life, and hydroelectric landscape
+- [ ] 390 `cairns` - Cairns - Great Barrier Reef gateway, rainforest tourism, and tropical climate risk
+- [ ] 391 `gold-coast` - Gold Coast - Beach tourism, surfing culture, theme parks, and high-rise coastal urbanism
+- [ ] 392 `queenstown` - Queenstown - Alpine resort, adventure tourism, lake landscape, and seasonal labor
+- [ ] 393 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, and post-apartheid urban inequality
+- [ ] 394 `durban` - Durban - Indian Ocean port, Indian diaspora culture, beaches, and Zulu regional links
+- [ ] 395 `lalibela` - Lalibela - Rock-hewn churches, Ethiopian Orthodox pilgrimage, and highland heritage
+- [ ] 396 `chefchaouen` - Chefchaouen - Blue medina, Rif mountain culture, tourism, and Moroccan craft streets
+- [ ] 397 `jeddah` - Jeddah - Red Sea port, Mecca pilgrimage gateway, historic coral houses, and trade
+- [ ] 398 `alula` - AlUla - Nabataean desert heritage, oasis landscape, and Saudi cultural tourism
+- [ ] 399 `aleppo` - Aleppo - Ancient trading city, souk heritage, war damage, and reconstruction memory
+- [ ] 400 `bethlehem` - Bethlehem - Christian pilgrimage city, Palestinian urban life, and separation-wall geography
 
 ## GDP Ranking Implementation Queue
 
