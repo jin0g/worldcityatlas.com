@@ -393,6 +393,15 @@ Items 201 onward ensure that every sovereign country capital missing from the fi
 - [ ] 324 `sanaa` - Sanaa - Capital of Yemen
 - [ ] 325 `lusaka` - Lusaka - Capital of Zambia
 - [ ] 326 `harare` - Harare - Capital of Zimbabwe
+- [ ] 327 `guam` - Guam / Hagatna - Pacific island territory and Chamorro cultural center
+- [ ] 328 `hawaii` - Hawaii / Honolulu - Pacific island hub and Native Hawaiian history
+- [ ] 329 `saipan` - Saipan - Northern Mariana Islands history, tourism, and Pacific war memory
+- [ ] 330 `bali` - Bali / Denpasar - Hindu island culture, tourism, and everyday life
+- [ ] 331 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
+- [ ] 332 `kaohsiung` - Kaohsiung - Southern Taiwan port, industry, and coastal culture
+- [ ] 333 `phuket` - Phuket - Thai island tourism, migration, and coastal risk
+- [ ] 334 `hokkaido` - Hokkaido / Sapporo - Northern Japan, Ainu history, climate, and food culture
+- [ ] 335 `okinawa` - Okinawa / Naha - Ryukyu history, bases, tourism, and island life
 
 ## GDP Ranking Implementation Queue
 
