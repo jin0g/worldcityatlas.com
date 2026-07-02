@@ -123,7 +123,7 @@ Progress notes:
 - [x] 041 `atlanta` - Atlanta - DONE - civil rights memory, airport logistics, Black culture, corporate media, sprawl, universities, immigration, highways, tree canopy, and sports
 - [x] 042 `baghdad` - Baghdad - DONE - Tigris geography, Abbasid memory, state politics, war memory, oil services, markets, religion, education, housing, climate, and recovery
 - [x] 043 `guangzhou` - Guangzhou - 珠江デルタ、広交会、製造業、広東語文化、飲茶、市場、城中村、地下鉄、アフリカ交易、洪水、歴史遺産を扱う静的ページを実装済み。
-- [ ] 044 `shenzhen` - Shenzhen
+- [x] 044 `shenzhen` - Shenzhen - 改革開放、テック製造、華強北、移民労働、城中村、金融、香港境界、デザイン文化、住宅圧力、気候リスクを扱う静的ページを実装済み。
 - [ ] 045 `milan` - Milan
 - [ ] 046 `hangzhou` - Hangzhou
 - [ ] 047 `new-orleans` - New Orleans
