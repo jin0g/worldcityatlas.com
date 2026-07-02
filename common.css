@@ -203,27 +203,6 @@ img { display: block; max-width: 100%; }
   line-height: 1.8;
 }
 
-.home-seo {
-  padding: clamp(42px, 6vw, 72px) clamp(20px, 6vw, 90px);
-  background: #fff;
-  border-top: 1px solid var(--line);
-}
-.home-seo h2 {
-  margin: 0;
-  max-width: 920px;
-  color: #11181f;
-  font-size: clamp(26px, 4vw, 52px);
-  line-height: 1.12;
-  letter-spacing: 0;
-}
-.home-seo p:not(.eyebrow) {
-  max-width: 960px;
-  margin: 22px 0 0;
-  color: var(--muted);
-  font-size: clamp(15px, 1.8vw, 19px);
-  line-height: 1.9;
-}
-
 .world-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

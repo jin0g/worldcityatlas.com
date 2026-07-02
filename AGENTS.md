@@ -11,3 +11,8 @@
 - Visited markers are drawn above unvisited markers by moving visited SVG marker groups to the end of `markerLayer` during `syncView()`.
 - For cities that have `/<slug>/header.png`, visited markers show a circular thumbnail using an SVG `clipPath`. Skeleton cities without a header image still register and render as visited dots.
 - The map intentionally shows no city text labels and no route/connection lines between visited cities.
+
+## Persistent City List Rules
+
+- Do not show `世界都市ランキング`, ranking numbers, or ranking labels on existing or future city pages. The editorial order may remain internal in `TODO.md` and index ordering, but city pages should not display it as a ranking.
+- Starting at item 201 in `TODO.md`, include every sovereign country's capital that is not already present in the first 200-city list. Add missing national capitals progressively and keep existing 1-200 editorial order intact.
