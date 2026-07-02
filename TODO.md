@@ -87,7 +87,7 @@ Progress notes:
 - [x] 023 `dhaka` - Dhaka
 - [x] 024 `manila` - Manila - DONE
 - [x] 025 `bangkok` - Bangkok - DONE
-- [ ] 026 `berlin` - Berlin
+- [x] 026 `berlin` - Berlin - DONE
 - [ ] 027 `rome` - Rome
 - [ ] 028 `vatican-city` - Vatican City
 - [ ] 029 `mecca` - Mecca
