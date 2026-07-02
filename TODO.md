@@ -53,6 +53,7 @@ Progress notes:
 - Cairo is completed under the current image-and-section template.
 - Mumbai is completed under the current image-and-section template.
 - Sao Paulo is completed under the current image-and-section template.
+- Orlando is completed under the current image-and-section template.
 - Hong Kong is completed under the current image-and-section template.
 - San Francisco is completed under the current image-and-section template.
 - Osaka is completed under the current image-and-section template.
@@ -110,7 +111,7 @@ Progress notes:
 - [x] 032 `suzhou` - Suzhou - DONE - Jiangnan gardens, canals, silk culture, and water-town urbanism
 - [x] 033 `mumbai` - Mumbai - DONE
 - [x] 034 `bangkok` - Bangkok - DONE
-- [ ] 035 `orlando` - Orlando
+- [x] 035 `orlando` - Orlando - DONE - theme parks, tourism labor, suburban growth, wetlands, and housing inequality
 - [ ] 036 `seattle` - Seattle
 - [ ] 037 `madrid` - Madrid
 - [ ] 038 `munich` - Munich
