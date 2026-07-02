@@ -122,7 +122,7 @@ Progress notes:
 - [x] 040 `toronto` - Toronto - DONE - finance, immigration neighborhoods, housing pressure, universities, transit, Lake Ontario, food culture, Indigenous memory, film, and inequality
 - [x] 041 `atlanta` - Atlanta - DONE - civil rights memory, airport logistics, Black culture, corporate media, sprawl, universities, immigration, highways, tree canopy, and sports
 - [x] 042 `baghdad` - Baghdad - DONE - Tigris geography, Abbasid memory, state politics, war memory, oil services, markets, religion, education, housing, climate, and recovery
-- [ ] 043 `guangzhou` - Guangzhou
+- [x] 043 `guangzhou` - Guangzhou - 珠江デルタ、広交会、製造業、広東語文化、飲茶、市場、城中村、地下鉄、アフリカ交易、洪水、歴史遺産を扱う静的ページを実装済み。
 - [ ] 044 `shenzhen` - Shenzhen
 - [ ] 045 `milan` - Milan
 - [ ] 046 `hangzhou` - Hangzhou
