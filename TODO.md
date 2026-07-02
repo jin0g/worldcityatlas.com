@@ -61,6 +61,7 @@ Progress notes:
 - Miami is completed under the current image-and-section template.
 - Rome is completed under the current image-and-section template.
 - Barcelona is completed under the current image-and-section template.
+- Tel Aviv is completed under the current image-and-section template.
 - Boston is completed under the current image-and-section template.
 - Jakarta is completed under the current image-and-section template.
 - Manila is completed under the current image-and-section template.
@@ -94,7 +95,7 @@ Progress notes:
 - [x] 021 `miami` - Miami - DONE
 - [x] 022 `rome` - Rome - DONE
 - [x] 023 `barcelona` - Barcelona - DONE
-- [ ] 024 `tel-aviv` - Tel Aviv
+- [x] 024 `tel-aviv` - Tel Aviv - DONE
 - [x] 025 `cairo` - Cairo - DONE
 - [x] 026 `boston` - Boston - DONE
 - [x] 027 `delhi` - Delhi - DONE
