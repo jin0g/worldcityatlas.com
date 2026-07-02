@@ -46,26 +46,8 @@ function injectGoogleTag() {
 }
 
 function renderSiteHeader() {
-  const current = document.body.dataset.city || "";
-  const menu = WORLD_CITY_NAV.map(group => `
-    <div class="nav-region">
-      <button type="button" class="nav-region-button">${group.region}</button>
-      <div class="nav-panel">
-        ${group.countries.map(country => `
-          <div class="nav-country">
-            <div class="nav-country-name">${country.name}</div>
-            <div class="nav-city-list">
-              ${country.cities.map(([slug, label]) => `<a class="${slug === current ? "is-current" : ""}" href="/${slug}/">${label}</a>`).join("")}
-            </div>
-          </div>
-        `).join("")}
-      </div>
-    </div>
-  `).join("");
-
   return `<header class="site-header">
     <a href="/" class="brand">World City Atlas</a>
-    <nav class="hier-nav" aria-label="都市ナビゲーション">${menu}</nav>
   </header>`;
 }
 
@@ -81,19 +63,4 @@ document.addEventListener("DOMContentLoaded", () => {
   if (headerTarget) headerTarget.outerHTML = renderSiteHeader();
   if (footerTarget) footerTarget.outerHTML = renderSiteFooter();
 
-  document.querySelectorAll(".nav-region-button").forEach(button => {
-    button.addEventListener("click", () => {
-      const region = button.closest(".nav-region");
-      document.querySelectorAll(".nav-region.is-open").forEach(openRegion => {
-        if (openRegion !== region) openRegion.classList.remove("is-open");
-      });
-      region.classList.toggle("is-open");
-    });
-  });
-
-  document.addEventListener("click", event => {
-    if (!event.target.closest(".hier-nav")) {
-      document.querySelectorAll(".nav-region.is-open").forEach(region => region.classList.remove("is-open"));
-    }
-  });
 });
