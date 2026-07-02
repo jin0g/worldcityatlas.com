@@ -48,6 +48,7 @@ Progress notes:
 - Dubai is completed under the current image-and-section template.
 - Seoul is completed under the current image-and-section template.
 - Moscow is completed under the current image-and-section template.
+- Taipei is completed under the current image-and-section template.
 - Mexico City is completed under the current image-and-section template.
 - Cairo is completed under the current image-and-section template.
 - Mumbai is completed under the current image-and-section template.
@@ -75,7 +76,7 @@ Progress notes:
 - [x] 010 `san-francisco` - San Francisco - DONE
 - [x] 011 `washington-dc` - Washington DC - DONE
 - [x] 012 `moscow` - Moscow - DONE
-- [ ] 013 `taipei` - Taipei
+- [x] 013 `taipei` - Taipei - DONE
 - [x] 014 `shanghai` - Shanghai - DONE
 - [ ] 015 `osaka` - Osaka
 - [x] 016 `mexico-city` - Mexico City - DONE
@@ -463,5 +464,4 @@ Progress notes:
 - [ ] 398 `luanda` - Luanda
 - [ ] 399 `maputo` - Maputo
 - [ ] 400 `hargeisa` - Hargeisa
-
 
