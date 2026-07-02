@@ -163,7 +163,7 @@ img { display: block; max-width: 100%; }
   padding: clamp(80px, 12vw, 150px) clamp(20px, 6vw, 90px) 44px;
   background:
     linear-gradient(90deg, rgba(15, 22, 28, .90), rgba(15, 22, 28, .28)),
-    url("tokyo/header.png") center / cover;
+    url("tokyo/header.jpg") center / cover;
   color: white;
 }
 .home-hero div { max-width: 920px; }

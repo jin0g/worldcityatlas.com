@@ -6,7 +6,7 @@
 - [x] Convert city pages to ordinary static HTML content.
 - [x] Use JavaScript only for shared hierarchical header and simple footer.
 - [x] Create Japanese skeleton prose for all currently implemented city pages.
-- [x] Generate local placeholder `header.png` / `street.png` style images for all currently implemented cities, preserving Tokyo `street.png`.
+- [x] Generate local placeholder `header.jpg` / `street.jpg` style images for all currently implemented cities, preserving Tokyo `street.jpg`.
 - [x] Add hierarchical header navigation by region, country, and city.
 - [x] Replace footer with centered `© WORLD CITY ATLAS 2026`.
 - [x] Replace one oversized "deep read" block with multiple city-specific sections.
@@ -15,7 +15,7 @@
 - [x] Remove `common.js`.
 - [x] Update `index.html` to the new GDP ranking order.
 - [x] Convert all existing city pages to static HTML.
-- [ ] Generate AI-only images for Tokyo, inspect candidates, and adopt final `tokyo/header.png` and `tokyo/street.png`.
+- [ ] Generate AI-only images for Tokyo, inspect candidates, and adopt final `tokyo/header.jpg` and `tokyo/street.jpg`.
 - [ ] Continue city pages in editorial importance ranking order.
 
 ## Static Page Rules
@@ -55,13 +55,15 @@ Progress notes:
 - Sao Paulo is completed under the current image-and-section template.
 - Hong Kong is completed under the current image-and-section template.
 - San Francisco is completed under the current image-and-section template.
+- Osaka is completed under the current image-and-section template.
+- Chicago is completed under the current image-and-section template.
 - Jakarta is completed under the current image-and-section template.
 - Manila is completed under the current image-and-section template.
 - Bangkok is completed under the current image-and-section template.
 - New York has been converted from the older mixed layout to the current feature-section template.
 - For each city, start AI image generation first, then implement HTML/prose while waiting.
 - The second city image is now AI-generated abstract hand-drawn style, not Python-generated.
-- Existing Python-generated `street.png` files also need AI abstract illustration replacements; update them progressively, including Tokyo, London, Paris, and all older placeholder cities.
+- Existing Python-generated `street.jpg` files also need AI abstract illustration replacements; update them progressively, including Tokyo, London, Paris, and all older placeholder cities.
 - Index cards exist for all 400 cities; pages are implemented progressively in this scored order.
 
 - [x] 001 `new-york` - New York - DONE
@@ -78,10 +80,10 @@ Progress notes:
 - [x] 012 `moscow` - Moscow - DONE
 - [x] 013 `taipei` - Taipei - DONE
 - [x] 014 `shanghai` - Shanghai - DONE
-- [ ] 015 `osaka` - Osaka
+- [x] 015 `osaka` - Osaka - DONE
 - [x] 016 `mexico-city` - Mexico City - DONE
 - [x] 017 `berlin` - Berlin - DONE
-- [ ] 018 `chicago` - Chicago
+- [x] 018 `chicago` - Chicago - DONE
 - [x] 019 `singapore` - Singapore - DONE
 - [ ] 020 `rio-de-janeiro` - Rio de Janeiro
 - [ ] 021 `miami` - Miami
@@ -464,4 +466,3 @@ Progress notes:
 - [ ] 398 `luanda` - Luanda
 - [ ] 399 `maputo` - Maputo
 - [ ] 400 `hargeisa` - Hargeisa
-

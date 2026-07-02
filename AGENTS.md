@@ -29,8 +29,8 @@ Build a static visual city atlas under this directory. The site uses an editoria
 - City-specific statistics, prose, sections, and layout belong directly in each city page HTML.
 - Keep each city at `slug/index.html`.
 - City images belong inside the same city directory, for example:
-  - `tokyo/header.png`
-  - `tokyo/street.png`
+  - `tokyo/header.jpg`
+  - `tokyo/street.jpg`
 - Do not create an `assets/` directory.
 
 ## Visited Map
@@ -42,7 +42,7 @@ Build a static visual city atlas under this directory. The site uses an editoria
 - Land shapes are generated from Natural Earth 110m land GeoJSON and embedded as simplified SVG paths in `LAND_PATHS`.
 - Do not replace the map with copied image/SVG artwork. If improving accuracy, regenerate coordinate-derived SVG paths from open geodata and keep the projection consistent with `project(lon, lat)`.
 - Visited markers are drawn above unvisited markers by moving visited SVG marker groups to the end of `markerLayer` during `syncView()`.
-- For cities that have `/<slug>/header.png`, visited markers show a circular thumbnail using an SVG `clipPath`. Skeleton cities without a header image still register and render as visited dots.
+- For cities that have `/<slug>/header.jpg`, visited markers show a circular thumbnail using an SVG `clipPath`. Skeleton cities without a header image still register and render as visited dots.
 - The map intentionally shows no city text labels and no route/connection lines between visited cities.
 
 ## City Set And Order
@@ -64,7 +64,7 @@ Build a static visual city atlas under this directory. The site uses an editoria
 
 Each city page should include:
 
-- A strong first-viewport hero using `header.png`.
+- A strong first-viewport hero using `header.jpg`.
 - Common statistics near the top:
   - population
   - area
@@ -91,7 +91,7 @@ Each city page should include:
 - Pay attention to Japanese line breaks. Avoid awkward one-character splits inside important heading words such as `景観`.
 - Mobile layout is required. Headings, navigation, stats, and cards must remain readable on small screens.
 - Every page, including index and city pages, must include appropriate OG/Twitter card metadata.
-- Social card image URLs must be absolute URLs beginning with `https://www.worldcityatlas.com/`, for example `https://www.worldcityatlas.com/tokyo/header.png`.
+- Social card image URLs must be absolute URLs beginning with `https://www.worldcityatlas.com/`, for example `https://www.worldcityatlas.com/tokyo/header.jpg`.
 - Improve SEO across the site, especially `index.html` and each city page: use clear unique page titles, useful meta descriptions, canonical URLs, social card metadata, semantic headings, descriptive image alt text, and index copy that helps search engines understand the atlas and the completed city pages.
 
 ## Writing Rules
@@ -130,9 +130,11 @@ Each city page should include:
 - If FLUX is unavailable or too slow, use a local open-source fallback such as SDXL.
 - Generate multiple candidates for important assets.
 - Visually inspect generated candidates before adopting them.
-- Final adopted images must be copied into each city directory as `header.png`, `street.png`, or another simple role name.
-- The second image, `street.png`, should no longer be Python-generated. Generate it with the AI model as an abstract, hand-drawn illustration-style image that represents the city's character, similar in role to the older geometric Python illustrations.
-- Replace existing Python-generated `street.png` files as well, not only future cities. Update them progressively with AI-generated abstract hand-drawn illustration-style images during city page work or dedicated image refresh batches.
+- Final adopted images must be copied into each city directory as JPEG files such as `header.jpg`, `street.jpg`, or another simple role name.
+- PNG source images are too large for published pages. Existing and future adopted images should be converted to JPEG with moderate compression before committing. When copying from `_ai/`, either generate JPEG directly or convert to JPEG during adoption.
+- Before converting or replacing an image, preserve the original source image under `_ai/orig/`, keeping a path that makes the original easy to trace back to the published image.
+- The second image, normally `street.jpg`, should no longer be Python-generated. Generate it with the AI model as an abstract, hand-drawn illustration-style image that represents the city's character, similar in role to the older geometric Python illustrations.
+- Replace existing Python-generated street images as well, not only future cities. Update them progressively with AI-generated abstract hand-drawn illustration-style images during city page work or dedicated image refresh batches.
 - No image may contain embedded text, lettering, labels, logos, captions, or readable signs. This applies to both Python-generated images and AI-generated images. Section titles and labels must be HTML overlay text, not pixels inside the image.
 - For each city implementation, start the AI image generation task first because it is slow. While the image batch runs in the background, implement the city HTML, prose, layout, and checks that do not depend on the final images. Use the generation wait time productively instead of writing all prose before starting image generation.
 - Maintain a forward image-generation queue across multiple upcoming cities. Prefer two-GPU parallel generation for independent city batches, and start the next batch before finishing non-GPU work whenever doing so will keep GPU utilization high.
