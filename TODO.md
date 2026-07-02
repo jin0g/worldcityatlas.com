@@ -32,7 +32,7 @@
 
 ## Editorial Implementation Ranking
 
-Implement the 200-city atlas in this order. This replaces GDP order as the working sequence. The first four are fixed by instruction: New York, Tokyo, London, Paris. From 005 onward, order is an editorial priority ranking based on global economic gravity, political power, religion and pilgrimage, culture and language, migration, colonial and indigenous history, conflict and recovery, climate risk, everyday life, tourism, world heritage, and whether the city helps explain a major region or world system.
+Implement the 400-city atlas in this order. The first four are fixed by instruction: New York, Tokyo, London, Paris. From 005 onward, order is a scored editorial priority ranking: GDP/economic gravity 0-200 points, industry 0-100, Japanese tourism and landmark recognition 0-200, culture 0-100, conflict-driven attention 0-100, and other unique importance 0-100. Cities without usable GDP reference data receive 0 GDP points, while national-capital status, climate risk, religion, heritage, regional representation, and social importance are reflected in the other categories.
 
 Progress notes:
 
@@ -60,413 +60,411 @@ Progress notes:
 - For each city, start AI image generation first, then implement HTML/prose while waiting.
 - The second city image is now AI-generated abstract hand-drawn style, not Python-generated.
 - Existing Python-generated `street.png` files also need AI abstract illustration replacements; update them progressively, including Tokyo, London, Paris, and all older placeholder cities.
-- Index skeleton cards exist for all 200 cities; pages are implemented progressively in this order.
+- Index cards exist for all 400 cities; pages are implemented progressively in this scored order.
 
 - [x] 001 `new-york` - New York - DONE
 - [x] 002 `tokyo` - Tokyo - DONE
 - [x] 003 `london` - London - DONE
 - [x] 004 `paris` - Paris - DONE
 - [x] 005 `los-angeles` - Los Angeles - DONE
-- [x] 006 `istanbul` - Istanbul - DONE
+- [x] 006 `seoul` - Seoul - DONE
 - [x] 007 `beijing` - Beijing - DONE
-- [x] 008 `jerusalem` - Jerusalem - DONE
-- [x] 009 `delhi` - Delhi - DONE
-- [x] 010 `shanghai` - Shanghai - DONE
+- [x] 008 `istanbul` - Istanbul - DONE
+- [x] 009 `hong-kong` - Hong Kong - DONE
+- [ ] 010 `san-francisco` - San Francisco
 - [x] 011 `washington-dc` - Washington DC - DONE
-- [x] 012 `singapore` - Singapore - DONE
-- [x] 013 `dubai` - Dubai - DONE
-- [x] 014 `seoul` - Seoul - DONE
-- [x] 015 `moscow` - Moscow - DONE
+- [x] 012 `moscow` - Moscow - DONE
+- [ ] 013 `taipei` - Taipei
+- [x] 014 `shanghai` - Shanghai - DONE
+- [ ] 015 `osaka` - Osaka
 - [x] 016 `mexico-city` - Mexico City - DONE
-- [x] 017 `cairo` - Cairo - DONE
-- [x] 018 `mumbai` - Mumbai - DONE
-- [x] 019 `sao-paulo` - Sao Paulo - DONE
-- [x] 020 `hong-kong` - Hong Kong - DONE
-- [x] 021 `jakarta` - Jakarta - DONE
-- [x] 022 `lagos` - Lagos
-- [x] 023 `dhaka` - Dhaka
-- [x] 024 `manila` - Manila - DONE
-- [x] 025 `bangkok` - Bangkok - DONE
-- [x] 026 `berlin` - Berlin - DONE
-- [ ] 027 `rome` - Rome
-- [ ] 028 `vatican-city` - Vatican City
-- [ ] 029 `mecca` - Mecca
-- [ ] 030 `medina` - Medina
-- [ ] 031 `varanasi` - Varanasi
-- [ ] 032 `amritsar` - Amritsar
-- [ ] 033 `lhasa` - Lhasa
-- [ ] 034 `kathmandu` - Kathmandu
-- [ ] 035 `bodh-gaya` - Bodh Gaya
-- [ ] 036 `karbala` - Karbala
-- [ ] 037 `najaf` - Najaf
-- [ ] 038 `qom` - Qom
-- [ ] 039 `mashhad` - Mashhad
-- [ ] 040 `rio-de-janeiro` - Rio de Janeiro
-- [ ] 041 `tel-aviv` - Tel Aviv
-- [ ] 042 `beirut` - Beirut
-- [ ] 043 `riyadh` - Riyadh
-- [ ] 044 `baghdad` - Baghdad
-- [ ] 045 `kabul` - Kabul
-- [ ] 046 `tehran` - Tehran
-- [ ] 047 `karachi` - Karachi
-- [ ] 048 `lahore` - Lahore
-- [ ] 049 `kolkata` - Kolkata
-- [ ] 050 `chennai` - Chennai
-- [ ] 051 `bengaluru` - Bengaluru
-- [ ] 052 `hanoi` - Hanoi
-- [ ] 053 `ho-chi-minh-city` - Ho Chi Minh City
-- [ ] 054 `phnom-penh` - Phnom Penh
-- [ ] 055 `siem-reap` - Siem Reap
-- [ ] 056 `yangon` - Yangon
-- [ ] 057 `taipei` - Taipei
-- [ ] 058 `shenzhen` - Shenzhen
-- [ ] 059 `guangzhou` - Guangzhou
-- [ ] 060 `chengdu` - Chengdu
-- [ ] 061 `chongqing` - Chongqing
-- [ ] 062 `wuhan` - Wuhan
-- [ ] 063 `hangzhou` - Hangzhou
-- [ ] 064 `nanjing` - Nanjing
-- [ ] 065 `tianjin` - Tianjin
-- [ ] 066 `osaka` - Osaka
-- [ ] 067 `nagoya` - Nagoya
-- [ ] 068 `busan` - Busan
-- [ ] 069 `sydney` - Sydney
-- [ ] 070 `melbourne` - Melbourne
-- [ ] 071 `toronto` - Toronto
-- [ ] 072 `san-francisco` - San Francisco
-- [ ] 073 `chicago` - Chicago
-- [ ] 074 `miami` - Miami
-- [ ] 075 `houston` - Houston
-- [ ] 076 `dallas` - Dallas
-- [ ] 077 `boston` - Boston
-- [ ] 078 `philadelphia` - Philadelphia
-- [ ] 079 `seattle` - Seattle
-- [ ] 080 `atlanta` - Atlanta
-- [ ] 081 `detroit` - Detroit
-- [ ] 082 `san-jose` - San Jose
-- [ ] 083 `san-diego` - San Diego
-- [ ] 084 `phoenix` - Phoenix
-- [ ] 085 `denver` - Denver
-- [ ] 086 `minneapolis` - Minneapolis
-- [ ] 087 `baltimore` - Baltimore
-- [ ] 088 `austin` - Austin
-- [ ] 089 `orlando` - Orlando
-- [ ] 090 `new-orleans` - New Orleans
-- [ ] 091 `havana` - Havana
-- [ ] 092 `san-juan` - San Juan
-- [ ] 093 `santo-domingo` - Santo Domingo
-- [ ] 094 `port-au-prince` - Port-au-Prince
-- [ ] 095 `kingston` - Kingston
-- [ ] 096 `guatemala-city` - Guatemala City
-- [ ] 097 `san-salvador` - San Salvador
-- [ ] 098 `tegucigalpa` - Tegucigalpa
-- [ ] 099 `managua` - Managua
-- [ ] 100 `panama-city` - Panama City
-- [ ] 101 `bogota` - Bogota
-- [ ] 102 `medellin` - Medellin
-- [ ] 103 `cartagena` - Cartagena
-- [ ] 104 `quito` - Quito
-- [ ] 105 `lima` - Lima
-- [ ] 106 `cusco` - Cusco
-- [ ] 107 `la-paz` - La Paz
-- [ ] 108 `sucre` - Sucre
-- [ ] 109 `santiago` - Santiago
-- [ ] 110 `valparaiso` - Valparaiso
-- [ ] 111 `buenos-aires` - Buenos Aires
-- [ ] 112 `montevideo` - Montevideo
-- [ ] 113 `brasilia` - Brasilia
-- [ ] 114 `salvador-bahia` - Salvador da Bahia
-- [ ] 115 `recife` - Recife
-- [ ] 116 `belem` - Belem
-- [ ] 117 `manaus` - Manaus
-- [ ] 118 `casablanca` - Casablanca
-- [ ] 119 `marrakech` - Marrakech
-- [ ] 120 `fez` - Fez
-- [ ] 121 `timbuktu` - Timbuktu
-- [ ] 122 `dakar` - Dakar
-- [ ] 123 `accra` - Accra
-- [ ] 124 `addis-ababa` - Addis Ababa
-- [ ] 125 `nairobi` - Nairobi
-- [ ] 126 `mombasa` - Mombasa
-- [ ] 127 `zanzibar-city` - Zanzibar City
-- [ ] 128 `kigali` - Kigali
-- [ ] 129 `kinshasa` - Kinshasa
-- [ ] 130 `goma` - Goma
-- [ ] 131 `luanda` - Luanda
-- [ ] 132 `maputo` - Maputo
-- [ ] 133 `cape-town` - Cape Town
-- [ ] 134 `mogadishu` - Mogadishu
-- [ ] 135 `hargeisa` - Hargeisa
-- [ ] 136 `khartoum` - Khartoum
-- [ ] 137 `juba` - Juba
-- [ ] 138 `tunis` - Tunis
-- [ ] 139 `algiers` - Algiers
-- [ ] 140 `luxor` - Luxor
-- [ ] 141 `giza` - Giza
-- [ ] 142 `alexandria` - Alexandria
-- [ ] 143 `aswan` - Aswan
-- [ ] 144 `wadi-musa-petra` - Wadi Musa / Petra
-- [ ] 145 `isfahan` - Isfahan
-- [ ] 146 `shiraz` - Shiraz
-- [ ] 147 `yazd` - Yazd
-- [ ] 148 `samarkand` - Samarkand
-- [ ] 149 `bukhara` - Bukhara
-- [ ] 150 `khiva` - Khiva
-- [ ] 151 `madrid` - Madrid
-- [ ] 152 `barcelona` - Barcelona
-- [ ] 153 `granada` - Granada
-- [ ] 154 `seville` - Seville
-- [ ] 155 `lisbon` - Lisbon
-- [ ] 156 `dublin` - Dublin
-- [ ] 157 `belfast` - Belfast
-- [ ] 158 `amsterdam` - Amsterdam
-- [ ] 159 `brussels` - Brussels
-- [ ] 160 `zurich` - Zurich
-- [ ] 161 `frankfurt` - Frankfurt
-- [ ] 162 `munich` - Munich
-- [ ] 163 `hamburg` - Hamburg
-- [ ] 164 `stuttgart` - Stuttgart
-- [ ] 165 `central-german` - Central German Metropolitan Region
-- [ ] 166 `rhine-ruhr` - Rhine-Ruhr
-- [ ] 167 `ruhr` - Ruhr
-- [ ] 168 `milan` - Milan
+- [x] 017 `berlin` - Berlin - DONE
+- [ ] 018 `chicago` - Chicago
+- [x] 019 `singapore` - Singapore - DONE
+- [ ] 020 `rio-de-janeiro` - Rio de Janeiro
+- [ ] 021 `miami` - Miami
+- [ ] 022 `rome` - Rome
+- [ ] 023 `barcelona` - Barcelona
+- [ ] 024 `tel-aviv` - Tel Aviv
+- [x] 025 `cairo` - Cairo - DONE
+- [ ] 026 `boston` - Boston
+- [x] 027 `delhi` - Delhi - DONE
+- [x] 028 `dubai` - Dubai - DONE
+- [ ] 029 `buenos-aires` - Buenos Aires
+- [ ] 030 `melbourne` - Melbourne
+- [ ] 031 `amsterdam` - Amsterdam
+- [ ] 032 `suzhou` - Suzhou - Jiangnan gardens, canals, silk culture, and water-town urbanism
+- [x] 033 `mumbai` - Mumbai - DONE
+- [x] 034 `bangkok` - Bangkok - DONE
+- [ ] 035 `orlando` - Orlando
+- [ ] 036 `seattle` - Seattle
+- [ ] 037 `madrid` - Madrid
+- [ ] 038 `munich` - Munich
+- [ ] 039 `philadelphia` - Philadelphia
+- [ ] 040 `toronto` - Toronto
+- [ ] 041 `atlanta` - Atlanta
+- [ ] 042 `baghdad` - Baghdad
+- [ ] 043 `guangzhou` - Guangzhou
+- [ ] 044 `shenzhen` - Shenzhen
+- [ ] 045 `milan` - Milan
+- [ ] 046 `hangzhou` - Hangzhou
+- [ ] 047 `new-orleans` - New Orleans
+- [ ] 048 `houston` - Houston
+- [ ] 049 `chengdu` - Chengdu
+- [ ] 050 `san-diego` - San Diego
+- [x] 051 `jakarta` - Jakarta - DONE
+- [ ] 052 `nanjing` - Nanjing
+- [ ] 053 `nagoya` - Nagoya
+- [ ] 054 `detroit` - Detroit
+- [x] 055 `sao-paulo` - Sao Paulo - DONE
+- [x] 056 `jerusalem` - Jerusalem - DONE
+- [x] 057 `manila` - Manila - DONE
+- [ ] 058 `chongqing` - Chongqing
+- [ ] 059 `dallas` - Dallas
+- [ ] 060 `lima` - Lima
+- [ ] 061 `rhine-ruhr` - Rhine-Ruhr
+- [ ] 062 `vienna` - Vienna - Capital of Austria
+- [ ] 063 `montreal` - Montreal
+- [ ] 064 `xian` - Xi'an - Chinese ancient capital, Silk Road memory, and Buddhist heritage
+- [ ] 065 `kolkata` - Kolkata
+- [ ] 066 `bengaluru` - Bengaluru
+- [ ] 067 `busan` - Busan
+- [ ] 068 `bogota` - Bogota
+- [ ] 069 `riyadh` - Riyadh
+- [ ] 070 `wuhan` - Wuhan
+- [ ] 071 `santiago` - Santiago
+- [ ] 072 `nashville` - Nashville
+- [ ] 073 `austin` - Austin
+- [ ] 074 `qingdao` - Qingdao - German treaty-port history, beer culture, beaches, and port industry
+- [ ] 075 `cape-town` - Cape Town
+- [ ] 076 `frankfurt` - Frankfurt
+- [ ] 077 `baltimore` - Baltimore
+- [ ] 078 `lisbon` - Lisbon
+- [ ] 079 `hamburg` - Hamburg
+- [ ] 080 `san-jose` - San Jose
+- [ ] 081 `prague` - Prague - Capital of Czechia
+- [ ] 082 `dublin` - Dublin
+- [ ] 083 `denver` - Denver
+- [ ] 084 `brussels` - Brussels
+- [ ] 085 `zurich` - Zurich
+- [ ] 086 `hawaii` - Hawaii / Honolulu - Pacific island hub and Native Hawaiian history
+- [ ] 087 `kuala-lumpur` - Kuala Lumpur - Capital of Malaysia
+- [ ] 088 `st-louis` - St. Louis
+- [ ] 089 `athens` - Athens - Capital of Greece
+- [ ] 090 `phoenix` - Phoenix
+- [ ] 091 `bali` - Bali / Denpasar - Hindu island culture, tourism, and everyday life
+- [x] 092 `lagos` - Lagos - DONE
+- [ ] 093 `jeddah` - Jeddah - Red Sea port, Mecca pilgrimage gateway, historic coral houses, and trade
+- [ ] 094 `okinawa` - Okinawa / Naha - Ryukyu history, bases, tourism, and island life
+- [ ] 095 `copenhagen` - Copenhagen - Capital of Denmark
+- [ ] 096 `chennai` - Chennai
+- [ ] 097 `portland` - Portland
+- [ ] 098 `stockholm` - Stockholm
+- [ ] 099 `tampa` - Tampa
+- [ ] 100 `tianjin` - Tianjin
+- [x] 101 `dhaka` - Dhaka - DONE
+- [ ] 102 `charlotte` - Charlotte
+- [ ] 103 `venice` - Venice
+- [ ] 104 `agra` - Agra - Taj Mahal city, Mughal urban history, craft labor, and Yamuna riverfront
+- [ ] 105 `bethlehem` - Bethlehem - Christian pilgrimage city, Palestinian urban life, and separation-wall geography
+- [ ] 106 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
+- [ ] 107 `manchester` - Manchester - Industrial revolution city, music, football, migration, and media economy
+- [ ] 108 `vatican-city` - Vatican City
+- [ ] 109 `mecca` - Mecca
+- [ ] 110 `cancun` - Cancun - Caribbean resort city, Mayan tourism gateway, and coastal risk
+- [ ] 111 `brisbane` - Brisbane - Subtropical Australian metropolis, river life, floods, and Queensland tourism gateway
+- [ ] 112 `warsaw` - Warsaw - Capital of Poland
+- [ ] 113 `pittsburgh` - Pittsburgh
+- [ ] 114 `florence` - Florence
+- [ ] 115 `marrakech` - Marrakech
+- [ ] 116 `beirut` - Beirut
+- [ ] 117 `aleppo` - Aleppo - Ancient trading city, souk heritage, war damage, and reconstruction memory
+- [ ] 118 `niagara-falls` - Niagara Falls - Waterfall tourism, border city, hydroelectricity, and mass leisure history
+- [ ] 119 `giza` - Giza
+- [ ] 120 `hokkaido` - Hokkaido / Sapporo - Northern Japan, Ainu history, climate, and food culture
+- [ ] 121 `ho-chi-minh-city` - Ho Chi Minh City
+- [ ] 122 `tehran` - Tehran
+- [ ] 123 `karachi` - Karachi
+- [ ] 124 `cusco` - Cusco
+- [ ] 125 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
+- [ ] 126 `havana` - Havana
+- [ ] 127 `kathmandu` - Kathmandu
+- [ ] 128 `wadi-musa-petra` - Wadi Musa / Petra
+- [ ] 129 `damascus` - Damascus - Capital of Syria
+- [ ] 130 `abu-dhabi` - Abu Dhabi - Capital of United Arab Emirates
+- [ ] 131 `lhasa` - Lhasa
+- [ ] 132 `perth` - Perth - Indian Ocean city, mining economy, isolation, beaches, and Western Australian identity
+- [ ] 133 `indianapolis` - Indianapolis
+- [ ] 134 `riverside` - Riverside
+- [ ] 135 `sacramento` - Sacramento
+- [ ] 136 `cincinnati` - Cincinnati
+- [ ] 137 `budapest` - Budapest - Capital of Hungary
+- [ ] 138 `luxor` - Luxor
+- [ ] 139 `siem-reap` - Siem Reap
+- [ ] 140 `salvador-bahia` - Salvador da Bahia
+- [ ] 141 `cartagena` - Cartagena
+- [ ] 142 `isfahan` - Isfahan
+- [ ] 143 `nairobi` - Nairobi
+- [ ] 144 `timbuktu` - Timbuktu
+- [ ] 145 `yangon` - Yangon
+- [ ] 146 `phuket` - Phuket - Thai island tourism, migration, and coastal risk
+- [ ] 147 `jeju` - Jeju - Korean island tourism, volcanic landscape, migration, and modern memory
+- [ ] 148 `foz-do-iguacu` - Foz do Iguacu - Iguazu Falls gateway, tri-border life, and hydroelectric landscape
+- [ ] 149 `central-german` - Central German Metropolitan Region
+- [ ] 150 `medellin` - Medellin
+- [ ] 151 `karbala` - Karbala
+- [ ] 152 `sanaa` - Sanaa - Capital of Yemen
+- [ ] 153 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, and post-apartheid urban inequality
+- [ ] 154 `quebec-city` - Quebec City - Francophone North America, fortified old town, and winter cultural identity
+- [ ] 155 `varanasi` - Varanasi
+- [ ] 156 `zanzibar-city` - Zanzibar City
+- [ ] 157 `harbin` - Harbin - Russian architecture, ice festival, Manchurian history, and winter city life
+- [ ] 158 `alexandria` - Alexandria
+- [ ] 159 `hanoi` - Hanoi
+- [ ] 160 `ruhr` - Ruhr
+- [ ] 161 `granada` - Granada
+- [ ] 162 `lahore` - Lahore
+- [ ] 163 `medina` - Medina
+- [ ] 164 `yogyakarta` - Yogyakarta - Javanese court city, student culture, and Borobudur-Prambanan gateway
+- [ ] 165 `george-town-penang` - George Town, Penang - Multicultural port, street food, clan houses, and heritage streets
+- [ ] 166 `memphis` - Memphis - Blues, soul, Elvis memory, Mississippi river port, and Black history
+- [ ] 167 `lalibela` - Lalibela - Rock-hewn churches, Ethiopian Orthodox pilgrimage, and highland heritage
+- [ ] 168 `algiers` - Algiers
 - [ ] 169 `naples` - Naples
-- [ ] 170 `palermo` - Palermo
-- [ ] 171 `florence` - Florence
-- [ ] 172 `venice` - Venice
-- [ ] 173 `sarajevo` - Sarajevo
-- [ ] 174 `mostar` - Mostar
-- [ ] 175 `belgrade` - Belgrade
-- [ ] 176 `kyiv` - Kyiv
-- [ ] 177 `odesa` - Odesa
-- [ ] 178 `lviv` - Lviv
-- [ ] 179 `vilnius` - Vilnius
-- [ ] 180 `riga` - Riga
-- [ ] 181 `tallinn` - Tallinn
-- [ ] 182 `krakow` - Krakow
-- [ ] 183 `gdansk` - Gdansk
-- [ ] 184 `dubrovnik` - Dubrovnik
-- [ ] 185 `nicosia` - Nicosia
-- [ ] 186 `valletta` - Valletta
-- [ ] 187 `reykjavik` - Reykjavik
-- [ ] 188 `stockholm` - Stockholm
-- [ ] 189 `montreal` - Montreal
-- [ ] 190 `portland` - Portland
-- [ ] 191 `nashville` - Nashville
-- [ ] 192 `pittsburgh` - Pittsburgh
-- [ ] 193 `cincinnati` - Cincinnati
-- [ ] 194 `st-louis` - St. Louis
-- [ ] 195 `indianapolis` - Indianapolis
-- [ ] 196 `charlotte` - Charlotte
-- [ ] 197 `tampa` - Tampa
-- [ ] 198 `riverside` - Riverside
-- [ ] 199 `sacramento` - Sacramento
-- [ ] 200 `colombo` - Colombo
-
-## National Capital Completion Queue
-
-Items 201 onward ensure that every sovereign country capital missing from the first 200-city editorial list is still represented. Keep the first 200 order intact; append capitals here rather than renumbering earlier cities.
-
-- [ ] 201 `tirana` - Tirana - Capital of Albania
-- [ ] 202 `andorra-la-vella` - Andorra la Vella - Capital of Andorra
-- [ ] 203 `st-johns-antigua` - St. John's - Capital of Antigua and Barbuda
-- [ ] 204 `yerevan` - Yerevan - Capital of Armenia
-- [ ] 205 `canberra` - Canberra - Capital of Australia
-- [ ] 206 `vienna` - Vienna - Capital of Austria
-- [ ] 207 `baku` - Baku - Capital of Azerbaijan
-- [ ] 208 `nassau` - Nassau - Capital of Bahamas
-- [ ] 209 `manama` - Manama - Capital of Bahrain
-- [ ] 210 `bridgetown` - Bridgetown - Capital of Barbados
-- [ ] 211 `minsk` - Minsk - Capital of Belarus
-- [ ] 212 `belmopan` - Belmopan - Capital of Belize
-- [ ] 213 `porto-novo` - Porto-Novo - Capital of Benin
-- [ ] 214 `thimphu` - Thimphu - Capital of Bhutan
-- [ ] 215 `gaborone` - Gaborone - Capital of Botswana
-- [ ] 216 `bandar-seri-begawan` - Bandar Seri Begawan - Capital of Brunei
-- [ ] 217 `sofia` - Sofia - Capital of Bulgaria
-- [ ] 218 `ouagadougou` - Ouagadougou - Capital of Burkina Faso
-- [ ] 219 `gitega` - Gitega - Capital of Burundi
-- [ ] 220 `yaounde` - Yaounde - Capital of Cameroon
-- [ ] 221 `ottawa` - Ottawa - Capital of Canada
-- [ ] 222 `praia` - Praia - Capital of Cape Verde
-- [ ] 223 `bangui` - Bangui - Capital of Central African Republic
-- [ ] 224 `ndjamena` - N'Djamena - Capital of Chad
-- [ ] 225 `moroni` - Moroni - Capital of Comoros
-- [ ] 226 `brazzaville` - Brazzaville - Capital of Republic of the Congo
-- [ ] 227 `san-jose-costa-rica` - San Jose - Capital of Costa Rica
-- [ ] 228 `yamoussoukro` - Yamoussoukro - Capital of Cote dIvoire
-- [ ] 229 `zagreb` - Zagreb - Capital of Croatia
-- [ ] 230 `prague` - Prague - Capital of Czechia
-- [ ] 231 `copenhagen` - Copenhagen - Capital of Denmark
-- [ ] 232 `djibouti-city` - Djibouti City - Capital of Djibouti
-- [ ] 233 `roseau` - Roseau - Capital of Dominica
-- [ ] 234 `malabo` - Malabo - Capital of Equatorial Guinea
-- [ ] 235 `asmara` - Asmara - Capital of Eritrea
-- [ ] 236 `mbabane` - Mbabane - Capital of Eswatini
-- [ ] 237 `suva` - Suva - Capital of Fiji
-- [ ] 238 `helsinki` - Helsinki - Capital of Finland
-- [ ] 239 `libreville` - Libreville - Capital of Gabon
-- [ ] 240 `banjul` - Banjul - Capital of Gambia
-- [ ] 241 `tbilisi` - Tbilisi - Capital of Georgia
-- [ ] 242 `athens` - Athens - Capital of Greece
-- [ ] 243 `st-georges` - St. George's - Capital of Grenada
-- [ ] 244 `conakry` - Conakry - Capital of Guinea
-- [ ] 245 `bissau` - Bissau - Capital of Guinea-Bissau
-- [ ] 246 `georgetown-guyana` - Georgetown - Capital of Guyana
-- [ ] 247 `budapest` - Budapest - Capital of Hungary
-- [ ] 248 `new-delhi` - New Delhi - Capital of India
-- [ ] 249 `amman` - Amman - Capital of Jordan
-- [ ] 250 `astana` - Astana - Capital of Kazakhstan
-- [ ] 251 `south-tarawa` - South Tarawa - Capital of Kiribati
-- [ ] 252 `pristina` - Pristina - Capital of Kosovo
-- [ ] 253 `kuwait-city` - Kuwait City - Capital of Kuwait
-- [ ] 254 `bishkek` - Bishkek - Capital of Kyrgyzstan
-- [ ] 255 `vientiane` - Vientiane - Capital of Laos
-- [ ] 256 `maseru` - Maseru - Capital of Lesotho
-- [ ] 257 `monrovia` - Monrovia - Capital of Liberia
-- [ ] 258 `tripoli` - Tripoli - Capital of Libya
-- [ ] 259 `vaduz` - Vaduz - Capital of Liechtenstein
-- [ ] 260 `luxembourg-city` - Luxembourg City - Capital of Luxembourg
-- [ ] 261 `antananarivo` - Antananarivo - Capital of Madagascar
-- [ ] 262 `lilongwe` - Lilongwe - Capital of Malawi
-- [ ] 263 `kuala-lumpur` - Kuala Lumpur - Capital of Malaysia
-- [ ] 264 `male` - Male - Capital of Maldives
-- [ ] 265 `bamako` - Bamako - Capital of Mali
-- [ ] 266 `majuro` - Majuro - Capital of Marshall Islands
-- [ ] 267 `nouakchott` - Nouakchott - Capital of Mauritania
-- [ ] 268 `port-louis` - Port Louis - Capital of Mauritius
-- [ ] 269 `palikir` - Palikir - Capital of Micronesia
-- [ ] 270 `chisinau` - Chisinau - Capital of Moldova
-- [ ] 271 `monaco` - Monaco - Capital of Monaco
-- [ ] 272 `ulaanbaatar` - Ulaanbaatar - Capital of Mongolia
-- [ ] 273 `podgorica` - Podgorica - Capital of Montenegro
-- [ ] 274 `rabat` - Rabat - Capital of Morocco
-- [ ] 275 `naypyidaw` - Naypyidaw - Capital of Myanmar
-- [ ] 276 `windhoek` - Windhoek - Capital of Namibia
-- [ ] 277 `yaren` - Yaren - Capital of Nauru
-- [ ] 278 `wellington` - Wellington - Capital of New Zealand
-- [ ] 279 `niamey` - Niamey - Capital of Niger
-- [ ] 280 `abuja` - Abuja - Capital of Nigeria
-- [ ] 281 `pyongyang` - Pyongyang - Capital of North Korea
-- [ ] 282 `skopje` - Skopje - Capital of North Macedonia
-- [ ] 283 `oslo` - Oslo - Capital of Norway
-- [ ] 284 `muscat` - Muscat - Capital of Oman
-- [ ] 285 `islamabad` - Islamabad - Capital of Pakistan
-- [ ] 286 `ngerulmud` - Ngerulmud - Capital of Palau
-- [ ] 287 `ramallah` - Ramallah - Capital of Palestine
-- [ ] 288 `port-moresby` - Port Moresby - Capital of Papua New Guinea
-- [ ] 289 `asuncion` - Asuncion - Capital of Paraguay
-- [ ] 290 `warsaw` - Warsaw - Capital of Poland
-- [ ] 291 `doha` - Doha - Capital of Qatar
-- [ ] 292 `bucharest` - Bucharest - Capital of Romania
-- [ ] 293 `basseterre` - Basseterre - Capital of Saint Kitts and Nevis
-- [ ] 294 `castries` - Castries - Capital of Saint Lucia
-- [ ] 295 `kingstown` - Kingstown - Capital of Saint Vincent and the Grenadines
-- [ ] 296 `apia` - Apia - Capital of Samoa
-- [ ] 297 `san-marino` - San Marino - Capital of San Marino
-- [ ] 298 `sao-tome` - Sao Tome - Capital of Sao Tome and Principe
-- [ ] 299 `victoria-seychelles` - Victoria - Capital of Seychelles
-- [ ] 300 `freetown` - Freetown - Capital of Sierra Leone
-- [ ] 301 `bratislava` - Bratislava - Capital of Slovakia
-- [ ] 302 `ljubljana` - Ljubljana - Capital of Slovenia
-- [ ] 303 `honiara` - Honiara - Capital of Solomon Islands
+- [ ] 170 `manaus` - Manaus
+- [ ] 171 `addis-ababa` - Addis Ababa
+- [ ] 172 `khartoum` - Khartoum
+- [ ] 173 `guilin` - Guilin - Karst landscape tourism, river settlements, and Chinese scenic imagination
+- [ ] 174 `chiang-mai` - Chiang Mai - Northern Thai temples, mountain cultures, crafts, and long-stay tourism
+- [ ] 175 `oaxaca` - Oaxaca - Indigenous culture, food, crafts, Day of the Dead, and colonial streets
+- [ ] 176 `tunis` - Tunis
+- [ ] 177 `fez` - Fez
+- [ ] 178 `samarkand` - Samarkand
+- [ ] 179 `shiraz` - Shiraz
+- [ ] 180 `panama-city` - Panama City
+- [ ] 181 `cairns` - Cairns - Great Barrier Reef gateway, rainforest tourism, and tropical climate risk
+- [ ] 182 `amritsar` - Amritsar
+- [ ] 183 `marseille` - Marseille - Mediterranean port, migration, North African links, and working waterfront culture
+- [ ] 184 `helsinki` - Helsinki - Capital of Finland
+- [ ] 185 `quito` - Quito
+- [ ] 186 `kinshasa` - Kinshasa
+- [ ] 187 `najaf` - Najaf
+- [ ] 188 `mont-saint-michel` - Mont Saint-Michel - Tidal abbey, pilgrimage, tourism, and coastal heritage landscape
+- [ ] 189 `versailles` - Versailles - Palace city, absolutist monarchy, revolution memory, and planned court landscape
+- [ ] 190 `hoi-an` - Hoi An - Historic trading port, Japanese bridge memory, lantern streets, and food culture
+- [ ] 191 `tbilisi` - Tbilisi - Capital of Georgia
+- [ ] 192 `ankara` - Ankara - Capital of Turkey
+- [ ] 193 `kuwait-city` - Kuwait City - Capital of Kuwait
+- [ ] 194 `nicosia` - Nicosia
+- [ ] 195 `kabul` - Kabul
+- [ ] 196 `borobudur` - Borobudur - Buddhist monument landscape, pilgrimage, tourism, and Javanese village life
+- [ ] 197 `ayutthaya` - Ayutthaya - Former Siamese capital, Japanese trading history, and river ruins
+- [ ] 198 `luoyang` - Luoyang - Ancient dynastic capital, Longmen Buddhist caves, and Yellow River culture
+- [ ] 199 `da-nang` - Da Nang - Central Vietnam beach hub, wartime base history, and rapid urban growth
+- [ ] 200 `doha` - Doha - Capital of Qatar
+- [ ] 201 `valparaiso` - Valparaiso
+- [ ] 202 `dakar` - Dakar
+- [ ] 203 `ramallah` - Ramallah - Capital of Palestine
+- [ ] 204 `kingston` - Kingston
+- [ ] 205 `hue` - Hue - Vietnamese imperial capital, court culture, war memory, and Perfume River landscape
+- [ ] 206 `edinburgh` - Edinburgh - Castle city, Scottish capital, literature, festivals, and Old Town heritage
+- [ ] 207 `oxford` - Oxford - University city, publishing, colleges, and knowledge-economy townscape
+- [ ] 208 `charleston` - Charleston - Atlantic port, slavery memory, Southern culture, and coastal heritage risk
+- [ ] 209 `santa-fe` - Santa Fe - Pueblo, Spanish colonial, art markets, adobe urban form, and desert culture
+- [ ] 210 `chefchaouen` - Chefchaouen - Blue medina, Rif mountain culture, tourism, and Moroccan craft streets
+- [ ] 211 `brasilia` - Brasilia
+- [ ] 212 `aswan` - Aswan
+- [ ] 213 `mashhad` - Mashhad
+- [ ] 214 `bodh-gaya` - Bodh Gaya
+- [ ] 215 `dunhuang` - Dunhuang - Mogao Caves, Silk Road art, desert pilgrimage, and oasis history
+- [ ] 216 `malacca` - Malacca - Strait trade, Malay, Chinese, Portuguese, Dutch, and British urban layers
+- [ ] 217 `geneva` - Geneva - International organizations, diplomacy, humanitarian history, and lakefront urban life
+- [ ] 218 `urumqi` - Urumqi - Uyghur culture, Inner Asian trade routes, and frontier urban politics
+- [ ] 219 `kaohsiung` - Kaohsiung - Southern Taiwan port, industry, and coastal culture
+- [ ] 220 `durban` - Durban - Indian Ocean port, Indian diaspora culture, beaches, and Zulu regional links
+- [ ] 221 `casablanca` - Casablanca
+- [ ] 222 `goma` - Goma
+- [ ] 223 `yerevan` - Yerevan - Capital of Armenia
+- [ ] 224 `seville` - Seville
+- [ ] 225 `odesa` - Odesa
+- [ ] 226 `san-juan` - San Juan
+- [ ] 227 `la-paz` - La Paz
+- [ ] 228 `recife` - Recife
+- [ ] 229 `gold-coast` - Gold Coast - Beach tourism, surfing culture, theme parks, and high-rise coastal urbanism
+- [ ] 230 `guam` - Guam / Hagatna - Pacific island territory and Chamorro cultural center
+- [ ] 231 `bukhara` - Bukhara
+- [ ] 232 `phnom-penh` - Phnom Penh
+- [ ] 233 `santo-domingo` - Santo Domingo
+- [ ] 234 `kigali` - Kigali
+- [ ] 235 `alula` - AlUla - Nabataean desert heritage, oasis landscape, and Saudi cultural tourism
+- [ ] 236 `liverpool` - Liverpool - Beatles culture, Atlantic port history, football, and working-class memory
+- [ ] 237 `cambridge` - Cambridge - University, science history, river colleges, and student urban life
+- [ ] 238 `incheon` - Incheon - Airport gateway, port, Chinatown, and Korean War landing history
+- [ ] 239 `amman` - Amman - Capital of Jordan
+- [ ] 240 `dubrovnik` - Dubrovnik
+- [ ] 241 `lviv` - Lviv
+- [ ] 242 `guatemala-city` - Guatemala City
+- [ ] 243 `mogadishu` - Mogadishu
+- [ ] 244 `baku` - Baku - Capital of Azerbaijan
+- [ ] 245 `palermo` - Palermo
+- [ ] 246 `qom` - Qom
+- [ ] 247 `sarajevo` - Sarajevo
+- [ ] 248 `queenstown` - Queenstown - Alpine resort, adventure tourism, lake landscape, and seasonal labor
+- [ ] 249 `gyeongju` - Gyeongju - Silla capital, Buddhist heritage, royal tombs, and East Asian exchange
+- [ ] 250 `tainan` - Tainan - Taiwan's historic capital, temples, food culture, and port memory
+- [ ] 251 `strasbourg` - Strasbourg - Alsatian border culture, European institutions, canals, and cathedral cityscape
+- [ ] 252 `yazd` - Yazd
+- [ ] 253 `gdansk` - Gdansk
+- [ ] 254 `belem` - Belem
+- [ ] 255 `juba` - Juba
+- [ ] 256 `colombo` - Colombo
+- [ ] 257 `luang-prabang` - Luang Prabang - Buddhist ritual city, Mekong culture, and World Heritage townscape
+- [ ] 258 `cologne` - Cologne - Cathedral city, Rhine trade, carnival, media, and Roman-German history
+- [ ] 259 `port-louis` - Port Louis - Capital of Mauritius
+- [ ] 260 `las-vegas` - Las Vegas - Casino resort city, desert water risk, entertainment economy, and spectacle urbanism
+- [ ] 261 `nice` - Nice - Riviera tourism, Mediterranean art, border history, and resort-city life
+- [ ] 262 `hualien` - Hualien - Taroko gateway, Indigenous culture, seismic risk, and mountain-coast life
+- [ ] 263 `saipan` - Saipan - Northern Mariana Islands history, tourism, and Pacific war memory
+- [ ] 264 `majuro` - Majuro - Capital of Marshall Islands
+- [ ] 265 `honiara` - Honiara - Capital of Solomon Islands
+- [ ] 266 `port-vila` - Port Vila - Capital of Vanuatu
+- [ ] 267 `sri-jayawardenepura-kotte` - Sri Jayawardenepura Kotte - Capital of Sri Lanka
+- [ ] 268 `porto-novo` - Porto-Novo - Capital of Benin
+- [ ] 269 `antananarivo` - Antananarivo - Capital of Madagascar
+- [ ] 270 `port-moresby` - Port Moresby - Capital of Papua New Guinea
+- [ ] 271 `port-of-spain` - Port of Spain - Capital of Trinidad and Tobago
+- [ ] 272 `male` - Male - Capital of Maldives
+- [ ] 273 `victoria-seychelles` - Victoria - Capital of Seychelles
+- [ ] 274 `canberra` - Canberra - Capital of Australia
+- [ ] 275 `ottawa` - Ottawa - Capital of Canada
+- [ ] 276 `bern` - Bern - Capital of Switzerland
+- [ ] 277 `andorra-la-vella` - Andorra la Vella - Capital of Andorra
+- [ ] 278 `luxembourg-city` - Luxembourg City - Capital of Luxembourg
+- [ ] 279 `monaco` - Monaco - Capital of Monaco
+- [ ] 280 `port-au-prince` - Port-au-Prince
+- [ ] 281 `vancouver` - Vancouver - Pacific Rim port, Asian migration, film industry, and mountain-coast urbanism
+- [ ] 282 `salzburg` - Salzburg - Mozart city, Baroque heritage, Alpine tourism, and music festival culture
+- [ ] 283 `cannes` - Cannes - Film festival city, Riviera tourism, luxury economy, and media spectacle
+- [ ] 284 `bath` - Bath - Roman baths, Georgian architecture, spa tourism, and World Heritage urban form
+- [ ] 285 `heidelberg` - Heidelberg - University town, castle landscape, romantic tourism, and student culture
+- [ ] 286 `lourdes` - Lourdes - Catholic pilgrimage, healing faith, hotels, and religious tourism economy
+- [ ] 287 `bangui` - Bangui - Capital of Central African Republic
+- [ ] 288 `ndjamena` - N'Djamena - Capital of Chad
+- [ ] 289 `asmara` - Asmara - Capital of Eritrea
+- [ ] 290 `pristina` - Pristina - Capital of Kosovo
+- [ ] 291 `tripoli` - Tripoli - Capital of Libya
+- [ ] 292 `praia` - Praia - Capital of Cape Verde
+- [ ] 293 `suva` - Suva - Capital of Fiji
+- [ ] 294 `south-tarawa` - South Tarawa - Capital of Kiribati
+- [ ] 295 `palikir` - Palikir - Capital of Micronesia
+- [ ] 296 `yaren` - Yaren - Capital of Nauru
+- [ ] 297 `ngerulmud` - Ngerulmud - Capital of Palau
+- [ ] 298 `apia` - Apia - Capital of Samoa
+- [ ] 299 `nukualofa` - Nuku'alofa - Capital of Tonga
+- [ ] 300 `funafuti` - Funafuti - Capital of Tuvalu
+- [ ] 301 `rabat` - Rabat - Capital of Morocco
+- [ ] 302 `abuja` - Abuja - Capital of Nigeria
+- [ ] 303 `bucharest` - Bucharest - Capital of Romania
 - [ ] 304 `pretoria` - Pretoria - Capital of South Africa
 - [ ] 305 `bloemfontein` - Bloemfontein - Capital of South Africa
-- [ ] 306 `sri-jayawardenepura-kotte` - Sri Jayawardenepura Kotte - Capital of Sri Lanka
-- [ ] 307 `paramaribo` - Paramaribo - Capital of Suriname
-- [ ] 308 `bern` - Bern - Capital of Switzerland
-- [ ] 309 `damascus` - Damascus - Capital of Syria
-- [ ] 310 `dushanbe` - Dushanbe - Capital of Tajikistan
-- [ ] 311 `dodoma` - Dodoma - Capital of Tanzania
-- [ ] 312 `dili` - Dili - Capital of Timor-Leste
-- [ ] 313 `lome` - Lome - Capital of Togo
-- [ ] 314 `nukualofa` - Nuku'alofa - Capital of Tonga
-- [ ] 315 `port-of-spain` - Port of Spain - Capital of Trinidad and Tobago
-- [ ] 316 `ankara` - Ankara - Capital of Turkey
-- [ ] 317 `ashgabat` - Ashgabat - Capital of Turkmenistan
-- [ ] 318 `funafuti` - Funafuti - Capital of Tuvalu
-- [ ] 319 `kampala` - Kampala - Capital of Uganda
-- [ ] 320 `abu-dhabi` - Abu Dhabi - Capital of United Arab Emirates
-- [ ] 321 `tashkent` - Tashkent - Capital of Uzbekistan
-- [ ] 322 `port-vila` - Port Vila - Capital of Vanuatu
-- [ ] 323 `caracas` - Caracas - Capital of Venezuela
-- [ ] 324 `sanaa` - Sanaa - Capital of Yemen
-- [ ] 325 `lusaka` - Lusaka - Capital of Zambia
-- [ ] 326 `harare` - Harare - Capital of Zimbabwe
-- [ ] 327 `guam` - Guam / Hagatna - Pacific island territory and Chamorro cultural center
-- [ ] 328 `hawaii` - Hawaii / Honolulu - Pacific island hub and Native Hawaiian history
-- [ ] 329 `saipan` - Saipan - Northern Mariana Islands history, tourism, and Pacific war memory
-- [ ] 330 `bali` - Bali / Denpasar - Hindu island culture, tourism, and everyday life
-- [ ] 331 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
-- [ ] 332 `kaohsiung` - Kaohsiung - Southern Taiwan port, industry, and coastal culture
-- [ ] 333 `phuket` - Phuket - Thai island tourism, migration, and coastal risk
-- [ ] 334 `hokkaido` - Hokkaido / Sapporo - Northern Japan, Ainu history, climate, and food culture
-- [ ] 335 `okinawa` - Okinawa / Naha - Ryukyu history, bases, tourism, and island life
-- [ ] 336 `xian` - Xi'an - Chinese ancient capital, Silk Road memory, and Buddhist heritage
-- [ ] 337 `suzhou` - Suzhou - Jiangnan gardens, canals, silk culture, and water-town urbanism
-- [ ] 338 `qingdao` - Qingdao - German treaty-port history, beer culture, beaches, and port industry
-- [ ] 339 `dunhuang` - Dunhuang - Mogao Caves, Silk Road art, desert pilgrimage, and oasis history
-- [ ] 340 `guilin` - Guilin - Karst landscape tourism, river settlements, and Chinese scenic imagination
-- [ ] 341 `luoyang` - Luoyang - Ancient dynastic capital, Longmen Buddhist caves, and Yellow River culture
-- [ ] 342 `urumqi` - Urumqi - Uyghur culture, Inner Asian trade routes, and frontier urban politics
-- [ ] 343 `harbin` - Harbin - Russian architecture, ice festival, Manchurian history, and winter city life
-- [ ] 344 `tainan` - Tainan - Taiwan's historic capital, temples, food culture, and port memory
-- [ ] 345 `hualien` - Hualien - Taroko gateway, Indigenous culture, seismic risk, and mountain-coast life
-- [ ] 346 `jeju` - Jeju - Korean island tourism, volcanic landscape, migration, and modern memory
-- [ ] 347 `gyeongju` - Gyeongju - Silla capital, Buddhist heritage, royal tombs, and East Asian exchange
-- [ ] 348 `incheon` - Incheon - Airport gateway, port, Chinatown, and Korean War landing history
-- [ ] 349 `chiang-mai` - Chiang Mai - Northern Thai temples, mountain cultures, crafts, and long-stay tourism
-- [ ] 350 `ayutthaya` - Ayutthaya - Former Siamese capital, Japanese trading history, and river ruins
-- [ ] 351 `luang-prabang` - Luang Prabang - Buddhist ritual city, Mekong culture, and World Heritage townscape
-- [ ] 352 `hue` - Hue - Vietnamese imperial capital, court culture, war memory, and Perfume River landscape
-- [ ] 353 `hoi-an` - Hoi An - Historic trading port, Japanese bridge memory, lantern streets, and food culture
-- [ ] 354 `da-nang` - Da Nang - Central Vietnam beach hub, wartime base history, and rapid urban growth
-- [ ] 355 `george-town-penang` - George Town, Penang - Multicultural port, street food, clan houses, and heritage streets
-- [ ] 356 `malacca` - Malacca - Strait trade, Malay, Chinese, Portuguese, Dutch, and British urban layers
-- [ ] 357 `yogyakarta` - Yogyakarta - Javanese court city, student culture, and Borobudur-Prambanan gateway
-- [ ] 358 `borobudur` - Borobudur - Buddhist monument landscape, pilgrimage, tourism, and Javanese village life
-- [ ] 359 `agra` - Agra - Taj Mahal city, Mughal urban history, craft labor, and Yamuna riverfront
-- [ ] 360 `edinburgh` - Edinburgh - Castle city, Scottish capital, literature, festivals, and Old Town heritage
-- [ ] 361 `oxford` - Oxford - University city, publishing, colleges, and knowledge-economy townscape
-- [ ] 362 `cambridge` - Cambridge - University, science history, river colleges, and student urban life
-- [ ] 363 `liverpool` - Liverpool - Beatles culture, Atlantic port history, football, and working-class memory
-- [ ] 364 `manchester` - Manchester - Industrial revolution city, music, football, migration, and media economy
-- [ ] 365 `bath` - Bath - Roman baths, Georgian architecture, spa tourism, and World Heritage urban form
-- [ ] 366 `versailles` - Versailles - Palace city, absolutist monarchy, revolution memory, and planned court landscape
-- [ ] 367 `mont-saint-michel` - Mont Saint-Michel - Tidal abbey, pilgrimage, tourism, and coastal heritage landscape
-- [ ] 368 `nice` - Nice - Riviera tourism, Mediterranean art, border history, and resort-city life
-- [ ] 369 `cannes` - Cannes - Film festival city, Riviera tourism, luxury economy, and media spectacle
-- [ ] 370 `lourdes` - Lourdes - Catholic pilgrimage, healing faith, hotels, and religious tourism economy
-- [ ] 371 `strasbourg` - Strasbourg - Alsatian border culture, European institutions, canals, and cathedral cityscape
-- [ ] 372 `geneva` - Geneva - International organizations, diplomacy, humanitarian history, and lakefront urban life
-- [ ] 373 `salzburg` - Salzburg - Mozart city, Baroque heritage, Alpine tourism, and music festival culture
-- [ ] 374 `cologne` - Cologne - Cathedral city, Rhine trade, carnival, media, and Roman-German history
-- [ ] 375 `heidelberg` - Heidelberg - University town, castle landscape, romantic tourism, and student culture
-- [ ] 376 `marseille` - Marseille - Mediterranean port, migration, North African links, and working waterfront culture
-- [ ] 377 `las-vegas` - Las Vegas - Casino resort city, desert water risk, entertainment economy, and spectacle urbanism
-- [ ] 378 `vancouver` - Vancouver - Pacific Rim port, Asian migration, film industry, and mountain-coast urbanism
-- [ ] 379 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
-- [ ] 380 `brisbane` - Brisbane - Subtropical Australian metropolis, river life, floods, and Queensland tourism gateway
-- [ ] 381 `perth` - Perth - Indian Ocean city, mining economy, isolation, beaches, and Western Australian identity
-- [ ] 382 `cancun` - Cancun - Caribbean resort city, Mayan tourism gateway, and coastal risk
-- [ ] 383 `oaxaca` - Oaxaca - Indigenous culture, food, crafts, Day of the Dead, and colonial streets
-- [ ] 384 `quebec-city` - Quebec City - Francophone North America, fortified old town, and winter cultural identity
-- [ ] 385 `niagara-falls` - Niagara Falls - Waterfall tourism, border city, hydroelectricity, and mass leisure history
-- [ ] 386 `memphis` - Memphis - Blues, soul, Elvis memory, Mississippi river port, and Black history
-- [ ] 387 `santa-fe` - Santa Fe - Pueblo, Spanish colonial, art markets, adobe urban form, and desert culture
-- [ ] 388 `charleston` - Charleston - Atlantic port, slavery memory, Southern culture, and coastal heritage risk
-- [ ] 389 `foz-do-iguacu` - Foz do Iguacu - Iguazu Falls gateway, tri-border life, and hydroelectric landscape
-- [ ] 390 `cairns` - Cairns - Great Barrier Reef gateway, rainforest tourism, and tropical climate risk
-- [ ] 391 `gold-coast` - Gold Coast - Beach tourism, surfing culture, theme parks, and high-rise coastal urbanism
-- [ ] 392 `queenstown` - Queenstown - Alpine resort, adventure tourism, lake landscape, and seasonal labor
-- [ ] 393 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, and post-apartheid urban inequality
-- [ ] 394 `durban` - Durban - Indian Ocean port, Indian diaspora culture, beaches, and Zulu regional links
-- [ ] 395 `lalibela` - Lalibela - Rock-hewn churches, Ethiopian Orthodox pilgrimage, and highland heritage
-- [ ] 396 `chefchaouen` - Chefchaouen - Blue medina, Rif mountain culture, tourism, and Moroccan craft streets
-- [ ] 397 `jeddah` - Jeddah - Red Sea port, Mecca pilgrimage gateway, historic coral houses, and trade
-- [ ] 398 `alula` - AlUla - Nabataean desert heritage, oasis landscape, and Saudi cultural tourism
-- [ ] 399 `aleppo` - Aleppo - Ancient trading city, souk heritage, war damage, and reconstruction memory
-- [ ] 400 `bethlehem` - Bethlehem - Christian pilgrimage city, Palestinian urban life, and separation-wall geography
+- [ ] 306 `caracas` - Caracas - Capital of Venezuela
+- [ ] 307 `vaduz` - Vaduz - Capital of Liechtenstein
+- [ ] 308 `san-marino` - San Marino - Capital of San Marino
+- [ ] 309 `tirana` - Tirana - Capital of Albania
+- [ ] 310 `st-johns-antigua` - St. John's - Capital of Antigua and Barbuda
+- [ ] 311 `nassau` - Nassau - Capital of Bahamas
+- [ ] 312 `manama` - Manama - Capital of Bahrain
+- [ ] 313 `bridgetown` - Bridgetown - Capital of Barbados
+- [ ] 314 `minsk` - Minsk - Capital of Belarus
+- [ ] 315 `belmopan` - Belmopan - Capital of Belize
+- [ ] 316 `thimphu` - Thimphu - Capital of Bhutan
+- [ ] 317 `gaborone` - Gaborone - Capital of Botswana
+- [ ] 318 `bandar-seri-begawan` - Bandar Seri Begawan - Capital of Brunei
+- [ ] 319 `sofia` - Sofia - Capital of Bulgaria
+- [ ] 320 `ouagadougou` - Ouagadougou - Capital of Burkina Faso
+- [ ] 321 `gitega` - Gitega - Capital of Burundi
+- [ ] 322 `yaounde` - Yaounde - Capital of Cameroon
+- [ ] 323 `moroni` - Moroni - Capital of Comoros
+- [ ] 324 `brazzaville` - Brazzaville - Capital of Republic of the Congo
+- [ ] 325 `san-jose-costa-rica` - San Jose - Capital of Costa Rica
+- [ ] 326 `yamoussoukro` - Yamoussoukro - Capital of Cote dIvoire
+- [ ] 327 `zagreb` - Zagreb - Capital of Croatia
+- [ ] 328 `djibouti-city` - Djibouti City - Capital of Djibouti
+- [ ] 329 `roseau` - Roseau - Capital of Dominica
+- [ ] 330 `malabo` - Malabo - Capital of Equatorial Guinea
+- [ ] 331 `mbabane` - Mbabane - Capital of Eswatini
+- [ ] 332 `libreville` - Libreville - Capital of Gabon
+- [ ] 333 `banjul` - Banjul - Capital of Gambia
+- [ ] 334 `st-georges` - St. George's - Capital of Grenada
+- [ ] 335 `conakry` - Conakry - Capital of Guinea
+- [ ] 336 `bissau` - Bissau - Capital of Guinea-Bissau
+- [ ] 337 `georgetown-guyana` - Georgetown - Capital of Guyana
+- [ ] 338 `new-delhi` - New Delhi - Capital of India
+- [ ] 339 `astana` - Astana - Capital of Kazakhstan
+- [ ] 340 `bishkek` - Bishkek - Capital of Kyrgyzstan
+- [ ] 341 `vientiane` - Vientiane - Capital of Laos
+- [ ] 342 `maseru` - Maseru - Capital of Lesotho
+- [ ] 343 `monrovia` - Monrovia - Capital of Liberia
+- [ ] 344 `lilongwe` - Lilongwe - Capital of Malawi
+- [ ] 345 `bamako` - Bamako - Capital of Mali
+- [ ] 346 `nouakchott` - Nouakchott - Capital of Mauritania
+- [ ] 347 `chisinau` - Chisinau - Capital of Moldova
+- [ ] 348 `ulaanbaatar` - Ulaanbaatar - Capital of Mongolia
+- [ ] 349 `podgorica` - Podgorica - Capital of Montenegro
+- [ ] 350 `naypyidaw` - Naypyidaw - Capital of Myanmar
+- [ ] 351 `windhoek` - Windhoek - Capital of Namibia
+- [ ] 352 `wellington` - Wellington - Capital of New Zealand
+- [ ] 353 `niamey` - Niamey - Capital of Niger
+- [ ] 354 `pyongyang` - Pyongyang - Capital of North Korea
+- [ ] 355 `skopje` - Skopje - Capital of North Macedonia
+- [ ] 356 `oslo` - Oslo - Capital of Norway
+- [ ] 357 `muscat` - Muscat - Capital of Oman
+- [ ] 358 `islamabad` - Islamabad - Capital of Pakistan
+- [ ] 359 `asuncion` - Asuncion - Capital of Paraguay
+- [ ] 360 `basseterre` - Basseterre - Capital of Saint Kitts and Nevis
+- [ ] 361 `castries` - Castries - Capital of Saint Lucia
+- [ ] 362 `kingstown` - Kingstown - Capital of Saint Vincent and the Grenadines
+- [ ] 363 `sao-tome` - Sao Tome - Capital of Sao Tome and Principe
+- [ ] 364 `freetown` - Freetown - Capital of Sierra Leone
+- [ ] 365 `bratislava` - Bratislava - Capital of Slovakia
+- [ ] 366 `ljubljana` - Ljubljana - Capital of Slovenia
+- [ ] 367 `paramaribo` - Paramaribo - Capital of Suriname
+- [ ] 368 `dushanbe` - Dushanbe - Capital of Tajikistan
+- [ ] 369 `dodoma` - Dodoma - Capital of Tanzania
+- [ ] 370 `dili` - Dili - Capital of Timor-Leste
+- [ ] 371 `lome` - Lome - Capital of Togo
+- [ ] 372 `ashgabat` - Ashgabat - Capital of Turkmenistan
+- [ ] 373 `kampala` - Kampala - Capital of Uganda
+- [ ] 374 `tashkent` - Tashkent - Capital of Uzbekistan
+- [ ] 375 `lusaka` - Lusaka - Capital of Zambia
+- [ ] 376 `harare` - Harare - Capital of Zimbabwe
+- [ ] 377 `sydney` - Sydney
+- [ ] 378 `stuttgart` - Stuttgart
+- [ ] 379 `kyiv` - Kyiv
+- [ ] 380 `krakow` - Krakow
+- [ ] 381 `accra` - Accra
+- [ ] 382 `khiva` - Khiva
+- [ ] 383 `mostar` - Mostar
+- [ ] 384 `belgrade` - Belgrade
+- [ ] 385 `belfast` - Belfast
+- [ ] 386 `tallinn` - Tallinn
+- [ ] 387 `riga` - Riga
+- [ ] 388 `vilnius` - Vilnius
+- [ ] 389 `reykjavik` - Reykjavik
+- [ ] 390 `valletta` - Valletta
+- [ ] 391 `minneapolis` - Minneapolis
+- [ ] 392 `san-salvador` - San Salvador
+- [ ] 393 `tegucigalpa` - Tegucigalpa
+- [ ] 394 `managua` - Managua
+- [ ] 395 `sucre` - Sucre
+- [ ] 396 `montevideo` - Montevideo
+- [ ] 397 `mombasa` - Mombasa
+- [ ] 398 `luanda` - Luanda
+- [ ] 399 `maputo` - Maputo
+- [ ] 400 `hargeisa` - Hargeisa
+
+
+
 
 ## GDP Ranking Implementation Queue
 

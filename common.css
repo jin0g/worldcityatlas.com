@@ -264,15 +264,6 @@ img { display: block; max-width: 100%; }
   inset: 18px;
   border: 1px solid rgba(255,255,255,.12);
 }
-.card-num {
-  width: 44px;
-  height: 44px;
-  display: grid;
-  place-items: center;
-  border: 2px solid var(--accent);
-  color: var(--accent);
-  font-weight: 900;
-}
 .city-card h2 {
   margin: 18px 0 6px;
   font-size: 32px;
