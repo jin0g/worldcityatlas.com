@@ -54,6 +54,7 @@ Progress notes:
 - Mumbai is completed under the current image-and-section template.
 - Sao Paulo is completed under the current image-and-section template.
 - Orlando is completed under the current image-and-section template.
+- Seattle is completed under the current image-and-section template.
 - Hong Kong is completed under the current image-and-section template.
 - San Francisco is completed under the current image-and-section template.
 - Osaka is completed under the current image-and-section template.
@@ -112,7 +113,7 @@ Progress notes:
 - [x] 033 `mumbai` - Mumbai - DONE
 - [x] 034 `bangkok` - Bangkok - DONE
 - [x] 035 `orlando` - Orlando - DONE - theme parks, tourism labor, suburban growth, wetlands, and housing inequality
-- [ ] 036 `seattle` - Seattle
+- [x] 036 `seattle` - Seattle - DONE - technology, port logistics, aerospace, music, rain, Indigenous memory, and housing pressure
 - [ ] 037 `madrid` - Madrid
 - [ ] 038 `munich` - Munich
 - [ ] 039 `philadelphia` - Philadelphia
