@@ -49,7 +49,7 @@ function renderSiteHeader() {
   return `<header class="site-header">
     <a href="/" class="brand">World City Atlas</a>
     <nav class="site-actions" aria-label="Site">
-      <a href="/visited/">Visited</a>
+      <a href="/visited/" aria-label="訪問済みマップ">☆</a>
     </nav>
   </header>`;
 }
