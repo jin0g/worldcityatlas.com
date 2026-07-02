@@ -121,7 +121,7 @@ Progress notes:
 - [x] 039 `philadelphia` - Philadelphia - DONE - founding memory, universities and medicine, manufacturing labor, Black history, immigrant food, rowhouses, murals, sports, transit, and river climate
 - [x] 040 `toronto` - Toronto - DONE - finance, immigration neighborhoods, housing pressure, universities, transit, Lake Ontario, food culture, Indigenous memory, film, and inequality
 - [x] 041 `atlanta` - Atlanta - DONE - civil rights memory, airport logistics, Black culture, corporate media, sprawl, universities, immigration, highways, tree canopy, and sports
-- [ ] 042 `baghdad` - Baghdad
+- [x] 042 `baghdad` - Baghdad - DONE - Tigris geography, Abbasid memory, state politics, war memory, oil services, markets, religion, education, housing, climate, and recovery
 - [ ] 043 `guangzhou` - Guangzhou
 - [ ] 044 `shenzhen` - Shenzhen
 - [ ] 045 `milan` - Milan
