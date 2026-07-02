@@ -63,6 +63,7 @@ Progress notes:
 - Barcelona is completed under the current image-and-section template.
 - Tel Aviv is completed under the current image-and-section template.
 - Boston is completed under the current image-and-section template.
+- Buenos Aires is completed under the current image-and-section template.
 - Jakarta is completed under the current image-and-section template.
 - Manila is completed under the current image-and-section template.
 - Bangkok is completed under the current image-and-section template.
@@ -100,7 +101,7 @@ Progress notes:
 - [x] 026 `boston` - Boston - DONE
 - [x] 027 `delhi` - Delhi - DONE
 - [x] 028 `dubai` - Dubai - DONE
-- [ ] 029 `buenos-aires` - Buenos Aires
+- [x] 029 `buenos-aires` - Buenos Aires - DONE
 - [ ] 030 `melbourne` - Melbourne
 - [ ] 031 `amsterdam` - Amsterdam
 - [ ] 032 `suzhou` - Suzhou - Jiangnan gardens, canals, silk culture, and water-town urbanism
