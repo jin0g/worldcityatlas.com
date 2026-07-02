@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visited Map | World City Atlas</title>
+  <meta property="og:title" content="Visited Map | World City Atlas">
+  <meta property="og:description" content="訪問済みの都市を世界地図に記録するページです。">
+  <meta property="og:image" content="https://www.worldcityatlas.com/tokyo/header.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Visited Map | World City Atlas">
+  <meta name="twitter:description" content="訪問済みの都市を世界地図に記録するページです。">
+  <meta name="twitter:image" content="https://www.worldcityatlas.com/tokyo/header.png">
+  <link rel="stylesheet" href="../common.css">
+  <script defer src="../common.js"></script>
+  <style>
+    :root {
+      --visited: #ffcf5a;
+      --visited-core: #e03a5d;
+      --unvisited: #8da0aa;
+      --sea: #0c2530;
+      --land: #f2ead6;
+    }
+
+    body {
+      background:
+        radial-gradient(circle at 20% 10%, rgba(255, 207, 90, .18), transparent 30%),
+        radial-gradient(circle at 86% 18%, rgba(47, 176, 163, .16), transparent 36%),
+        linear-gradient(135deg, #07171f, #122b35 48%, #221c22);
+    }
+
+    .visited-shell {
+      min-height: calc(100vh - 68px);
+      padding: clamp(14px, 3vw, 36px);
+    }
+
+    .visited-layout {
+      max-width: 1480px;
+      margin: 0 auto;
+    }
+
+    .map-panel {
+      border: 1px solid rgba(255, 255, 255, .14);
+      background:
+        linear-gradient(135deg, rgba(255, 255, 255, .08), rgba(255, 255, 255, .02)),
+        #091d27;
+      box-shadow: 0 34px 90px rgba(0, 0, 0, .34);
+      min-height: calc(100vh - 140px);
+      padding: clamp(12px, 2vw, 28px);
+      overflow: hidden;
+    }
+
+    .world-map {
+      width: 100%;
+      height: 100%;
+      min-height: calc(100vh - 200px);
+      display: block;
+    }
+
+    .map-ocean {
+      fill: var(--sea);
+    }
+
+    .map-vignette {
+      fill: url(#ocean-vignette);
+      pointer-events: none;
+    }
+
+    .map-current {
+      fill: none;
+      stroke: rgba(130, 220, 210, .20);
+      stroke-width: 1;
+      stroke-dasharray: 7 13;
+    }
+
+    .map-graticule {
+      fill: none;
+      stroke: rgba(255, 255, 255, .11);
+      stroke-width: .8;
+    }
+
+    .land {
+      fill: url(#land-gradient);
+      stroke: rgba(255, 255, 255, .32);
+      stroke-width: 1.1;
+      filter: url(#land-shadow);
+    }
+
+    .island {
+      fill: rgba(242, 234, 214, .78);
+      stroke: rgba(255, 255, 255, .28);
+      stroke-width: .8;
+    }
+
+    .city-marker {
+      cursor: pointer;
+    }
+
+    .city-marker .marker-hit {
+      fill: transparent;
+      stroke: transparent;
+      r: 12;
+      transition: r .18s ease;
+    }
+
+    .city-marker.is-visited .marker-hit {
+      r: 16;
+    }
+
+    .city-marker.is-visited.has-thumbnail .marker-hit {
+      r: 28;
+    }
+
+    .city-marker .marker-halo {
+      fill: rgba(255, 255, 255, .10);
+      stroke: rgba(255, 255, 255, .26);
+      stroke-width: 1;
+      opacity: .5;
+      transition: opacity .18s ease, r .18s ease;
+    }
+
+    .city-marker .marker-core {
+      fill: #f8fbf6;
+      stroke: var(--unvisited);
+      stroke-width: 2.2;
+      filter: url(#marker-shadow);
+      transition: opacity .18s ease, fill .18s ease, stroke .18s ease, r .18s ease;
+    }
+
+    .city-marker .marker-thumb,
+    .city-marker .marker-thumb-frame {
+      opacity: 0;
+      transition: opacity .18s ease;
+    }
+
+    .city-marker .marker-thumb {
+      pointer-events: none;
+    }
+
+    .city-marker .marker-thumb-frame {
+      fill: none;
+      stroke: var(--visited);
+      stroke-width: 2.2;
+      filter: url(#marker-shadow);
+    }
+
+    .city-marker.is-visited .marker-halo {
+      fill: rgba(255, 207, 90, .22);
+      stroke: rgba(255, 207, 90, .52);
+      opacity: 1;
+      r: 32;
+    }
+
+    .city-marker.is-visited.has-thumbnail .marker-core {
+      opacity: 0;
+    }
+
+    .city-marker.is-visited:not(.has-thumbnail) .marker-core {
+      fill: var(--visited-core);
+      stroke: var(--visited);
+      r: 7;
+    }
+
+    .city-marker.is-visited .marker-thumb {
+      opacity: 1;
+    }
+
+    .city-marker.is-visited .marker-thumb-frame {
+      opacity: 1;
+    }
+
+    .city-marker.is-visited:not(.has-thumbnail) .marker-thumb,
+    .city-marker.is-visited:not(.has-thumbnail) .marker-thumb-frame {
+      opacity: 0;
+    }
+
+    .city-marker:focus-visible .marker-halo,
+    .city-marker:hover .marker-halo {
+      opacity: 1;
+      r: 34;
+    }
+
+    .city-marker:focus-visible .marker-core,
+    .city-marker:hover .marker-core {
+      r: 8;
+      stroke: var(--visited);
+    }
+
+    .city-marker:focus-visible .marker-thumb-frame,
+    .city-marker:hover .marker-thumb-frame {
+      stroke-width: 3.2;
+    }
+
+    @media (max-width: 980px) {
+      .map-panel {
+        min-height: auto;
+      }
+
+      .world-map {
+        min-height: auto;
+        aspect-ratio: 1.45;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .visited-shell {
+        padding-inline: 12px;
+      }
+
+      .map-panel {
+        padding: 8px;
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <div data-site-header></div>
+  <main class="visited-shell">
+    <section class="visited-layout" aria-label="訪問済み都市マップ">
+      <div class="map-panel">
+        <svg class="world-map" viewBox="0 0 1000 560" role="img" aria-label="訪問済み都市マップ">
+          <defs>
+            <radialGradient id="ocean-vignette" cx="50%" cy="46%" r="72%">
+              <stop offset="0%" stop-color="#214652" stop-opacity=".42"></stop>
+              <stop offset="58%" stop-color="#0c2530" stop-opacity=".12"></stop>
+              <stop offset="100%" stop-color="#02080c" stop-opacity=".72"></stop>
+            </radialGradient>
+            <linearGradient id="land-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#fff6dc"></stop>
+              <stop offset="48%" stop-color="#d9cda8"></stop>
+              <stop offset="100%" stop-color="#9ba98d"></stop>
+            </linearGradient>
+            <filter id="land-shadow" x="-10%" y="-10%" width="120%" height="130%">
+              <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000000" flood-opacity=".30"></feDropShadow>
+            </filter>
+            <filter id="marker-shadow" x="-80%" y="-80%" width="260%" height="260%">
+              <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity=".55"></feDropShadow>
+            </filter>
+          </defs>
+          <rect class="map-ocean" width="1000" height="560" rx="8"></rect>
+          <rect class="map-vignette" width="1000" height="560" rx="8"></rect>
+          <g data-current-layer></g>
+          <g data-graticule-layer></g>
+          <g data-land-layer></g>
+          <g data-map-markers></g>
+        </svg>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+
+  <script>
+    const VISITED_CITIES = [
+      { id: "new-york", name: "ニューヨーク", label: "New York", region: "", lat: 40.712800, lon: -74.006000 },
+      { id: "tokyo", name: "東京", label: "Tokyo", region: "", lat: 35.689500, lon: 139.691710 },
+      { id: "london", name: "ロンドン", label: "London", region: "", lat: 51.508530, lon: -0.125740 },
+      { id: "paris", name: "パリ", label: "Paris", region: "", lat: 48.853410, lon: 2.348800 },
+      { id: "los-angeles", name: "ロサンゼルス", label: "Los Angeles", region: "", lat: 34.052230, lon: -118.243680 },
+      { id: "istanbul", name: "イスタンブール", label: "Istanbul", region: "", lat: 41.013840, lon: 28.949660 },
+      { id: "beijing", name: "北京", label: "Beijing", region: "", lat: 39.907500, lon: 116.397230 },
+      { id: "jerusalem", name: "エルサレム", label: "Jerusalem", region: "", lat: 31.769040, lon: 35.216330 },
+      { id: "delhi", name: "デリー", label: "Delhi", region: "", lat: 28.613900, lon: 77.209000 },
+      { id: "shanghai", name: "上海", label: "Shanghai", region: "", lat: 31.222220, lon: 121.458060 },
+      { id: "washington-dc", name: "ワシントンDC", label: "Washington DC", region: "", lat: 38.907200, lon: -77.036900 },
+      { id: "singapore", name: "シンガポール", label: "Singapore", region: "", lat: 1.289670, lon: 103.850070 },
+      { id: "dubai", name: "ドバイ", label: "Dubai", region: "", lat: 25.077250, lon: 55.309270 },
+      { id: "seoul", name: "ソウル", label: "Seoul", region: "", lat: 37.566000, lon: 126.978400 },
+      { id: "moscow", name: "モスクワ", label: "Moscow", region: "", lat: 55.752040, lon: 37.617810 },
+      { id: "mexico-city", name: "メキシコシティ", label: "Mexico City", region: "", lat: 19.432600, lon: -99.133200 },
+      { id: "cairo", name: "カイロ", label: "Cairo", region: "", lat: 30.062630, lon: 31.249670 },
+      { id: "mumbai", name: "ムンバイ", label: "Mumbai", region: "", lat: 19.076000, lon: 72.877700 },
+      { id: "sao-paulo", name: "サンパウロ", label: "Sao Paulo", region: "", lat: -23.550394, lon: -46.633947 },
+      { id: "hong-kong", name: "香港", label: "Hong Kong", region: "", lat: 22.278320, lon: 114.174690 },
+      { id: "jakarta", name: "ジャカルタ", label: "Jakarta", region: "", lat: -6.214620, lon: 106.845130 },
+      { id: "lagos", name: "ラゴス", label: "Lagos", region: "", lat: 6.454070, lon: 3.394670 },
+      { id: "dhaka", name: "ダッカ", label: "Dhaka", region: "", lat: 23.710400, lon: 90.407440 },
+      { id: "manila", name: "Manila", label: "Manila", region: "", lat: 14.604200, lon: 120.982200 },
+      { id: "bangkok", name: "Bangkok", label: "Bangkok", region: "", lat: 13.753980, lon: 100.501440 },
+      { id: "berlin", name: "Berlin", label: "Berlin", region: "", lat: 52.524370, lon: 13.410530 },
+      { id: "rome", name: "Rome", label: "Rome", region: "", lat: 41.891930, lon: 12.511330 },
+      { id: "vatican-city", name: "Vatican City", label: "Vatican City", region: "", lat: 41.902900, lon: 12.453400 },
+      { id: "mecca", name: "Mecca", label: "Mecca", region: "", lat: 21.426640, lon: 39.825630 },
+      { id: "medina", name: "Medina", label: "Medina", region: "", lat: 24.468610, lon: 39.614170 },
+      { id: "varanasi", name: "Varanasi", label: "Varanasi", region: "", lat: 25.316680, lon: 83.010410 },
+      { id: "amritsar", name: "Amritsar", label: "Amritsar", region: "", lat: 31.622340, lon: 74.875340 },
+      { id: "lhasa", name: "Lhasa", label: "Lhasa", region: "", lat: 29.650000, lon: 91.100000 },
+      { id: "kathmandu", name: "Kathmandu", label: "Kathmandu", region: "", lat: 27.701690, lon: 85.320600 },
+      { id: "bodh-gaya", name: "Bodh Gaya", label: "Bodh Gaya", region: "", lat: 24.698080, lon: 84.986900 },
+      { id: "karbala", name: "Karbala", label: "Karbala", region: "", lat: 32.616030, lon: 44.024880 },
+      { id: "najaf", name: "Najaf", label: "Najaf", region: "", lat: 32.025940, lon: 44.346250 },
+      { id: "qom", name: "Qom", label: "Qom", region: "", lat: 34.641600, lon: 50.874600 },
+      { id: "mashhad", name: "Mashhad", label: "Mashhad", region: "", lat: 36.260500, lon: 59.616800 },
+      { id: "rio-de-janeiro", name: "Rio de Janeiro", label: "Rio de Janeiro", region: "", lat: -22.906800, lon: -43.172900 },
+      { id: "tel-aviv", name: "Tel Aviv", label: "Tel Aviv", region: "", lat: 32.085300, lon: 34.781800 },
+      { id: "beirut", name: "Beirut", label: "Beirut", region: "", lat: 33.893320, lon: 35.501570 },
+      { id: "riyadh", name: "Riyadh", label: "Riyadh", region: "", lat: 24.687730, lon: 46.721850 },
+      { id: "baghdad", name: "Baghdad", label: "Baghdad", region: "", lat: 33.340580, lon: 44.400880 },
+      { id: "kabul", name: "Kabul", label: "Kabul", region: "", lat: 34.528130, lon: 69.172330 },
+      { id: "tehran", name: "Tehran", label: "Tehran", region: "", lat: 35.694390, lon: 51.421510 },
+      { id: "karachi", name: "Karachi", label: "Karachi", region: "", lat: 24.860800, lon: 67.010400 },
+      { id: "lahore", name: "Lahore", label: "Lahore", region: "", lat: 31.558000, lon: 74.350710 },
+      { id: "kolkata", name: "Kolkata", label: "Kolkata", region: "", lat: 22.572600, lon: 88.363900 },
+      { id: "chennai", name: "Chennai", label: "Chennai", region: "", lat: 13.082700, lon: 80.270700 },
+      { id: "bengaluru", name: "Bengaluru", label: "Bengaluru", region: "", lat: 12.971600, lon: 77.594600 },
+      { id: "hanoi", name: "Hanoi", label: "Hanoi", region: "", lat: 21.024500, lon: 105.841170 },
+      { id: "ho-chi-minh-city", name: "Ho Chi Minh City", label: "Ho Chi Minh City", region: "", lat: 10.776900, lon: 106.700900 },
+      { id: "phnom-penh", name: "Phnom Penh", label: "Phnom Penh", region: "", lat: 11.562450, lon: 104.916010 },
+      { id: "siem-reap", name: "Siem Reap", label: "Siem Reap", region: "", lat: 13.361790, lon: 103.860560 },
+      { id: "yangon", name: "Yangon", label: "Yangon", region: "", lat: 16.805280, lon: 96.156110 },
+      { id: "taipei", name: "Taipei", label: "Taipei", region: "", lat: 25.053060, lon: 121.526390 },
+      { id: "shenzhen", name: "Shenzhen", label: "Shenzhen", region: "", lat: 22.545540, lon: 114.068300 },
+      { id: "guangzhou", name: "Guangzhou", label: "Guangzhou", region: "", lat: 23.116670, lon: 113.250000 },
+      { id: "chengdu", name: "Chengdu", label: "Chengdu", region: "", lat: 30.666670, lon: 104.066670 },
+      { id: "chongqing", name: "Chongqing", label: "Chongqing", region: "", lat: 29.560260, lon: 106.557710 },
+      { id: "wuhan", name: "Wuhan", label: "Wuhan", region: "", lat: 30.583330, lon: 114.266670 },
+      { id: "hangzhou", name: "Hangzhou", label: "Hangzhou", region: "", lat: 30.293650, lon: 120.161420 },
+      { id: "nanjing", name: "Nanjing", label: "Nanjing", region: "", lat: 32.061670, lon: 118.777780 },
+      { id: "tianjin", name: "Tianjin", label: "Tianjin", region: "", lat: 39.142220, lon: 117.176670 },
+      { id: "osaka", name: "大阪", label: "Osaka", region: "", lat: 34.693790, lon: 135.501070 },
+      { id: "nagoya", name: "名古屋", label: "Nagoya", region: "", lat: 35.181470, lon: 136.906410 },
+      { id: "busan", name: "Busan", label: "Busan", region: "", lat: 35.101680, lon: 129.030040 },
+      { id: "sydney", name: "Sydney", label: "Sydney", region: "", lat: -33.867850, lon: 151.207320 },
+      { id: "melbourne", name: "Melbourne", label: "Melbourne", region: "", lat: -37.814000, lon: 144.963320 },
+      { id: "toronto", name: "Toronto", label: "Toronto", region: "", lat: 43.706430, lon: -79.398640 },
+      { id: "san-francisco", name: "サンフランシスコ", label: "San Francisco", region: "", lat: 37.774930, lon: -122.419420 },
+      { id: "chicago", name: "シカゴ", label: "Chicago", region: "", lat: 41.850030, lon: -87.650050 },
+      { id: "miami", name: "Miami", label: "Miami", region: "", lat: 25.774270, lon: -80.193660 },
+      { id: "houston", name: "ヒューストン", label: "Houston", region: "", lat: 29.763280, lon: -95.363270 },
+      { id: "dallas", name: "ダラス", label: "Dallas", region: "", lat: 32.783060, lon: -96.806670 },
+      { id: "boston", name: "ボストン", label: "Boston", region: "", lat: 42.358430, lon: -71.059770 },
+      { id: "philadelphia", name: "フィラデルフィア", label: "Philadelphia", region: "", lat: 39.952380, lon: -75.163620 },
+      { id: "seattle", name: "シアトル", label: "Seattle", region: "", lat: 47.606210, lon: -122.332070 },
+      { id: "atlanta", name: "アトランタ", label: "Atlanta", region: "", lat: 33.749000, lon: -84.387980 },
+      { id: "detroit", name: "Detroit", label: "Detroit", region: "", lat: 42.331430, lon: -83.045750 },
+      { id: "san-jose", name: "San Jose", label: "San Jose", region: "", lat: 37.339390, lon: -121.894960 },
+      { id: "san-diego", name: "San Diego", label: "San Diego", region: "", lat: 32.715710, lon: -117.164720 },
+      { id: "phoenix", name: "Phoenix", label: "Phoenix", region: "", lat: 33.448380, lon: -112.074040 },
+      { id: "denver", name: "Denver", label: "Denver", region: "", lat: 39.739150, lon: -104.984700 },
+      { id: "minneapolis", name: "Minneapolis", label: "Minneapolis", region: "", lat: 44.979970, lon: -93.263840 },
+      { id: "baltimore", name: "Baltimore", label: "Baltimore", region: "", lat: 39.290380, lon: -76.612190 },
+      { id: "austin", name: "Austin", label: "Austin", region: "", lat: 30.267150, lon: -97.743060 },
+      { id: "orlando", name: "Orlando", label: "Orlando", region: "", lat: 28.538340, lon: -81.379240 },
+      { id: "new-orleans", name: "New Orleans", label: "New Orleans", region: "", lat: 29.954650, lon: -90.075070 },
+      { id: "havana", name: "Havana", label: "Havana", region: "", lat: 23.133020, lon: -82.383040 },
+      { id: "san-juan", name: "San Juan", label: "San Juan", region: "", lat: 18.465500, lon: -66.105700 },
+      { id: "santo-domingo", name: "Santo Domingo", label: "Santo Domingo", region: "", lat: 18.471860, lon: -69.892320 },
+      { id: "port-au-prince", name: "Port-au-Prince", label: "Port-au-Prince", region: "", lat: 18.543490, lon: -72.338810 },
+      { id: "kingston", name: "Kingston", label: "Kingston", region: "", lat: 17.997020, lon: -76.793580 },
+      { id: "guatemala-city", name: "Guatemala City", label: "Guatemala City", region: "", lat: 14.634900, lon: -90.506900 },
+      { id: "san-salvador", name: "San Salvador", label: "San Salvador", region: "", lat: 13.689350, lon: -89.187180 },
+      { id: "tegucigalpa", name: "Tegucigalpa", label: "Tegucigalpa", region: "", lat: 14.081800, lon: -87.206810 },
+      { id: "managua", name: "Managua", label: "Managua", region: "", lat: 12.132820, lon: -86.250400 },
+      { id: "panama-city", name: "Panama City", label: "Panama City", region: "", lat: 8.982400, lon: -79.519900 },
+      { id: "bogota", name: "Bogota", label: "Bogota", region: "", lat: 4.609710, lon: -74.081750 },
+      { id: "medellin", name: "Medellin", label: "Medellin", region: "", lat: 6.245000, lon: -75.571510 },
+      { id: "cartagena", name: "Cartagena", label: "Cartagena", region: "", lat: 10.398170, lon: -75.493280 },
+      { id: "quito", name: "Quito", label: "Quito", region: "", lat: -0.229850, lon: -78.524950 },
+      { id: "lima", name: "Lima", label: "Lima", region: "", lat: -12.043180, lon: -77.028240 },
+      { id: "cusco", name: "Cusco", label: "Cusco", region: "", lat: -13.531880, lon: -71.967010 },
+      { id: "la-paz", name: "La Paz", label: "La Paz", region: "", lat: -16.500000, lon: -68.150000 },
+      { id: "sucre", name: "Sucre", label: "Sucre", region: "", lat: -19.033320, lon: -65.262740 },
+      { id: "santiago", name: "Santiago", label: "Santiago", region: "", lat: -33.456940, lon: -70.648270 },
+      { id: "valparaiso", name: "Valparaiso", label: "Valparaiso", region: "", lat: -33.036000, lon: -71.629630 },
+      { id: "buenos-aires", name: "Buenos Aires", label: "Buenos Aires", region: "", lat: -34.613150, lon: -58.377230 },
+      { id: "montevideo", name: "Montevideo", label: "Montevideo", region: "", lat: -34.903280, lon: -56.188160 },
+      { id: "brasilia", name: "Brasilia", label: "Brasilia", region: "", lat: -15.779720, lon: -47.929720 },
+      { id: "salvador-bahia", name: "Salvador da Bahia", label: "Salvador da Bahia", region: "", lat: -12.977700, lon: -38.501600 },
+      { id: "recife", name: "Recife", label: "Recife", region: "", lat: -8.053890, lon: -34.881110 },
+      { id: "belem", name: "Belem", label: "Belem", region: "", lat: -1.455830, lon: -48.504440 },
+      { id: "manaus", name: "Manaus", label: "Manaus", region: "", lat: -3.101940, lon: -60.025000 },
+      { id: "casablanca", name: "Casablanca", label: "Casablanca", region: "", lat: 33.588310, lon: -7.611380 },
+      { id: "marrakech", name: "Marrakech", label: "Marrakech", region: "", lat: 31.634160, lon: -7.999940 },
+      { id: "fez", name: "Fez", label: "Fez", region: "", lat: 34.033130, lon: -5.000280 },
+      { id: "timbuktu", name: "Timbuktu", label: "Timbuktu", region: "", lat: 16.773480, lon: -3.007420 },
+      { id: "dakar", name: "Dakar", label: "Dakar", region: "", lat: 14.693700, lon: -17.444060 },
+      { id: "accra", name: "Accra", label: "Accra", region: "", lat: 5.556020, lon: -0.196900 },
+      { id: "addis-ababa", name: "Addis Ababa", label: "Addis Ababa", region: "", lat: 9.024970, lon: 38.746890 },
+      { id: "nairobi", name: "Nairobi", label: "Nairobi", region: "", lat: -1.283330, lon: 36.816670 },
+      { id: "mombasa", name: "Mombasa", label: "Mombasa", region: "", lat: -4.054660, lon: 39.663590 },
+      { id: "zanzibar-city", name: "Zanzibar City", label: "Zanzibar City", region: "", lat: -6.165900, lon: 39.202600 },
+      { id: "kigali", name: "Kigali", label: "Kigali", region: "", lat: -1.949950, lon: 30.058850 },
+      { id: "kinshasa", name: "Kinshasa", label: "Kinshasa", region: "", lat: -4.327580, lon: 15.313570 },
+      { id: "goma", name: "Goma", label: "Goma", region: "", lat: -1.674090, lon: 29.228450 },
+      { id: "luanda", name: "Luanda", label: "Luanda", region: "", lat: -8.836820, lon: 13.234320 },
+      { id: "maputo", name: "Maputo", label: "Maputo", region: "", lat: -25.965530, lon: 32.583220 },
+      { id: "cape-town", name: "Cape Town", label: "Cape Town", region: "", lat: -33.925840, lon: 18.423220 },
+      { id: "mogadishu", name: "Mogadishu", label: "Mogadishu", region: "", lat: 2.037110, lon: 45.343750 },
+      { id: "hargeisa", name: "Hargeisa", label: "Hargeisa", region: "", lat: 9.560000, lon: 44.065000 },
+      { id: "khartoum", name: "Khartoum", label: "Khartoum", region: "", lat: 15.551770, lon: 32.532410 },
+      { id: "juba", name: "Juba", label: "Juba", region: "", lat: 4.851650, lon: 31.582470 },
+      { id: "tunis", name: "Tunis", label: "Tunis", region: "", lat: 36.818970, lon: 10.165790 },
+      { id: "algiers", name: "Algiers", label: "Algiers", region: "", lat: 36.732250, lon: 3.087460 },
+      { id: "luxor", name: "Luxor", label: "Luxor", region: "", lat: 25.698930, lon: 32.642100 },
+      { id: "giza", name: "Giza", label: "Giza", region: "", lat: 30.009440, lon: 31.208610 },
+      { id: "alexandria", name: "Alexandria", label: "Alexandria", region: "", lat: 31.201760, lon: 29.915820 },
+      { id: "aswan", name: "Aswan", label: "Aswan", region: "", lat: 24.090820, lon: 32.899420 },
+      { id: "wadi-musa-petra", name: "Wadi Musa / Petra", label: "Wadi Musa / Petra", region: "", lat: 30.328500, lon: 35.444400 },
+      { id: "isfahan", name: "Isfahan", label: "Isfahan", region: "", lat: 32.652460, lon: 51.674620 },
+      { id: "shiraz", name: "Shiraz", label: "Shiraz", region: "", lat: 29.610310, lon: 52.531130 },
+      { id: "yazd", name: "Yazd", label: "Yazd", region: "", lat: 31.897220, lon: 54.367500 },
+      { id: "samarkand", name: "Samarkand", label: "Samarkand", region: "", lat: 39.654560, lon: 66.964450 },
+      { id: "bukhara", name: "Bukhara", label: "Bukhara", region: "", lat: 39.770260, lon: 64.430690 },
+      { id: "khiva", name: "Khiva", label: "Khiva", region: "", lat: 41.385550, lon: 60.364080 },
+      { id: "madrid", name: "Madrid", label: "Madrid", region: "", lat: 40.416500, lon: -3.702560 },
+      { id: "barcelona", name: "Barcelona", label: "Barcelona", region: "", lat: 41.388790, lon: 2.158990 },
+      { id: "granada", name: "Granada", label: "Granada", region: "", lat: 37.188170, lon: -3.606670 },
+      { id: "seville", name: "Seville", label: "Seville", region: "", lat: 37.382830, lon: -5.973170 },
+      { id: "lisbon", name: "Lisbon", label: "Lisbon", region: "", lat: 38.725090, lon: -9.149800 },
+      { id: "dublin", name: "Dublin", label: "Dublin", region: "", lat: 53.333060, lon: -6.248890 },
+      { id: "belfast", name: "Belfast", label: "Belfast", region: "", lat: 54.596820, lon: -5.925410 },
+      { id: "amsterdam", name: "Amsterdam", label: "Amsterdam", region: "", lat: 52.374030, lon: 4.889690 },
+      { id: "brussels", name: "Brussels", label: "Brussels", region: "", lat: 50.850450, lon: 4.348780 },
+      { id: "zurich", name: "Zurich", label: "Zurich", region: "", lat: 47.366670, lon: 8.550000 },
+      { id: "frankfurt", name: "Frankfurt", label: "Frankfurt", region: "", lat: 50.115520, lon: 8.684170 },
+      { id: "munich", name: "Munich", label: "Munich", region: "", lat: 48.137430, lon: 11.575490 },
+      { id: "hamburg", name: "Hamburg", label: "Hamburg", region: "", lat: 53.550730, lon: 9.993020 },
+      { id: "stuttgart", name: "Stuttgart", label: "Stuttgart", region: "", lat: 48.782320, lon: 9.177020 },
+      { id: "central-german", name: "Central German Metropolitan Region", label: "Central German Metropolitan Region", region: "", lat: 51.339700, lon: 12.373100 },
+      { id: "rhine-ruhr", name: "ライン・ルール", label: "Rhine-Ruhr", region: "", lat: 51.227700, lon: 6.773500 },
+      { id: "ruhr", name: "Ruhr", label: "Ruhr", region: "", lat: 51.455600, lon: 7.011600 },
+      { id: "milan", name: "Milan", label: "Milan", region: "", lat: 45.464270, lon: 9.189510 },
+      { id: "naples", name: "Naples", label: "Naples", region: "", lat: 40.852160, lon: 14.268110 },
+      { id: "palermo", name: "Palermo", label: "Palermo", region: "", lat: 38.116600, lon: 13.363600 },
+      { id: "florence", name: "Florence", label: "Florence", region: "", lat: 43.779250, lon: 11.246260 },
+      { id: "venice", name: "Venice", label: "Venice", region: "", lat: 39.758950, lon: -84.191610 },
+      { id: "sarajevo", name: "Sarajevo", label: "Sarajevo", region: "", lat: 43.848640, lon: 18.356440 },
+      { id: "mostar", name: "Mostar", label: "Mostar", region: "", lat: 43.343330, lon: 17.808060 },
+      { id: "belgrade", name: "Belgrade", label: "Belgrade", region: "", lat: 44.804010, lon: 20.465130 },
+      { id: "kyiv", name: "Kyiv", label: "Kyiv", region: "", lat: 50.450100, lon: 30.523400 },
+      { id: "odesa", name: "Odesa", label: "Odesa", region: "", lat: 46.482500, lon: 30.723300 },
+      { id: "lviv", name: "Lviv", label: "Lviv", region: "", lat: 49.838260, lon: 24.023240 },
+      { id: "vilnius", name: "Vilnius", label: "Vilnius", region: "", lat: 54.689160, lon: 25.279800 },
+      { id: "riga", name: "Riga", label: "Riga", region: "", lat: 56.946000, lon: 24.105890 },
+      { id: "tallinn", name: "Tallinn", label: "Tallinn", region: "", lat: 59.436960, lon: 24.753530 },
+      { id: "krakow", name: "Krakow", label: "Krakow", region: "", lat: 50.061430, lon: 19.936580 },
+      { id: "gdansk", name: "Gdansk", label: "Gdansk", region: "", lat: 54.352270, lon: 18.649120 },
+      { id: "dubrovnik", name: "Dubrovnik", label: "Dubrovnik", region: "", lat: 42.641250, lon: 18.109090 },
+      { id: "nicosia", name: "Nicosia", label: "Nicosia", region: "", lat: 35.172840, lon: 33.353970 },
+      { id: "valletta", name: "Valletta", label: "Valletta", region: "", lat: 35.899680, lon: 14.514800 },
+      { id: "reykjavik", name: "Reykjavik", label: "Reykjavik", region: "", lat: 64.135480, lon: -21.895410 },
+      { id: "stockholm", name: "Stockholm", label: "Stockholm", region: "", lat: 59.329380, lon: 18.068710 },
+      { id: "montreal", name: "Montreal", label: "Montreal", region: "", lat: 45.508840, lon: -73.587810 },
+      { id: "portland", name: "Portland", label: "Portland", region: "", lat: 45.523450, lon: -122.676210 },
+      { id: "nashville", name: "Nashville", label: "Nashville", region: "", lat: 36.165890, lon: -86.784440 },
+      { id: "pittsburgh", name: "Pittsburgh", label: "Pittsburgh", region: "", lat: 40.440620, lon: -79.995890 },
+      { id: "cincinnati", name: "Cincinnati", label: "Cincinnati", region: "", lat: 39.127110, lon: -84.514390 },
+      { id: "st-louis", name: "St. Louis", label: "St. Louis", region: "", lat: 38.627000, lon: -90.199400 },
+      { id: "indianapolis", name: "Indianapolis", label: "Indianapolis", region: "", lat: 39.768380, lon: -86.158040 },
+      { id: "charlotte", name: "Charlotte", label: "Charlotte", region: "", lat: 35.227090, lon: -80.843130 },
+      { id: "tampa", name: "Tampa", label: "Tampa", region: "", lat: 27.947520, lon: -82.458430 },
+      { id: "riverside", name: "Riverside", label: "Riverside", region: "", lat: 33.953350, lon: -117.396160 },
+      { id: "sacramento", name: "Sacramento", label: "Sacramento", region: "", lat: 38.581570, lon: -121.494400 },
+      { id: "colombo", name: "Colombo", label: "Colombo", region: "", lat: 6.935480, lon: 79.848680 }
+    ];
+
+    const MAP = { width: 1000, height: 560, latMax: 85, latMin: -60 };
+    const LAND_PATHS = [
+      "M311.8 536.2L315.4 538.6L319.3 539.5L318.1 541.5L315.4 541.7L314 540.3L310.7 543.1L307.7 542.6L299.3 538.7L292.6 532.3L302.5 537.1L304.8 532.7L307.4 531.1L309.3 531.6L311.8 536.2Z",
+      "M337.4 525.6L339.6 527.4L338.8 528.7L335 529.9L333.8 528.5L331.4 530.3L330 528.5L333.3 526.2L335.7 527.2L337.4 525.6Z",
+      "M695.2 520.3L691 520.5L691.5 516.1L695.9 517.8L695.2 520.3Z",
+      "M903.9 485.8L906.6 487.2L911.9 486.1L912.1 490.7L910.9 495.2L909.9 494.1L908 496.8L905.7 496.5L904 493.2L902 487.2L902.1 485.5L903.9 485.8Z",
+      "M980.6 486.3L981.2 487.9L983.2 486.3L984 488L984 489.6L979.8 495.8L980.8 497.6L976.3 499.1L973.9 505.6L970.4 508.4L963 506.8L962.5 505.4L964 502.5L967.5 498.7L973.7 494.5L977.6 488.6L978 486.5L980 484.7L980.6 486.3Z",
+      "M985 467.9L987 472L987.1 469.3L988.4 470.4L988.8 473.3L991 474.6L995.9 473.9L994.4 479.5L992.2 479.5L988.9 487.7L986.8 489.3L985.1 487.7L986.7 484.5L985.8 482.4L982.8 480.9L982.9 479.5L984.9 478.1L985.3 472.6L979.5 461.6L980.6 461.3L984.2 464.5L985 467.9Z",
+      "M964.2 413.9L963.2 414.8L959.7 412L955.6 405.9L958.4 407.3L964.2 413.9Z",
+      "M995.5 395.2L996.4 396.4L996 398.4L992.7 398.4L992.5 396.7L993.5 395.4L995.5 395.2Z",
+      "M998.2 393.2L996.5 394L996.1 392.5L1000 390.3L1000 392.2L998.2 393.2Z",
+      "M0.2 392L0.6 390.1L0.2 392Z",
+      "M966.2 391.9L965.3 392.4L964.5 389.7L966.2 391.9Z",
+      "M964.2 386L964.6 389.1L963.3 388.8L962.9 384.8L964.2 386Z",
+      "M639 380.6L639.9 388.9L639.4 390.1L638.5 387.8L638 388.9L638.3 393.4L632.1 420.1L630.8 424.6L626.1 427.2L622.3 424.8L620.4 416.2L620.6 410.7L621.9 410L623.5 403.3L622.1 395.5L623.5 390.9L628.6 389.2L632.5 384.6L633 381L634.1 381.5L636.7 374.8L639 380.6Z",
+      "M898.8 381.4L899.8 384.5L901.6 383L903.8 386.1L906.6 401.5L913.5 407L915.8 414.6L916.9 413.7L918 415.4L918.7 414.8L919.2 418.9L924.6 425.9L925.4 429L925.3 433.6L926.6 436.8L924.7 450.5L923.5 454L921.4 455.9L917.6 466L916.7 472.8L915.1 474.2L912 474.3L906.4 479L902.4 476.6L902.9 474.6L898.9 478.2L890.7 475.1L888.9 472.7L887.7 467.8L886.3 466.3L883.7 465.8L884.6 463.9L883.9 461.1L882.6 463.7L880.1 464.5L883 458.2L882.8 455.3L878.8 460L877.7 463L875.6 461.4L875.7 459.4L872.5 455.1L873 454.2L864.8 449.9L859.8 450.3L853.1 453L850.4 452.7L845.1 455.6L843.5 459.2L833 459.5L827.8 463.7L824 463.5L819.5 460.3L819.6 458.1L821.4 456.7L821.4 450.4L819.6 442.1L814.8 429.1L816.1 430.8L815.1 427.2L817.3 429.8L815 422.5L817.1 412.3L817.3 415.2L818.5 412.6L824.2 408.2L826.2 408.4L831.3 405.3L835.7 404.3L839.6 398.6L839.8 394.9L841.7 391.6L842.9 395L844.1 394.2L843.1 392.4L843.9 390.5L845.2 391.3L845.5 388.4L849.1 383.2L850.3 383.7L850.4 382.7L853 381.6L856.6 385.7L860.1 386.1L859.5 384L862.8 376.7L864.5 375.3L868.3 375.1L868.2 373.1L866.2 371.8L867.7 371.3L871 373.8L875.8 375.6L879.1 374.1L880.4 376L878.6 379.6L877.7 379.7L876.4 386.2L889.5 396.7L891.3 395.4L892.4 391.6L893.6 386.4L893.6 376.2L895.9 369.5L898.7 377.8L898.8 381.4Z",
+      "M950.3 368.8L951.1 370.1L949.2 370.1L948.1 367.7L950.3 368.8Z",
+      "M835.3 367.8L830.5 365.2L833.1 364.4L835.5 366.8L835.3 367.8Z",
+      "M946.8 366.4L944 366.1L943.6 364L946.8 366.4Z",
+      "M949.1 365.4L948.7 366.1L946.1 360.4L947 360.4L949.1 365.4Z",
+      "M845.7 367.4L842.9 367.8L844.4 364.2L847.5 361.7L853.7 360.7L847.5 364.6L845.7 367.4Z",
+      "M827.5 359.5L828.5 360.6L830.2 360.3L830.9 361.9L824.3 363.2L825.2 360.9L826.8 360.9L827.5 359.5Z",
+      "M841.4 359.5L841 361.7L836.8 362.8L833.1 362.3L833.1 360.9L835.3 360.1L837.1 361.2L841.4 359.5Z",
+      "M944.1 360.5L944.2 361.3L939.5 356.9L944.1 360.5Z",
+      "M937.6 356.7L935.8 356L934.8 353.8L937.6 356.7Z",
+      "M801.7 354.5L807.1 354.8L807.7 353.2L812.8 355.1L813.8 357.6L818 358.3L821.4 360.6L818.2 362.1L815.2 360.5L809.8 360.3L801.9 357.8L800.8 358.3L795.7 356.7L795.2 355L792.7 354.7L794.6 351L798 351.3L801.4 353.1L801.7 354.5Z",
+      "M874.2 352.3L872.8 354.9L872.5 352L873.6 349.3L874.2 352.3Z",
+      "M933 354.6L932.2 355L931 353.5L929.6 347.8L933.4 353.5L933 354.6Z",
+      "M922.2 349.4L917.3 352.7L912 350.5L912.2 349.3L916.2 349.5L917.1 347.6L917.3 349.6L918.9 349.3L921.2 346.6L920.9 344.4L923.2 344.9L922.2 349.4Z",
+      "M853.5 341.6L852.4 342.9L850.5 342.2L850 340.5L852.8 340.4L853.5 341.6Z",
+      "M862.4 340.2L863.4 343.2L861.1 341.6L855.3 341.4L855.9 339.3L859.4 339.1L862.4 340.2Z",
+      "M925.4 345.7L924.5 346.7L923.4 342.9L918.5 338.9L919.3 337.9L922.9 340.8L925.4 345.7Z",
+      "M872.6 332.7L873.4 339L876.3 341.3L878.6 337.2L881.8 334.9L884.2 334.9L901.6 343.2L905.1 347.1L905.5 349.4L910.1 351.8L910.8 353.8L908.3 354.2L908.9 356.8L911.3 359.3L913.2 363.4L914.7 363.3L914.6 365L916.8 365.7L915.9 366.4L918.9 368L918.6 369.1L916.7 369.4L916.1 368.4L910.9 367.4L905.7 359.4L902.1 357.7L898 360.1L898.4 363L896.2 364.3L891.8 363.5L889.3 360.3L886.5 359.5L885.8 360.6L882.3 360.8L883.4 357.6L885.2 356.5L883.1 349.1L877.7 345.8L875.5 345.5L871.3 341.9L869.4 344.2L868.8 341.1L866.6 339.2L871.6 337.9L871.4 336.8L867.3 336.8L866.2 334.5L863.7 333.8L862.6 331.9L867.7 329.7L872.2 331.3L872.6 332.7Z",
+      "M847.9 322.8L845.7 326.6L843.6 327.4L840.9 326.6L833.8 327.4L833.4 330.3L835.9 333.7L837.4 332L842.6 330.7L842.4 332.4L841.2 331.9L840 334.1L837.5 335.6L840.2 340.6L839.6 341.9L842.1 346.4L842.1 348.9L840.6 350L839.5 348.7L840.9 345.5L838.2 347L837.5 345.9L837.8 344.5L835.8 342.2L836 338.4L834.2 339.6L834.5 349.6L832.8 350.2L831.6 349.1L831.9 341.8L830.8 341.7L829.9 339.1L833.4 326.1L835.8 323.2L841.5 324.9L844.7 324.7L847.4 321.9L847.9 322.8Z",
+      "M857.5 323.9L857.3 327.3L855.9 326.9L855.5 329.2L856.6 331.3L855.8 331.8L853.9 324.4L855.4 319.9L855.6 322L857.2 322.3L857.5 323.9Z",
+      "M793.9 350.9L790.9 351L785 344.6L775.7 327.6L773.9 321.2L764.9 309.1L764.7 307.1L770.8 308L779.6 320.2L782.4 320.2L788.4 327.9L787.3 331L789.9 332.5L791.4 337.3L793.4 337.7L794.7 340.1L793.9 350.9Z",
+      "M827.4 321.2L830.5 324.8L827.3 325.2L826.4 331.4L823.8 334L822.6 343.8L822.2 342.4L819.1 344.1L818 341.8L814.6 340.3L811.3 341.7L810.3 339.8L806.2 339.6L805.8 334.4L803 330.1L803 323.1L804.6 320.5L806.7 321.9L808.8 321.1L809.4 317.9L813.9 316.3L824.2 301.5L825.4 301.5L826.9 305.2L831.1 307.4L830.9 308.9L829 309.1L829.5 311L827.5 312.3L825.9 315.8L827.9 319.4L827.4 321.2Z",
+      "M851 295.8L851.5 300.5L850.5 304L849.5 300.1L848.2 302.1L849.1 304.9L848.3 306.7L845.1 304.5L844.3 301.7L845.1 299.8L843.4 298L842.5 299.6L841.2 299.5L839.1 301.6L839.8 297.2L843 294.7L844 296.5L846.1 295.4L846.6 293.7L848.5 293.6L848.4 290.6L850.6 292.4L851 295.8Z",
+      "M725.6 304.3L723.2 305.2L721.9 302.2L721.4 296.6L722.6 290.3L724.6 292.5L727.2 299.2L726.8 303.2L725.6 304.3Z",
+      "M330.7 289.2L327.9 289.3L328.7 286.7L330.8 286.4L330.7 289.2Z",
+      "M844.4 288.6L841.7 293.4L839.9 290.8L841.5 286.2L843.1 286L842.6 288.6L844.7 284.9L844.4 288.6Z",
+      "M829.2 292.3L825.5 296L832 284.4L832.5 287.5L829.2 292.3Z",
+      "M838.6 282.3L842 283.5L841.9 285.2L838.9 288L838.6 282.3Z",
+      "M848.6 281.3L849.4 285.6L847.3 284.6L848 288.3L846.7 289.1L845.3 283.9L846.9 284.2L846.9 282.7L845.2 279.8L847.9 279.9L848.6 281.3Z",
+      "M837.6 277.8L836.8 281.1L834.2 276.3L836.6 276.4L837.6 277.8Z",
+      "M837 256.8L838.7 257.9L839.6 256.9L840.3 262.3L839.6 265.5L838 266.7L838.1 272.9L840.8 272.9L844.3 275L844.7 279.9L841.5 275.9L840.8 277.4L839 275L836.5 275.6L835.1 274.8L836.1 272.2L835.3 271.3L834.9 272.7L833.5 270.5L833 265.1L834.1 266.3L835.3 256.8L837 256.8Z",
+      "M317.8 257.9L317.1 258.9L313.4 259L313.2 257.3L315.9 256.8L317.8 257.9Z",
+      "M286.4 259.3L284 259.3L282.4 257.9L282.7 257L286.4 257.2L288.3 259.2L286.4 259.3Z",
+      "M298.4 251.5L305.7 252.4L306.2 253.8L307.7 253.7L307.6 254.8L310.2 256.4L309.2 258L305.7 257.1L304.1 258L303.7 257.1L301.7 260.3L300.8 258.6L299 257.9L294.7 258.6L293.2 257.4L293.4 256.2L298.1 257L299.1 256.2L297.8 253L296.1 252.4L296.7 251.4L298.4 251.5Z",
+      "M806.5 256.1L804.1 258L801.8 256.8L801.7 253.5L803.1 251.7L807.7 250.7L808.4 252.2L806.5 256.1Z",
+      "M67.9 254.6L66.8 254.7L67.1 250L70 252.9L67.9 254.6Z",
+      "M66.4 248.5L65.5 248.8L64.7 247.5L66.4 248.5Z",
+      "M64.6 246.5L63 246.8L64.6 246.5Z",
+      "M62.1 245.9L60.8 246L60.3 244.9L61 244.4L62.1 245.9Z",
+      "M57.4 243.4L56.1 243.1L57.3 242.5L57.4 243.4Z",
+      "M278.7 240.4L279.8 241.8L282.4 241.3L287.4 246.4L290 247.1L289.8 248.2L293.9 249.9L293.6 250.8L284 251.6L285.9 249.4L283 248.2L281.3 244.9L272.7 242.6L271.8 241.8L272.8 240.9L270.1 240.7L266.5 243.7L264 243.7L267.3 240.3L271.5 238.7L276.1 239L278.7 240.4Z",
+      "M284.6 236.5L283.9 236.7L282.2 233.4L282.8 230.9L283.6 231.1L284.6 236.5Z",
+      "M836.6 240.3L835.4 243.4L833.6 237.3L837.5 230.6L838.8 231.7L836.6 240.3Z",
+      "M283.8 225.6L280.8 226.2L280.6 224.8L283.8 224.6L283.8 225.6Z",
+      "M286.1 225.6L285.6 228.3L283.9 223.8L286.1 225.6Z",
+      "M874 196.4L874.4 197.7L872.8 200.1L871.6 198.8L870.2 199.7L869.5 202L867.7 200.9L869.2 196.7L870.8 197.2L872 195.6L874 196.4Z",
+      "M596 190.5L594.2 192.2L594.5 193.2L591.6 194.8L590.3 194.3L589.6 192.7L596 190.5Z",
+      "M565.8 190.4L567.4 191.7L573 191.9L572.7 193.1L568.7 193.4L565.3 192L565.8 190.4Z",
+      "M543.1 180.6L541.9 186.8L534.5 183L534.9 181L543.1 180.6Z",
+      "M525.6 169.1L527.2 171.9L526.9 177L525.6 176.7L524.5 178L523.4 177L522.7 170.1L524.2 170.3L525.6 169.1Z",
+      "M891.6 184.8L890.6 187.9L891 189.8L889.6 192.6L886 194.4L881.2 194.6L877.2 199L875.3 197.5L875.2 194.7L870.4 195.5L867.1 197.3L863.9 197.4L866.7 200.2L864.8 206.8L863 208.4L861.7 206.9L862.4 203.5L860.6 202.3L859.5 199.7L862.1 198.5L868.4 191.4L873.9 190.3L876.9 191.1L879.8 184.2L881.6 186L887.3 180.7L889 176L888.6 171.6L889.7 169.2L892.7 168.5L894.1 177L891.6 180.8L891.6 184.8Z",
+      "M526.6 165.5L525.6 168.5L524.4 167.7L523.7 165.1L526.1 162.2L526.6 165.5Z",
+      "M899.8 157.7L901.7 158.5L903.7 156.9L904.3 161.2L900.2 162.3L897.7 166.1L893.4 163.4L891.9 167.7L888.8 167.7L888.4 163.9L889.8 160.9L892.7 160.7L894.4 152.4L899.8 157.7Z",
+      "M323.2 148.5L327.7 148.9L325.3 150.7L321.8 149.1L321.1 147.8L322.2 146.6L323.2 148.5Z",
+      "M328.3 138.6L323.4 137.5L320.8 135.7L325.4 136.3L328.3 138.6Z",
+      "M156.9 140.9L155.5 141.5L151 139.7L147.1 135.9L144.3 135.2L143.4 132.2L150.7 134L156.9 140.9Z",
+      "M344.1 132.5L342.2 135.9L344 134.6L345.9 135.4L344.9 136.8L351.5 138.1L350.6 140.9L352.5 140.2L353.8 144.7L352.6 148.1L349.5 147.5L350.1 144.3L349.3 143.9L346.1 147.2L344.5 147.1L346.4 145.3L343.7 144.3L335.4 144.4L334.9 143.3L336.7 141.9L335.5 140.9L337.8 138.5L340.7 132.4L342.4 130.2L346.1 129L344.1 132.5Z",
+      "M131.4 119.6L134 119.3L133.2 123.6L135.6 126.8L134.5 126.7L130.4 122L130.1 119.1L131.4 119.6Z",
+      "M899 132.3L901.8 139.1L897.7 137.9L896 143.4L898.7 147.4L898.6 150.1L896.5 147.8L894.7 150.7L894.2 139.6L894.9 131.5L893.3 127.7L893.6 122.4L896.1 120.6L895 118.9L896.3 118.3L899 132.3Z",
+      "M481.1 126.4L476.2 128.7L472.3 128.1L474.5 124.1L473.1 120.2L479 115.4L481.3 115.2L484.3 117.6L482.8 120.2L483.2 123L481.1 126.4Z",
+      "M535.3 113.5L533.6 116.6L530.7 114.5L530.3 112.8L534.4 111.6L535.3 113.5Z",
+      "M75 107.7L72.2 109.2L70.4 106.4L74.4 104.4L76.2 104.7L77.4 105.9L75 107.7Z",
+      "M491.7 101.8L488.7 106L494.6 105.5L493.8 108.6L491.3 112.1L494.2 112.3L496.9 117.3L498.8 117.9L501.3 123.9L504.7 124.6L504.3 127.1L502.9 128.2L504 130.2L501.5 132.2L493.1 133.2L491.8 132.5L490 134.3L487.4 133.9L485.4 135.3L484 134.6L488 130.5L490.5 129.7L486.2 129L485.4 127.5L488.3 126.3L486.7 124.2L487.3 121.7L491.4 122L491.8 119.8L489.9 117.3L486.5 116.7L485.9 115.6L486.9 113.9L486 112.8L484.5 114.7L484.3 110.9L482.9 109L483.9 105L486.1 101.8L491.7 101.8Z",
+      "M40.1 96.9L38.4 97.5L34.8 95.7L39.8 95.4L40.1 96.9Z",
+      "M279.8 88.2L278.7 90.2L276.8 88.8L278 87.3L279.8 88.2Z",
+      "M272.5 86.1L269.3 88.2L267.3 88.1L266.7 87.1L268.7 85.3L272.6 85.3L272.5 86.1Z",
+      "M23 81.9L31.4 83.8L29.1 85.1L25.9 83.5L23.5 83.7L23 81.9Z",
+      "M263.4 74.7L264 76.4L265.4 75.8L273.2 79.3L273.5 81.2L275.5 80.9L277.5 82.2L275 83.4L270.7 82.4L269.1 80.7L262.4 84.8L261.5 82.5L257.7 82.9L260.1 81L261.4 74.4L263.4 74.7Z",
+      "M459.7 71.6L459.1 74.1L462.2 76.8L458.6 79.7L448.2 83L436.8 81.3L439.5 79.6L433.5 77.7L438.4 76.9L438.3 75.8L432.4 74.9L434.3 72.4L438.5 71.8L442.8 74.4L447.1 72.3L450.6 73.4L455.1 71.3L459.7 71.6Z",
+      "M289.3 68.9L286.1 69.1L285.5 67.2L286.6 65.1L289.2 64.5L291.3 65.6L291.1 67.8L289.3 68.9Z",
+      "M13.8 71.1L15.7 72.1L15.1 69.3L22.6 69.9L28.1 73.5L25.3 75.2L20.7 75.6L20.7 79.3L19.6 80.1L17 80L11.2 77.5L10.5 75.9L4.6 75.7L3 74.4L3.6 72.9L0.3 73.9L1.6 75.7L0 77.3L0 61.9L14.1 68.7L13.8 71.1Z",
+      "M234.3 61.4L232.6 62.7L228.8 61.6L226.6 62L222.8 60.2L227.2 57.4L231.8 59.2L234.3 61.4Z",
+      "M1000 54.7L997 54.9L996.5 53.7L1000 52.1L1000 54.7Z",
+      "M3.6 54.5L0 54.7L0 52.1L6.7 53L3.6 54.5Z",
+      "M248.5 59.9L248.5 63.8L252.2 60.8L255.5 63.3L254.7 66.1L257.4 68.7L262.3 62.6L262.4 58.4L270.5 59.3L274.2 61.2L274.4 63.1L272.3 65.1L274.3 67.2L273.9 69.1L268.5 71.8L264.6 72.4L261.8 71.2L257.4 78.1L254.2 80.7L250.2 81L248 82.6L247.9 85.1L244.6 85.6L241.2 88.7L238.2 93.1L237 100.6L241.1 101.3L243.6 107.8L247.5 107L252.7 108.7L257.4 112L263.9 114.7L271.5 115.3L271.9 122.5L273.9 126.8L278 130.5L280.2 129.2L281.7 125.3L280.2 119.2L278.3 117.1L282.7 115.3L287.4 109.9L287.2 107.4L285.3 104.1L281.9 101.2L285.2 97.1L283 87.6L285 86.7L292.6 88.1L294.9 87.1L300.9 90.7L301.7 92.2L306.7 92.5L307.5 100.6L310.1 101.2L312.1 103.5L316.1 101.3L320.6 95.3L329.5 108.3L328.3 110.7L334.5 115.1L340.7 117.3L341.8 120.6L344 121.1L345.1 122.5L345.3 126.9L341.3 129.7L336.7 131.1L333.2 134.2L315.6 134.3L313.2 137.1L309.7 138.8L302.5 147.4L304.8 146.8L309.3 141.7L315.1 138.5L319.3 138.1L321.7 140L319.1 142.6L320.9 149.7L324.5 151.6L329.1 151.1L331.9 146.7L332.1 149.5L333.9 150.9L330.4 153.5L321.5 157.3L318.4 160.1L316.3 159.8L316.2 156.5L321 153.4L313.5 154L314 155.2L305.2 159.6L303.3 162.7L303.3 164.8L304.2 166.8L305.3 166.9L305 165.5L305.9 166.4L305.7 167.5L295.2 170.2L299.3 169.5L300.2 170.2L296.3 171.4L294.6 170.9L293.7 172L294.5 172.1L293.9 174.9L291.9 177.9L290.2 175.7L291.5 180L289.1 184.5L289.7 181.8L288.2 180.3L287.9 177.1L288 181.2L286.2 180.6L288.1 181.8L289.6 191L287.9 193.8L285 195L280.4 198.9L274.1 206.9L274.1 212.3L277.6 224.5L276.7 230.9L274.5 230.9L273 228.4L269.8 220.6L270.4 218L269.6 215.9L266.4 212.1L263.6 213.8L260 210.9L252.3 211.2L251.1 211.7L252.2 215.2L249.6 215.8L247.6 215.7L245.5 213.7L239.3 213.5L231.7 219L229.5 222.5L230.2 228.4L228.1 241.6L232.5 253.7L233.6 255.6L236.6 256.6L237.7 258.2L244.3 256L247.9 253.8L249.2 247.2L254 245.3L258.2 245.1L258.8 247.8L256.6 252.4L256 257.8L254.7 256.8L254.6 264.4L253 266.9L255.2 267.7L263.9 266.5L268.3 269.3L268.9 273L267.2 285.4L271.6 293.5L273.8 294.3L279 291.2L281.9 291.9L285.1 294.8L286.6 294.9L289.8 291.8L290.3 287.3L291.9 285.5L296.1 284.9L300.7 280.2L302.4 281.5L301.8 283.7L300.1 284.2L301 287.9L299.8 290.2L300.8 293.2L302 293L302.7 290.2L301.7 285.9L305.1 284.3L304.7 282.5L305.7 281.3L306.7 284L308.7 284.1L310.6 287.5L316 287.1L317.6 288.9L319.7 289.4L321.3 287.2L328.1 286.9L325.7 288L326.7 289.9L328.9 290.1L331 292L331.5 295.1L332.9 295.1L335.8 297.4L337.5 299.9L337.6 301.9L341.3 305.2L344.6 306L347.1 305L350.1 306L353.1 307.4L356.5 312.2L357.5 312L359.7 320.9L361.2 321.6L361.3 324.2L359.2 327.4L360 328.6L364.9 329.2L365 333.1L367.2 330.5L375.3 334.3L376.6 336.5L376.2 338.7L379.4 337.5L384.8 339.5L388.9 339.4L396.6 346.9L401.1 348.2L403.5 356.6L402.4 363L392.6 378.7L390.9 397.3L389.6 404L386.7 409L386.3 413L384 414.7L383.4 417L376 418.5L367.6 424.4L365.3 428.2L364.2 439L359.2 447.9L354.8 452.8L350.5 461.1L347.4 463.3L343.8 462.9L341.3 461.2L339.4 461.4L337.7 459.2L337.5 461.3L341 464.6L340.7 467.2L342.4 468.9L342.3 470.8L339.6 475.7L335.5 477.8L326.8 478.2L327.4 485.4L325.7 486.7L322.9 487.3L320.2 485.9L319.1 486.9L319.5 490.7L321.4 491.9L322.9 490.7L323.7 492.7L318.9 496.3L317.9 502.2L315.3 502.2L313.1 504.2L312.3 507.1L315 509.9L317.7 510.7L316.7 514.2L313.4 516.3L311.6 520.9L307.9 524.2L308.8 528.2L310.7 530.5L307.1 530.2L303.2 532.6L302.8 536.2L298.5 535L291.8 530.1L290 516.3L291.2 512.5L294.1 509.6L289.9 508.4L292.5 505L293.5 498.6L296.6 500L298 492L296.1 490.9L295.3 495.8L293.5 495.2L295.3 482.5L296.6 479.9L295.6 471.8L296.8 471.7L301.6 453.5L301.4 439.7L303 435L305.1 404.6L304.5 399.1L301.7 396.9L301.5 395.3L288.9 384.9L288.2 380.5L278.4 356.1L274.3 352L275.2 350.3L273.9 346.6L278.4 338.5L277.8 336.9L276.8 338.6L275.1 337L275.2 332.4L276.2 331.8L277.5 325.3L281 322.9L280.6 321.7L281.6 321.5L282.1 318.1L283.5 317.9L285.8 313.4L284.7 312.5L284.8 302.4L282.7 299.3L282.1 297.2L282.8 296.1L280.2 293.5L279 293.8L276.4 297L277.8 299.1L275.3 300.4L274.8 298.1L273.6 298.5L273 297L269.9 296.3L269.9 297.1L268 295.7L267.7 293.3L264 289.3L263.6 291.4L262.1 289.9L262.1 286.7L261.3 286.2L261.9 285.5L256.5 278.4L257.5 278.1L257 276.9L254.2 277.4L246.6 274.5L240.7 268L237 265.7L231.8 267.8L219.9 262L216.9 259.1L212.5 257.6L207 251.2L206.3 249.4L207.2 249L207.6 245.5L205.5 240.3L198.9 231.1L196.5 229.5L196.4 226.2L193.4 223.4L192.7 220.7L191.2 220.4L188.3 216.5L185.7 207.9L181.2 205.5L181.5 211.8L190 225.3L192.6 234.4L194 234.6L196.1 238L194.8 240.2L191.8 235.6L188.4 232.7L188.1 227.8L180.4 221.2L181.7 221.1L182.9 218L179.1 214.1L174.2 200.6L170.8 196.9L164.9 194.6L154.4 172.6L155 166.1L154.1 163.1L155.8 152.5L153.6 142.2L154 141.4L158 142.7L159.5 146.4L160.2 145.4L158.8 139L151 133.6L146 132L144.5 128.5L144.9 126.2L141.3 124.5L140.8 121.4L137.5 118.6L137.4 116.6L133.4 113.9L132.6 110.6L129.1 107.4L127.6 103.8L120.5 103.5L111.5 98.3L104 96.2L100.1 96.6L91.3 93.1L88.3 94L88.8 96.6L78.6 99.8L78.2 97.5L79.4 93.7L82.4 92.6L81.6 91.6L72.2 99.1L74.2 100.9L71.6 103.7L65.8 106.5L65.1 108.2L60.8 110.2L59.9 112L42.3 118.2L41.8 117.5L50.5 112.4L54 112L61.9 105.9L63.8 100.7L60.6 101.9L59.7 101.2L58.2 102.6L56.4 100.7L55.6 102.1L54.6 100.1L50.1 101.7L50.3 98L48.6 96.6L44.9 97.3L40.7 94.6L40.7 92.4L38.6 90.8L42.9 84.4L47 84.7L49.3 82.9L51.3 83.2L53.4 82L52.9 80.2L51.3 79.5L53.4 78.1L47.9 79.8L45.7 78.9L41.8 79.4L37.7 78.5L33 74.7L43.1 71.2L45.4 71.2L45 73.1L50.9 72.9L40.6 65.5L36.8 64.3L38.3 62.2L43.2 62.1L46.8 60.4L47.4 58.5L50.3 56.6L58.2 54.5L60.8 54.7L65.1 52.7L69.3 53.5L71.3 55.2L77.2 54.7L77 55.6L81.3 56.3L84.1 55.9L97.4 58L101.1 57.3L120.8 62.2L126.6 59.4L130.8 59.8L139.5 57.2L141.4 58.8L143.4 57.9L144.1 56.1L150.7 59.9L154.4 57.3L154.8 60.2L158.2 59.6L159.2 58.5L162.6 58.7L173.3 61.7L179.9 62.2L183.6 64.1L179.7 66L184.7 66.9L194.6 65.7L197.6 68L200.6 66.1L197.7 64.5L199.5 63.1L205.1 62.6L210.2 65.6L213.3 65.3L218.2 67L226.5 66.5L226.2 64.1L228.7 63.4L233 64.7L233 68.4L234.8 65.3L237 65.4L238.2 61.5L232 57.6L232.2 53.3L235.5 50.5L239.2 51.1L242 52.8L245.8 57.2L243.3 59.1L248.5 59.9Z",
+      "M182.9 45.9L181.5 47.7L187.7 46.5L191.5 48.5L194.7 46.5L197.2 47.8L199.5 51.6L200.9 50L198.9 46L204.1 46.1L207.2 47.6L209.8 54.1L219.5 57.8L219.2 59.5L214.6 59.8L216.4 61.3L215.5 62.7L205.7 61.1L185.2 63.6L183.7 61.8L179.9 60.7L177.5 61.1L174.1 58.1L187.7 56.5L182.4 55.6L172.5 55.8L171 54.4L177.5 52.9L168.3 51.9L172.6 47.5L180 45.1L182.9 45.9Z",
+      "M209.7 44.7L207.3 47.3L202.9 44.6L207.6 43.9L209.7 44.7Z",
+      "M287.9 45.9L288.2 47L279.2 47.3L275.3 45.1L275.5 43.7L283.2 43.8L287.9 45.9Z",
+      "M259.5 45.7L261.7 48.1L264.3 45L271.3 43.4L276.1 47.4L275.7 50L283.8 47.3L293.8 51.1L294.2 52.8L299.3 51.9L302.2 54.4L308.9 55.9L311.3 57.5L314 61.1L308.9 62.9L319.8 66.2L323.8 69.8L328.2 70L327.3 72.8L322.4 77.2L314.7 71.9L311.1 72.4L310.7 74.6L318.6 79.6L320.4 83.4L319.4 86.2L308.9 82.1L315.8 87.7L316.2 89.1L302.7 85.3L299.3 83.4L300.3 82.3L292.1 78.5L292.2 79.6L284.1 80.2L281.8 78.9L283.6 76L294.6 75.5L293.6 74.1L298.2 68.4L297.4 66.7L292.1 63.5L286.5 62.2L288.3 61.2L285.3 58.8L280.7 57.3L279.2 58.4L274.2 58.9L253.7 56.3L251.4 55L254.3 53.2L250.3 53.2L249.4 49.3L251.6 45.8L254.4 44.3L261.6 43.2L259.5 45.7Z",
+      "M221.2 43.1L224.5 43.9L229.5 43.4L230.2 44.5L227.6 46.4L231.8 48L231.3 51.5L226.8 53L224.1 52.7L215.3 48.2L215.3 47L221 47.5L217.9 45L221.2 43.1Z",
+      "M898.9 45.5L888.5 44.9L891.1 43.4L894.6 43L898.6 44.5L898.9 45.5Z",
+      "M241.1 47.2L238.1 50.1L235 50L233.3 44.7L237.5 42L248.6 43L244.4 46.5L241.1 47.2Z",
+      "M165.4 52.5L158.1 54.4L156.6 52.8L150.2 50.7L155.7 43.7L153 41.4L162.4 40.7L173.5 41.8L179.1 44.5L168.8 48.2L165.4 50.9L165.4 52.5Z",
+      "M918.7 38.3L915.5 39.8L905.9 38L906.6 36.7L918.7 38.3Z",
+      "M240 38.7L238.5 40.2L231.1 38.9L232.5 37.2L236.5 36.1L240 38.7Z",
+      "M903 36.4L900.8 39.3L890.6 39.2L886 40.1L880.5 37.6L882 35L885.6 34.2L893 34.4L903 36.4Z",
+      "M226.4 32L228.5 33.8L227.3 38.6L222.8 39L219.8 38.4L219.8 36.1L215.3 36.4L215.1 33.5L226.4 32Z",
+      "M199.4 34L200.5 35.4L205.9 34.9L206.4 36.8L204.7 38.6L195.3 39.2L188.3 40.9L184 41L183.7 39.7L189.5 38L173 37.8L176.8 34L179.4 32.9L187.2 34.2L192.2 36.5L197 36.8L193.1 33.1L195.6 31.7L198.5 32.1L199.4 34Z",
+      "M659.8 55.1L649.1 55L648.4 53.3L643.3 52.2L642.9 50.1L645.8 49.3L645.7 47.2L651.2 43.9L648.6 43.4L655.3 40.1L654.5 38.3L669.9 33.8L689.3 31.1L691.3 32.7L689.4 33.9L671.1 37.6L662.4 41.3L653.9 48.8L654.5 52L659.8 55.1Z",
+      "M237 30.5L240.1 31.8L245.5 31.8L247.9 33L247.3 34.5L252.3 36.3L274.6 35.9L277.6 37.3L278.2 38.9L272.4 40.8L255.1 41L243.3 39.2L242 35.2L239.2 33.5L230.2 31.9L231.3 30.3L237 30.5Z",
+      "M177.2 28.4L176.8 31.4L174.7 32.7L162.5 35.1L158.7 34.3L169.2 28.9L177.2 28.4Z",
+      "M797.1 31L797.9 32.9L800.4 32L808.5 32L817 35.3L816.3 37.4L803.9 41.8L811.4 43.3L813.9 42.6L815.4 45.1L821 43.4L829.9 44.1L830.6 45.9L842.2 46.5L842.4 43.5L852.7 44.2L857.2 46.2L858.5 48.7L856.8 50.3L860.3 53.3L864.7 54.9L867.4 50.8L871.8 52.6L876.6 51.5L881.9 52.7L884 51.6L888.5 52.2L886.5 48.6L890.2 46.9L915.3 49.4L917.6 51.7L924.9 54.7L936.1 53.9L941.7 54.6L944 56.2L943.6 59L947.1 60.1L950.8 59.3L966.2 59.5L971 63L974.5 61.7L972.2 59.3L973.5 57.6L988.1 58.4L996.1 60.2L1000 61.9L1000 77.3L996.4 79L992.8 78.8L995.3 80.8L998.6 86.6L997.9 87.7L992.7 86.8L982.4 90.2L974.2 95.3L973.1 97L969.2 94.3L961.9 97.4L960.7 95.9L958 97.6L954.3 97.1L953.4 99.6L950 103.3L950.1 104.9L953.3 105.8L952.9 111.4L950.4 111.5L949.2 114.8L950.3 116.4L945.5 118.4L944.5 122.8L940.4 123.7L939.5 127.7L935.5 131.3L931.8 114.4L933.1 109L935.4 106.7L935.6 104.9L939.9 104.1L949.6 95.2L954.6 92.1L956.9 86.7L953.5 87L951.8 90.2L944.8 94.4L942.5 89.7L935.3 91L928.4 97.5L930.7 99.9L920.2 101.3L920.4 98.5L916.1 97.9L912.6 99.8L904.1 99.1L895 100.3L875.4 116.9L879.7 117.4L881.1 119.8L883.8 120.7L885.6 118.7L888.6 119L892.6 123.2L892.7 126.5L890.5 130.4L889.1 141.2L883.9 149.4L874.6 160.7L870.9 162.9L869.2 163L867.4 161.1L861 166.3L860.3 170.4L854.3 174.7L853.8 176.8L856.5 179.2L859.6 186.2L859.6 190.7L858.6 192.8L851.3 195.5L851.6 190.5L850.3 186.4L852.4 185.8L850.5 182.5L849.1 181.7L848 182.8L846.4 181.1L847.8 178.9L848.1 175.5L845.2 174.1L836.3 178.1L837.7 176.3L837.2 174.8L839.4 172.2L837.9 170.1L832.3 174.2L830.6 176.7L827.9 176.9L826.5 178.7L827.9 181.3L830.2 181.9L830.3 183.6L832.5 184.8L835.6 182L839.9 183.6L840.3 185.6L836.4 186.7L831 193.5L834 195.6L838.6 205.9L838.6 208.7L836.8 209.8L839.1 213.1L838 219.3L836.5 219.6L829.6 233.5L821.9 240.3L818.8 240.7L817.1 242.4L816.1 241.2L814.6 243.1L807.7 245.6L806.8 249.7L805.2 249.9L804.5 247.1L805.2 245.6L801.5 244.4L796.4 248.3L794.1 252L793.5 254.7L798.2 263.8L802.4 269.3L803.7 276.4L803.3 283.2L792.1 295.1L791.1 292.6L791.9 290L789.8 287.8L787.5 287.2L785 281.2L782.5 279.4L780.1 279.5L780.5 276.5L778 276.5L775.6 292.6L777.4 292.7L779.1 299.6L786 306.9L787.2 309.5L787.5 317.5L789.5 323.3L787.6 323.5L781.6 317.6L778.3 307.8L778 303.3L773.6 295.9L773.2 298.2L772.6 296L774.3 284.1L769.9 262.9L764.9 267.6L761.6 266.3L762.6 261.5L762 257.9L759.8 253.5L760.2 252.1L758.6 251.6L756.6 248.4L753.9 240.4L751.4 240.2L750.8 243.9L747.3 243.1L746.9 244.5L741.6 245.3L741.8 248.2L740.3 250.4L736.3 253L728.3 262.6L728.3 264.3L723.1 266.9L722.3 269.8L723 278L721.8 281.7L721.8 288.3L720.4 288.5L719.1 291.4L720 292.7L717.4 293.8L715.4 297.5L712.8 293.9L708 279.1L706.8 271.8L704.3 266.5L701.8 245.8L697.7 248.1L695.8 247.6L692.1 243L693.5 241.6L692.6 240.1L687.3 235.8L684.4 230.1L670.8 231.4L659.4 228.9L658.3 224.1L656.9 223.4L652 226L648.6 224.7L645.8 221.8L643.1 220.7L639.2 211.8L637.7 212.5L635.9 211.2L634.9 212.7L633.3 212.5L635.6 221.3L639.3 225.2L639.2 228.1L641.1 232.7L641.7 227.8L642.5 227.4L643.3 228.6L642.7 233.2L643.9 235.5L650 235.1L656.6 226.3L656.7 232L657.9 234.7L663.1 237.3L666.1 242.1L662.5 249.4L660.6 250.1L660.3 255.1L657.2 256.5L656.3 259.2L653.5 260.2L653.5 261.7L645.5 265L644.9 268L637.7 271.5L635.2 274.2L626.7 276.9L625 279.2L620.8 279.5L618.3 269.5L618.5 263.5L613.7 253L608.7 246L608.5 241.1L606.9 236.8L604.1 234.5L602.6 229.4L597.6 219.9L596.2 219.9L597 214.3L594.2 221.5L592 218.5L590.1 213L594.7 227.3L599.1 235.9L598.7 239.1L602.4 243.3L604.1 256.4L606.7 258.8L609.1 266.8L620.3 280.4L620.2 282L618.7 283L622.5 287.9L623.9 287.9L642 281.8L641.8 287.2L637.4 302L632.6 312L629.3 317.2L619.8 327.1L615.5 334.8L611.8 338.2L608.9 346.3L607.8 353.3L609.6 354.7L608.9 361L612.4 369.9L613.3 385L609.6 392.9L603.9 396.2L596.6 404.7L596.4 407.4L598.8 413.6L598.5 421.4L590.5 427.6L591.4 429.5L589.5 439.3L578.4 454.8L572 458.3L571.6 459.4L562.7 459.1L554.5 462.7L550.7 459.1L549.8 454.2L550.7 453.5L550.6 450.6L542.3 432.9L539.6 413.7L532.8 398.1L532.7 389.3L534.7 380.6L537.9 374.8L538 369.7L535.8 363.7L536.8 361.3L533.1 347.7L524.4 332.6L527.2 316.4L526.1 313.9L524.9 313.2L523.6 309.8L518.6 311.9L516.4 311.8L512 304.1L505.2 304.6L494.5 310.1L487.1 308.3L479.1 311.5L475 309.6L465.5 300.2L464 298.2L463.2 293.9L459.5 288.8L458.8 286.3L455.3 283.8L453.9 281.3L453.6 275.8L451 271.4L452.3 270.7L454.3 266L455.1 258.3L454.8 250.7L452.6 247.2L452.9 243.8L454.8 240.7L455.6 236.7L458.1 233.6L459.9 226.9L461.7 225.5L464.9 220L467.5 219.6L473.4 212.7L472.7 207.9L474.2 202.5L476 199.9L480.8 196.5L483.5 190.2L485.6 190.2L487.2 191.8L494 192.5L504.1 186.9L514.8 186.5L517.4 185L523.4 185.6L526.4 184L528.4 184.5L528.3 186.4L530.6 185L530.8 185.8L529.4 187.7L530.4 190.4L530 193.7L528.2 195.7L528.7 197.8L530.2 197.9L531.9 200.3L542.3 203.7L543.6 207.1L553 211.4L555.7 208.6L555.1 205.6L555.9 203.8L559.8 201.4L563.6 202.2L564.5 203.9L569.2 205.1L569.9 206.4L573.6 206.3L580.3 209.1L583.6 206.7L586 206.4L588 206.9L588.8 208.8L589.4 207.5L593.8 208.7L596 206.4L600 194.5L600.4 189.9L599.4 188.2L600.4 186.7L596.4 186.2L594.5 188.4L590.3 188.8L588.1 186.8L585.1 186.6L584.4 188.2L582.5 188.7L579.8 186.6L576.8 186.7L573.1 180.7L574.5 177.7L572.7 175.9L575.8 172.2L580.1 172L581.2 169.1L586.5 169.6L593.1 166L597.7 165.9L606.5 170.1L612.1 169.9L615.4 167.9L615.8 166.2L615.1 163.6L601.9 153.5L603.9 152.9L606.2 149.7L604.6 148.2L608.7 146.6L608.7 145.7L597.1 149.6L597.3 152L598.6 152.9L601.5 152.7L600.9 154L594.1 156.9L592.6 156.2L593.2 154.3L590.2 153.2L593.3 151.2L592.5 150.3L588.2 149.3L588 147.9L585.4 148.4L582.3 154.3L580.1 154.8L579.3 159.5L576.9 163.8L578.1 167.5L580.5 168.8L580 169.7L576.7 169.9L573.2 173.2L572.4 170.6L569.2 170.1L565.9 171.1L567.8 173.3L566.4 173.9L564.8 173.9L563.4 172L562.9 172.8L564.9 176.9L563.8 177.8L566.7 180.7L566.8 182.8L564.2 181.8L565 183.8L563.3 184.2L564.3 187.6L562.5 187.7L560.2 186L558.7 180.3L553.9 172.8L554.3 167.1L552.5 165L544.5 160.2L542.2 157.4L541.4 154.2L539.6 153.6L538.8 155.2L537.9 154L538.7 152.2L536.5 151.6L534.2 153L535 158L537.6 159.9L539 163.1L542.1 166.2L544.2 166.2L544.9 167.1L544.1 167.8L551.3 173.1L550.8 174.5L549.3 172.7L546.9 172.1L545.7 174.6L547.7 176L547.4 178L546.2 178.3L544.7 181.6L543.6 181.9L544.7 177.8L542.8 173.6L537.9 169.2L535.8 169L533.6 167.2L529.2 162.5L528.3 158.7L524.7 156.9L518.1 161.7L512.7 160.7L508.6 161.9L508.4 166.5L505.8 169.1L502.3 169.9L499.2 176.5L500.3 178.7L498.1 182.9L496 183.7L494 186.6L487.9 186.6L485.1 189.4L483.7 189.1L481.9 185.6L479.3 185L478.2 186L475.3 185.9L475.4 180.5L473.5 178.7L475.6 170.9L475 163.8L473.9 162.1L477.8 159.3L494.7 160.6L496.2 158.3L496.7 150.6L491.8 144.6L487.5 143.1L487.2 140.3L490.8 139.4L495.5 140.4L494.6 136L497.3 137.7L503.7 134.7L504.6 131.5L510.6 128.9L513.1 123.2L519.7 120.9L522 120.7L522.6 121.5L524.4 119.6L522.6 113.9L522.5 109.9L523.7 107.7L526.2 107.5L529.4 105.3L528.5 108.6L530.3 110.2L526.8 114L527.6 117.4L530.4 118.3L530.4 119.7L534.8 117.9L539.2 120.7L549 116.4L551.7 117.1L551.9 118L554.6 118.1L555.2 116.4L559.1 115.1L558.6 109L559.9 106.5L562.6 105.2L564.8 108.1L567 108L567.9 102.8L566.8 103.3L565.1 101.9L564.8 99.7L571.8 98.1L577.7 98.6L580.9 96.4L578 94.6L563.5 97.1L561.9 95L559.2 93.8L559.8 90L558.5 86.5L559.8 84.2L570.6 76.8L570.3 75.2L566.4 73.4L561.6 74.4L558.9 77.1L559.4 79.5L549.6 85.9L547.6 91.4L552.2 96.2L549.6 100.6L546.7 101.5L544.1 111.6L540.7 111.2L539.2 114.3L536 114.5L530.6 101L528.8 98.6L523.3 103.1L519.6 104L515.7 102L513.9 88.9L516.4 86.5L523.8 83.2L529.2 79.2L541 66.4L553.3 58.6L559.4 56.9L564 57.2L568.2 54L578.2 53.4L586.9 56.2L583.3 57.2L586.4 59.6L589.3 58.3L593.8 60.6L601.4 61.5L611.9 65.9L614.1 67.8L614.2 70.3L611.2 72.4L606.6 73.4L594.2 70.4L592.2 70.9L596.7 73.8L597.1 79.5L602.8 81.7L603.2 79.8L601.4 78.1L603.3 76.7L610 79.1L612.3 78.2L610.5 75.3L616.9 71.5L622.1 73.1L623.7 70.5L621.4 68.2L622.7 65.8L620.7 63.5L628.5 64.7L630.1 66.9L626.5 67.3L626.6 69.5L628.7 70.8L633 70L633.7 67.5L649.2 62.3L651.3 62.5L648.6 64.9L652 65.3L654 64L659.2 63.9L663.3 62.3L666.5 64.6L669.7 62L666.8 59.8L668.2 58.5L676.4 59.7L690.3 65.3L692.2 63.3L689.3 60.4L685.9 60L686.8 58.2L685.3 54L690.4 50.5L692.2 46.9L694.3 46.2L701.6 47.2L702.2 49.4L699.6 52.5L701.3 53.7L702.2 56.4L701.6 61.7L704.6 64.1L703.4 66.7L698 72.1L701.2 72.7L702.3 71.3L705.3 70.3L706.1 68.4L708.5 66.6L706.9 64.4L708.2 61.8L705.1 61.5L704.4 59.4L706.7 55.5L703.1 52.3L708 49.7L707.4 47L708.8 46.9L710.2 49L709.1 52.8L712.1 53.5L710.8 50.7L715.5 49.2L721.3 49L726.4 51.2L723.9 48L723.6 43.8L741.2 42.7L738.9 40.7L742.1 38.2L758.1 35.6L759 34.6L766.3 34.2L768.6 35.1L774.8 33L779.9 33.1L780.7 31.4L783.3 29.8L789.9 28.2L794.6 29.5L790.8 30.4L797.1 31Z",
+      "M239.3 28.9L232.9 28.8L232.1 27.7L237.7 27.7L239.3 28.9Z",
+      "M193.9 28.2L188.7 29.3L184.6 28.1L190.9 26.4L194.8 27L193.9 28.2Z",
+      "M568.7 27.6L562.5 29.2L557.6 28.3L559.5 27.3L557.8 26.1L563.6 25.3L564.7 26.7L568.7 27.6Z",
+      "M195.4 24.7L187.4 25.5L190.3 23.8L195.4 24.7Z",
+      "M233.8 26.8L229.7 27.6L227.4 26.7L226 23.7L234.6 25.4L233.8 26.8Z",
+      "M222.1 25.8L223.1 27.4L207.8 25.6L210.5 24.4L207.2 23.5L207 22L219.9 23.9L222.1 25.8Z",
+      "M791.9 25.8L776.2 27.3L781.3 22.3L783.6 21.8L792.7 24.3L791.9 25.8Z",
+      "M550.7 20.5L559.8 23.3L552.9 24.9L551.3 27.7L548.9 28.4L547.6 31.6L544.2 31.8L538.2 29.4L540.7 28.1L536.6 26.9L531.2 23.7L529 20.7L536.6 19.3L538.1 20.6L542.1 20.6L543.1 19.2L547.2 19.1L550.7 20.5Z",
+      "M570.7 17.7L576.1 19.1L572 21.2L564 21.6L555.8 21L555.3 19.9L551.3 19.9L548.2 18.1L556.8 17L560.9 17.9L563.7 16.8L570.7 17.7Z",
+      "M642 17.2L632.2 19.3L629.2 18.4L630.8 17.1L624.6 17L634.2 16.3L634.8 17.3L639 15.8L643.1 16.6L642 17.2Z",
+      "M777.6 23.6L771.5 24.1L763.8 23L759.2 21.5L757.1 18.8L753.3 18L760.5 15.4L766.5 14.5L778.3 20.2L777.6 23.6Z",
+      "M258.3 20.6L261.6 21.9L252.7 25.9L247.8 26.2L242 25.7L239 24.1L239.1 22.7L241.3 21.7L236.2 21.7L231.4 18.7L235.2 15.8L238.1 15.5L236.8 14.7L243.3 14.5L246.9 16.5L256.1 18.1L258.3 20.6Z",
+      "M309.7 7.3L323.1 8.1L328.2 9.2L328.1 10.2L312.1 13.5L318.1 13.5L307 16.9L302.3 20.1L286.4 21.9L290.2 22.4L288.3 23.1L290.6 25L278.4 30.1L278.8 31L283.6 30.8L283.6 31.8L276.2 34.1L269 33L251.4 32.9L251.1 31.1L256.2 30.2L254.8 27.4L264 28.8L260.2 26.3L255.7 25.6L257.9 24.1L262.8 23.2L263.6 21.8L259.7 20.3L258.5 18.3L268.3 18.9L272.6 17.5L256.7 17.3L251.8 16L246.2 13.3L245.6 12L258.4 10.5L262.5 9.1L268.9 10.4L271.1 8.3L279.7 7.2L309.7 7.3Z",
+      "M424.7 5.7L442.1 8.8L437 10.3L411.4 10.8L431 12.4L436.4 11.2L438.7 12.6L435.6 14.9L456.2 11.9L464.5 12.7L466.1 14.3L453.2 18L444.3 18.6L450.7 18.8L445.3 24.1L445.4 28.4L448.7 31L439.8 32.3L444.9 34.4L445.6 37.7L442.6 38L446.2 41.3L440 41.6L443.2 43.2L442.3 44.6L434.5 45.2L438 47.8L438.1 49.5L432.6 47.9L431.1 48.9L434.9 49.9L438.5 52.3L439.6 55.4L434.6 56.1L429 52.4L430 55L426.8 57.1L437.9 57.4L422.9 63.8L411.7 65.2L408.9 66.7L405 70.8L399 73.5L389.4 75.5L387 77.9L387 80.6L385.6 83.1L381.1 86.2L382.2 89.2L379.5 96.2L375.6 96.4L371.5 93.3L365.9 93.2L356.6 82.5L354.8 76.6L350.9 73L351.9 70.1L350.1 68.8L352.8 64.3L357 62.8L358.7 58.2L351.5 60.7L348.1 59.4L347.9 56.8L349 54.8L357.2 55.7L350 52L347.2 52.5L344.9 51.5L348 47.9L340.8 39.7L337.2 38.2L337.3 36.6L329.8 34.4L309.7 34.5L301.7 30.9L314.5 29.4L302.7 28.4L296.4 26.9L296.8 25.4L317.5 21.6L318.5 20.2L311 18.9L313.5 17.3L327.1 14.2L326 12.5L341.1 10.8L349.6 10.8L352.7 12L360 9.9L376.3 12.9L369.7 10.8L370.1 9.2L379.4 6.9L389.2 7L392.7 5.6L424.7 5.7Z"
+    ];
+
+    const storageKey = "worldcityatlas.visited";
+    const thumbnailCityIds = new Set([
+      "new-york", "tokyo", "london", "paris", "los-angeles", "istanbul", "beijing", "jerusalem", "delhi", "shanghai", "washington-dc", "singapore", "dubai", "seoul", "moscow", "mexico-city", "cairo", "mumbai", "sao-paulo", "hong-kong", "jakarta", "lagos", "dhaka", "osaka", "nagoya", "san-francisco", "chicago", "houston", "dallas", "boston", "philadelphia", "seattle", "atlanta", "rhine-ruhr"
+    ]);
+    const currentLayer = document.querySelector("[data-current-layer]");
+    const graticuleLayer = document.querySelector("[data-graticule-layer]");
+    const landLayer = document.querySelector("[data-land-layer]");
+    const markerLayer = document.querySelector("[data-map-markers]");
+    const thumbnailDefs = document.querySelector(".world-map defs");
+    const cities = [...new Map(VISITED_CITIES.map((city) => [city.id, city])).values()];
+    const cityById = new Map(cities.map((city) => [city.id, city]));
+    const cityIds = new Set(cities.map((city) => city.id));
+    let saved = readSaved();
+
+    function readSaved() {
+      try {
+        return new Set(JSON.parse(localStorage.getItem(storageKey) || "[]").filter((id) => cityIds.has(id)));
+      } catch (error) {
+        return new Set();
+      }
+    }
+
+    function svgElement(name, attributes = {}) {
+      const element = document.createElementNS("http://www.w3.org/2000/svg", name);
+      Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, value));
+      return element;
+    }
+
+    function project(lon, lat) {
+      return {
+        x: (lon + 180) / 360 * MAP.width,
+        y: (MAP.latMax - lat) / (MAP.latMax - MAP.latMin) * MAP.height
+      };
+    }
+
+    function formatPoint(point) {
+      return `${point.x.toFixed(1)} ${point.y.toFixed(1)}`;
+    }
+
+    function drawBaseMap() {
+      graticuleLayer.innerHTML = "";
+      landLayer.innerHTML = "";
+      currentLayer.innerHTML = "";
+
+      for (let lon = -150; lon <= 150; lon += 30) {
+        const top = project(lon, MAP.latMax);
+        const bottom = project(lon, MAP.latMin);
+        graticuleLayer.appendChild(svgElement("path", {
+          class: "map-graticule",
+          d: `M${formatPoint(top)}L${formatPoint(bottom)}`
+        }));
+      }
+
+      for (let lat = -30; lat <= 60; lat += 30) {
+        const left = project(-180, lat);
+        const right = project(180, lat);
+        graticuleLayer.appendChild(svgElement("path", {
+          class: "map-graticule",
+          d: `M${formatPoint(left)}L${formatPoint(right)}`
+        }));
+      }
+
+      [-35, 0, 35].forEach((lat, index) => {
+        const p0 = project(-180, lat);
+        const p1 = project(-60, lat + (index === 1 ? 8 : 4));
+        const p2 = project(60, lat - (index === 1 ? 8 : 4));
+        const p3 = project(180, lat);
+        currentLayer.appendChild(svgElement("path", {
+          class: "map-current",
+          d: `M${formatPoint(p0)}C${formatPoint(p1)} ${formatPoint(p2)} ${formatPoint(p3)}`
+        }));
+      });
+
+      LAND_PATHS.forEach((d) => {
+        landLayer.appendChild(svgElement("path", { class: "land", d }));
+      });
+    }
+
+    function createThumbnailClip(city, point) {
+      if (!thumbnailCityIds.has(city.id)) return;
+      const clipPath = svgElement("clipPath", {
+        id: `thumb-clip-${city.id}`,
+        clipPathUnits: "userSpaceOnUse"
+      });
+      clipPath.appendChild(svgElement("circle", {
+        cx: point.x.toFixed(1),
+        cy: point.y.toFixed(1),
+        r: "28"
+      }));
+      thumbnailDefs.appendChild(clipPath);
+    }
+
+    function syncView() {
+      saved = readSaved();
+      const visitedElements = [];
+      document.querySelectorAll("[data-city-id]").forEach((element) => {
+        const isVisited = saved.has(element.dataset.cityId);
+        element.classList.toggle("is-visited", isVisited);
+        if (isVisited && element.classList.contains("city-marker")) visitedElements.push(element);
+      });
+      visitedElements.forEach((element) => {
+        markerLayer.appendChild(element);
+      });
+    }
+
+    drawBaseMap();
+
+    cities.forEach((city) => {
+      const point = project(city.lon, city.lat);
+      createThumbnailClip(city, point);
+      const marker = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      marker.classList.add("city-marker");
+      marker.classList.toggle("has-thumbnail", thumbnailCityIds.has(city.id));
+      marker.dataset.cityId = city.id;
+      marker.setAttribute("role", "link");
+      marker.setAttribute("tabindex", "0");
+      marker.setAttribute("aria-label", `${city.name}のページへ移動`);
+      marker.innerHTML = `<title>${city.name}</title><circle class="marker-hit" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="12"></circle><circle class="marker-halo" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="10"></circle><circle class="marker-core" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="5"></circle><image class="marker-thumb" href="/${city.id}/header.png" x="${(point.x - 28).toFixed(1)}" y="${(point.y - 28).toFixed(1)}" width="56" height="56" preserveAspectRatio="xMidYMid slice" clip-path="url(#thumb-clip-${city.id})"></image><circle class="marker-thumb-frame" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="28"></circle>`;
+      marker.addEventListener("click", () => {
+        window.location.href = `/${city.id}/`;
+      });
+      marker.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          window.location.href = `/${city.id}/`;
+        }
+      });
+      markerLayer.appendChild(marker);
+    });
+
+    syncView();
+    window.addEventListener("pageshow", syncView);
+    window.addEventListener("storage", (event) => {
+      if (event.key === storageKey) syncView();
+    });
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible") syncView();
+    });
+  </script>
+</body>
+</html>
