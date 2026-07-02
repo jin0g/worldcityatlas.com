@@ -119,7 +119,7 @@ Progress notes:
 - [x] 037 `madrid` - Madrid - DONE - capital functions, museums, finance, migration, housing pressure, heat, football, and late-night food culture
 - [x] 038 `munich` - Munich - DONE - Bavarian capital, automotive engineering, science, beer gardens, housing pressure, memory politics, and Alpine urban nature
 - [x] 039 `philadelphia` - Philadelphia - DONE - founding memory, universities and medicine, manufacturing labor, Black history, immigrant food, rowhouses, murals, sports, transit, and river climate
-- [ ] 040 `toronto` - Toronto
+- [x] 040 `toronto` - Toronto - DONE - finance, immigration neighborhoods, housing pressure, universities, transit, Lake Ontario, food culture, Indigenous memory, film, and inequality
 - [ ] 041 `atlanta` - Atlanta
 - [ ] 042 `baghdad` - Baghdad
 - [ ] 043 `guangzhou` - Guangzhou
