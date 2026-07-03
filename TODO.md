@@ -6,7 +6,7 @@
 - [x] Convert city pages to ordinary static HTML content.
 - [x] Use JavaScript only for shared hierarchical header and simple footer.
 - [x] Create Japanese skeleton prose for all currently implemented city pages.
-- [x] Generate local placeholder `header.png` / `street.png` style images for all currently implemented cities, preserving Tokyo `street.png`.
+- [x] Generate local placeholder `header.jpg` / `street.jpg` style images for all currently implemented cities, preserving Tokyo `street.jpg`.
 - [x] Add hierarchical header navigation by region, country, and city.
 - [x] Replace footer with centered `© WORLD CITY ATLAS 2026`.
 - [x] Replace one oversized "deep read" block with multiple city-specific sections.
@@ -15,7 +15,7 @@
 - [x] Remove `common.js`.
 - [x] Update `index.html` to the new GDP ranking order.
 - [x] Convert all existing city pages to static HTML.
-- [ ] Generate AI-only images for Tokyo, inspect candidates, and adopt final `tokyo/header.png` and `tokyo/street.png`.
+- [ ] Generate AI-only images for Tokyo, inspect candidates, and adopt final `tokyo/header.jpg` and `tokyo/street.jpg`.
 - [ ] Continue city pages in editorial importance ranking order.
 
 ## Static Page Rules
@@ -48,18 +48,36 @@ Progress notes:
 - Dubai is completed under the current image-and-section template.
 - Seoul is completed under the current image-and-section template.
 - Moscow is completed under the current image-and-section template.
+- Taipei is completed under the current image-and-section template.
 - Mexico City is completed under the current image-and-section template.
 - Cairo is completed under the current image-and-section template.
 - Mumbai is completed under the current image-and-section template.
 - Sao Paulo is completed under the current image-and-section template.
+- Orlando is completed under the current image-and-section template.
+- Seattle is completed under the current image-and-section template.
+- Madrid is completed under the current image-and-section template.
+- Munich is completed under the current image-and-section template.
 - Hong Kong is completed under the current image-and-section template.
+- San Francisco is completed under the current image-and-section template.
+- Osaka is completed under the current image-and-section template.
+- Chicago is completed under the current image-and-section template.
+- Rio de Janeiro is completed under the current image-and-section template.
+- Miami is completed under the current image-and-section template.
+- Rome is completed under the current image-and-section template.
+- Barcelona is completed under the current image-and-section template.
+- Tel Aviv is completed under the current image-and-section template.
+- Boston is completed under the current image-and-section template.
+- Buenos Aires is completed under the current image-and-section template.
+- Melbourne is completed under the current image-and-section template.
+- Amsterdam is completed under the current image-and-section template.
+- Suzhou is completed under the current image-and-section template.
 - Jakarta is completed under the current image-and-section template.
 - Manila is completed under the current image-and-section template.
 - Bangkok is completed under the current image-and-section template.
 - New York has been converted from the older mixed layout to the current feature-section template.
 - For each city, start AI image generation first, then implement HTML/prose while waiting.
 - The second city image is now AI-generated abstract hand-drawn style, not Python-generated.
-- Existing Python-generated `street.png` files also need AI abstract illustration replacements; update them progressively, including Tokyo, London, Paris, and all older placeholder cities.
+- Existing Python-generated `street.jpg` files also need AI abstract illustration replacements; update them progressively, including Tokyo, London, Paris, and all older placeholder cities.
 - Index cards exist for all 400 cities; pages are implemented progressively in this scored order.
 
 - [x] 001 `new-york` - New York - DONE
@@ -71,85 +89,85 @@ Progress notes:
 - [x] 007 `beijing` - Beijing - DONE
 - [x] 008 `istanbul` - Istanbul - DONE
 - [x] 009 `hong-kong` - Hong Kong - DONE
-- [ ] 010 `san-francisco` - San Francisco
+- [x] 010 `san-francisco` - San Francisco - DONE
 - [x] 011 `washington-dc` - Washington DC - DONE
 - [x] 012 `moscow` - Moscow - DONE
-- [ ] 013 `taipei` - Taipei
+- [x] 013 `taipei` - Taipei - DONE
 - [x] 014 `shanghai` - Shanghai - DONE
-- [ ] 015 `osaka` - Osaka
+- [x] 015 `osaka` - Osaka - DONE
 - [x] 016 `mexico-city` - Mexico City - DONE
 - [x] 017 `berlin` - Berlin - DONE
-- [ ] 018 `chicago` - Chicago
+- [x] 018 `chicago` - Chicago - DONE
 - [x] 019 `singapore` - Singapore - DONE
-- [ ] 020 `rio-de-janeiro` - Rio de Janeiro
-- [ ] 021 `miami` - Miami
-- [ ] 022 `rome` - Rome
-- [ ] 023 `barcelona` - Barcelona
-- [ ] 024 `tel-aviv` - Tel Aviv
+- [x] 020 `rio-de-janeiro` - Rio de Janeiro - DONE
+- [x] 021 `miami` - Miami - DONE
+- [x] 022 `rome` - Rome - DONE
+- [x] 023 `barcelona` - Barcelona - DONE
+- [x] 024 `tel-aviv` - Tel Aviv - DONE
 - [x] 025 `cairo` - Cairo - DONE
-- [ ] 026 `boston` - Boston
+- [x] 026 `boston` - Boston - DONE
 - [x] 027 `delhi` - Delhi - DONE
 - [x] 028 `dubai` - Dubai - DONE
-- [ ] 029 `buenos-aires` - Buenos Aires
-- [ ] 030 `melbourne` - Melbourne
-- [ ] 031 `amsterdam` - Amsterdam
-- [ ] 032 `suzhou` - Suzhou - Jiangnan gardens, canals, silk culture, and water-town urbanism
+- [x] 029 `buenos-aires` - Buenos Aires - DONE
+- [x] 030 `melbourne` - Melbourne - DONE
+- [x] 031 `amsterdam` - Amsterdam - DONE
+- [x] 032 `suzhou` - Suzhou - DONE - Jiangnan gardens, canals, silk culture, and water-town urbanism
 - [x] 033 `mumbai` - Mumbai - DONE
 - [x] 034 `bangkok` - Bangkok - DONE
-- [ ] 035 `orlando` - Orlando
-- [ ] 036 `seattle` - Seattle
-- [ ] 037 `madrid` - Madrid
-- [ ] 038 `munich` - Munich
-- [ ] 039 `philadelphia` - Philadelphia
-- [ ] 040 `toronto` - Toronto
-- [ ] 041 `atlanta` - Atlanta
-- [ ] 042 `baghdad` - Baghdad
-- [ ] 043 `guangzhou` - Guangzhou
-- [ ] 044 `shenzhen` - Shenzhen
-- [ ] 045 `milan` - Milan
-- [ ] 046 `hangzhou` - Hangzhou
-- [ ] 047 `new-orleans` - New Orleans
-- [ ] 048 `houston` - Houston
-- [ ] 049 `chengdu` - Chengdu
-- [ ] 050 `san-diego` - San Diego
+- [x] 035 `orlando` - Orlando - DONE - theme parks, tourism labor, suburban growth, wetlands, and housing inequality
+- [x] 036 `seattle` - Seattle - DONE - technology, port logistics, aerospace, music, rain, Indigenous memory, and housing pressure
+- [x] 037 `madrid` - Madrid - DONE - capital functions, museums, finance, migration, housing pressure, heat, football, and late-night food culture
+- [x] 038 `munich` - Munich - DONE - Bavarian capital, automotive engineering, science, beer gardens, housing pressure, memory politics, and Alpine urban nature
+- [x] 039 `philadelphia` - Philadelphia - DONE - founding memory, universities and medicine, manufacturing labor, Black history, immigrant food, rowhouses, murals, sports, transit, and river climate
+- [x] 040 `toronto` - Toronto - DONE - finance, immigration neighborhoods, housing pressure, universities, transit, Lake Ontario, food culture, Indigenous memory, film, and inequality
+- [x] 041 `atlanta` - Atlanta - DONE - civil rights memory, airport logistics, Black culture, corporate media, sprawl, universities, immigration, highways, tree canopy, and sports
+- [x] 042 `baghdad` - Baghdad - DONE - Tigris geography, Abbasid memory, state politics, war memory, oil services, markets, religion, education, housing, climate, and recovery
+- [x] 043 `guangzhou` - Guangzhou - 珠江デルタ、広交会、製造業、広東語文化、飲茶、市場、城中村、地下鉄、アフリカ交易、洪水、歴史遺産を扱う静的ページを実装済み。
+- [x] 044 `shenzhen` - Shenzhen - 改革開放、テック製造、華強北、移民労働、城中村、金融、香港境界、デザイン文化、住宅圧力、気候リスクを扱う静的ページを実装済み。
+- [x] 045 `milan` - Milan - 金融、製造、ファッション、デザイン、大聖堂、移民労働、鉄道、食、オペラ、住宅格差、気候と大気を扱う静的ページを実装済み。
+- [x] 046 `hangzhou` - Hangzhou - 西湖、デジタル経済、運河物流、龍井茶、宋代遺産、観光混雑、住宅郊外化、若者労働、宗教儀礼、湿潤気候と水害を扱う静的ページを実装済み。
+- [x] 047 `new-orleans` - New Orleans - ミシシッピ川、港湾物流、ジャズ、クレオール食、フレンチクォーター、カトリーナの記憶、黒人史、観光夜間経済、住宅格差、湿地と気候リスクを扱う静的ページを実装済み。
+- [x] 048 `houston` - Houston - バイユー地理、エネルギー産業、港湾、宇宙・医療研究、移民の食、住宅スプロール、洪水、黒人・ラティーノ文化、交通、芸術を扱う静的ページを実装済み。
+- [x] 049 `chengdu` - Chengdu - 四川盆地、電子産業とゲーム、茶館、火鍋、川劇、交通、住宅成長、パンダ観光、若者労働、気候と地震記憶を扱う静的ページを実装済み。
+- [x] 050 `san-diego` - San Diego - 国境地理、海軍港湾、バイオ・大学、バルボア公園、メキシコ食文化、住宅、気候と水、移民、サーフ文化、交通を扱う静的ページを実装済み。
 - [x] 051 `jakarta` - Jakarta - DONE
-- [ ] 052 `nanjing` - Nanjing
-- [ ] 053 `nagoya` - Nagoya
-- [ ] 054 `detroit` - Detroit
+- [x] 052 `nanjing` - Nanjing - 長江地理、首都の記憶、戦争の追悼、大学研究、電子製造、港湾物流、塩水鴨、市場、地下鉄、紫金山、気候と洪水を扱う静的ページを実装済み。
+- [x] 053 `nagoya` - Nagoya - 中部日本の地理、自動車・航空宇宙の製造網、名古屋駅、名古屋港、城下町、味噌食文化、郊外住宅、大学研究、熱田神宮、気候災害を扱う静的ページを実装済み。
+- [x] 054 `detroit` - Detroit - デトロイト川の国境地理、自動車産業、労働組合、モータウン、黒人史、住宅空洞化、ダウンタウン再生、カナダ国境、壁画、五大湖の気候と水を扱う静的ページを実装済み。
 - [x] 055 `sao-paulo` - Sao Paulo - DONE
 - [x] 056 `jerusalem` - Jerusalem - DONE
 - [x] 057 `manila` - Manila - DONE
-- [ ] 058 `chongqing` - Chongqing
-- [ ] 059 `dallas` - Dallas
-- [ ] 060 `lima` - Lima
-- [ ] 061 `rhine-ruhr` - Rhine-Ruhr
-- [ ] 062 `vienna` - Vienna - Capital of Austria
-- [ ] 063 `montreal` - Montreal
-- [ ] 064 `xian` - Xi'an - Chinese ancient capital, Silk Road memory, and Buddhist heritage
-- [ ] 065 `kolkata` - Kolkata
-- [ ] 066 `bengaluru` - Bengaluru
-- [ ] 067 `busan` - Busan
-- [ ] 068 `bogota` - Bogota
-- [ ] 069 `riyadh` - Riyadh
-- [ ] 070 `wuhan` - Wuhan
-- [ ] 071 `santiago` - Santiago
-- [ ] 072 `nashville` - Nashville
-- [ ] 073 `austin` - Austin
-- [ ] 074 `qingdao` - Qingdao - German treaty-port history, beer culture, beaches, and port industry
-- [ ] 075 `cape-town` - Cape Town
-- [ ] 076 `frankfurt` - Frankfurt
-- [ ] 077 `baltimore` - Baltimore
-- [ ] 078 `lisbon` - Lisbon
-- [ ] 079 `hamburg` - Hamburg
-- [ ] 080 `san-jose` - San Jose
-- [ ] 081 `prague` - Prague - Capital of Czechia
-- [ ] 082 `dublin` - Dublin
-- [ ] 083 `denver` - Denver
-- [ ] 084 `brussels` - Brussels
-- [ ] 085 `zurich` - Zurich
-- [ ] 086 `hawaii` - Hawaii / Honolulu - Pacific island hub and Native Hawaiian history
-- [ ] 087 `kuala-lumpur` - Kuala Lumpur - Capital of Malaysia
-- [ ] 088 `st-louis` - St. Louis
+- [x] 058 `chongqing` - Chongqing - 長江と嘉陵江の合流、山地都市、内陸工業と物流、火鍋文化、戦時首都の記憶、移住労働、夜景観光、軌道交通、農村後背地、気候洪水を扱う静的ページを実装済み。
+- [x] 059 `dallas` - Dallas - 北テキサス内陸地理、企業本社と金融、空港物流、エネルギーと技術、黒人・ラティーノ文化、芸術地区、郊外住宅、JFKの記憶、暑熱と嵐、スポーツを扱う静的ページを実装済み。
+- [x] 060 `lima` - Lima - 海岸砂漠、歴史地区、カヤオ港、食文化、移住と住宅、産業サービス、先住民と植民地の記憶、交通渋滞、水と気候、海岸観光を扱う静的ページを実装済み。
+- [x] 061 `rhine-ruhr` - Rhine-Ruhr - ライン川とルール川の地理、石炭鉄鋼、物流鉄道、化学工業、労働記憶、移民文化、大学研究、サッカー文化、グリーン転換、多核生活を扱う静的ページを実装済み。
+- [x] 062 `vienna` - Vienna - Capital of Austria - ドナウ川とリング通り、ハプスブルク帝国の記憶、音楽文化、カフェ、国際機関、社会住宅、公共交通、移民とユダヤ記憶、教育研究、観光遺産を扱う静的ページを実装済み。
+- [x] 063 `montreal` - Montreal - セントローレンス川とモン・ロワイヤル、仏語英語政治、港湾物流、航空宇宙と大学、移民地区、祭り、冬の生活、トリプレックス住宅、先住民と植民地記憶、市場文化を扱う静的ページを実装済み。
+- [x] 064 `xian` - Xi'an - Chinese ancient capital, Silk Road memory, and Buddhist heritage - 古都地理、唐都の記憶、兵馬俑、シルクロードとイスラム、航空宇宙と防衛、大学研究、交通物流、食と夜、郊外拡張、観光混雑を扱う静的ページを実装済み。
+- [x] 065 `kolkata` - Kolkata - フーグリー川と港湾、植民地首都の記憶、ベンガル文化、ドゥルガー・プージャ、路面電車、産業サービス、移民と貧困、教育知識人、市場、気候洪水を扱う静的ページを実装済み。
+- [x] 066 `bengaluru` - Bengaluru - デカン高原、ITと起業、航空宇宙研究、移住労働、庭園都市とカントンメント、交通とメトロ、水と湖、教育研究、食文化、住宅格差を扱う静的ページを実装済み。
+- [x] 067 `busan` - Busan - 港湾地理、海運物流、魚市場と食、山腹集落、映画文化、造船産業、海岸観光、日韓海峡史、高齢化住宅、台風気候を扱う静的ページを実装済み。
+- [x] 068 `bogota` - Bogota - アンデス高原、政治首都、BRTと移動、紛争の記憶、文化と大学、住宅格差、市場と食、治安と夜、環境と水、観光遺産を扱う静的ページを実装済み。
+- [x] 069 `riyadh` - Riyadh - 砂漠の内陸首都、王権と行政、エネルギーと金融、移民労働、宗教と公共性、文化遺産、ビジョン2030、暑熱気候、郊外住宅、食市場を扱う静的ページを実装済み。
+- [x] 070 `wuhan` - Wuhan - 長江と漢江の地理、交通結節、光谷産業、大学と東湖、熱乾麺と市場、辛亥革命の記憶、洪水と酷暑、医療の記憶、住宅日常、観光文化を扱う静的ページを実装済み。
+- [x] 071 `santiago` - Santiago - アンデス盆地地理、政治首都、鉱業と金融、地震リスク、住宅格差、独裁記憶と文化、メトロ移動、食とワイン、水不足と気候、観光地区を扱う静的ページを実装済み。
+- [x] 072 `nashville` - Nashville - カンバーランド川の地理、音楽産業、医療と大学、観光と夜、南部公民権記憶、住宅成長、食文化、物流と空港、洪水と気候、近隣生活を扱う静的ページを実装済み。
+- [x] 073 `austin` - Austin - 川と丘陵の地理、技術産業、州都機能、音楽文化、大学と研究、住宅成長、食とフードトラック、水と暑さ、交通とスプロール、政治的アイデンティティを扱う静的ページを実装済み。
+- [x] 074 `qingdao` - Qingdao - 湾と地形、港湾と物流、ドイツ租借地、ビールと食、海洋産業、観光と海水浴場、海軍と近代史、住宅と成長、気候と海岸、文化と大学を扱う静的ページを実装済み。
+- [x] 075 `cape-town` - Cape Town - 山と地形、港湾と物流、議会と政治、アパルトヘイトの記憶、タウンシップと住宅、観光と海岸、ワインと食文化、水と気候、文化と言語、交通と鉄道を扱う静的ページを実装済み。
+- [x] 076 `frankfurt` - Frankfurt - マイン川と都市骨格、金融と欧州中央銀行、空港と物流、見本市と交易、旧市街と記憶、移民と日常生活、出版と書籍文化、住宅とラインマイン圏、緑地環と環境、欧州ネットワークを扱う静的ページを実装済み。
+- [x] 077 `baltimore` - Baltimore - チェサピーク湾、港湾物流、医療研究、連棟住宅、黒人文化、産業記憶、住宅格差、鉄道、水辺再生を扱う静的ページを実装済み。
+- [x] 078 `lisbon` - Lisbon - テージョ川、海洋史、観光遺産、住宅圧力、港湾物流、ファド、ルゾフォニア移民、坂道交通、地震記憶、食の日常を扱う静的ページを実装済み。
+- [x] 079 `hamburg` - Hamburg - エルベ川、港湾物流、倉庫街と遺産、メディアと音楽、水辺再開発、移民と港町、洪水、交易史、緑と水路、夜の観光を扱う静的ページを実装済み。
+- [x] 080 `san-jose` - San Jose - サンタクララ谷、技術産業、住宅の手頃さ、移民地区、果樹園の記憶、大学と都心、交通スプロール、気候と水、市民格差を扱う静的ページを実装済み。
+- [x] 081 `prague` - Prague - ヴルタヴァ川、首都政治、遺産観光、産業サービス、占領記憶、文化音楽、住宅郊外、交通鉄道、食、気候と川を扱う静的ページを実装済み。
+- [x] 082 `dublin` - Dublin - リフィー川、首都機能、テック金融、文学文化、独立記憶、住宅圧力、移民と学生、郊外交通、食と酒場、海岸気候を扱う静的ページを実装済み。
+- [x] 083 `denver` - Denver - ロッキー山脈、州都機能、エネルギーとテック、空港交通、住宅成長、水資源、アウトドア文化、先住民の記憶、格差と観光を扱う静的ページを実装済み。
+- [x] 084 `brussels` - Brussels - EU行政、ベルギー政治、観光遺産、移民地区、産業サービス、漫画文化、鉄道、住宅格差、食と緑を扱う静的ページを実装済み。
+- [x] 085 `zurich` - Zurich - 湖と地形、金融と保険、大学研究、住宅費、鉄道交通、移民と多言語、文化と食、気候と湖、旧市街観光、国際都市の格差を扱う静的ページを実装済み。
+- [x] 086 `hawaii` - Hawaii / Honolulu - 島嶼地理、先住ハワイアン史、州都ホノルル、観光経済、米軍と太平洋、住宅費、移民、食文化、海洋気候、遺産観光を扱う静的ページを実装済み。
+- [x] 087 `kuala-lumpur` - Kuala Lumpur - 熱帯地形、首都政治、金融サービス、マレー・イスラム、中国系・インド系地区、移民労働、交通スプロール、食と市場、洪水、観光遺産を扱う静的ページを実装済み。
+- [x] 088 `st-louis` - St. Louis - ミシシッピ川、西部開拓の記憶、産業物流、人種分離と格差、音楽文化、医療研究、住宅と近隣、食とスポーツ、洪水、観光と公園を扱う静的ページを実装済み。
 - [ ] 089 `athens` - Athens - Capital of Greece
 - [ ] 090 `phoenix` - Phoenix
 - [ ] 091 `bali` - Bali / Denpasar - Hindu island culture, tourism, and everyday life
@@ -462,7 +480,3 @@ Progress notes:
 - [ ] 398 `luanda` - Luanda
 - [ ] 399 `maputo` - Maputo
 - [ ] 400 `hargeisa` - Hargeisa
-
-
-
-

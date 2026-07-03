@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Visited Map | World City Atlas</title>
-  <meta property="og:title" content="Visited Map | World City Atlas">
+  <title>☆ | World City Atlas</title>
+  <meta property="og:title" content="☆ | World City Atlas">
   <meta property="og:description" content="訪問済みの都市を世界地図に記録するページです。">
-  <meta property="og:image" content="https://www.worldcityatlas.com/tokyo/header.png">
+  <meta property="og:image" content="https://www.worldcityatlas.com/tokyo/header.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Visited Map | World City Atlas">
+  <meta name="twitter:title" content="☆ | World City Atlas">
   <meta name="twitter:description" content="訪問済みの都市を世界地図に記録するページです。">
-  <meta name="twitter:image" content="https://www.worldcityatlas.com/tokyo/header.png">
+  <meta name="twitter:image" content="https://www.worldcityatlas.com/tokyo/header.jpg">
   <link rel="stylesheet" href="../common.css">
   <script defer src="../common.js"></script>
   <style>
@@ -3715,7 +3715,7 @@
       marker.setAttribute("role", "link");
       marker.setAttribute("tabindex", "0");
       marker.setAttribute("aria-label", `${city.name}のページへ移動`);
-      marker.innerHTML = `<title>${city.name}</title><circle class="marker-hit" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="12"></circle><circle class="marker-halo" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="10"></circle><circle class="marker-core" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="5"></circle><image class="marker-thumb" href="/${city.id}/header.png" x="${(point.x - 28).toFixed(1)}" y="${(point.y - 28).toFixed(1)}" width="56" height="56" preserveAspectRatio="xMidYMid slice" clip-path="url(#thumb-clip-${city.id})"></image><circle class="marker-thumb-frame" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="28"></circle>`;
+      marker.innerHTML = `<title>${city.name}</title><circle class="marker-hit" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="12"></circle><circle class="marker-halo" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="10"></circle><circle class="marker-core" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="5"></circle><image class="marker-thumb" href="/${city.id}/header.jpg" x="${(point.x - 28).toFixed(1)}" y="${(point.y - 28).toFixed(1)}" width="56" height="56" preserveAspectRatio="xMidYMid slice" clip-path="url(#thumb-clip-${city.id})"></image><circle class="marker-thumb-frame" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="28"></circle>`;
       marker.addEventListener("click", () => {
         window.location.href = `/${city.id}/`;
       });
