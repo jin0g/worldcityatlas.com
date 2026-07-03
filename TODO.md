@@ -173,7 +173,7 @@ Progress notes:
 - [x] 091 `bali` - Bali / Denpasar - 島の地形と都市圏、政治的位置、観光経済と労働、スバック、信仰と村落組織、交通、生活インフラ、芸能教育、観光遺産、気候環境リスクを扱う静的ページを実装済み。
 - [x] 092 `lagos` - Lagos - DONE
 - [x] 093 `jeddah` - Jeddah - 紅海地理、巡礼玄関、アル・バラド、港湾物流、商業労働、宗教生活、海岸生活、食文化、都市更新、気候環境を扱う静的ページを実装済み。
-- [ ] 094 `okinawa` - Okinawa / Naha - Ryukyu history, bases, tourism, and island life
+- [x] 094 `okinawa` - Okinawa / Naha - 島嶼地理、琉球王国史、戦争記憶、基地政治、観光経済、食と音楽、港湾空港、住宅と高齢化、台風気候、遺産と島々を扱う静的ページを実装済み。
 - [ ] 095 `copenhagen` - Copenhagen - Capital of Denmark
 - [ ] 096 `chennai` - Chennai
 - [ ] 097 `portland` - Portland
