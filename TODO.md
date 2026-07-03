@@ -187,8 +187,8 @@ Progress notes:
 - [x] 105 `bethlehem` - Bethlehem - Christian pilgrimage city, Palestinian urban life, and separation-wall geography
 - [x] 106 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
 - [x] 107 `manchester` - Manchester - Industrial revolution city, music, football, migration, and media economy
-- [ ] 108 `vatican-city` - Vatican City
-- [ ] 109 `mecca` - Mecca
+- [x] 108 `vatican-city` - Vatican City
+- [x] 109 `mecca` - Mecca
 - [ ] 110 `cancun` - Cancun - Caribbean resort city, Mayan tourism gateway, and coastal risk
 - [ ] 111 `brisbane` - Brisbane - Subtropical Australian metropolis, river life, floods, and Queensland tourism gateway
 - [ ] 112 `warsaw` - Warsaw - Capital of Poland
