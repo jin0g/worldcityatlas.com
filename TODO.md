@@ -172,7 +172,7 @@ Progress notes:
 - [x] 090 `phoenix` - Phoenix - 砂漠地形、水と運河、成長とスプロール、先住民と国境地帯、半導体と物流、移民労働、猛暑、住宅と郊外、食とスポーツ、観光景観を扱う静的ページを実装済み。
 - [x] 091 `bali` - Bali / Denpasar - 島の地形と都市圏、政治的位置、観光経済と労働、スバック、信仰と村落組織、交通、生活インフラ、芸能教育、観光遺産、気候環境リスクを扱う静的ページを実装済み。
 - [x] 092 `lagos` - Lagos - DONE
-- [ ] 093 `jeddah` - Jeddah - Red Sea port, Mecca pilgrimage gateway, historic coral houses, and trade
+- [x] 093 `jeddah` - Jeddah - 紅海地理、巡礼玄関、アル・バラド、港湾物流、商業労働、宗教生活、海岸生活、食文化、都市更新、気候環境を扱う静的ページを実装済み。
 - [ ] 094 `okinawa` - Okinawa / Naha - Ryukyu history, bases, tourism, and island life
 - [ ] 095 `copenhagen` - Copenhagen - Capital of Denmark
 - [ ] 096 `chennai` - Chennai
