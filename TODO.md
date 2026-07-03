@@ -174,7 +174,7 @@ Progress notes:
 - [x] 092 `lagos` - Lagos - DONE
 - [x] 093 `jeddah` - Jeddah - 紅海地理、巡礼玄関、アル・バラド、港湾物流、商業労働、宗教生活、海岸生活、食文化、都市更新、気候環境を扱う静的ページを実装済み。
 - [x] 094 `okinawa` - Okinawa / Naha - 島嶼地理、琉球王国史、戦争記憶、基地政治、観光経済、食と音楽、港湾空港、住宅と高齢化、台風気候、遺産と島々を扱う静的ページを実装済み。
-- [ ] 095 `copenhagen` - Copenhagen - Capital of Denmark
+- [x] 095 `copenhagen` - Copenhagen - 首都と海峡、港湾海運、福祉国家と労働、自転車都市設計、気候適応、住宅、移民と宗教、デザイン食文化、王室議会、観光遺産を扱う静的ページを実装済み。
 - [ ] 096 `chennai` - Chennai
 - [ ] 097 `portland` - Portland
 - [ ] 098 `stockholm` - Stockholm
