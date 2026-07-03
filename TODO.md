@@ -133,7 +133,7 @@ Progress notes:
 - [x] 051 `jakarta` - Jakarta - DONE
 - [x] 052 `nanjing` - Nanjing - 長江地理、首都の記憶、戦争の追悼、大学研究、電子製造、港湾物流、塩水鴨、市場、地下鉄、紫金山、気候と洪水を扱う静的ページを実装済み。
 - [x] 053 `nagoya` - Nagoya - 中部日本の地理、自動車・航空宇宙の製造網、名古屋駅、名古屋港、城下町、味噌食文化、郊外住宅、大学研究、熱田神宮、気候災害を扱う静的ページを実装済み。
-- [ ] 054 `detroit` - Detroit
+- [x] 054 `detroit` - Detroit - デトロイト川の国境地理、自動車産業、労働組合、モータウン、黒人史、住宅空洞化、ダウンタウン再生、カナダ国境、壁画、五大湖の気候と水を扱う静的ページを実装済み。
 - [x] 055 `sao-paulo` - Sao Paulo - DONE
 - [x] 056 `jerusalem` - Jerusalem - DONE
 - [x] 057 `manila` - Manila - DONE
