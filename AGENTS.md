@@ -17,6 +17,7 @@ Build a static visual city atlas under this directory. The site uses an editoria
 - Do not show `世界都市ランキング`, ranking numbers, or ranking labels on existing or future city pages. The editorial order may remain internal in `TODO.md` and index ordering, but city pages should not display it as a ranking.
 - Starting at item 201 in `TODO.md`, include every sovereign country's capital that is not already present in the earlier editorial city list. Add missing national capitals progressively while preserving the current scored implementation order.
 - Keep local AI image generation from becoming idle. Because GPU image generation is the bottleneck, keep image queues flowing continuously whenever possible, use both GPUs with parallel city batches, and do writing, implementation, validation, visual inspection, and sub-agent work in parallel while images generate. Aim to keep both GPUs as close to fully utilized as practical until the remaining city images are complete.
+- For every current and future city page, source country/region, population, area, GDP, and GDP per capita from searched current data rather than memory or old placeholder lists. Use the latest available public figures found at implementation or audit time, and calculate yen figures using the exchange rate for that same day. Display GDP in `兆円` and GDP per capita in `万円`. Re-audit already implemented pages progressively and correct older or weakly sourced statistics.
 
 ## Architecture
 
@@ -76,6 +77,7 @@ Each city page should include:
 - Common statistics should be arranged as six `.stat` sections in this order: 1. `所属国`, 2. population and area, 3. GDP and GDP per capita, 4. `気候`, 5. `産業`, 6. `観光`.
 - In the combined population/area card, do not use an outer `人口・面積` label. Use two visible `span` headings and `strong` values in this structure: `<div class="stat"><span>人口</span><strong>...</strong><span>面積</span><strong>...</strong></div>`.
 - In the combined GDP/GDP-per-capita card, do not use an outer `GDP・一人当たりGDP` label. Use two visible `span` headings and `strong` values in this structure: `<div class="stat"><span>GDP</span><strong>...</strong><span>一人当たりGDP</span><strong>...</strong></div>`.
+- Population, area, GDP, and GDP per capita must be checked by search for each city. Prefer official statistical offices, city/metropolitan authorities, national accounts, OECD/World Bank/IMF or other primary/credible statistical sources. If only local-currency GDP is available, convert to Japanese yen using the current same-day exchange rate and round for readability. If a city-level GDP is unavailable, use the most appropriate metropolitan, prefectural, provincial, county, or governorate figure and make the scope clear in the surrounding code/prose where useful.
 - Multiple distinct content sections, not one oversized long-read section.
 - Sections should be adapted to the city. Good section types include:
   - geography and strategic position
