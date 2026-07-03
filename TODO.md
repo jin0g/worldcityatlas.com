@@ -170,7 +170,7 @@ Progress notes:
 - [x] 088 `st-louis` - St. Louis - ミシシッピ川、西部開拓の記憶、産業物流、人種分離と格差、音楽文化、医療研究、住宅と近隣、食とスポーツ、洪水、観光と公園を扱う静的ページを実装済み。
 - [x] 089 `athens` - Athens - 古代地形、民主政の記憶、首都政治、ピレウス港、観光遺産、経済危機の記憶、移民地区、食とカフェ、暑さ、文化と正教を扱う静的ページを実装済み。
 - [x] 090 `phoenix` - Phoenix - 砂漠地形、水と運河、成長とスプロール、先住民と国境地帯、半導体と物流、移民労働、猛暑、住宅と郊外、食とスポーツ、観光景観を扱う静的ページを実装済み。
-- [ ] 091 `bali` - Bali / Denpasar - Hindu island culture, tourism, and everyday life
+- [x] 091 `bali` - Bali / Denpasar - 島の地形と都市圏、政治的位置、観光経済と労働、スバック、信仰と村落組織、交通、生活インフラ、芸能教育、観光遺産、気候環境リスクを扱う静的ページを実装済み。
 - [x] 092 `lagos` - Lagos - DONE
 - [ ] 093 `jeddah` - Jeddah - Red Sea port, Mecca pilgrimage gateway, historic coral houses, and trade
 - [ ] 094 `okinawa` - Okinawa / Naha - Ryukyu history, bases, tourism, and island life
