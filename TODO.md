@@ -185,8 +185,8 @@ Progress notes:
 - [x] 103 `venice` - Venice - 潟の地理、海洋共和国の記憶、観光圧力、芸術儀礼、住民生活、水と気候、工芸労働、港湾本土、食と日常、都市読解を扱う静的ページを実装済み。
 - [x] 104 `agra` - Agra - Taj Mahal city, Mughal urban history, craft labor, and Yamuna riverfront
 - [x] 105 `bethlehem` - Bethlehem - Christian pilgrimage city, Palestinian urban life, and separation-wall geography
-- [ ] 106 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
-- [ ] 107 `manchester` - Manchester - Industrial revolution city, music, football, migration, and media economy
+- [x] 106 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
+- [x] 107 `manchester` - Manchester - Industrial revolution city, music, football, migration, and media economy
 - [ ] 108 `vatican-city` - Vatican City
 - [ ] 109 `mecca` - Mecca
 - [ ] 110 `cancun` - Cancun - Caribbean resort city, Mayan tourism gateway, and coastal risk
