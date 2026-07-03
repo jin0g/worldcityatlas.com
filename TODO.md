@@ -137,7 +137,7 @@ Progress notes:
 - [x] 055 `sao-paulo` - Sao Paulo - DONE
 - [x] 056 `jerusalem` - Jerusalem - DONE
 - [x] 057 `manila` - Manila - DONE
-- [ ] 058 `chongqing` - Chongqing
+- [x] 058 `chongqing` - Chongqing - 長江と嘉陵江の合流、山地都市、内陸工業と物流、火鍋文化、戦時首都の記憶、移住労働、夜景観光、軌道交通、農村後背地、気候洪水を扱う静的ページを実装済み。
 - [ ] 059 `dallas` - Dallas
 - [ ] 060 `lima` - Lima
 - [ ] 061 `rhine-ruhr` - Rhine-Ruhr
