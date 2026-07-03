@@ -151,7 +151,7 @@ Progress notes:
 - [x] 069 `riyadh` - Riyadh - 砂漠の内陸首都、王権と行政、エネルギーと金融、移民労働、宗教と公共性、文化遺産、ビジョン2030、暑熱気候、郊外住宅、食市場を扱う静的ページを実装済み。
 - [x] 070 `wuhan` - Wuhan - 長江と漢江の地理、交通結節、光谷産業、大学と東湖、熱乾麺と市場、辛亥革命の記憶、洪水と酷暑、医療の記憶、住宅日常、観光文化を扱う静的ページを実装済み。
 - [x] 071 `santiago` - Santiago - アンデス盆地地理、政治首都、鉱業と金融、地震リスク、住宅格差、独裁記憶と文化、メトロ移動、食とワイン、水不足と気候、観光地区を扱う静的ページを実装済み。
-- [ ] 072 `nashville` - Nashville
+- [x] 072 `nashville` - Nashville - カンバーランド川の地理、音楽産業、医療と大学、観光と夜、南部公民権記憶、住宅成長、食文化、物流と空港、洪水と気候、近隣生活を扱う静的ページを実装済み。
 - [ ] 073 `austin` - Austin
 - [ ] 074 `qingdao` - Qingdao - German treaty-port history, beer culture, beaches, and port industry
 - [ ] 075 `cape-town` - Cape Town
