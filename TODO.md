@@ -162,8 +162,8 @@ Progress notes:
 - [x] 080 `san-jose` - San Jose - サンタクララ谷、技術産業、住宅の手頃さ、移民地区、果樹園の記憶、大学と都心、交通スプロール、気候と水、市民格差を扱う静的ページを実装済み。
 - [x] 081 `prague` - Prague - ヴルタヴァ川、首都政治、遺産観光、産業サービス、占領記憶、文化音楽、住宅郊外、交通鉄道、食、気候と川を扱う静的ページを実装済み。
 - [x] 082 `dublin` - Dublin - リフィー川、首都機能、テック金融、文学文化、独立記憶、住宅圧力、移民と学生、郊外交通、食と酒場、海岸気候を扱う静的ページを実装済み。
-- [ ] 083 `denver` - Denver
-- [ ] 084 `brussels` - Brussels
+- [x] 083 `denver` - Denver - ロッキー山脈、州都機能、エネルギーとテック、空港交通、住宅成長、水資源、アウトドア文化、先住民の記憶、格差と観光を扱う静的ページを実装済み。
+- [x] 084 `brussels` - Brussels - EU行政、ベルギー政治、観光遺産、移民地区、産業サービス、漫画文化、鉄道、住宅格差、食と緑を扱う静的ページを実装済み。
 - [ ] 085 `zurich` - Zurich
 - [ ] 086 `hawaii` - Hawaii / Honolulu - Pacific island hub and Native Hawaiian history
 - [ ] 087 `kuala-lumpur` - Kuala Lumpur - Capital of Malaysia
