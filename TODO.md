@@ -145,7 +145,7 @@ Progress notes:
 - [x] 063 `montreal` - Montreal - セントローレンス川とモン・ロワイヤル、仏語英語政治、港湾物流、航空宇宙と大学、移民地区、祭り、冬の生活、トリプレックス住宅、先住民と植民地記憶、市場文化を扱う静的ページを実装済み。
 - [x] 064 `xian` - Xi'an - Chinese ancient capital, Silk Road memory, and Buddhist heritage - 古都地理、唐都の記憶、兵馬俑、シルクロードとイスラム、航空宇宙と防衛、大学研究、交通物流、食と夜、郊外拡張、観光混雑を扱う静的ページを実装済み。
 - [x] 065 `kolkata` - Kolkata - フーグリー川と港湾、植民地首都の記憶、ベンガル文化、ドゥルガー・プージャ、路面電車、産業サービス、移民と貧困、教育知識人、市場、気候洪水を扱う静的ページを実装済み。
-- [ ] 066 `bengaluru` - Bengaluru
+- [x] 066 `bengaluru` - Bengaluru - デカン高原、ITと起業、航空宇宙研究、移住労働、庭園都市とカントンメント、交通とメトロ、水と湖、教育研究、食文化、住宅格差を扱う静的ページを実装済み。
 - [ ] 067 `busan` - Busan
 - [ ] 068 `bogota` - Bogota
 - [ ] 069 `riyadh` - Riyadh
