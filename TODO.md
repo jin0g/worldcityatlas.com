@@ -140,7 +140,7 @@ Progress notes:
 - [x] 058 `chongqing` - Chongqing - 長江と嘉陵江の合流、山地都市、内陸工業と物流、火鍋文化、戦時首都の記憶、移住労働、夜景観光、軌道交通、農村後背地、気候洪水を扱う静的ページを実装済み。
 - [x] 059 `dallas` - Dallas - 北テキサス内陸地理、企業本社と金融、空港物流、エネルギーと技術、黒人・ラティーノ文化、芸術地区、郊外住宅、JFKの記憶、暑熱と嵐、スポーツを扱う静的ページを実装済み。
 - [x] 060 `lima` - Lima - 海岸砂漠、歴史地区、カヤオ港、食文化、移住と住宅、産業サービス、先住民と植民地の記憶、交通渋滞、水と気候、海岸観光を扱う静的ページを実装済み。
-- [ ] 061 `rhine-ruhr` - Rhine-Ruhr
+- [x] 061 `rhine-ruhr` - Rhine-Ruhr - ライン川とルール川の地理、石炭鉄鋼、物流鉄道、化学工業、労働記憶、移民文化、大学研究、サッカー文化、グリーン転換、多核生活を扱う静的ページを実装済み。
 - [ ] 062 `vienna` - Vienna - Capital of Austria
 - [ ] 063 `montreal` - Montreal
 - [ ] 064 `xian` - Xi'an - Chinese ancient capital, Silk Road memory, and Buddhist heritage
