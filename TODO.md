@@ -168,7 +168,7 @@ Progress notes:
 - [x] 086 `hawaii` - Hawaii / Honolulu - 島嶼地理、先住ハワイアン史、州都ホノルル、観光経済、米軍と太平洋、住宅費、移民、食文化、海洋気候、遺産観光を扱う静的ページを実装済み。
 - [x] 087 `kuala-lumpur` - Kuala Lumpur - 熱帯地形、首都政治、金融サービス、マレー・イスラム、中国系・インド系地区、移民労働、交通スプロール、食と市場、洪水、観光遺産を扱う静的ページを実装済み。
 - [x] 088 `st-louis` - St. Louis - ミシシッピ川、西部開拓の記憶、産業物流、人種分離と格差、音楽文化、医療研究、住宅と近隣、食とスポーツ、洪水、観光と公園を扱う静的ページを実装済み。
-- [ ] 089 `athens` - Athens - Capital of Greece
+- [x] 089 `athens` - Athens - 古代地形、民主政の記憶、首都政治、ピレウス港、観光遺産、経済危機の記憶、移民地区、食とカフェ、暑さ、文化と正教を扱う静的ページを実装済み。
 - [ ] 090 `phoenix` - Phoenix
 - [ ] 091 `bali` - Bali / Denpasar - Hindu island culture, tourism, and everyday life
 - [x] 092 `lagos` - Lagos - DONE
