@@ -768,6 +768,11 @@ img { display: block; max-width: 100%; }
     font-size: clamp(40px, 13vw, 64px);
     line-height: 1.02;
   }
+  .city-hero h1 {
+    max-width: 100%;
+    word-break: normal;
+    overflow-wrap: anywhere;
+  }
   .world-grid, .story-grid, .split-visual { grid-template-columns: 1fr; }
   .split-visual h2,
   .section-kicker h2,

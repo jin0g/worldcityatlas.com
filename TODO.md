@@ -197,8 +197,8 @@ Progress notes:
 - [x] 115 `marrakech` - Marrakech
 - [x] 116 `beirut` - Beirut
 - [x] 117 `aleppo` - Aleppo - Ancient trading city, souk heritage, war damage, and reconstruction memory
-- [ ] 118 `niagara-falls` - Niagara Falls - Waterfall tourism, border city, hydroelectricity, and mass leisure history
-- [ ] 119 `giza` - Giza
+- [x] 118 `niagara-falls` - Niagara Falls - Waterfall tourism, border city, hydroelectricity, and mass leisure history
+- [x] 119 `giza` - Giza
 - [ ] 120 `hokkaido` - Hokkaido / Sapporo - Northern Japan, Ainu history, climate, and food culture
 - [ ] 121 `ho-chi-minh-city` - Ho Chi Minh City
 - [ ] 122 `tehran` - Tehran
