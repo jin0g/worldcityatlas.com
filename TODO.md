@@ -189,8 +189,8 @@ Progress notes:
 - [x] 107 `manchester` - Manchester - Industrial revolution city, music, football, migration, and media economy
 - [x] 108 `vatican-city` - Vatican City
 - [x] 109 `mecca` - Mecca
-- [ ] 110 `cancun` - Cancun - Caribbean resort city, Mayan tourism gateway, and coastal risk
-- [ ] 111 `brisbane` - Brisbane - Subtropical Australian metropolis, river life, floods, and Queensland tourism gateway
+- [x] 110 `cancun` - Cancun - Caribbean resort city, Mayan tourism gateway, and coastal risk
+- [x] 111 `brisbane` - Brisbane - Subtropical Australian metropolis, river life, floods, and Queensland tourism gateway
 - [ ] 112 `warsaw` - Warsaw - Capital of Poland
 - [ ] 113 `pittsburgh` - Pittsburgh
 - [ ] 114 `florence` - Florence
