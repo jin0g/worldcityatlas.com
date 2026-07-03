@@ -132,7 +132,7 @@ Progress notes:
 - [x] 050 `san-diego` - San Diego - 国境地理、海軍港湾、バイオ・大学、バルボア公園、メキシコ食文化、住宅、気候と水、移民、サーフ文化、交通を扱う静的ページを実装済み。
 - [x] 051 `jakarta` - Jakarta - DONE
 - [x] 052 `nanjing` - Nanjing - 長江地理、首都の記憶、戦争の追悼、大学研究、電子製造、港湾物流、塩水鴨、市場、地下鉄、紫金山、気候と洪水を扱う静的ページを実装済み。
-- [ ] 053 `nagoya` - Nagoya
+- [x] 053 `nagoya` - Nagoya - 中部日本の地理、自動車・航空宇宙の製造網、名古屋駅、名古屋港、城下町、味噌食文化、郊外住宅、大学研究、熱田神宮、気候災害を扱う静的ページを実装済み。
 - [ ] 054 `detroit` - Detroit
 - [x] 055 `sao-paulo` - Sao Paulo - DONE
 - [x] 056 `jerusalem` - Jerusalem - DONE
