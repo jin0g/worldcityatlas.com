@@ -193,8 +193,8 @@ Progress notes:
 - [x] 111 `brisbane` - Brisbane - Subtropical Australian metropolis, river life, floods, and Queensland tourism gateway
 - [x] 112 `warsaw` - Warsaw - Capital of Poland
 - [x] 113 `pittsburgh` - Pittsburgh
-- [ ] 114 `florence` - Florence
-- [ ] 115 `marrakech` - Marrakech
+- [x] 114 `florence` - Florence
+- [x] 115 `marrakech` - Marrakech
 - [ ] 116 `beirut` - Beirut
 - [ ] 117 `aleppo` - Aleppo - Ancient trading city, souk heritage, war damage, and reconstruction memory
 - [ ] 118 `niagara-falls` - Niagara Falls - Waterfall tourism, border city, hydroelectricity, and mass leisure history
