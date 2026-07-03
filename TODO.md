@@ -131,7 +131,7 @@ Progress notes:
 - [x] 049 `chengdu` - Chengdu - 四川盆地、電子産業とゲーム、茶館、火鍋、川劇、交通、住宅成長、パンダ観光、若者労働、気候と地震記憶を扱う静的ページを実装済み。
 - [x] 050 `san-diego` - San Diego - 国境地理、海軍港湾、バイオ・大学、バルボア公園、メキシコ食文化、住宅、気候と水、移民、サーフ文化、交通を扱う静的ページを実装済み。
 - [x] 051 `jakarta` - Jakarta - DONE
-- [ ] 052 `nanjing` - Nanjing
+- [x] 052 `nanjing` - Nanjing - 長江地理、首都の記憶、戦争の追悼、大学研究、電子製造、港湾物流、塩水鴨、市場、地下鉄、紫金山、気候と洪水を扱う静的ページを実装済み。
 - [ ] 053 `nagoya` - Nagoya
 - [ ] 054 `detroit` - Detroit
 - [x] 055 `sao-paulo` - Sao Paulo - DONE
