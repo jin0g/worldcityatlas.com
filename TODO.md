@@ -164,7 +164,7 @@ Progress notes:
 - [x] 082 `dublin` - Dublin - リフィー川、首都機能、テック金融、文学文化、独立記憶、住宅圧力、移民と学生、郊外交通、食と酒場、海岸気候を扱う静的ページを実装済み。
 - [x] 083 `denver` - Denver - ロッキー山脈、州都機能、エネルギーとテック、空港交通、住宅成長、水資源、アウトドア文化、先住民の記憶、格差と観光を扱う静的ページを実装済み。
 - [x] 084 `brussels` - Brussels - EU行政、ベルギー政治、観光遺産、移民地区、産業サービス、漫画文化、鉄道、住宅格差、食と緑を扱う静的ページを実装済み。
-- [ ] 085 `zurich` - Zurich
+- [x] 085 `zurich` - Zurich - 湖と地形、金融と保険、大学研究、住宅費、鉄道交通、移民と多言語、文化と食、気候と湖、旧市街観光、国際都市の格差を扱う静的ページを実装済み。
 - [ ] 086 `hawaii` - Hawaii / Honolulu - Pacific island hub and Native Hawaiian history
 - [ ] 087 `kuala-lumpur` - Kuala Lumpur - Capital of Malaysia
 - [ ] 088 `st-louis` - St. Louis
