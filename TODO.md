@@ -181,8 +181,8 @@ Progress notes:
 - [x] 099 `tampa` - Tampa - 湾の地理、港湾物流、観光スポーツ、ラテン文化、住宅成長、ハリケーン、移民労働、自然水辺、食と日常、都市読解を扱う静的ページを実装済み。
 - [x] 100 `tianjin` - Tianjin - 海河と港湾地理、北京の海の玄関、天津港産業、租界遺産、製造業労働、食文化、住宅新市街、湾岸気候、観光文化、都市読解を扱う静的ページを実装済み。
 - [x] 101 `dhaka` - Dhaka - DONE
-- [ ] 102 `charlotte` - Charlotte
-- [ ] 103 `venice` - Venice
+- [x] 102 `charlotte` - Charlotte - 銀行街と高層都市、南部成長、鉄道空港物流、金融労働、公民権、住宅、スポーツ文化、食と移民、気候緑道、都市読解を扱う静的ページを実装済み。
+- [x] 103 `venice` - Venice - 潟の地理、海洋共和国の記憶、観光圧力、芸術儀礼、住民生活、水と気候、工芸労働、港湾本土、食と日常、都市読解を扱う静的ページを実装済み。
 - [ ] 104 `agra` - Agra - Taj Mahal city, Mughal urban history, craft labor, and Yamuna riverfront
 - [ ] 105 `bethlehem` - Bethlehem - Christian pilgrimage city, Palestinian urban life, and separation-wall geography
 - [ ] 106 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
