@@ -165,7 +165,7 @@ Progress notes:
 - [x] 083 `denver` - Denver - ロッキー山脈、州都機能、エネルギーとテック、空港交通、住宅成長、水資源、アウトドア文化、先住民の記憶、格差と観光を扱う静的ページを実装済み。
 - [x] 084 `brussels` - Brussels - EU行政、ベルギー政治、観光遺産、移民地区、産業サービス、漫画文化、鉄道、住宅格差、食と緑を扱う静的ページを実装済み。
 - [x] 085 `zurich` - Zurich - 湖と地形、金融と保険、大学研究、住宅費、鉄道交通、移民と多言語、文化と食、気候と湖、旧市街観光、国際都市の格差を扱う静的ページを実装済み。
-- [ ] 086 `hawaii` - Hawaii / Honolulu - Pacific island hub and Native Hawaiian history
+- [x] 086 `hawaii` - Hawaii / Honolulu - 島嶼地理、先住ハワイアン史、州都ホノルル、観光経済、米軍と太平洋、住宅費、移民、食文化、海洋気候、遺産観光を扱う静的ページを実装済み。
 - [ ] 087 `kuala-lumpur` - Kuala Lumpur - Capital of Malaysia
 - [ ] 088 `st-louis` - St. Louis
 - [ ] 089 `athens` - Athens - Capital of Greece
