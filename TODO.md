@@ -191,8 +191,8 @@ Progress notes:
 - [x] 109 `mecca` - Mecca
 - [x] 110 `cancun` - Cancun - Caribbean resort city, Mayan tourism gateway, and coastal risk
 - [x] 111 `brisbane` - Brisbane - Subtropical Australian metropolis, river life, floods, and Queensland tourism gateway
-- [ ] 112 `warsaw` - Warsaw - Capital of Poland
-- [ ] 113 `pittsburgh` - Pittsburgh
+- [x] 112 `warsaw` - Warsaw - Capital of Poland
+- [x] 113 `pittsburgh` - Pittsburgh
 - [ ] 114 `florence` - Florence
 - [ ] 115 `marrakech` - Marrakech
 - [ ] 116 `beirut` - Beirut
