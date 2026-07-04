@@ -228,7 +228,7 @@ Progress notes:
 - [x] 146 `phuket` - Phuket - Thai island tourism, migration, and coastal risk
 - [x] 147 `jeju` - Jeju - Korean island tourism, volcanic landscape, migration, and modern memory
 - [x] 148 `foz-do-iguacu` - Foz do Iguacu - Iguazu Falls gateway, tri-border life, and hydroelectric landscape
-- [ ] 149 `central-german` - Central German Metropolitan Region
+- [x] 149 `central-german` - Central German Metropolitan Region - German polycentric region, logistics, research, culture, lignite transition, reunification memory
 - [ ] 150 `medellin` - Medellin
 - [ ] 151 `karbala` - Karbala
 - [ ] 152 `sanaa` - Sanaa - Capital of Yemen
