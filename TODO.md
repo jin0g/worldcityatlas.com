@@ -237,7 +237,7 @@ Progress notes:
 - [x] 155 `varanasi` - Varanasi - Ganges pilgrimage, cremation ghats, silk craft, learning, river ecology, and sacred daily life
 - [x] 156 `zanzibar-city` - Zanzibar City - Stone Town, Swahili culture, Indian Ocean trade, Islam, slavery memory, spices, tourism, and coastal risk
 - [x] 157 `harbin` - Harbin - Russian architecture, ice festival, Manchurian history, railway city, industry, and winter daily life
-- [ ] 158 `alexandria` - Alexandria
+- [x] 158 `alexandria` - Alexandria - Mediterranean port, Hellenistic memory, library, Corniche, industry, faith, housing, climate risk, and food culture
 - [ ] 159 `hanoi` - Hanoi
 - [ ] 160 `ruhr` - Ruhr
 - [ ] 161 `granada` - Granada
