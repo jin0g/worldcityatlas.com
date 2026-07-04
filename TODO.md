@@ -204,7 +204,7 @@ Progress notes:
 - [x] 122 `tehran` - Tehran
 - [x] 123 `karachi` - Karachi
 - [x] 124 `cusco` - Cusco
-- [ ] 125 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
+- [x] 125 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
 - [ ] 126 `havana` - Havana
 - [ ] 127 `kathmandu` - Kathmandu
 - [ ] 128 `wadi-musa-petra` - Wadi Musa / Petra
