@@ -260,7 +260,7 @@ Progress notes:
 - [x] 178 `samarkand` - Samarkand - レギスタン、シルクロード、バザール、イスラム学芸、ソ連都市、水とオアシス、工芸、交通、観光復興を扱う静的ページを実装済み。
 - [x] 179 `shiraz` - Shiraz - 庭園、詩人廟、聖廟、バザール、大学医療、ペルセポリスへの玄関口、水不足、住宅日常を扱う静的ページを実装済み。
 - [x] 180 `panama-city` - Panama City - 運河、金融、旧市街、港湾物流、移民労働、水と気候、格差、食文化、交通日常を扱う静的ページを実装済み。
-- [ ] 181 `cairns` - Cairns - Great Barrier Reef gateway, rainforest tourism, and tropical climate risk
+- [x] 181 `cairns` - Cairns - グレートバリアリーフ、熱帯雨林、観光労働、先住民文化、気候リスク、海洋科学、日常生活を扱う静的ページを実装済み。
 - [ ] 182 `amritsar` - Amritsar
 - [ ] 183 `marseille` - Marseille - Mediterranean port, migration, North African links, and working waterfront culture
 - [ ] 184 `helsinki` - Helsinki - Capital of Finland
