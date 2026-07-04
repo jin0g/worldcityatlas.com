@@ -220,7 +220,7 @@ Progress notes:
 - [x] 138 `luxor` - Luxor
 - [x] 139 `siem-reap` - Siem Reap
 - [x] 140 `salvador-bahia` - Salvador da Bahia
-- [ ] 141 `cartagena` - Cartagena
+- [x] 141 `cartagena` - Cartagena
 - [ ] 142 `isfahan` - Isfahan
 - [ ] 143 `nairobi` - Nairobi
 - [ ] 144 `timbuktu` - Timbuktu
