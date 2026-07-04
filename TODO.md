@@ -230,7 +230,7 @@ Progress notes:
 - [x] 148 `foz-do-iguacu` - Foz do Iguacu - Iguazu Falls gateway, tri-border life, and hydroelectric landscape
 - [x] 149 `central-german` - Central German Metropolitan Region - German polycentric region, logistics, research, culture, lignite transition, reunification memory
 - [x] 150 `medellin` - Medellin - Aburra Valley, metro cable, industry transition, conflict memory, and social urbanism
-- [ ] 151 `karbala` - Karbala
+- [x] 151 `karbala` - Karbala - Shia shrine city, Arbaeen pilgrimage, hospitality economy, water, heat, and security
 - [ ] 152 `sanaa` - Sanaa - Capital of Yemen
 - [ ] 153 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, and post-apartheid urban inequality
 - [ ] 154 `quebec-city` - Quebec City - Francophone North America, fortified old town, and winter cultural identity
