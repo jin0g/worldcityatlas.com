@@ -207,7 +207,7 @@ Progress notes:
 - [x] 125 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
 - [x] 126 `havana` - Havana
 - [x] 127 `kathmandu` - Kathmandu
-- [ ] 128 `wadi-musa-petra` - Wadi Musa / Petra
+- [x] 128 `wadi-musa-petra` - Wadi Musa / Petra
 - [ ] 129 `damascus` - Damascus - Capital of Syria
 - [ ] 130 `abu-dhabi` - Abu Dhabi - Capital of United Arab Emirates
 - [ ] 131 `lhasa` - Lhasa
