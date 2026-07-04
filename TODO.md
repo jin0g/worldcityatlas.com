@@ -206,7 +206,7 @@ Progress notes:
 - [x] 124 `cusco` - Cusco
 - [x] 125 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
 - [x] 126 `havana` - Havana
-- [ ] 127 `kathmandu` - Kathmandu
+- [x] 127 `kathmandu` - Kathmandu
 - [ ] 128 `wadi-musa-petra` - Wadi Musa / Petra
 - [ ] 129 `damascus` - Damascus - Capital of Syria
 - [ ] 130 `abu-dhabi` - Abu Dhabi - Capital of United Arab Emirates
