@@ -263,7 +263,7 @@ Progress notes:
 - [x] 181 `cairns` - Cairns - グレートバリアリーフ、熱帯雨林、観光労働、先住民文化、気候リスク、海洋科学、日常生活を扱う静的ページを実装済み。
 - [x] 182 `amritsar` - Amritsar - 黄金寺院、ランガル、分割の記憶、旧市街、ワガ国境、食文化、農業経済、観光交通、大気汚染を扱う静的ページを実装済み。
 - [x] 183 `marseille` - Marseille - 旧港、地中海移民、港湾物流、パニエ地区、食、宗教、住宅、海と気候、文化とサッカーを扱う静的ページを実装済み。
-- [ ] 184 `helsinki` - Helsinki - Capital of Finland
+- [x] 184 `helsinki` - Helsinki - バルト海の首都、デザイン建築、港湾フェリー、教育研究、サウナ、福祉住宅、文化、安全保障、気候と海を扱う静的ページを実装済み。
 - [ ] 185 `quito` - Quito
 - [ ] 186 `kinshasa` - Kinshasa
 - [ ] 187 `najaf` - Najaf
