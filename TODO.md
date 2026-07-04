@@ -201,7 +201,7 @@ Progress notes:
 - [x] 119 `giza` - Giza
 - [x] 120 `hokkaido` - Hokkaido / Sapporo - Northern Japan, Ainu history, climate, and food culture
 - [x] 121 `ho-chi-minh-city` - Ho Chi Minh City
-- [ ] 122 `tehran` - Tehran
+- [x] 122 `tehran` - Tehran
 - [ ] 123 `karachi` - Karachi
 - [ ] 124 `cusco` - Cusco
 - [ ] 125 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
