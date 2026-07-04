@@ -241,7 +241,7 @@ Progress notes:
 - [x] 159 `hanoi` - Hanoi - Red River delta, old quarter, political capital, industry, education, ritual life, street food, housing, mobility, and climate risk
 - [x] 160 `ruhr` - Ruhr - Polycentric German industrial region, coal and steel memory, transition, logistics, culture, football, migration, green infrastructure, and universities
 - [x] 161 `granada` - Granada - Alhambra, Nasrid memory, Sierra Nevada water, university life, tourism pressure, ritual, food, housing, and climate risk
-- [ ] 162 `lahore` - Lahore
+- [x] 162 `lahore` - Lahore - Mughal heritage, walled city, Punjab capital, industry, religion, food streets, education, housing, mobility, and smog
 - [ ] 163 `medina` - Medina
 - [ ] 164 `yogyakarta` - Yogyakarta - Javanese court city, student culture, and Borobudur-Prambanan gateway
 - [ ] 165 `george-town-penang` - George Town, Penang - Multicultural port, street food, clan houses, and heritage streets
