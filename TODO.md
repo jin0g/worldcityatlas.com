@@ -232,7 +232,7 @@ Progress notes:
 - [x] 150 `medellin` - Medellin - Aburra Valley, metro cable, industry transition, conflict memory, and social urbanism
 - [x] 151 `karbala` - Karbala - Shia shrine city, Arbaeen pilgrimage, hospitality economy, water, heat, and security
 - [x] 152 `sanaa` - Sanaa - Yemeni highland capital, old city heritage, water scarcity, conflict memory, and daily life
-- [ ] 153 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, and post-apartheid urban inequality
+- [x] 153 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, Soweto, migration, and housing inequality
 - [ ] 154 `quebec-city` - Quebec City - Francophone North America, fortified old town, and winter cultural identity
 - [ ] 155 `varanasi` - Varanasi
 - [ ] 156 `zanzibar-city` - Zanzibar City

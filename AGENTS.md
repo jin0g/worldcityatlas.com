@@ -17,7 +17,7 @@ Build a static visual city atlas under this directory. The site uses an editoria
 - Do not show `世界都市ランキング`, ranking numbers, or ranking labels on existing or future city pages. The editorial order may remain internal in `TODO.md` and index ordering, but city pages should not display it as a ranking.
 - Starting at item 201 in `TODO.md`, include every sovereign country's capital that is not already present in the earlier editorial city list. Add missing national capitals progressively while preserving the current scored implementation order.
 - Keep local AI image generation from becoming idle. Because GPU image generation is the bottleneck, keep image queues flowing continuously whenever possible, use both GPUs with parallel city batches, and do writing, implementation, validation, visual inspection, and sub-agent work in parallel while images generate. Aim to keep both GPUs as close to fully utilized as practical until the remaining city images are complete.
-- For every current and future city page, source country/region, population, area, GDP, and GDP per capita from searched current data rather than memory or old placeholder lists. Use the latest available public figures found at implementation or audit time, and calculate yen figures using the exchange rate for that same day. Display GDP in `兆円` and GDP per capita in `万円`. Re-audit already implemented pages progressively and correct older or weakly sourced statistics.
+- For every current and future city page, source country/region, national or regional statistics, population, area, GDP, and GDP per capita from searched current data rather than memory or old placeholder lists. Use the latest available public figures found at implementation or audit time, and calculate yen figures using the exchange rate for that same day. Display GDP in `兆円` and GDP per capita in `万円`. Re-audit already implemented pages progressively and correct older or weakly sourced statistics.
 
 ## Architecture
 
@@ -101,7 +101,7 @@ Each city page should include:
 - Do not quote prose from websites.
 - Explanatory text must be original writing.
 - Statistical values may be based on the user-provided GDP ranking list and other checked data when needed.
-- Country, population, area, GDP, and GDP per capita values must use the latest data obtained by search or checked data sources. GDP must be shown in `兆円`, GDP per capita in `万円`, and currency conversion must use the exchange rate for the working date. Re-audit already implemented city pages against this rule as work proceeds.
+- Country, national or regional data, population, area, GDP, and GDP per capita values must use the latest data obtained by search or checked data sources. GDP must be shown in `兆円`, GDP per capita in `万円`, and currency conversion must use the exchange rate for the working date. Re-audit already implemented city pages against this rule as work proceeds.
 - The GDP ranking is economic, but pages must not become only business or finance pages.
 - Write in Japanese unless the user asks otherwise.
 - The prose should be detailed and useful, but divided into readable sections.
