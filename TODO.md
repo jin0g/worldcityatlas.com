@@ -240,7 +240,7 @@ Progress notes:
 - [x] 158 `alexandria` - Alexandria - Mediterranean port, Hellenistic memory, library, Corniche, industry, faith, housing, climate risk, and food culture
 - [x] 159 `hanoi` - Hanoi - Red River delta, old quarter, political capital, industry, education, ritual life, street food, housing, mobility, and climate risk
 - [x] 160 `ruhr` - Ruhr - Polycentric German industrial region, coal and steel memory, transition, logistics, culture, football, migration, green infrastructure, and universities
-- [ ] 161 `granada` - Granada
+- [x] 161 `granada` - Granada - Alhambra, Nasrid memory, Sierra Nevada water, university life, tourism pressure, ritual, food, housing, and climate risk
 - [ ] 162 `lahore` - Lahore
 - [ ] 163 `medina` - Medina
 - [ ] 164 `yogyakarta` - Yogyakarta - Javanese court city, student culture, and Borobudur-Prambanan gateway
