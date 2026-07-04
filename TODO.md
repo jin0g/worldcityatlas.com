@@ -244,7 +244,7 @@ Progress notes:
 - [x] 162 `lahore` - Lahore - Mughal heritage, walled city, Punjab capital, industry, religion, food streets, education, housing, mobility, and smog
 - [x] 163 `medina` - Medina - 預言者のモスク、巡礼経済、ヒジュラの記憶、都市拡張、デーツのオアシス、交通とホテル、宗教教育、住宅日常、暑熱と水を扱う静的ページを実装済み。
 - [x] 164 `yogyakarta` - Yogyakarta - 王宮都市、学生文化、バティックと工芸、ガムラン、遺跡観光、メラピ山、観光労働、宗教儀礼、暮らしと都市問題を扱う静的ページを実装済み。
-- [ ] 165 `george-town-penang` - George Town, Penang - Multicultural port, street food, clan houses, and heritage streets
+- [x] 165 `george-town-penang` - George Town, Penang - 海峡港町、世界遺産の街路、多民族社会、宗教施設と儀礼、屋台食、電子産業、住宅日常、観光圧、水上集落と海辺を扱う静的ページを実装済み。
 - [ ] 166 `memphis` - Memphis - Blues, soul, Elvis memory, Mississippi river port, and Black history
 - [ ] 167 `lalibela` - Lalibela - Rock-hewn churches, Ethiopian Orthodox pilgrimage, and highland heritage
 - [ ] 168 `algiers` - Algiers
