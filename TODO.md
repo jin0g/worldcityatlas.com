@@ -223,7 +223,7 @@ Progress notes:
 - [x] 141 `cartagena` - Cartagena
 - [x] 142 `isfahan` - Isfahan
 - [x] 143 `nairobi` - Nairobi
-- [ ] 144 `timbuktu` - Timbuktu
+- [x] 144 `timbuktu` - Timbuktu
 - [ ] 145 `yangon` - Yangon
 - [ ] 146 `phuket` - Phuket - Thai island tourism, migration, and coastal risk
 - [ ] 147 `jeju` - Jeju - Korean island tourism, volcanic landscape, migration, and modern memory
