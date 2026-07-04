@@ -215,7 +215,7 @@ Progress notes:
 - [x] 133 `indianapolis` - Indianapolis
 - [x] 134 `riverside` - Riverside
 - [x] 135 `sacramento` - Sacramento
-- [ ] 136 `cincinnati` - Cincinnati
+- [x] 136 `cincinnati` - Cincinnati
 - [ ] 137 `budapest` - Budapest - Capital of Hungary
 - [ ] 138 `luxor` - Luxor
 - [ ] 139 `siem-reap` - Siem Reap
