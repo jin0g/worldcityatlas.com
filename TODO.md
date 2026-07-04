@@ -208,7 +208,7 @@ Progress notes:
 - [x] 126 `havana` - Havana
 - [x] 127 `kathmandu` - Kathmandu
 - [x] 128 `wadi-musa-petra` - Wadi Musa / Petra
-- [ ] 129 `damascus` - Damascus - Capital of Syria
+- [x] 129 `damascus` - Damascus - Capital of Syria
 - [ ] 130 `abu-dhabi` - Abu Dhabi - Capital of United Arab Emirates
 - [ ] 131 `lhasa` - Lhasa
 - [ ] 132 `perth` - Perth - Indian Ocean city, mining economy, isolation, beaches, and Western Australian identity
