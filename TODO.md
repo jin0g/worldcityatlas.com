@@ -242,7 +242,7 @@ Progress notes:
 - [x] 160 `ruhr` - Ruhr - Polycentric German industrial region, coal and steel memory, transition, logistics, culture, football, migration, green infrastructure, and universities
 - [x] 161 `granada` - Granada - Alhambra, Nasrid memory, Sierra Nevada water, university life, tourism pressure, ritual, food, housing, and climate risk
 - [x] 162 `lahore` - Lahore - Mughal heritage, walled city, Punjab capital, industry, religion, food streets, education, housing, mobility, and smog
-- [ ] 163 `medina` - Medina
+- [x] 163 `medina` - Medina - 預言者のモスク、巡礼経済、ヒジュラの記憶、都市拡張、デーツのオアシス、交通とホテル、宗教教育、住宅日常、暑熱と水を扱う静的ページを実装済み。
 - [ ] 164 `yogyakarta` - Yogyakarta - Javanese court city, student culture, and Borobudur-Prambanan gateway
 - [ ] 165 `george-town-penang` - George Town, Penang - Multicultural port, street food, clan houses, and heritage streets
 - [ ] 166 `memphis` - Memphis - Blues, soul, Elvis memory, Mississippi river port, and Black history
