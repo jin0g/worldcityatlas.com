@@ -264,7 +264,7 @@ Progress notes:
 - [x] 182 `amritsar` - Amritsar - 黄金寺院、ランガル、分割の記憶、旧市街、ワガ国境、食文化、農業経済、観光交通、大気汚染を扱う静的ページを実装済み。
 - [x] 183 `marseille` - Marseille - 旧港、地中海移民、港湾物流、パニエ地区、食、宗教、住宅、海と気候、文化とサッカーを扱う静的ページを実装済み。
 - [x] 184 `helsinki` - Helsinki - バルト海の首都、デザイン建築、港湾フェリー、教育研究、サウナ、福祉住宅、文化、安全保障、気候と海を扱う静的ページを実装済み。
-- [ ] 185 `quito` - Quito
+- [x] 185 `quito` - Quito - 歴史地区、アンデス地形、政府首都、先住民市場、移動と交通、観光遺産、住宅リスク、食と日常を扱う静的ページを実装済み。
 - [ ] 186 `kinshasa` - Kinshasa
 - [ ] 187 `najaf` - Najaf
 - [ ] 188 `mont-saint-michel` - Mont Saint-Michel - Tidal abbey, pilgrimage, tourism, and coastal heritage landscape
