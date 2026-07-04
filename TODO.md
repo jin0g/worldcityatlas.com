@@ -234,7 +234,7 @@ Progress notes:
 - [x] 152 `sanaa` - Sanaa - Yemeni highland capital, old city heritage, water scarcity, conflict memory, and daily life
 - [x] 153 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, Soweto, migration, and housing inequality
 - [x] 154 `quebec-city` - Quebec City - Francophone North America, fortified old town, winter identity, river port, and Indigenous memory
-- [ ] 155 `varanasi` - Varanasi
+- [x] 155 `varanasi` - Varanasi - Ganges pilgrimage, cremation ghats, silk craft, learning, river ecology, and sacred daily life
 - [ ] 156 `zanzibar-city` - Zanzibar City
 - [ ] 157 `harbin` - Harbin - Russian architecture, ice festival, Manchurian history, and winter city life
 - [ ] 158 `alexandria` - Alexandria
