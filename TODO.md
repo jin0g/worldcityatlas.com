@@ -222,7 +222,7 @@ Progress notes:
 - [x] 140 `salvador-bahia` - Salvador da Bahia
 - [x] 141 `cartagena` - Cartagena
 - [x] 142 `isfahan` - Isfahan
-- [ ] 143 `nairobi` - Nairobi
+- [x] 143 `nairobi` - Nairobi
 - [ ] 144 `timbuktu` - Timbuktu
 - [ ] 145 `yangon` - Yangon
 - [ ] 146 `phuket` - Phuket - Thai island tourism, migration, and coastal risk
