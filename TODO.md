@@ -229,7 +229,7 @@ Progress notes:
 - [x] 147 `jeju` - Jeju - Korean island tourism, volcanic landscape, migration, and modern memory
 - [x] 148 `foz-do-iguacu` - Foz do Iguacu - Iguazu Falls gateway, tri-border life, and hydroelectric landscape
 - [x] 149 `central-german` - Central German Metropolitan Region - German polycentric region, logistics, research, culture, lignite transition, reunification memory
-- [ ] 150 `medellin` - Medellin
+- [x] 150 `medellin` - Medellin - Aburra Valley, metro cable, industry transition, conflict memory, and social urbanism
 - [ ] 151 `karbala` - Karbala
 - [ ] 152 `sanaa` - Sanaa - Capital of Yemen
 - [ ] 153 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, and post-apartheid urban inequality
