@@ -258,7 +258,7 @@ Progress notes:
 - [x] 176 `tunis` - Tunis - メディナ、カルタゴ、共和国政治、港湾物流、行政金融、若者雇用、文化と宗教、郊外化、海辺観光、社会的緊張を扱う静的ページを実装済み。
 - [x] 177 `fez` - Fez - メディナ、カラウィーイン、皮なめし、工芸、水路、食市場、観光圧、新市街、精神文化、修復を扱う静的ページを実装済み。
 - [x] 178 `samarkand` - Samarkand - レギスタン、シルクロード、バザール、イスラム学芸、ソ連都市、水とオアシス、工芸、交通、観光復興を扱う静的ページを実装済み。
-- [ ] 179 `shiraz` - Shiraz
+- [x] 179 `shiraz` - Shiraz - 庭園、詩人廟、聖廟、バザール、大学医療、ペルセポリスへの玄関口、水不足、住宅日常を扱う静的ページを実装済み。
 - [ ] 180 `panama-city` - Panama City
 - [ ] 181 `cairns` - Cairns - Great Barrier Reef gateway, rainforest tourism, and tropical climate risk
 - [ ] 182 `amritsar` - Amritsar
