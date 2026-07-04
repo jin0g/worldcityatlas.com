@@ -252,7 +252,7 @@ Progress notes:
 - [x] 170 `manaus` - Manaus - アマゾン川の地政学、熱帯雨林都市、自由貿易区、港湾物流、先住民と移住、ゴム景気、環境圧力、暑熱と洪水、食文化、観光を扱う静的ページを実装済み。
 - [x] 171 `addis-ababa` - Addis Ababa - 高原地形、AU外交、正教会、鉄道交通、建設成長、コーヒーと市場、移住と労働、住宅格差、観光と記憶、社会課題を扱う静的ページを実装済み。
 - [x] 172 `khartoum` - Khartoum - ナイル合流、首都機能、紛争と避難、市場と労働、イスラム文化、ナイル農業、暑熱とインフラ、住宅、観光と遺産を扱う静的ページを実装済み。
-- [ ] 173 `guilin` - Guilin - Karst landscape tourism, river settlements, and Chinese scenic imagination
+- [x] 173 `guilin` - Guilin - カルスト地形、漓江の回廊、山水画の想像力、陽朔観光圏、観光労働、少数民族文化、米粉、市場、交通、洪水と景観保全を扱う静的ページを実装済み。
 - [ ] 174 `chiang-mai` - Chiang Mai - Northern Thai temples, mountain cultures, crafts, and long-stay tourism
 - [ ] 175 `oaxaca` - Oaxaca - Indigenous culture, food, crafts, Day of the Dead, and colonial streets
 - [ ] 176 `tunis` - Tunis
