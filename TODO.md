@@ -219,7 +219,7 @@ Progress notes:
 - [x] 137 `budapest` - Budapest - Capital of Hungary
 - [x] 138 `luxor` - Luxor
 - [x] 139 `siem-reap` - Siem Reap
-- [ ] 140 `salvador-bahia` - Salvador da Bahia
+- [x] 140 `salvador-bahia` - Salvador da Bahia
 - [ ] 141 `cartagena` - Cartagena
 - [ ] 142 `isfahan` - Isfahan
 - [ ] 143 `nairobi` - Nairobi
