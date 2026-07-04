@@ -214,7 +214,7 @@ Progress notes:
 - [x] 132 `perth` - Perth - Indian Ocean city, mining economy, isolation, beaches, and Western Australian identity
 - [x] 133 `indianapolis` - Indianapolis
 - [x] 134 `riverside` - Riverside
-- [ ] 135 `sacramento` - Sacramento
+- [x] 135 `sacramento` - Sacramento
 - [ ] 136 `cincinnati` - Cincinnati
 - [ ] 137 `budapest` - Budapest - Capital of Hungary
 - [ ] 138 `luxor` - Luxor
