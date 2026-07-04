@@ -224,7 +224,7 @@ Progress notes:
 - [x] 142 `isfahan` - Isfahan
 - [x] 143 `nairobi` - Nairobi
 - [x] 144 `timbuktu` - Timbuktu
-- [ ] 145 `yangon` - Yangon
+- [x] 145 `yangon` - Yangon
 - [ ] 146 `phuket` - Phuket - Thai island tourism, migration, and coastal risk
 - [ ] 147 `jeju` - Jeju - Korean island tourism, volcanic landscape, migration, and modern memory
 - [ ] 148 `foz-do-iguacu` - Foz do Iguacu - Iguazu Falls gateway, tri-border life, and hydroelectric landscape
