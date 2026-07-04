@@ -259,7 +259,7 @@ Progress notes:
 - [x] 177 `fez` - Fez - メディナ、カラウィーイン、皮なめし、工芸、水路、食市場、観光圧、新市街、精神文化、修復を扱う静的ページを実装済み。
 - [x] 178 `samarkand` - Samarkand - レギスタン、シルクロード、バザール、イスラム学芸、ソ連都市、水とオアシス、工芸、交通、観光復興を扱う静的ページを実装済み。
 - [x] 179 `shiraz` - Shiraz - 庭園、詩人廟、聖廟、バザール、大学医療、ペルセポリスへの玄関口、水不足、住宅日常を扱う静的ページを実装済み。
-- [ ] 180 `panama-city` - Panama City
+- [x] 180 `panama-city` - Panama City - 運河、金融、旧市街、港湾物流、移民労働、水と気候、格差、食文化、交通日常を扱う静的ページを実装済み。
 - [ ] 181 `cairns` - Cairns - Great Barrier Reef gateway, rainforest tourism, and tropical climate risk
 - [ ] 182 `amritsar` - Amritsar
 - [ ] 183 `marseille` - Marseille - Mediterranean port, migration, North African links, and working waterfront culture
