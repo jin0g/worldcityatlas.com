@@ -239,7 +239,7 @@ Progress notes:
 - [x] 157 `harbin` - Harbin - Russian architecture, ice festival, Manchurian history, railway city, industry, and winter daily life
 - [x] 158 `alexandria` - Alexandria - Mediterranean port, Hellenistic memory, library, Corniche, industry, faith, housing, climate risk, and food culture
 - [x] 159 `hanoi` - Hanoi - Red River delta, old quarter, political capital, industry, education, ritual life, street food, housing, mobility, and climate risk
-- [ ] 160 `ruhr` - Ruhr
+- [x] 160 `ruhr` - Ruhr - Polycentric German industrial region, coal and steel memory, transition, logistics, culture, football, migration, green infrastructure, and universities
 - [ ] 161 `granada` - Granada
 - [ ] 162 `lahore` - Lahore
 - [ ] 163 `medina` - Medina
