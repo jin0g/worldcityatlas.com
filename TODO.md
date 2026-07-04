@@ -221,7 +221,7 @@ Progress notes:
 - [x] 139 `siem-reap` - Siem Reap
 - [x] 140 `salvador-bahia` - Salvador da Bahia
 - [x] 141 `cartagena` - Cartagena
-- [ ] 142 `isfahan` - Isfahan
+- [x] 142 `isfahan` - Isfahan
 - [ ] 143 `nairobi` - Nairobi
 - [ ] 144 `timbuktu` - Timbuktu
 - [ ] 145 `yangon` - Yangon
