@@ -203,7 +203,7 @@ Progress notes:
 - [x] 121 `ho-chi-minh-city` - Ho Chi Minh City
 - [x] 122 `tehran` - Tehran
 - [x] 123 `karachi` - Karachi
-- [ ] 124 `cusco` - Cusco
+- [x] 124 `cusco` - Cusco
 - [ ] 125 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
 - [ ] 126 `havana` - Havana
 - [ ] 127 `kathmandu` - Kathmandu
