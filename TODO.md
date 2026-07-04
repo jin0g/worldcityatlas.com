@@ -211,7 +211,7 @@ Progress notes:
 - [x] 129 `damascus` - Damascus - Capital of Syria
 - [x] 130 `abu-dhabi` - Abu Dhabi - Capital of United Arab Emirates
 - [x] 131 `lhasa` - Lhasa
-- [ ] 132 `perth` - Perth - Indian Ocean city, mining economy, isolation, beaches, and Western Australian identity
+- [x] 132 `perth` - Perth - Indian Ocean city, mining economy, isolation, beaches, and Western Australian identity
 - [ ] 133 `indianapolis` - Indianapolis
 - [ ] 134 `riverside` - Riverside
 - [ ] 135 `sacramento` - Sacramento
