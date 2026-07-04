@@ -218,7 +218,7 @@ Progress notes:
 - [x] 136 `cincinnati` - Cincinnati
 - [x] 137 `budapest` - Budapest - Capital of Hungary
 - [x] 138 `luxor` - Luxor
-- [ ] 139 `siem-reap` - Siem Reap
+- [x] 139 `siem-reap` - Siem Reap
 - [ ] 140 `salvador-bahia` - Salvador da Bahia
 - [ ] 141 `cartagena` - Cartagena
 - [ ] 142 `isfahan` - Isfahan
