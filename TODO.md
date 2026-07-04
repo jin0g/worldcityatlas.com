@@ -249,7 +249,7 @@ Progress notes:
 - [x] 167 `lalibela` - Lalibela - 岩窟教会、エチオピア正教巡礼、高地地形、世界遺産保全、観光労働、農村生活、交通、雨季、紛争後の回復を扱う静的ページを実装済み。
 - [x] 168 `algiers` - Algiers - 地中海港湾、カスバ、植民地支配と独立戦争、国家首都、エネルギー経済、若者雇用、住宅、イスラム文化、食市場、海岸気候を扱う静的ページを実装済み。
 - [x] 169 `naples` - Naples - ヴェスヴィオと湾、港湾物流、旧市街、食文化、カトリック儀礼、ポンペイ、犯罪と社会問題、住宅、火山リスクを扱う静的ページを実装済み。
-- [ ] 170 `manaus` - Manaus
+- [x] 170 `manaus` - Manaus - アマゾン川の地政学、熱帯雨林都市、自由貿易区、港湾物流、先住民と移住、ゴム景気、環境圧力、暑熱と洪水、食文化、観光を扱う静的ページを実装済み。
 - [ ] 171 `addis-ababa` - Addis Ababa
 - [ ] 172 `khartoum` - Khartoum
 - [ ] 173 `guilin` - Guilin - Karst landscape tourism, river settlements, and Chinese scenic imagination
