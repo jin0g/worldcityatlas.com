@@ -235,7 +235,7 @@ Progress notes:
 - [x] 153 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, Soweto, migration, and housing inequality
 - [x] 154 `quebec-city` - Quebec City - Francophone North America, fortified old town, winter identity, river port, and Indigenous memory
 - [x] 155 `varanasi` - Varanasi - Ganges pilgrimage, cremation ghats, silk craft, learning, river ecology, and sacred daily life
-- [ ] 156 `zanzibar-city` - Zanzibar City
+- [x] 156 `zanzibar-city` - Zanzibar City - Stone Town, Swahili culture, Indian Ocean trade, Islam, slavery memory, spices, tourism, and coastal risk
 - [ ] 157 `harbin` - Harbin - Russian architecture, ice festival, Manchurian history, and winter city life
 - [ ] 158 `alexandria` - Alexandria
 - [ ] 159 `hanoi` - Hanoi
