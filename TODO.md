@@ -275,7 +275,7 @@ Progress notes:
 - [x] 193 `kuwait-city` - Kuwait City - 湾岸の首都、石油国家の財政、議会政治、港湾、移民労働、イスラムの日常、暑熱と水、海辺観光を扱う静的ページを実装済み。
 - [x] 194 `nicosia` - Nicosia - 城壁旧市街、分断首都、緩衝地帯、行政、金融、信仰、市場、住宅、暑熱と観光を扱う静的ページを実装済み。
 - [x] 195 `kabul` - Kabul - 山岳盆地の首都、政治、戦争の記憶、産業と労働、信仰、教育、女性、市場、住宅、交通、庭園を扱う静的ページを実装済み。
-- [ ] 196 `borobudur` - Borobudur - Buddhist monument landscape, pilgrimage, tourism, and Javanese village life
+- [x] 196 `borobudur` - Borobudur - 仏教寺院、ケドゥ盆地、巡礼、観光労働、農村、工芸、保存管理、生活課題を扱う静的ページを実装済み。
 - [ ] 197 `ayutthaya` - Ayutthaya - Former Siamese capital, Japanese trading history, and river ruins
 - [ ] 198 `luoyang` - Luoyang - Ancient dynastic capital, Longmen Buddhist caves, and Yellow River culture
 - [ ] 199 `da-nang` - Da Nang - Central Vietnam beach hub, wartime base history, and rapid urban growth
