@@ -284,7 +284,7 @@ Progress notes:
 - [x] 202 `dakar` - Dakar - 半島地理、首都政治、港湾経済、若者労働、信仰、音楽、ゴレ島、住宅、気候、交通を扱う静的ページを実装済み。
 - [x] 203 `ramallah` - Ramallah - 丘陵地形、行政政治、占領と移動、経済と援助、文化、宗教、住宅、観光、社会課題を扱う静的ページを実装済み。
 - [x] 204 `kingston` - Kingston - 自然港、首都行政、港湾物流、金融、音楽、住宅分断、市場、共同体、観光再生、気候リスクを扱う静的ページを実装済み。
-- [ ] 205 `hue` - Hue - Vietnamese imperial capital, court culture, war memory, and Perfume River landscape
+- [x] 205 `hue` - Hue - 阮朝王宮、香江、寺院、陵墓、戦争記憶、観光労働、教育医療、農水産、洪水、広域都市圏を扱う静的ページを実装済み。
 - [ ] 206 `edinburgh` - Edinburgh - Castle city, Scottish capital, literature, festivals, and Old Town heritage
 - [ ] 207 `oxford` - Oxford - University city, publishing, colleges, and knowledge-economy townscape
 - [ ] 208 `charleston` - Charleston - Atlantic port, slavery memory, Southern culture, and coastal heritage risk
