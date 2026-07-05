@@ -270,7 +270,7 @@ Progress notes:
 - [x] 188 `mont-saint-michel` - Mont Saint-Michel - 潮汐の湾、修道院、巡礼、観光圧、村落生活、塩性湿地、景観復元、沿岸リスクを扱う静的ページを実装済み。
 - [x] 189 `versailles` - Versailles - 宮殿軸、庭園と水、王権の舞台、革命記憶、町の日常、観光労働、遺産管理、鉄道とパリを扱う静的ページを実装済み。
 - [ ] 190 `hoi-an` - Hoi An - Historic trading port, Japanese bridge memory, lantern streets, and food culture
-- [ ] 191 `tbilisi` - Tbilisi - Capital of Georgia
+- [x] 191 `tbilisi` - Tbilisi - 谷の地形、首都政治、帝国の交差路、宗教と多民族、産業と労働、住宅再開発、食とワイン、交通回廊を扱う静的ページを実装済み。
 - [ ] 192 `ankara` - Ankara - Capital of Turkey
 - [ ] 193 `kuwait-city` - Kuwait City - Capital of Kuwait
 - [ ] 194 `nicosia` - Nicosia
