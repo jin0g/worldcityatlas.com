@@ -336,7 +336,7 @@ Progress notes:
 - [x] 254 `belem` - Belem - アマゾンの玄関、市場と食、植民地河岸、チリオと信仰、森の文化、港湾労働、住宅日常、気候浸水、観光遺産、社会課題を扱う静的ページを実装済み。
 - [x] 255 `juba` - Juba - 白ナイルの首都、独立国家の中枢、援助経済、市場物流、土地住宅、信仰と多民族性、紛争記憶、気候と水、観光と記憶を扱う静的ページを実装済み。
 - [x] 256 `colombo` - Colombo - インド洋港湾、金融と国家、植民地都市形態、多宗教街路、市場労働、住宅通勤、観光再開発、災害気候、社会課題を扱う静的ページを実装済み。
-- [ ] 257 `luang-prabang` - Luang Prabang - Buddhist ritual city, Mekong culture, and World Heritage townscape
+- [x] 257 `luang-prabang` - Luang Prabang - メコンとナムカーンの地形、旧王都、仏教托鉢、世界遺産保全、観光経済、少数民族手工芸、鉄道接続、住宅日常、食市場、過剰観光を扱う静的ページを実装済み。
 - [ ] 258 `cologne` - Cologne - Cathedral city, Rhine trade, carnival, media, and Roman-German history
 - [ ] 259 `port-louis` - Port Louis - Capital of Mauritius
 - [ ] 260 `las-vegas` - Las Vegas - Casino resort city, desert water risk, entertainment economy, and spectacle urbanism
