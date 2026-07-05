@@ -292,7 +292,7 @@ Progress notes:
 - [x] 210 `chefchaouen` - Chefchaouen - 青いメディナ、カスバ、リーフ山地、アンダルス記憶、信仰、水、手工芸、観光労働、山村、住宅生活を扱う静的ページを実装済み。
 - [x] 211 `brasilia` - Brasilia - 計画首都、連邦政治、セラード、水、モダニズム建築、衛星都市、行政経済、宗教、観光、住宅生活を扱う静的ページを実装済み。
 - [x] 212 `aswan` - Aswan - ナイル南端、ハイダム、ヌビア文化、島と船、神殿救出、採石、観光労働、農業市場、暑さ、信仰を扱う静的ページを実装済み。
-- [ ] 213 `mashhad` - Mashhad
+- [x] 213 `mashhad` - Mashhad - ホラーサーン地理、イマーム・レザー廟、巡礼経済、国境交易、バザール、神学教育、住宅郊外、交通、水、社会課題を扱う静的ページを実装済み。
 - [ ] 214 `bodh-gaya` - Bodh Gaya
 - [ ] 215 `dunhuang` - Dunhuang - Mogao Caves, Silk Road art, desert pilgrimage, and oasis history
 - [ ] 216 `malacca` - Malacca - Strait trade, Malay, Chinese, Portuguese, Dutch, and British urban layers
