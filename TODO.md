@@ -287,7 +287,7 @@ Progress notes:
 - [x] 205 `hue` - Hue - 阮朝王宮、香江、寺院、陵墓、戦争記憶、観光労働、教育医療、農水産、洪水、広域都市圏を扱う静的ページを実装済み。
 - [x] 206 `edinburgh` - Edinburgh - 城と地形、首都政治、金融と大学、旧市街と新市街、文学、祭典、信仰、住宅、リース、観光管理を扱う静的ページを実装済み。
 - [x] 207 `oxford` - Oxford - 大学都市、出版、医療研究、カレッジ、川と低地、信仰、学生生活、住宅圧、交通、観光管理を扱う静的ページを実装済み。
-- [ ] 208 `charleston` - Charleston - Atlantic port, slavery memory, Southern culture, and coastal heritage risk
+- [x] 208 `charleston` - Charleston - 大西洋港、奴隷制の記憶、ガラ文化、港湾物流、航空、信仰、観光保存、住宅、食、高潮と海面上昇を扱う静的ページを実装済み。
 - [ ] 209 `santa-fe` - Santa Fe - Pueblo, Spanish colonial, art markets, adobe urban form, and desert culture
 - [ ] 210 `chefchaouen` - Chefchaouen - Blue medina, Rif mountain culture, tourism, and Moroccan craft streets
 - [ ] 211 `brasilia` - Brasilia
