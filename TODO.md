@@ -289,7 +289,7 @@ Progress notes:
 - [x] 207 `oxford` - Oxford - 大学都市、出版、医療研究、カレッジ、川と低地、信仰、学生生活、住宅圧、交通、観光管理を扱う静的ページを実装済み。
 - [x] 208 `charleston` - Charleston - 大西洋港、奴隷制の記憶、ガラ文化、港湾物流、航空、信仰、観光保存、住宅、食、高潮と海面上昇を扱う静的ページを実装済み。
 - [x] 209 `santa-fe` - Santa Fe - プエブロ世界、スペイン植民地、アドビ建築、芸術市場、州都政治、食と儀礼、観光、水、住宅格差を扱う静的ページを実装済み。
-- [ ] 210 `chefchaouen` - Chefchaouen - Blue medina, Rif mountain culture, tourism, and Moroccan craft streets
+- [x] 210 `chefchaouen` - Chefchaouen - 青いメディナ、カスバ、リーフ山地、アンダルス記憶、信仰、水、手工芸、観光労働、山村、住宅生活を扱う静的ページを実装済み。
 - [ ] 211 `brasilia` - Brasilia
 - [ ] 212 `aswan` - Aswan
 - [ ] 213 `mashhad` - Mashhad
