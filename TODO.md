@@ -299,7 +299,7 @@ Progress notes:
 - [x] 217 `geneva` - Geneva - レマン湖、国際機関、赤十字、人道外交、時計と金融、CERN、越境労働、住宅費、観光と中立の限界を扱う静的ページを実装済み。
 - [x] 218 `urumqi` - Urumqi - 天山北麓、バザール労働、エネルギー物流、多民族街区、治安と記憶、食文化、移住住宅、気候と水、観光玄関口を扱う静的ページを実装済み。
 - [x] 219 `kaohsiung` - Kaohsiung - 高雄港、重工業転換、愛河、左営寺廟、夜市、港湾労働、民主化の記憶、気候リスク、創意水辺を扱う静的ページを実装済み。
-- [ ] 220 `durban` - Durban - Indian Ocean port, Indian diaspora culture, beaches, and Zulu regional links
+- [x] 220 `durban` - Durban - インド洋港湾、海岸観光、インド系社会、ズールー地域、住宅、物流労働、記憶と分断、洪水リスク、食市場を扱う静的ページを実装済み。
 - [ ] 221 `casablanca` - Casablanca
 - [ ] 222 `goma` - Goma
 - [ ] 223 `yerevan` - Yerevan - Capital of Armenia
