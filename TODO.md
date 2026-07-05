@@ -285,7 +285,7 @@ Progress notes:
 - [x] 203 `ramallah` - Ramallah - 丘陵地形、行政政治、占領と移動、経済と援助、文化、宗教、住宅、観光、社会課題を扱う静的ページを実装済み。
 - [x] 204 `kingston` - Kingston - 自然港、首都行政、港湾物流、金融、音楽、住宅分断、市場、共同体、観光再生、気候リスクを扱う静的ページを実装済み。
 - [x] 205 `hue` - Hue - 阮朝王宮、香江、寺院、陵墓、戦争記憶、観光労働、教育医療、農水産、洪水、広域都市圏を扱う静的ページを実装済み。
-- [ ] 206 `edinburgh` - Edinburgh - Castle city, Scottish capital, literature, festivals, and Old Town heritage
+- [x] 206 `edinburgh` - Edinburgh - 城と地形、首都政治、金融と大学、旧市街と新市街、文学、祭典、信仰、住宅、リース、観光管理を扱う静的ページを実装済み。
 - [ ] 207 `oxford` - Oxford - University city, publishing, colleges, and knowledge-economy townscape
 - [ ] 208 `charleston` - Charleston - Atlantic port, slavery memory, Southern culture, and coastal heritage risk
 - [ ] 209 `santa-fe` - Santa Fe - Pueblo, Spanish colonial, art markets, adobe urban form, and desert culture
