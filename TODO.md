@@ -294,7 +294,7 @@ Progress notes:
 - [x] 212 `aswan` - Aswan - ナイル南端、ハイダム、ヌビア文化、島と船、神殿救出、採石、観光労働、農業市場、暑さ、信仰を扱う静的ページを実装済み。
 - [x] 213 `mashhad` - Mashhad - ホラーサーン地理、イマーム・レザー廟、巡礼経済、国境交易、バザール、神学教育、住宅郊外、交通、水、社会課題を扱う静的ページを実装済み。
 - [x] 214 `bodh-gaya` - Bodh Gaya - 悟りの地理、大菩提寺、国際僧院街、巡礼と瞑想、観光経済、農村生活、ガヤ交通、治安、衛生福祉を扱う静的ページを実装済み。
-- [ ] 215 `dunhuang` - Dunhuang - Mogao Caves, Silk Road art, desert pilgrimage, and oasis history
+- [x] 215 `dunhuang` - Dunhuang - 河西回廊、莫高窟、鳴沙山・月牙泉、陽関、玉門関、党河、水管理、観光労働、オアシス農業、砂漠環境を扱う静的ページを実装済み。
 - [ ] 216 `malacca` - Malacca - Strait trade, Malay, Chinese, Portuguese, Dutch, and British urban layers
 - [ ] 217 `geneva` - Geneva - International organizations, diplomacy, humanitarian history, and lakefront urban life
 - [ ] 218 `urumqi` - Urumqi - Uyghur culture, Inner Asian trade routes, and frontier urban politics
