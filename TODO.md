@@ -312,7 +312,7 @@ Progress notes:
 - [x] 230 `guam` - Guam / Hagatna - ハガニア、チャモロ文化、米軍基地、タモン観光、台風気候、珊瑚礁、移民労働、食と村、戦争記憶を扱う静的ページを実装済み。
 - [x] 231 `bukhara` - Bukhara - オアシスと水、イスラム学芸、隊商路とバザール、アルク、ユダヤ人街、工芸、資源と州経済、住宅、保存観光を扱う静的ページを実装済み。
 - [x] 232 `phnom-penh` - Phnom Penh - 三川合流の地形、王宮と政治、虐殺の記憶、縫製産業、建設と土地開発、信仰、市場、住宅、観光、水害を扱う静的ページを実装済み。
-- [ ] 233 `santo-domingo` - Santo Domingo
+- [x] 233 `santo-domingo` - Santo Domingo - オサマ川と港、首都政治、植民都市遺産、港湾経済、宗教暦、音楽と野球、住宅格差、観光、移民、災害と気候を扱う静的ページを実装済み。
 - [ ] 234 `kigali` - Kigali
 - [ ] 235 `alula` - AlUla - Nabataean desert heritage, oasis landscape, and Saudi cultural tourism
 - [ ] 236 `liverpool` - Liverpool - Beatles culture, Atlantic port history, football, and working-class memory
