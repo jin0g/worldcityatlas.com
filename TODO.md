@@ -328,8 +328,8 @@ Progress notes:
 - [x] 246 `qom` - Qom - 聖廟、神学校、革命後の政治、首都回廊、巡礼経済、住宅、砂漠気候、出版、社会課題を扱う静的ページを実装済み。
 - [x] 247 `sarajevo` - Sarajevo - 谷の地形、オスマン旧市街、ハプスブルク都市、多宗教、包囲戦の記憶、産業、映画祭、住宅、山岳観光を扱う静的ページを実装済み。
 - [x] 248 `queenstown` - Queenstown - 湖と山、冒険観光、季節労働、マオリの景観記憶、住宅圧力、気候リスク、交通、食と夜、スキー文化を扱う静的ページを実装済み。
-- [ ] 249 `gyeongju` - Gyeongju - Silla capital, Buddhist heritage, royal tombs, and East Asian exchange
-- [ ] 250 `tainan` - Tainan - Taiwan's historic capital, temples, food culture, and port memory
+- [x] 249 `gyeongju` - Gyeongju - 新羅王都、仏教遺産、王陵と古墳、考古学、漢屋の日常、観光圧力、教育工芸、広域交通を扱う静的ページを実装済み。
+- [x] 250 `tainan` - Tainan - 台湾の古都、廟と儀礼、食市場、安平港、オランダの記憶、半導体産業、住宅日常、水と気候を扱う静的ページを実装済み。
 - [ ] 251 `strasbourg` - Strasbourg - Alsatian border culture, European institutions, canals, and cathedral cityscape
 - [ ] 252 `yazd` - Yazd
 - [ ] 253 `gdansk` - Gdansk
