@@ -272,7 +272,7 @@ Progress notes:
 - [x] 190 `hoi-an` - Hoi An - 港町の記憶、旧市街保存、観光産業、水と洪水、信仰と会館、食と市場、海辺とチャム島を扱う静的ページを実装済み。
 - [x] 191 `tbilisi` - Tbilisi - 谷の地形、首都政治、帝国の交差路、宗教と多民族、産業と労働、住宅再開発、食とワイン、交通回廊を扱う静的ページを実装済み。
 - [x] 192 `ankara` - Ankara - アナトリア高原の首都、共和国政治、防衛産業、大学、アタテュルクの記憶、城塞、信仰、郊外生活を扱う静的ページを実装済み。
-- [ ] 193 `kuwait-city` - Kuwait City - Capital of Kuwait
+- [x] 193 `kuwait-city` - Kuwait City - 湾岸の首都、石油国家の財政、議会政治、港湾、移民労働、イスラムの日常、暑熱と水、海辺観光を扱う静的ページを実装済み。
 - [ ] 194 `nicosia` - Nicosia
 - [ ] 195 `kabul` - Kabul
 - [ ] 196 `borobudur` - Borobudur - Buddhist monument landscape, pilgrimage, tourism, and Javanese village life
