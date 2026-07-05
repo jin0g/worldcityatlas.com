@@ -276,7 +276,7 @@ Progress notes:
 - [x] 194 `nicosia` - Nicosia - 城壁旧市街、分断首都、緩衝地帯、行政、金融、信仰、市場、住宅、暑熱と観光を扱う静的ページを実装済み。
 - [x] 195 `kabul` - Kabul - 山岳盆地の首都、政治、戦争の記憶、産業と労働、信仰、教育、女性、市場、住宅、交通、庭園を扱う静的ページを実装済み。
 - [x] 196 `borobudur` - Borobudur - 仏教寺院、ケドゥ盆地、巡礼、観光労働、農村、工芸、保存管理、生活課題を扱う静的ページを実装済み。
-- [ ] 197 `ayutthaya` - Ayutthaya - Former Siamese capital, Japanese trading history, and river ruins
+- [x] 197 `ayutthaya` - Ayutthaya - 王都の島、世界遺産、外国人町、仏教儀礼、洪水、工業団地、市場、住宅と保全倫理を扱う静的ページを実装済み。
 - [ ] 198 `luoyang` - Luoyang - Ancient dynastic capital, Longmen Buddhist caves, and Yellow River culture
 - [ ] 199 `da-nang` - Da Nang - Central Vietnam beach hub, wartime base history, and rapid urban growth
 - [ ] 200 `doha` - Doha - Capital of Qatar
