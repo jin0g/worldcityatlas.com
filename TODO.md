@@ -282,7 +282,7 @@ Progress notes:
 - [x] 200 `doha` - Doha - 湾岸地政学、首都外交、LNG、金融、移民労働、宗教、教育、都市交通、スポーツ外交、酷暑を扱う静的ページを実装済み。
 - [x] 201 `valparaiso` - Valparaiso - 太平洋港湾、丘の移動、政治と海軍、世界遺産、壁画文化、大学、観光、住宅リスク、格差と都市圏を扱う静的ページを実装済み。
 - [x] 202 `dakar` - Dakar - 半島地理、首都政治、港湾経済、若者労働、信仰、音楽、ゴレ島、住宅、気候、交通を扱う静的ページを実装済み。
-- [ ] 203 `ramallah` - Ramallah - Capital of Palestine
+- [x] 203 `ramallah` - Ramallah - 丘陵地形、行政政治、占領と移動、経済と援助、文化、宗教、住宅、観光、社会課題を扱う静的ページを実装済み。
 - [ ] 204 `kingston` - Kingston
 - [ ] 205 `hue` - Hue - Vietnamese imperial capital, court culture, war memory, and Perfume River landscape
 - [ ] 206 `edinburgh` - Edinburgh - Castle city, Scottish capital, literature, festivals, and Old Town heritage
