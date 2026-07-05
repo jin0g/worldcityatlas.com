@@ -281,7 +281,7 @@ Progress notes:
 - [x] 199 `da-nang` - Da Nang - 港湾、海辺観光、広域行政、ハイテク産業、チャンパ遺産、交通、住宅、防災、食と市場を扱う静的ページを実装済み。
 - [x] 200 `doha` - Doha - 湾岸地政学、首都外交、LNG、金融、移民労働、宗教、教育、都市交通、スポーツ外交、酷暑を扱う静的ページを実装済み。
 - [x] 201 `valparaiso` - Valparaiso - 太平洋港湾、丘の移動、政治と海軍、世界遺産、壁画文化、大学、観光、住宅リスク、格差と都市圏を扱う静的ページを実装済み。
-- [ ] 202 `dakar` - Dakar
+- [x] 202 `dakar` - Dakar - 半島地理、首都政治、港湾経済、若者労働、信仰、音楽、ゴレ島、住宅、気候、交通を扱う静的ページを実装済み。
 - [ ] 203 `ramallah` - Ramallah - Capital of Palestine
 - [ ] 204 `kingston` - Kingston
 - [ ] 205 `hue` - Hue - Vietnamese imperial capital, court culture, war memory, and Perfume River landscape
