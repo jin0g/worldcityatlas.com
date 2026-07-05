@@ -330,8 +330,8 @@ Progress notes:
 - [x] 248 `queenstown` - Queenstown - 湖と山、冒険観光、季節労働、マオリの景観記憶、住宅圧力、気候リスク、交通、食と夜、スキー文化を扱う静的ページを実装済み。
 - [x] 249 `gyeongju` - Gyeongju - 新羅王都、仏教遺産、王陵と古墳、考古学、漢屋の日常、観光圧力、教育工芸、広域交通を扱う静的ページを実装済み。
 - [x] 250 `tainan` - Tainan - 台湾の古都、廟と儀礼、食市場、安平港、オランダの記憶、半導体産業、住宅日常、水と気候を扱う静的ページを実装済み。
-- [ ] 251 `strasbourg` - Strasbourg - Alsatian border culture, European institutions, canals, and cathedral cityscape
-- [ ] 252 `yazd` - Yazd
+- [x] 251 `strasbourg` - Strasbourg - ライン国境、大聖堂と旧市街、欧州機関、運河住宅、アルザス文化、トラム労働、宗教記憶、観光圧力、気候と川を扱う静的ページを実装済み。
+- [x] 252 `yazd` - Yazd - 砂漠都市、風塔と水の技術、ゾロアスター教の記憶、バザール、モスク儀礼、住宅日常、世界遺産観光、酷暑、産業労働を扱う静的ページを実装済み。
 - [ ] 253 `gdansk` - Gdansk
 - [ ] 254 `belem` - Belem
 - [ ] 255 `juba` - Juba
