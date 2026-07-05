@@ -309,7 +309,7 @@ Progress notes:
 - [x] 227 `la-paz` - La Paz - 高地盆地、政府と権力、エルアルトとの連続、空中交通、先住民文化、市場と食、水と気候、斜面住宅、月の谷観光を扱う静的ページを実装済み。
 - [x] 228 `recife` - Recife - 環礁と河口、オリンダと旧市街、港湾物流、マングローブ、フレヴォ、ポルト・デジタル、住宅格差、食市場、気候と洪水を扱う静的ページを実装済み。
 - [x] 229 `gold-coast` - Gold Coast - サーファーズパラダイス、海岸観光、テーマパーク、後背地、サーフ文化、住宅市場、ライトレール、先住民の土地、海岸気候リスクを扱う静的ページを実装済み。
-- [ ] 230 `guam` - Guam / Hagatna - Pacific island territory and Chamorro cultural center
+- [x] 230 `guam` - Guam / Hagatna - ハガニア、チャモロ文化、米軍基地、タモン観光、台風気候、珊瑚礁、移民労働、食と村、戦争記憶を扱う静的ページを実装済み。
 - [ ] 231 `bukhara` - Bukhara
 - [ ] 232 `phnom-penh` - Phnom Penh
 - [ ] 233 `santo-domingo` - Santo Domingo
