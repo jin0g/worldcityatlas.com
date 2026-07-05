@@ -300,7 +300,7 @@ Progress notes:
 - [x] 218 `urumqi` - Urumqi - 天山北麓、バザール労働、エネルギー物流、多民族街区、治安と記憶、食文化、移住住宅、気候と水、観光玄関口を扱う静的ページを実装済み。
 - [x] 219 `kaohsiung` - Kaohsiung - 高雄港、重工業転換、愛河、左営寺廟、夜市、港湾労働、民主化の記憶、気候リスク、創意水辺を扱う静的ページを実装済み。
 - [x] 220 `durban` - Durban - インド洋港湾、海岸観光、インド系社会、ズールー地域、住宅、物流労働、記憶と分断、洪水リスク、食市場を扱う静的ページを実装済み。
-- [ ] 221 `casablanca` - Casablanca
+- [x] 221 `casablanca` - Casablanca - 大西洋港湾、ハサン2世モスク、金融と業務地区、アールデコ、労働住宅、食市場、移民記憶、海岸リスク、路面電車を扱う静的ページを実装済み。
 - [ ] 222 `goma` - Goma
 - [ ] 223 `yerevan` - Yerevan - Capital of Armenia
 - [ ] 224 `seville` - Seville
