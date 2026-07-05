@@ -266,7 +266,7 @@ Progress notes:
 - [x] 184 `helsinki` - Helsinki - バルト海の首都、デザイン建築、港湾フェリー、教育研究、サウナ、福祉住宅、文化、安全保障、気候と海を扱う静的ページを実装済み。
 - [x] 185 `quito` - Quito - 歴史地区、アンデス地形、政府首都、先住民市場、移動と交通、観光遺産、住宅リスク、食と日常を扱う静的ページを実装済み。
 - [x] 186 `kinshasa` - Kinshasa - コンゴ川、音楽文化、非公式経済、交通、宗教、住宅成長、食市場、政治記憶、気候と水害を扱う静的ページを実装済み。
-- [ ] 187 `najaf` - Najaf
+- [x] 187 `najaf` - Najaf - 聖廟と旧市街、ハウザ、ワーディー・アッサラーム墓地、巡礼経済、交通、宗教権威、暑熱、水と砂漠を扱う静的ページを実装済み。
 - [ ] 188 `mont-saint-michel` - Mont Saint-Michel - Tidal abbey, pilgrimage, tourism, and coastal heritage landscape
 - [ ] 189 `versailles` - Versailles - Palace city, absolutist monarchy, revolution memory, and planned court landscape
 - [ ] 190 `hoi-an` - Hoi An - Historic trading port, Japanese bridge memory, lantern streets, and food culture
