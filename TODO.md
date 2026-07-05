@@ -295,7 +295,7 @@ Progress notes:
 - [x] 213 `mashhad` - Mashhad - ホラーサーン地理、イマーム・レザー廟、巡礼経済、国境交易、バザール、神学教育、住宅郊外、交通、水、社会課題を扱う静的ページを実装済み。
 - [x] 214 `bodh-gaya` - Bodh Gaya - 悟りの地理、大菩提寺、国際僧院街、巡礼と瞑想、観光経済、農村生活、ガヤ交通、治安、衛生福祉を扱う静的ページを実装済み。
 - [x] 215 `dunhuang` - Dunhuang - 河西回廊、莫高窟、鳴沙山・月牙泉、陽関、玉門関、党河、水管理、観光労働、オアシス農業、砂漠環境を扱う静的ページを実装済み。
-- [ ] 216 `malacca` - Malacca - Strait trade, Malay, Chinese, Portuguese, Dutch, and British urban layers
+- [x] 216 `malacca` - Malacca - マラッカ海峡、世界遺産旧市街、マレー・華人・プラナカン文化、植民地記憶、観光労働、港湾、食、信仰を扱う静的ページを実装済み。
 - [ ] 217 `geneva` - Geneva - International organizations, diplomacy, humanitarian history, and lakefront urban life
 - [ ] 218 `urumqi` - Urumqi - Uyghur culture, Inner Asian trade routes, and frontier urban politics
 - [ ] 219 `kaohsiung` - Kaohsiung - Southern Taiwan port, industry, and coastal culture
