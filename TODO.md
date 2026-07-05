@@ -339,7 +339,7 @@ Progress notes:
 - [x] 257 `luang-prabang` - Luang Prabang - メコンとナムカーンの地形、旧王都、仏教托鉢、世界遺産保全、観光経済、少数民族手工芸、鉄道接続、住宅日常、食市場、過剰観光を扱う静的ページを実装済み。
 - [x] 258 `cologne` - Cologne - ライン川の都市軸、ローマと中世、大聖堂信仰、メディアと見本市、港湾物流、住宅地区、移民とユダヤ史、カーニバル、観光遺産、洪水気候を扱う静的ページを実装済み。
 - [x] 259 `port-louis` - Port Louis - インド洋の港湾首都、国会と官庁、金融、中央市場、移民史と世界遺産、多宗教、住宅日常、観光水辺、気候リスクを扱う静的ページを実装済み。
-- [ ] 260 `las-vegas` - Las Vegas - Casino resort city, desert water risk, entertainment economy, and spectacle urbanism
+- [x] 260 `las-vegas` - Las Vegas - 砂漠と水資源、ストリップ、観光産業と労働、旧市街、先住民史、移民と宗教、郊外住宅、大衆文化、社会問題と気候リスクを扱う静的ページを実装済み。
 - [ ] 261 `nice` - Nice - Riviera tourism, Mediterranean art, border history, and resort-city life
 - [ ] 262 `hualien` - Hualien - Taroko gateway, Indigenous culture, seismic risk, and mountain-coast life
 - [ ] 263 `saipan` - Saipan - Northern Mariana Islands history, tourism, and Pacific war memory
