@@ -324,8 +324,8 @@ Progress notes:
 - [x] 242 `guatemala-city` - Guatemala City - 高原盆地と火山、首都政治、市場、交通、マヤと植民地の記憶、宗教、住宅治安、移民送金、災害リスクを扱う静的ページを実装済み。
 - [x] 243 `mogadishu` - Mogadishu - インド洋港湾、首都と国家、紛争と再建、市場労働、宗教、ディアスポラ送金、住宅治安、海岸気候、文化と食を扱う静的ページを実装済み。
 - [x] 244 `baku` - Baku - カスピ海岸、石油とガス、旧市街遺産、首都地政学、文化音楽、宗教、住宅格差、交通物流、風と気候を扱う静的ページを実装済み。
-- [ ] 245 `palermo` - Palermo
-- [ ] 246 `qom` - Qom
+- [x] 245 `palermo` - Palermo - 地中海港湾、アラブ・ノルマン遺産、市場と食、反マフィアの市民記憶、宗教祭礼、移民、住宅、気候を扱う静的ページを実装済み。
+- [x] 246 `qom` - Qom - 聖廟、神学校、革命後の政治、首都回廊、巡礼経済、住宅、砂漠気候、出版、社会課題を扱う静的ページを実装済み。
 - [ ] 247 `sarajevo` - Sarajevo
 - [ ] 248 `queenstown` - Queenstown - Alpine resort, adventure tourism, lake landscape, and seasonal labor
 - [ ] 249 `gyeongju` - Gyeongju - Silla capital, Buddhist heritage, royal tombs, and East Asian exchange
