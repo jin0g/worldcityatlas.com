@@ -318,7 +318,7 @@ Progress notes:
 - [x] 236 `liverpool` - Liverpool - マージー川、海運帝国の記憶、音楽文化、サッカー、労働者階級、移民、水辺再生、健康格差、大学を扱う静的ページを実装済み。
 - [x] 237 `cambridge` - Cambridge - カム川、大学制度、科学クラスター、学生生活、住宅圧力、遺産観光、知識経済、フェンズ、自転車交通を扱う静的ページを実装済み。
 - [x] 238 `incheon` - Incheon - 港湾空港、松島計画、開港場記憶、仁川上陸、工業労働、島と干潟、住宅通勤、文化と食、沿岸気候を扱う静的ページを実装済み。
-- [ ] 239 `amman` - Amman - Capital of Jordan
+- [x] 239 `amman` - Amman - 丘の都市形態、首都機能、難民と移住、水と気候、スーク、食文化、産業サービス、宗教、住宅格差を扱う静的ページを実装済み。
 - [ ] 240 `dubrovnik` - Dubrovnik
 - [ ] 241 `lviv` - Lviv
 - [ ] 242 `guatemala-city` - Guatemala City
