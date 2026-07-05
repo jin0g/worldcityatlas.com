@@ -291,7 +291,7 @@ Progress notes:
 - [x] 209 `santa-fe` - Santa Fe - プエブロ世界、スペイン植民地、アドビ建築、芸術市場、州都政治、食と儀礼、観光、水、住宅格差を扱う静的ページを実装済み。
 - [x] 210 `chefchaouen` - Chefchaouen - 青いメディナ、カスバ、リーフ山地、アンダルス記憶、信仰、水、手工芸、観光労働、山村、住宅生活を扱う静的ページを実装済み。
 - [x] 211 `brasilia` - Brasilia - 計画首都、連邦政治、セラード、水、モダニズム建築、衛星都市、行政経済、宗教、観光、住宅生活を扱う静的ページを実装済み。
-- [ ] 212 `aswan` - Aswan
+- [x] 212 `aswan` - Aswan - ナイル南端、ハイダム、ヌビア文化、島と船、神殿救出、採石、観光労働、農業市場、暑さ、信仰を扱う静的ページを実装済み。
 - [ ] 213 `mashhad` - Mashhad
 - [ ] 214 `bodh-gaya` - Bodh Gaya
 - [ ] 215 `dunhuang` - Dunhuang - Mogao Caves, Silk Road art, desert pilgrimage, and oasis history
