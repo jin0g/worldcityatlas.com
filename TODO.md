@@ -293,7 +293,7 @@ Progress notes:
 - [x] 211 `brasilia` - Brasilia - 計画首都、連邦政治、セラード、水、モダニズム建築、衛星都市、行政経済、宗教、観光、住宅生活を扱う静的ページを実装済み。
 - [x] 212 `aswan` - Aswan - ナイル南端、ハイダム、ヌビア文化、島と船、神殿救出、採石、観光労働、農業市場、暑さ、信仰を扱う静的ページを実装済み。
 - [x] 213 `mashhad` - Mashhad - ホラーサーン地理、イマーム・レザー廟、巡礼経済、国境交易、バザール、神学教育、住宅郊外、交通、水、社会課題を扱う静的ページを実装済み。
-- [ ] 214 `bodh-gaya` - Bodh Gaya
+- [x] 214 `bodh-gaya` - Bodh Gaya - 悟りの地理、大菩提寺、国際僧院街、巡礼と瞑想、観光経済、農村生活、ガヤ交通、治安、衛生福祉を扱う静的ページを実装済み。
 - [ ] 215 `dunhuang` - Dunhuang - Mogao Caves, Silk Road art, desert pilgrimage, and oasis history
 - [ ] 216 `malacca` - Malacca - Strait trade, Malay, Chinese, Portuguese, Dutch, and British urban layers
 - [ ] 217 `geneva` - Geneva - International organizations, diplomacy, humanitarian history, and lakefront urban life
