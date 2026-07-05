@@ -305,7 +305,7 @@ Progress notes:
 - [x] 223 `yerevan` - Yerevan - アララトの地理、共和国広場、カスケード文化、虐殺の記憶、ITとディアスポラ、市場食、ソ連都市計画、水と気候、宗教と教会を扱う静的ページを実装済み。
 - [x] 224 `seville` - Seville - グアダルキビル川と港、大聖堂、アルカサル、トリアナとフラメンコ、聖週間、観光労働、酷暑、大学、食市場を扱う静的ページを実装済み。
 - [ ] 225 `odesa` - Odesa
-- [ ] 226 `san-juan` - San Juan
+- [x] 226 `san-juan` - San Juan - 湾と要塞、米自治領の首都制度、港湾と空港、旧市街観光、音楽と信仰、住宅格差、災害と電力、移住家族、食と夜の街を扱う静的ページを実装済み。
 - [ ] 227 `la-paz` - La Paz
 - [ ] 228 `recife` - Recife
 - [ ] 229 `gold-coast` - Gold Coast - Beach tourism, surfing culture, theme parks, and high-rise coastal urbanism
