@@ -277,7 +277,7 @@ Progress notes:
 - [x] 195 `kabul` - Kabul - 山岳盆地の首都、政治、戦争の記憶、産業と労働、信仰、教育、女性、市場、住宅、交通、庭園を扱う静的ページを実装済み。
 - [x] 196 `borobudur` - Borobudur - 仏教寺院、ケドゥ盆地、巡礼、観光労働、農村、工芸、保存管理、生活課題を扱う静的ページを実装済み。
 - [x] 197 `ayutthaya` - Ayutthaya - 王都の島、世界遺産、外国人町、仏教儀礼、洪水、工業団地、市場、住宅と保全倫理を扱う静的ページを実装済み。
-- [ ] 198 `luoyang` - Luoyang - Ancient dynastic capital, Longmen Buddhist caves, and Yellow River culture
+- [x] 198 `luoyang` - Luoyang - 河洛地理、都城の記憶、龍門石窟、白馬寺、牡丹、装備製造、旧市街、食と市場、観光労働を扱う静的ページを実装済み。
 - [ ] 199 `da-nang` - Da Nang - Central Vietnam beach hub, wartime base history, and rapid urban growth
 - [ ] 200 `doha` - Doha - Capital of Qatar
 - [ ] 201 `valparaiso` - Valparaiso
