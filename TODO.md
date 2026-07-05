@@ -317,7 +317,7 @@ Progress notes:
 - [x] 235 `alula` - AlUla - オアシス地理、ヘグラ遺産、観光開発、考古学、オアシスの暮らし、砂漠気候、文化祭、交通、保全を扱う静的ページを実装済み。
 - [x] 236 `liverpool` - Liverpool - マージー川、海運帝国の記憶、音楽文化、サッカー、労働者階級、移民、水辺再生、健康格差、大学を扱う静的ページを実装済み。
 - [x] 237 `cambridge` - Cambridge - カム川、大学制度、科学クラスター、学生生活、住宅圧力、遺産観光、知識経済、フェンズ、自転車交通を扱う静的ページを実装済み。
-- [ ] 238 `incheon` - Incheon - Airport gateway, port, Chinatown, and Korean War landing history
+- [x] 238 `incheon` - Incheon - 港湾空港、松島計画、開港場記憶、仁川上陸、工業労働、島と干潟、住宅通勤、文化と食、沿岸気候を扱う静的ページを実装済み。
 - [ ] 239 `amman` - Amman - Capital of Jordan
 - [ ] 240 `dubrovnik` - Dubrovnik
 - [ ] 241 `lviv` - Lviv
