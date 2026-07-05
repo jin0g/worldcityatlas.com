@@ -314,7 +314,7 @@ Progress notes:
 - [x] 232 `phnom-penh` - Phnom Penh - 三川合流の地形、王宮と政治、虐殺の記憶、縫製産業、建設と土地開発、信仰、市場、住宅、観光、水害を扱う静的ページを実装済み。
 - [x] 233 `santo-domingo` - Santo Domingo - オサマ川と港、首都政治、植民都市遺産、港湾経済、宗教暦、音楽と野球、住宅格差、観光、移民、災害と気候を扱う静的ページを実装済み。
 - [x] 234 `kigali` - Kigali - 丘陵地形、国家首都、記憶と追悼、ICT産業、住宅、宗教共同体、交通、観光工芸、環境管理を扱う静的ページを実装済み。
-- [ ] 235 `alula` - AlUla - Nabataean desert heritage, oasis landscape, and Saudi cultural tourism
+- [x] 235 `alula` - AlUla - オアシス地理、ヘグラ遺産、観光開発、考古学、オアシスの暮らし、砂漠気候、文化祭、交通、保全を扱う静的ページを実装済み。
 - [ ] 236 `liverpool` - Liverpool - Beatles culture, Atlantic port history, football, and working-class memory
 - [ ] 237 `cambridge` - Cambridge - University, science history, river colleges, and student urban life
 - [ ] 238 `incheon` - Incheon - Airport gateway, port, Chinatown, and Korean War landing history
