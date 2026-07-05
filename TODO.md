@@ -320,7 +320,7 @@ Progress notes:
 - [x] 238 `incheon` - Incheon - 港湾空港、松島計画、開港場記憶、仁川上陸、工業労働、島と干潟、住宅通勤、文化と食、沿岸気候を扱う静的ページを実装済み。
 - [x] 239 `amman` - Amman - 丘の都市形態、首都機能、難民と移住、水と気候、スーク、食文化、産業サービス、宗教、住宅格差を扱う静的ページを実装済み。
 - [x] 240 `dubrovnik` - Dubrovnik - 城壁と港、共和国の記憶、観光圧力、戦争の記憶、住宅と旧市街、気候、文化祭、交通、沿岸リスクを扱う静的ページを実装済み。
-- [ ] 241 `lviv` - Lviv
+- [x] 241 `lviv` - Lviv - 国境と後方拠点、旧市街遺産、宗教、ITと大学、鉄道物流、避難民支援、カフェ出版文化、住宅、観光リスクを扱う静的ページを実装済み。
 - [ ] 242 `guatemala-city` - Guatemala City
 - [ ] 243 `mogadishu` - Mogadishu
 - [ ] 244 `baku` - Baku - Capital of Azerbaijan
