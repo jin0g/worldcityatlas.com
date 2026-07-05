@@ -297,7 +297,7 @@ Progress notes:
 - [x] 215 `dunhuang` - Dunhuang - 河西回廊、莫高窟、鳴沙山・月牙泉、陽関、玉門関、党河、水管理、観光労働、オアシス農業、砂漠環境を扱う静的ページを実装済み。
 - [x] 216 `malacca` - Malacca - マラッカ海峡、世界遺産旧市街、マレー・華人・プラナカン文化、植民地記憶、観光労働、港湾、食、信仰を扱う静的ページを実装済み。
 - [x] 217 `geneva` - Geneva - レマン湖、国際機関、赤十字、人道外交、時計と金融、CERN、越境労働、住宅費、観光と中立の限界を扱う静的ページを実装済み。
-- [ ] 218 `urumqi` - Urumqi - Uyghur culture, Inner Asian trade routes, and frontier urban politics
+- [x] 218 `urumqi` - Urumqi - 天山北麓、バザール労働、エネルギー物流、多民族街区、治安と記憶、食文化、移住住宅、気候と水、観光玄関口を扱う静的ページを実装済み。
 - [ ] 219 `kaohsiung` - Kaohsiung - Southern Taiwan port, industry, and coastal culture
 - [ ] 220 `durban` - Durban - Indian Ocean port, Indian diaspora culture, beaches, and Zulu regional links
 - [ ] 221 `casablanca` - Casablanca
