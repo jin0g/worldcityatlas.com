@@ -322,7 +322,7 @@ Progress notes:
 - [x] 240 `dubrovnik` - Dubrovnik - 城壁と港、共和国の記憶、観光圧力、戦争の記憶、住宅と旧市街、気候、文化祭、交通、沿岸リスクを扱う静的ページを実装済み。
 - [x] 241 `lviv` - Lviv - 国境と後方拠点、旧市街遺産、宗教、ITと大学、鉄道物流、避難民支援、カフェ出版文化、住宅、観光リスクを扱う静的ページを実装済み。
 - [x] 242 `guatemala-city` - Guatemala City - 高原盆地と火山、首都政治、市場、交通、マヤと植民地の記憶、宗教、住宅治安、移民送金、災害リスクを扱う静的ページを実装済み。
-- [ ] 243 `mogadishu` - Mogadishu
+- [x] 243 `mogadishu` - Mogadishu - インド洋港湾、首都と国家、紛争と再建、市場労働、宗教、ディアスポラ送金、住宅治安、海岸気候、文化と食を扱う静的ページを実装済み。
 - [ ] 244 `baku` - Baku - Capital of Azerbaijan
 - [ ] 245 `palermo` - Palermo
 - [ ] 246 `qom` - Qom
