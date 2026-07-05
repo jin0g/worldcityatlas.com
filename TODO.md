@@ -333,7 +333,7 @@ Progress notes:
 - [x] 251 `strasbourg` - Strasbourg - ライン国境、大聖堂と旧市街、欧州機関、運河住宅、アルザス文化、トラム労働、宗教記憶、観光圧力、気候と川を扱う静的ページを実装済み。
 - [x] 252 `yazd` - Yazd - 砂漠都市、風塔と水の技術、ゾロアスター教の記憶、バザール、モスク儀礼、住宅日常、世界遺産観光、酷暑、産業労働を扱う静的ページを実装済み。
 - [x] 253 `gdansk` - Gdansk - バルト海の港、ハンザ旧市街、造船所と連帯、戦争記憶、琥珀と工芸、住宅日常、観光水辺、大学技術、海岸気候を扱う静的ページを実装済み。
-- [ ] 254 `belem` - Belem
+- [x] 254 `belem` - Belem - アマゾンの玄関、市場と食、植民地河岸、チリオと信仰、森の文化、港湾労働、住宅日常、気候浸水、観光遺産、社会課題を扱う静的ページを実装済み。
 - [ ] 255 `juba` - Juba
 - [ ] 256 `colombo` - Colombo
 - [ ] 257 `luang-prabang` - Luang Prabang - Buddhist ritual city, Mekong culture, and World Heritage townscape
