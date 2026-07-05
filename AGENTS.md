@@ -104,7 +104,7 @@ Each city page should include:
 - Do not quote prose from websites.
 - Explanatory text must be original writing.
 - Statistical values may be based on the user-provided GDP ranking list and other checked data when needed.
-- Country, national, regional, and city data, including population, area, GDP, and GDP per capita values, must use the latest data obtained by search or checked data sources. National data must also be searched and checked when used on a page. GDP must be shown in `兆円`, GDP per capita in `万円`, and currency conversion must use the exchange rate for the working date. Re-audit already implemented city pages against this rule as work proceeds, including older pages that were implemented before this sourcing rule was made explicit.
+- Country, national, regional, and city data, including population, area, GDP, and GDP per capita values, must use the latest data obtained through search or checked primary/statistical sources at implementation time. National data must also be searched and checked when used on a page. GDP must be shown in `兆円`, GDP per capita in `万円`, and currency conversion must use the exchange rate for the current working date. Re-audit already implemented city pages against this rule as work proceeds, including older pages that were implemented before this sourcing rule was made explicit.
 - The GDP ranking is economic, but pages must not become only business or finance pages.
 - Write in Japanese unless the user asks otherwise.
 - The prose should be detailed and useful, but divided into readable sections.
