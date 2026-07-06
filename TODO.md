@@ -372,10 +372,10 @@ Progress notes:
 - [x] 290 `pristina` - Pristina - Capital of Kosovo
 - [x] 291 `tripoli` - Tripoli - Capital of Libya
 - [x] 292 `praia` - Praia - Capital of Cape Verde
-- [ ] 293 `suva` - Suva - Capital of Fiji
-- [ ] 294 `south-tarawa` - South Tarawa - Capital of Kiribati
-- [ ] 295 `palikir` - Palikir - Capital of Micronesia
-- [ ] 296 `yaren` - Yaren - Capital of Nauru
+- [x] 293 `suva` - Suva - Capital of Fiji
+- [x] 294 `south-tarawa` - South Tarawa - Capital of Kiribati
+- [x] 295 `palikir` - Palikir - Capital of Micronesia
+- [x] 296 `yaren` - Yaren - Capital of Nauru
 - [ ] 297 `ngerulmud` - Ngerulmud - Capital of Palau
 - [ ] 298 `apia` - Apia - Capital of Samoa
 - [ ] 299 `nukualofa` - Nuku'alofa - Capital of Tonga
