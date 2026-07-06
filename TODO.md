@@ -400,10 +400,10 @@ Progress notes:
 - [x] 318 `bandar-seri-begawan` - Bandar Seri Begawan - Capital of Brunei
 - [x] 319 `sofia` - Sofia - Capital of Bulgaria
 - [x] 320 `ouagadougou` - Ouagadougou - Capital of Burkina Faso
-- [ ] 321 `gitega` - Gitega - Capital of Burundi
-- [ ] 322 `yaounde` - Yaounde - Capital of Cameroon
-- [ ] 323 `moroni` - Moroni - Capital of Comoros
-- [ ] 324 `brazzaville` - Brazzaville - Capital of Republic of the Congo
+- [x] 321 `gitega` - Gitega - Capital of Burundi
+- [x] 322 `yaounde` - Yaounde - Capital of Cameroon
+- [x] 323 `moroni` - Moroni - Capital of Comoros
+- [x] 324 `brazzaville` - Brazzaville - Capital of Republic of the Congo
 - [ ] 325 `san-jose-costa-rica` - San Jose - Capital of Costa Rica
 - [ ] 326 `yamoussoukro` - Yamoussoukro - Capital of Cote dIvoire
 - [ ] 327 `zagreb` - Zagreb - Capital of Croatia
