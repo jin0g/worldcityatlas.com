@@ -384,10 +384,10 @@ Progress notes:
 - [x] 302 `abuja` - Abuja - Capital of Nigeria
 - [x] 303 `bucharest` - Bucharest - Capital of Romania
 - [x] 304 `pretoria` - Pretoria - Capital of South Africa
-- [ ] 305 `bloemfontein` - Bloemfontein - Capital of South Africa
-- [ ] 306 `caracas` - Caracas - Capital of Venezuela
-- [ ] 307 `vaduz` - Vaduz - Capital of Liechtenstein
-- [ ] 308 `san-marino` - San Marino - Capital of San Marino
+- [x] 305 `bloemfontein` - Bloemfontein - Capital of South Africa
+- [x] 306 `caracas` - Caracas - Capital of Venezuela
+- [x] 307 `vaduz` - Vaduz - Capital of Liechtenstein
+- [x] 308 `san-marino` - San Marino - Capital of San Marino
 - [ ] 309 `tirana` - Tirana - Capital of Albania
 - [ ] 310 `st-johns-antigua` - St. John's - Capital of Antigua and Barbuda
 - [ ] 311 `nassau` - Nassau - Capital of Bahamas
