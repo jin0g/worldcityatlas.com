@@ -344,10 +344,10 @@ Progress notes:
 - [x] 262 `hualien` - Hualien - 海と山の地形、東岸交通、太魯閣の玄関、先住民文化、石材と港湾、夜市と食、地震防災、住宅日常、観光と海岸を扱う静的ページを実装済み。
 - [x] 263 `saipan` - Saipan - 島の地政学、行政中心、ラグーン観光、戦争記憶、先住民文化、移民労働、港と空港、台風復旧、宗教と多文化、ガラパンの日常、島の未来を扱う静的ページを実装済み。
 - [x] 264 `majuro` - Majuro - 環礁の都市形、首都機能と外交、港湾と漁業、気候危機と移住、核実験の記憶、教会共同体、教育、住宅インフラ、市場、観光と外島への玄関を扱う静的ページを実装済み。
-- [ ] 265 `honiara` - Honiara - Capital of Solomon Islands
-- [ ] 266 `port-vila` - Port Vila - Capital of Vanuatu
-- [ ] 267 `sri-jayawardenepura-kotte` - Sri Jayawardenepura Kotte - Capital of Sri Lanka
-- [ ] 268 `porto-novo` - Porto-Novo - Capital of Benin
+- [x] 265 `honiara` - Honiara - 海岸低地の首都、首都政治、港湾物流、ガダルカナルの戦争記憶、中央市場、教会、非公式居住、和解、観光、気候リスクを扱う静的ページを実装済み。
+- [x] 266 `port-vila` - Port Vila - 天然港と首都機能、島々を結ぶ交通、観光とクルーズ、市場、カストムと教会、住宅と土地、災害復旧、独立史、環境、教育を扱う静的ページを実装済み。
+- [x] 267 `sri-jayawardenepura-kotte` - Sri Jayawardenepura Kotte - 行政首都、ディヤワンナ湖と湿地、旧王都、仏教寺院、教育サービス、コロンボ郊外、交通、住宅、観光、公共課題を扱う静的ページを実装済み。
+- [x] 268 `porto-novo` - Porto-Novo - 公的首都、ラグーン地形、王国史と王宮、ヴォドゥン信仰、市場と職人、植民地建築、住宅、コトヌー回廊、観光、若者を扱う静的ページを実装済み。
 - [ ] 269 `antananarivo` - Antananarivo - Capital of Madagascar
 - [ ] 270 `port-moresby` - Port Moresby - Capital of Papua New Guinea
 - [ ] 271 `port-of-spain` - Port of Spain - Capital of Trinidad and Tobago
