@@ -380,10 +380,10 @@ Progress notes:
 - [x] 298 `apia` - Apia - Capital of Samoa
 - [x] 299 `nukualofa` - Nuku'alofa - Capital of Tonga
 - [x] 300 `funafuti` - Funafuti - Capital of Tuvalu
-- [ ] 301 `rabat` - Rabat - Capital of Morocco
-- [ ] 302 `abuja` - Abuja - Capital of Nigeria
-- [ ] 303 `bucharest` - Bucharest - Capital of Romania
-- [ ] 304 `pretoria` - Pretoria - Capital of South Africa
+- [x] 301 `rabat` - Rabat - Capital of Morocco
+- [x] 302 `abuja` - Abuja - Capital of Nigeria
+- [x] 303 `bucharest` - Bucharest - Capital of Romania
+- [x] 304 `pretoria` - Pretoria - Capital of South Africa
 - [ ] 305 `bloemfontein` - Bloemfontein - Capital of South Africa
 - [ ] 306 `caracas` - Caracas - Capital of Venezuela
 - [ ] 307 `vaduz` - Vaduz - Capital of Liechtenstein
