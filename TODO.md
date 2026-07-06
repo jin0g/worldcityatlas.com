@@ -360,10 +360,10 @@ Progress notes:
 - [x] 278 `luxembourg-city` - Luxembourg City - EU機関、要塞と渓谷、金融とファンド、越境労働、多言語生活、無料交通、住宅格差、旧市街、宗教、市民文化を扱う静的ページを実装済み。
 - [x] 279 `monaco` - Monaco - 都市国家、断崖と埋立、金融透明性、不動産、居住資格、ヨット経済、カジノ、F1、越境労働、王室儀礼、海洋環境を扱う静的ページを実装済み。
 - [x] 280 `port-au-prince` - Port-au-Prince - 湾岸首都、港湾輸入、震災復興、治安危機、丘陵都市構造、市場、非公式労働、文化と信仰、移住送金、水衛生を扱う静的ページを実装済み。
-- [ ] 281 `vancouver` - Vancouver - Pacific Rim port, Asian migration, film industry, and mountain-coast urbanism
-- [ ] 282 `salzburg` - Salzburg - Mozart city, Baroque heritage, Alpine tourism, and music festival culture
-- [ ] 283 `cannes` - Cannes - Film festival city, Riviera tourism, luxury economy, and media spectacle
-- [ ] 284 `bath` - Bath - Roman baths, Georgian architecture, spa tourism, and World Heritage urban form
+- [x] 281 `vancouver` - Vancouver - 太平洋港湾、先住民の土地、アジア太平洋貿易、住宅危機、映画と技術、移民と信仰、交通、自然と気候、食と労働を扱う静的ページを実装済み。
+- [x] 282 `salzburg` - Salzburg - 川と丘の地形、司教領の都、旧市街世界遺産、音楽祭、観光労働、州経済、交通、宗教、住宅、気候適応を扱う静的ページを実装済み。
+- [x] 283 `cannes` - Cannes - 映画祭、クロワゼット、旧港、会議観光、ラ・ボカの宇宙産業、レランス諸島、住宅、季節労働、海岸リスクを扱う静的ページを実装済み。
+- [x] 284 `bath` - Bath - ローマ浴場、ジョージアン建築、世界遺産保全、観光労働、大学、住宅、文学、修道院、交通、気候適応を扱う静的ページを実装済み。
 - [ ] 285 `heidelberg` - Heidelberg - University town, castle landscape, romantic tourism, and student culture
 - [ ] 286 `lourdes` - Lourdes - Catholic pilgrimage, healing faith, hotels, and religious tourism economy
 - [ ] 287 `bangui` - Bangui - Capital of Central African Republic
