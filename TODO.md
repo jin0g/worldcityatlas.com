@@ -352,10 +352,10 @@ Progress notes:
 - [x] 270 `port-moresby` - Port Moresby - 湾岸首都、空港と港、資源経済、モツ・コイタブの土地、住宅、市場、教会、治安、水と気候を扱う静的ページを実装済み。
 - [x] 271 `port-of-spain` - Port of Spain - 港湾首都、東西回廊、エネルギー金融、カーニバル、多宗教、住宅格差、治安、洪水、ベネズエラとの海域を扱う静的ページを実装済み。
 - [x] 272 `male` - Male - 環礁首都、インド洋外交、観光経済、港湾輸入、人工島、イスラム文化、移民労働、住宅、気候危機、王都史を扱う静的ページを実装済み。
-- [ ] 273 `victoria-seychelles` - Victoria - Capital of Seychelles
-- [ ] 274 `canberra` - Canberra - Capital of Australia
-- [ ] 275 `ottawa` - Ottawa - Capital of Canada
-- [ ] 276 `bern` - Bern - Capital of Switzerland
+- [x] 273 `victoria-seychelles` - Victoria - 島国首都、港湾とマグロ経済、観光、クレオール文化、住宅、日常食、海洋環境、交通、独立史、若者を扱う静的ページを実装済み。
+- [x] 274 `canberra` - Canberra - 計画首都、議会と行政、湖と丘陵、大学、先住民の記憶、国立文化機関、住宅、交通、火災、観光を扱う静的ページを実装済み。
+- [x] 275 `ottawa` - Ottawa - 国会丘、二言語都市、先住民の記憶、官庁経済、技術産業、冬の生活、博物館、移民、住宅、市場を扱う静的ページを実装済み。
+- [x] 276 `bern` - Bern - アーレ川地形、連邦政治、旧市街世界遺産、州経済、鉄道、大学医療、宗教、多文化、住宅、観光、気候を扱う静的ページを実装済み。
 - [ ] 277 `andorra-la-vella` - Andorra la Vella - Capital of Andorra
 - [ ] 278 `luxembourg-city` - Luxembourg City - Capital of Luxembourg
 - [ ] 279 `monaco` - Monaco - Capital of Monaco
