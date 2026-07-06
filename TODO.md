@@ -341,7 +341,7 @@ Progress notes:
 - [x] 259 `port-louis` - Port Louis - インド洋の港湾首都、国会と官庁、金融、中央市場、移民史と世界遺産、多宗教、住宅日常、観光水辺、気候リスクを扱う静的ページを実装済み。
 - [x] 260 `las-vegas` - Las Vegas - 砂漠と水資源、ストリップ、観光産業と労働、旧市街、先住民史、移民と宗教、郊外住宅、大衆文化、社会問題と気候リスクを扱う静的ページを実装済み。
 - [x] 261 `nice` - Nice - 地中海の地形、国境史、冬季保養地と世界遺産、観光産業と季節労働、港と空港、芸術と博物館、旧市街と信仰、住宅と社会問題、移民、多言語生活、気候リスクを扱う静的ページを実装済み。
-- [ ] 262 `hualien` - Hualien - Taroko gateway, Indigenous culture, seismic risk, and mountain-coast life
+- [x] 262 `hualien` - Hualien - 海と山の地形、東岸交通、太魯閣の玄関、先住民文化、石材と港湾、夜市と食、地震防災、住宅日常、観光と海岸を扱う静的ページを実装済み。
 - [ ] 263 `saipan` - Saipan - Northern Mariana Islands history, tourism, and Pacific war memory
 - [ ] 264 `majuro` - Majuro - Capital of Marshall Islands
 - [ ] 265 `honiara` - Honiara - Capital of Solomon Islands
