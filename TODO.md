@@ -392,10 +392,10 @@ Progress notes:
 - [x] 310 `st-johns-antigua` - St. John's - Capital of Antigua and Barbuda
 - [x] 311 `nassau` - Nassau - Capital of Bahamas
 - [x] 312 `manama` - Manama - Capital of Bahrain
-- [ ] 313 `bridgetown` - Bridgetown - Capital of Barbados
-- [ ] 314 `minsk` - Minsk - Capital of Belarus
-- [ ] 315 `belmopan` - Belmopan - Capital of Belize
-- [ ] 316 `thimphu` - Thimphu - Capital of Bhutan
+- [x] 313 `bridgetown` - Bridgetown - Capital of Barbados
+- [x] 314 `minsk` - Minsk - Capital of Belarus
+- [x] 315 `belmopan` - Belmopan - Capital of Belize
+- [x] 316 `thimphu` - Thimphu - Capital of Bhutan
 - [ ] 317 `gaborone` - Gaborone - Capital of Botswana
 - [ ] 318 `bandar-seri-begawan` - Bandar Seri Begawan - Capital of Brunei
 - [ ] 319 `sofia` - Sofia - Capital of Bulgaria
