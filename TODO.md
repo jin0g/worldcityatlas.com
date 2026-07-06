@@ -408,10 +408,10 @@ Progress notes:
 - [x] 326 `yamoussoukro` - Yamoussoukro - Capital of Cote dIvoire
 - [x] 327 `zagreb` - Zagreb - Capital of Croatia
 - [x] 328 `djibouti-city` - Djibouti City - Capital of Djibouti
-- [ ] 329 `roseau` - Roseau - Capital of Dominica
-- [ ] 330 `malabo` - Malabo - Capital of Equatorial Guinea
-- [ ] 331 `mbabane` - Mbabane - Capital of Eswatini
-- [ ] 332 `libreville` - Libreville - Capital of Gabon
+- [x] 329 `roseau` - Roseau - Capital of Dominica
+- [x] 330 `malabo` - Malabo - Capital of Equatorial Guinea
+- [x] 331 `mbabane` - Mbabane - Capital of Eswatini
+- [x] 332 `libreville` - Libreville - Capital of Gabon
 - [ ] 333 `banjul` - Banjul - Capital of Gambia
 - [ ] 334 `st-georges` - St. George's - Capital of Grenada
 - [ ] 335 `conakry` - Conakry - Capital of Guinea
