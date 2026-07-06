@@ -348,10 +348,10 @@ Progress notes:
 - [x] 266 `port-vila` - Port Vila - 天然港と首都機能、島々を結ぶ交通、観光とクルーズ、市場、カストムと教会、住宅と土地、災害復旧、独立史、環境、教育を扱う静的ページを実装済み。
 - [x] 267 `sri-jayawardenepura-kotte` - Sri Jayawardenepura Kotte - 行政首都、ディヤワンナ湖と湿地、旧王都、仏教寺院、教育サービス、コロンボ郊外、交通、住宅、観光、公共課題を扱う静的ページを実装済み。
 - [x] 268 `porto-novo` - Porto-Novo - 公的首都、ラグーン地形、王国史と王宮、ヴォドゥン信仰、市場と職人、植民地建築、住宅、コトヌー回廊、観光、若者を扱う静的ページを実装済み。
-- [ ] 269 `antananarivo` - Antananarivo - Capital of Madagascar
-- [ ] 270 `port-moresby` - Port Moresby - Capital of Papua New Guinea
-- [ ] 271 `port-of-spain` - Port of Spain - Capital of Trinidad and Tobago
-- [ ] 272 `male` - Male - Capital of Maldives
+- [x] 269 `antananarivo` - Antananarivo - 中央高地の首都、メリナ王国とロヴァ、市場と非公式経済、繊維産業、信仰、斜面住宅、交通、観光、気候リスクを扱う静的ページを実装済み。
+- [x] 270 `port-moresby` - Port Moresby - 湾岸首都、空港と港、資源経済、モツ・コイタブの土地、住宅、市場、教会、治安、水と気候を扱う静的ページを実装済み。
+- [x] 271 `port-of-spain` - Port of Spain - 港湾首都、東西回廊、エネルギー金融、カーニバル、多宗教、住宅格差、治安、洪水、ベネズエラとの海域を扱う静的ページを実装済み。
+- [x] 272 `male` - Male - 環礁首都、インド洋外交、観光経済、港湾輸入、人工島、イスラム文化、移民労働、住宅、気候危機、王都史を扱う静的ページを実装済み。
 - [ ] 273 `victoria-seychelles` - Victoria - Capital of Seychelles
 - [ ] 274 `canberra` - Canberra - Capital of Australia
 - [ ] 275 `ottawa` - Ottawa - Capital of Canada
