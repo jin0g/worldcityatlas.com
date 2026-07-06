@@ -368,10 +368,10 @@ Progress notes:
 - [x] 286 `lourdes` - Lourdes - Catholic pilgrimage, healing faith, hotels, and religious tourism economy
 - [x] 287 `bangui` - Bangui - Capital of Central African Republic
 - [x] 288 `ndjamena` - N'Djamena - Capital of Chad
-- [ ] 289 `asmara` - Asmara - Capital of Eritrea
-- [ ] 290 `pristina` - Pristina - Capital of Kosovo
-- [ ] 291 `tripoli` - Tripoli - Capital of Libya
-- [ ] 292 `praia` - Praia - Capital of Cape Verde
+- [x] 289 `asmara` - Asmara - Capital of Eritrea
+- [x] 290 `pristina` - Pristina - Capital of Kosovo
+- [x] 291 `tripoli` - Tripoli - Capital of Libya
+- [x] 292 `praia` - Praia - Capital of Cape Verde
 - [ ] 293 `suva` - Suva - Capital of Fiji
 - [ ] 294 `south-tarawa` - South Tarawa - Capital of Kiribati
 - [ ] 295 `palikir` - Palikir - Capital of Micronesia
