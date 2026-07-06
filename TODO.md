@@ -404,10 +404,10 @@ Progress notes:
 - [x] 322 `yaounde` - Yaounde - Capital of Cameroon
 - [x] 323 `moroni` - Moroni - Capital of Comoros
 - [x] 324 `brazzaville` - Brazzaville - Capital of Republic of the Congo
-- [ ] 325 `san-jose-costa-rica` - San Jose - Capital of Costa Rica
-- [ ] 326 `yamoussoukro` - Yamoussoukro - Capital of Cote dIvoire
-- [ ] 327 `zagreb` - Zagreb - Capital of Croatia
-- [ ] 328 `djibouti-city` - Djibouti City - Capital of Djibouti
+- [x] 325 `san-jose-costa-rica` - San Jose - Capital of Costa Rica
+- [x] 326 `yamoussoukro` - Yamoussoukro - Capital of Cote dIvoire
+- [x] 327 `zagreb` - Zagreb - Capital of Croatia
+- [x] 328 `djibouti-city` - Djibouti City - Capital of Djibouti
 - [ ] 329 `roseau` - Roseau - Capital of Dominica
 - [ ] 330 `malabo` - Malabo - Capital of Equatorial Guinea
 - [ ] 331 `mbabane` - Mbabane - Capital of Eswatini
