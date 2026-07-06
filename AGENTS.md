@@ -161,6 +161,9 @@ Each city page should include:
 - Update `index.html` when a city becomes complete, replacing the skeleton card with the completed image card.
 - Update and commit `TODO.md` as progress changes.
 - Always stage files manually by naming every path explicitly. Do not use `git add .`.
+- Release completed cities in batches of up to four. Keep unfinished city links out of `index.html` and `visited/index.html`; when the completed city total reaches a multiple of four, restore up to four newly completed cities to `index.html` and `visited/index.html`, verify, then commit and push the batch release.
+- When converting generated images to JPEG, keep `header.jpg` and `street.jpg` at high quality. For all other city images, reduce resolution and compression so each image targets under 200KB whenever practical.
+- When compressing city section images other than `header.jpg` and `street.jpg`, crop them to the wide aspect ratio used by the actual browser layout instead of only scaling them down. Preserve the original image width whenever practical, reduce the vertical resolution by center-cropping to the displayed wide ratio, and then tune JPEG quality so each image stays under 200KB where possible.
 
 ## Current Implementation State
 

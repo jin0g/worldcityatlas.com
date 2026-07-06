@@ -342,8 +342,8 @@ Progress notes:
 - [x] 260 `las-vegas` - Las Vegas - 砂漠と水資源、ストリップ、観光産業と労働、旧市街、先住民史、移民と宗教、郊外住宅、大衆文化、社会問題と気候リスクを扱う静的ページを実装済み。
 - [x] 261 `nice` - Nice - 地中海の地形、国境史、冬季保養地と世界遺産、観光産業と季節労働、港と空港、芸術と博物館、旧市街と信仰、住宅と社会問題、移民、多言語生活、気候リスクを扱う静的ページを実装済み。
 - [x] 262 `hualien` - Hualien - 海と山の地形、東岸交通、太魯閣の玄関、先住民文化、石材と港湾、夜市と食、地震防災、住宅日常、観光と海岸を扱う静的ページを実装済み。
-- [ ] 263 `saipan` - Saipan - Northern Mariana Islands history, tourism, and Pacific war memory
-- [ ] 264 `majuro` - Majuro - Capital of Marshall Islands
+- [x] 263 `saipan` - Saipan - 島の地政学、行政中心、ラグーン観光、戦争記憶、先住民文化、移民労働、港と空港、台風復旧、宗教と多文化、ガラパンの日常、島の未来を扱う静的ページを実装済み。
+- [x] 264 `majuro` - Majuro - 環礁の都市形、首都機能と外交、港湾と漁業、気候危機と移住、核実験の記憶、教会共同体、教育、住宅インフラ、市場、観光と外島への玄関を扱う静的ページを実装済み。
 - [ ] 265 `honiara` - Honiara - Capital of Solomon Islands
 - [ ] 266 `port-vila` - Port Vila - Capital of Vanuatu
 - [ ] 267 `sri-jayawardenepura-kotte` - Sri Jayawardenepura Kotte - Capital of Sri Lanka
