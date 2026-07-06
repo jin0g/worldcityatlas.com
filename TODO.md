@@ -376,10 +376,10 @@ Progress notes:
 - [x] 294 `south-tarawa` - South Tarawa - Capital of Kiribati
 - [x] 295 `palikir` - Palikir - Capital of Micronesia
 - [x] 296 `yaren` - Yaren - Capital of Nauru
-- [ ] 297 `ngerulmud` - Ngerulmud - Capital of Palau
-- [ ] 298 `apia` - Apia - Capital of Samoa
-- [ ] 299 `nukualofa` - Nuku'alofa - Capital of Tonga
-- [ ] 300 `funafuti` - Funafuti - Capital of Tuvalu
+- [x] 297 `ngerulmud` - Ngerulmud - Capital of Palau
+- [x] 298 `apia` - Apia - Capital of Samoa
+- [x] 299 `nukualofa` - Nuku'alofa - Capital of Tonga
+- [x] 300 `funafuti` - Funafuti - Capital of Tuvalu
 - [ ] 301 `rabat` - Rabat - Capital of Morocco
 - [ ] 302 `abuja` - Abuja - Capital of Nigeria
 - [ ] 303 `bucharest` - Bucharest - Capital of Romania
