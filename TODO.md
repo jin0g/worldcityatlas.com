@@ -364,10 +364,10 @@ Progress notes:
 - [x] 282 `salzburg` - Salzburg - 川と丘の地形、司教領の都、旧市街世界遺産、音楽祭、観光労働、州経済、交通、宗教、住宅、気候適応を扱う静的ページを実装済み。
 - [x] 283 `cannes` - Cannes - 映画祭、クロワゼット、旧港、会議観光、ラ・ボカの宇宙産業、レランス諸島、住宅、季節労働、海岸リスクを扱う静的ページを実装済み。
 - [x] 284 `bath` - Bath - ローマ浴場、ジョージアン建築、世界遺産保全、観光労働、大学、住宅、文学、修道院、交通、気候適応を扱う静的ページを実装済み。
-- [ ] 285 `heidelberg` - Heidelberg - University town, castle landscape, romantic tourism, and student culture
-- [ ] 286 `lourdes` - Lourdes - Catholic pilgrimage, healing faith, hotels, and religious tourism economy
-- [ ] 287 `bangui` - Bangui - Capital of Central African Republic
-- [ ] 288 `ndjamena` - N'Djamena - Capital of Chad
+- [x] 285 `heidelberg` - Heidelberg - University town, castle landscape, romantic tourism, and student culture
+- [x] 286 `lourdes` - Lourdes - Catholic pilgrimage, healing faith, hotels, and religious tourism economy
+- [x] 287 `bangui` - Bangui - Capital of Central African Republic
+- [x] 288 `ndjamena` - N'Djamena - Capital of Chad
 - [ ] 289 `asmara` - Asmara - Capital of Eritrea
 - [ ] 290 `pristina` - Pristina - Capital of Kosovo
 - [ ] 291 `tripoli` - Tripoli - Capital of Libya
