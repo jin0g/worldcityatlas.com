@@ -388,10 +388,10 @@ Progress notes:
 - [x] 306 `caracas` - Caracas - Capital of Venezuela
 - [x] 307 `vaduz` - Vaduz - Capital of Liechtenstein
 - [x] 308 `san-marino` - San Marino - Capital of San Marino
-- [ ] 309 `tirana` - Tirana - Capital of Albania
-- [ ] 310 `st-johns-antigua` - St. John's - Capital of Antigua and Barbuda
-- [ ] 311 `nassau` - Nassau - Capital of Bahamas
-- [ ] 312 `manama` - Manama - Capital of Bahrain
+- [x] 309 `tirana` - Tirana - Capital of Albania
+- [x] 310 `st-johns-antigua` - St. John's - Capital of Antigua and Barbuda
+- [x] 311 `nassau` - Nassau - Capital of Bahamas
+- [x] 312 `manama` - Manama - Capital of Bahrain
 - [ ] 313 `bridgetown` - Bridgetown - Capital of Barbados
 - [ ] 314 `minsk` - Minsk - Capital of Belarus
 - [ ] 315 `belmopan` - Belmopan - Capital of Belize
