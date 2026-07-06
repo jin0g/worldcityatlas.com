@@ -396,10 +396,10 @@ Progress notes:
 - [x] 314 `minsk` - Minsk - Capital of Belarus
 - [x] 315 `belmopan` - Belmopan - Capital of Belize
 - [x] 316 `thimphu` - Thimphu - Capital of Bhutan
-- [ ] 317 `gaborone` - Gaborone - Capital of Botswana
-- [ ] 318 `bandar-seri-begawan` - Bandar Seri Begawan - Capital of Brunei
-- [ ] 319 `sofia` - Sofia - Capital of Bulgaria
-- [ ] 320 `ouagadougou` - Ouagadougou - Capital of Burkina Faso
+- [x] 317 `gaborone` - Gaborone - Capital of Botswana
+- [x] 318 `bandar-seri-begawan` - Bandar Seri Begawan - Capital of Brunei
+- [x] 319 `sofia` - Sofia - Capital of Bulgaria
+- [x] 320 `ouagadougou` - Ouagadougou - Capital of Burkina Faso
 - [ ] 321 `gitega` - Gitega - Capital of Burundi
 - [ ] 322 `yaounde` - Yaounde - Capital of Cameroon
 - [ ] 323 `moroni` - Moroni - Capital of Comoros
