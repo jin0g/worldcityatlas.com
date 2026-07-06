@@ -252,3207 +252,2103 @@
 
   <script>
     const VISITED_CITIES = [
-      {
-            "id": "new-york",
-            "name": "ニューヨーク",
-            "label": "New York",
-            "region": "",
-            "lat": 40.7128,
-            "lon": -74.006
-      },
-      {
-            "id": "tokyo",
-            "name": "東京",
-            "label": "Tokyo",
-            "region": "",
-            "lat": 35.6895,
-            "lon": 139.69171
-      },
-      {
-            "id": "london",
-            "name": "ロンドン",
-            "label": "London",
-            "region": "",
-            "lat": 51.50853,
-            "lon": -0.12574
-      },
-      {
-            "id": "paris",
-            "name": "パリ",
-            "label": "Paris",
-            "region": "",
-            "lat": 48.85341,
-            "lon": 2.3488
-      },
-      {
-            "id": "los-angeles",
-            "name": "ロサンゼルス",
-            "label": "Los Angeles",
-            "region": "",
-            "lat": 34.05223,
-            "lon": -118.24368
-      },
-      {
-            "id": "seoul",
-            "name": "ソウル",
-            "label": "Seoul",
-            "region": "",
-            "lat": 37.566,
-            "lon": 126.9784
-      },
-      {
-            "id": "beijing",
-            "name": "北京",
-            "label": "Beijing",
-            "region": "",
-            "lat": 39.9075,
-            "lon": 116.39723
-      },
-      {
-            "id": "istanbul",
-            "name": "イスタンブール",
-            "label": "Istanbul",
-            "region": "",
-            "lat": 41.01384,
-            "lon": 28.94966
-      },
-      {
-            "id": "hong-kong",
-            "name": "香港",
-            "label": "Hong Kong",
-            "region": "",
-            "lat": 22.27832,
-            "lon": 114.17469
-      },
-      {
-            "id": "san-francisco",
-            "name": "サンフランシスコ",
-            "label": "San Francisco",
-            "region": "",
-            "lat": 37.77493,
-            "lon": -122.41942
-      },
-      {
-            "id": "washington-dc",
-            "name": "ワシントンDC",
-            "label": "Washington DC",
-            "region": "",
-            "lat": 38.9072,
-            "lon": -77.0369
-      },
-      {
-            "id": "moscow",
-            "name": "モスクワ",
-            "label": "Moscow",
-            "region": "",
-            "lat": 55.75204,
-            "lon": 37.61781
-      },
-      {
-            "id": "taipei",
-            "name": "Taipei",
-            "label": "Taipei",
-            "region": "",
-            "lat": 25.05306,
-            "lon": 121.52639
-      },
-      {
-            "id": "shanghai",
-            "name": "上海",
-            "label": "Shanghai",
-            "region": "",
-            "lat": 31.22222,
-            "lon": 121.45806
-      },
-      {
-            "id": "osaka",
-            "name": "大阪",
-            "label": "Osaka",
-            "region": "",
-            "lat": 34.69379,
-            "lon": 135.50107
-      },
-      {
-            "id": "mexico-city",
-            "name": "メキシコシティ",
-            "label": "Mexico City",
-            "region": "",
-            "lat": 19.4326,
-            "lon": -99.1332
-      },
-      {
-            "id": "berlin",
-            "name": "ベルリン",
-            "label": "Berlin",
-            "region": "",
-            "lat": 52.52437,
-            "lon": 13.41053
-      },
-      {
-            "id": "chicago",
-            "name": "シカゴ",
-            "label": "Chicago",
-            "region": "",
-            "lat": 41.85003,
-            "lon": -87.65005
-      },
-      {
-            "id": "singapore",
-            "name": "シンガポール",
-            "label": "Singapore",
-            "region": "",
-            "lat": 1.28967,
-            "lon": 103.85007
-      },
-      {
-            "id": "rio-de-janeiro",
-            "name": "Rio de Janeiro",
-            "label": "Rio de Janeiro",
-            "region": "",
-            "lat": -22.9068,
-            "lon": -43.1729
-      },
-      {
-            "id": "miami",
-            "name": "Miami",
-            "label": "Miami",
-            "region": "",
-            "lat": 25.77427,
-            "lon": -80.19366
-      },
-      {
-            "id": "rome",
-            "name": "Rome",
-            "label": "Rome",
-            "region": "",
-            "lat": 41.89193,
-            "lon": 12.51133
-      },
-      {
-            "id": "barcelona",
-            "name": "Barcelona",
-            "label": "Barcelona",
-            "region": "",
-            "lat": 41.38879,
-            "lon": 2.15899
-      },
-      {
-            "id": "tel-aviv",
-            "name": "Tel Aviv",
-            "label": "Tel Aviv",
-            "region": "",
-            "lat": 32.0853,
-            "lon": 34.7818
-      },
-      {
-            "id": "cairo",
-            "name": "カイロ",
-            "label": "Cairo",
-            "region": "",
-            "lat": 30.06263,
-            "lon": 31.24967
-      },
-      {
-            "id": "boston",
-            "name": "ボストン",
-            "label": "Boston",
-            "region": "",
-            "lat": 42.35843,
-            "lon": -71.05977
-      },
-      {
-            "id": "delhi",
-            "name": "デリー",
-            "label": "Delhi",
-            "region": "",
-            "lat": 28.6139,
-            "lon": 77.209
-      },
-      {
-            "id": "dubai",
-            "name": "ドバイ",
-            "label": "Dubai",
-            "region": "",
-            "lat": 25.07725,
-            "lon": 55.30927
-      },
-      {
-            "id": "buenos-aires",
-            "name": "Buenos Aires",
-            "label": "Buenos Aires",
-            "region": "",
-            "lat": -34.61315,
-            "lon": -58.37723
-      },
-      {
-            "id": "melbourne",
-            "name": "Melbourne",
-            "label": "Melbourne",
-            "region": "",
-            "lat": -37.814,
-            "lon": 144.96332
-      },
-      {
-            "id": "amsterdam",
-            "name": "Amsterdam",
-            "label": "Amsterdam",
-            "region": "",
-            "lat": 52.37403,
-            "lon": 4.88969
-      },
-      {
-            "id": "suzhou",
-            "name": "蘇州",
-            "label": "Suzhou",
-            "region": "",
-            "lat": 31.2989,
-            "lon": 120.5853
-      },
-      {
-            "id": "mumbai",
-            "name": "ムンバイ",
-            "label": "Mumbai",
-            "region": "",
-            "lat": 19.076,
-            "lon": 72.8777
-      },
-      {
-            "id": "bangkok",
-            "name": "バンコク",
-            "label": "Bangkok",
-            "region": "",
-            "lat": 13.75398,
-            "lon": 100.50144
-      },
-      {
-            "id": "orlando",
-            "name": "Orlando",
-            "label": "Orlando",
-            "region": "",
-            "lat": 28.53834,
-            "lon": -81.37924
-      },
-      {
-            "id": "seattle",
-            "name": "シアトル",
-            "label": "Seattle",
-            "region": "",
-            "lat": 47.60621,
-            "lon": -122.33207
-      },
-      {
-            "id": "madrid",
-            "name": "Madrid",
-            "label": "Madrid",
-            "region": "",
-            "lat": 40.4165,
-            "lon": -3.70256
-      },
-      {
-            "id": "munich",
-            "name": "Munich",
-            "label": "Munich",
-            "region": "",
-            "lat": 48.13743,
-            "lon": 11.57549
-      },
-      {
-            "id": "philadelphia",
-            "name": "フィラデルフィア",
-            "label": "Philadelphia",
-            "region": "",
-            "lat": 39.95238,
-            "lon": -75.16362
-      },
-      {
-            "id": "toronto",
-            "name": "Toronto",
-            "label": "Toronto",
-            "region": "",
-            "lat": 43.70643,
-            "lon": -79.39864
-      },
-      {
-            "id": "atlanta",
-            "name": "アトランタ",
-            "label": "Atlanta",
-            "region": "",
-            "lat": 33.749,
-            "lon": -84.38798
-      },
-      {
-            "id": "baghdad",
-            "name": "Baghdad",
-            "label": "Baghdad",
-            "region": "",
-            "lat": 33.34058,
-            "lon": 44.40088
-      },
-      {
-            "id": "guangzhou",
-            "name": "Guangzhou",
-            "label": "Guangzhou",
-            "region": "",
-            "lat": 23.11667,
-            "lon": 113.25
-      },
-      {
-            "id": "shenzhen",
-            "name": "Shenzhen",
-            "label": "Shenzhen",
-            "region": "",
-            "lat": 22.54554,
-            "lon": 114.0683
-      },
-      {
-            "id": "milan",
-            "name": "Milan",
-            "label": "Milan",
-            "region": "",
-            "lat": 45.46427,
-            "lon": 9.18951
-      },
-      {
-            "id": "hangzhou",
-            "name": "Hangzhou",
-            "label": "Hangzhou",
-            "region": "",
-            "lat": 30.29365,
-            "lon": 120.16142
-      },
-      {
-            "id": "new-orleans",
-            "name": "New Orleans",
-            "label": "New Orleans",
-            "region": "",
-            "lat": 29.95465,
-            "lon": -90.07507
-      },
-      {
-            "id": "houston",
-            "name": "ヒューストン",
-            "label": "Houston",
-            "region": "",
-            "lat": 29.76328,
-            "lon": -95.36327
-      },
-      {
-            "id": "chengdu",
-            "name": "Chengdu",
-            "label": "Chengdu",
-            "region": "",
-            "lat": 30.66667,
-            "lon": 104.06667
-      },
-      {
-            "id": "san-diego",
-            "name": "San Diego",
-            "label": "San Diego",
-            "region": "",
-            "lat": 32.71571,
-            "lon": -117.16472
-      },
-      {
-            "id": "jakarta",
-            "name": "ジャカルタ",
-            "label": "Jakarta",
-            "region": "",
-            "lat": -6.21462,
-            "lon": 106.84513
-      },
-      {
-            "id": "nanjing",
-            "name": "Nanjing",
-            "label": "Nanjing",
-            "region": "",
-            "lat": 32.06167,
-            "lon": 118.77778
-      },
-      {
-            "id": "nagoya",
-            "name": "名古屋",
-            "label": "Nagoya",
-            "region": "",
-            "lat": 35.18147,
-            "lon": 136.90641
-      },
-      {
-            "id": "detroit",
-            "name": "Detroit",
-            "label": "Detroit",
-            "region": "",
-            "lat": 42.33143,
-            "lon": -83.04575
-      },
-      {
-            "id": "sao-paulo",
-            "name": "サンパウロ",
-            "label": "Sao Paulo",
-            "region": "",
-            "lat": -23.550394,
-            "lon": -46.633947
-      },
-      {
-            "id": "jerusalem",
-            "name": "エルサレム",
-            "label": "Jerusalem",
-            "region": "",
-            "lat": 31.76904,
-            "lon": 35.21633
-      },
-      {
-            "id": "manila",
-            "name": "マニラ",
-            "label": "Manila",
-            "region": "",
-            "lat": 14.6042,
-            "lon": 120.9822
-      },
-      {
-            "id": "chongqing",
-            "name": "Chongqing",
-            "label": "Chongqing",
-            "region": "",
-            "lat": 29.56026,
-            "lon": 106.55771
-      },
-      {
-            "id": "dallas",
-            "name": "ダラス",
-            "label": "Dallas",
-            "region": "",
-            "lat": 32.78306,
-            "lon": -96.80667
-      },
-      {
-            "id": "lima",
-            "name": "Lima",
-            "label": "Lima",
-            "region": "",
-            "lat": -12.04318,
-            "lon": -77.02824
-      },
-      {
-            "id": "rhine-ruhr",
-            "name": "ライン・ルール",
-            "label": "Rhine-Ruhr",
-            "region": "",
-            "lat": 51.2277,
-            "lon": 6.7735
-      },
-      {
-            "id": "vienna",
-            "name": "Vienna",
-            "label": "Vienna",
-            "region": "",
-            "lat": 48.208354,
-            "lon": 16.372504
-      },
-      {
-            "id": "montreal",
-            "name": "Montreal",
-            "label": "Montreal",
-            "region": "",
-            "lat": 45.50884,
-            "lon": -73.58781
-      },
-      {
-            "id": "xian",
-            "name": "西安",
-            "label": "Xi&#x27;an",
-            "region": "",
-            "lat": 34.3416,
-            "lon": 108.9398
-      },
-      {
-            "id": "kolkata",
-            "name": "Kolkata",
-            "label": "Kolkata",
-            "region": "",
-            "lat": 22.5726,
-            "lon": 88.3639
-      },
-      {
-            "id": "bengaluru",
-            "name": "Bengaluru",
-            "label": "Bengaluru",
-            "region": "",
-            "lat": 12.9716,
-            "lon": 77.5946
-      },
-      {
-            "id": "busan",
-            "name": "Busan",
-            "label": "Busan",
-            "region": "",
-            "lat": 35.10168,
-            "lon": 129.03004
-      },
-      {
-            "id": "bogota",
-            "name": "Bogota",
-            "label": "Bogota",
-            "region": "",
-            "lat": 4.60971,
-            "lon": -74.08175
-      },
-      {
-            "id": "riyadh",
-            "name": "Riyadh",
-            "label": "Riyadh",
-            "region": "",
-            "lat": 24.68773,
-            "lon": 46.72185
-      },
-      {
-            "id": "wuhan",
-            "name": "Wuhan",
-            "label": "Wuhan",
-            "region": "",
-            "lat": 30.58333,
-            "lon": 114.26667
-      },
-      {
-            "id": "santiago",
-            "name": "Santiago",
-            "label": "Santiago",
-            "region": "",
-            "lat": -33.45694,
-            "lon": -70.64827
-      },
-      {
-            "id": "nashville",
-            "name": "Nashville",
-            "label": "Nashville",
-            "region": "",
-            "lat": 36.16589,
-            "lon": -86.78444
-      },
-      {
-            "id": "austin",
-            "name": "Austin",
-            "label": "Austin",
-            "region": "",
-            "lat": 30.26715,
-            "lon": -97.74306
-      },
-      {
-            "id": "qingdao",
-            "name": "Qingdao",
-            "label": "Qingdao",
-            "region": "",
-            "lat": 36.0671,
-            "lon": 120.3826
-      },
-      {
-            "id": "cape-town",
-            "name": "Cape Town",
-            "label": "Cape Town",
-            "region": "",
-            "lat": -33.92584,
-            "lon": 18.42322
-      },
-      {
-            "id": "frankfurt",
-            "name": "Frankfurt",
-            "label": "Frankfurt",
-            "region": "",
-            "lat": 50.11552,
-            "lon": 8.68417
-      },
-      {
-            "id": "baltimore",
-            "name": "Baltimore",
-            "label": "Baltimore",
-            "region": "",
-            "lat": 39.29038,
-            "lon": -76.61219
-      },
-      {
-            "id": "lisbon",
-            "name": "Lisbon",
-            "label": "Lisbon",
-            "region": "",
-            "lat": 38.72509,
-            "lon": -9.1498
-      },
-      {
-            "id": "hamburg",
-            "name": "Hamburg",
-            "label": "Hamburg",
-            "region": "",
-            "lat": 53.55073,
-            "lon": 9.99302
-      },
-      {
-            "id": "san-jose",
-            "name": "San Jose",
-            "label": "San Jose",
-            "region": "",
-            "lat": 37.33939,
-            "lon": -121.89496
-      },
-      {
-            "id": "prague",
-            "name": "Prague",
-            "label": "Prague",
-            "region": "",
-            "lat": 50.087465,
-            "lon": 14.421254
-      },
-      {
-            "id": "dublin",
-            "name": "Dublin",
-            "label": "Dublin",
-            "region": "",
-            "lat": 53.33306,
-            "lon": -6.24889
-      },
-      {
-            "id": "denver",
-            "name": "Denver",
-            "label": "Denver",
-            "region": "",
-            "lat": 39.73915,
-            "lon": -104.9847
-      },
-      {
-            "id": "brussels",
-            "name": "Brussels",
-            "label": "Brussels",
-            "region": "",
-            "lat": 50.85045,
-            "lon": 4.34878
-      },
-      {
-            "id": "zurich",
-            "name": "Zurich",
-            "label": "Zurich",
-            "region": "",
-            "lat": 47.36667,
-            "lon": 8.55
-      },
-      {
-            "id": "hawaii",
-            "name": "ハワイ",
-            "label": "Hawaii",
-            "region": "",
-            "lat": 21.3069,
-            "lon": -157.8583
-      },
-      {
-            "id": "kuala-lumpur",
-            "name": "Kuala Lumpur",
-            "label": "Kuala Lumpur",
-            "region": "",
-            "lat": 3.151696,
-            "lon": 101.694237
-      },
-      {
-            "id": "st-louis",
-            "name": "St. Louis",
-            "label": "St. Louis",
-            "region": "",
-            "lat": 38.627,
-            "lon": -90.1994
-      },
-      {
-            "id": "athens",
-            "name": "Athens",
-            "label": "Athens",
-            "region": "",
-            "lat": 37.975565,
-            "lon": 23.734832
-      },
-      {
-            "id": "phoenix",
-            "name": "Phoenix",
-            "label": "Phoenix",
-            "region": "",
-            "lat": 33.44838,
-            "lon": -112.07404
-      },
-      {
-            "id": "bali",
-            "name": "バリ",
-            "label": "Bali",
-            "region": "",
-            "lat": -8.6705,
-            "lon": 115.2126
-      },
-      {
-            "id": "lagos",
-            "name": "ラゴス",
-            "label": "Lagos",
-            "region": "",
-            "lat": 6.45407,
-            "lon": 3.39467
-      },
-      {
-            "id": "jeddah",
-            "name": "Jeddah",
-            "label": "Jeddah",
-            "region": "",
-            "lat": 21.4858,
-            "lon": 39.1925
-      },
-      {
-            "id": "okinawa",
-            "name": "沖縄",
-            "label": "Okinawa",
-            "region": "",
-            "lat": 26.2124,
-            "lon": 127.6792
-      },
-      {
-            "id": "copenhagen",
-            "name": "Copenhagen",
-            "label": "Copenhagen",
-            "region": "",
-            "lat": 55.686724,
-            "lon": 12.570072
-      },
-      {
-            "id": "chennai",
-            "name": "Chennai",
-            "label": "Chennai",
-            "region": "",
-            "lat": 13.0827,
-            "lon": 80.2707
-      },
-      {
-            "id": "portland",
-            "name": "Portland",
-            "label": "Portland",
-            "region": "",
-            "lat": 45.52345,
-            "lon": -122.67621
-      },
-      {
-            "id": "stockholm",
-            "name": "Stockholm",
-            "label": "Stockholm",
-            "region": "",
-            "lat": 59.32938,
-            "lon": 18.06871
-      },
-      {
-            "id": "tampa",
-            "name": "Tampa",
-            "label": "Tampa",
-            "region": "",
-            "lat": 27.94752,
-            "lon": -82.45843
-      },
-      {
-            "id": "tianjin",
-            "name": "Tianjin",
-            "label": "Tianjin",
-            "region": "",
-            "lat": 39.14222,
-            "lon": 117.17667
-      },
-      {
-            "id": "dhaka",
-            "name": "ダッカ",
-            "label": "Dhaka",
-            "region": "",
-            "lat": 23.7104,
-            "lon": 90.40744
-      },
-      {
-            "id": "charlotte",
-            "name": "Charlotte",
-            "label": "Charlotte",
-            "region": "",
-            "lat": 35.22709,
-            "lon": -80.84313
-      },
-      {
-            "id": "venice",
-            "name": "Venice",
-            "label": "Venice",
-            "region": "",
-            "lat": 45.4408,
-            "lon": 12.3155
-      },
-      {
-            "id": "agra",
-            "name": "アグラ",
-            "label": "Agra",
-            "region": "",
-            "lat": 27.1767,
-            "lon": 78.0081
-      },
-      {
-            "id": "bethlehem",
-            "name": "ベツレヘム",
-            "label": "Bethlehem",
-            "region": "",
-            "lat": 31.7054,
-            "lon": 35.2024
-      },
-      {
-            "id": "auckland",
-            "name": "Auckland",
-            "label": "Auckland",
-            "region": "",
-            "lat": -36.8485,
-            "lon": 174.7633
-      },
-      {
-            "id": "manchester",
-            "name": "マンチェスター",
-            "label": "Manchester",
-            "region": "",
-            "lat": 53.4808,
-            "lon": -2.2426
-      },
-      {
-            "id": "vatican-city",
-            "name": "Vatican City",
-            "label": "Vatican City",
-            "region": "",
-            "lat": 41.9029,
-            "lon": 12.4534
-      },
-      {
-            "id": "mecca",
-            "name": "Mecca",
-            "label": "Mecca",
-            "region": "",
-            "lat": 21.42664,
-            "lon": 39.82563
-      },
-      {
-            "id": "cancun",
-            "name": "カンクン",
-            "label": "Cancun",
-            "region": "",
-            "lat": 21.1619,
-            "lon": -86.8515
-      },
-      {
-            "id": "brisbane",
-            "name": "Brisbane",
-            "label": "Brisbane",
-            "region": "",
-            "lat": -27.4698,
-            "lon": 153.0251
-      },
-      {
-            "id": "warsaw",
-            "name": "Warsaw",
-            "label": "Warsaw",
-            "region": "",
-            "lat": 52.233374,
-            "lon": 21.071149
-      },
-      {
-            "id": "pittsburgh",
-            "name": "Pittsburgh",
-            "label": "Pittsburgh",
-            "region": "",
-            "lat": 40.44062,
-            "lon": -79.99589
-      },
-      {
-            "id": "florence",
-            "name": "Florence",
-            "label": "Florence",
-            "region": "",
-            "lat": 43.77925,
-            "lon": 11.24626
-      },
-      {
-            "id": "marrakech",
-            "name": "Marrakech",
-            "label": "Marrakech",
-            "region": "",
-            "lat": 31.63416,
-            "lon": -7.99994
-      },
-      {
-            "id": "beirut",
-            "name": "Beirut",
-            "label": "Beirut",
-            "region": "",
-            "lat": 33.89332,
-            "lon": 35.50157
-      },
-      {
-            "id": "aleppo",
-            "name": "アレッポ",
-            "label": "Aleppo",
-            "region": "",
-            "lat": 36.19924,
-            "lon": 37.163725
-      },
-      {
-            "id": "niagara-falls",
-            "name": "Niagara Falls",
-            "label": "Niagara Falls",
-            "region": "",
-            "lat": 43.0896,
-            "lon": -79.0849
-      },
-      {
-            "id": "giza",
-            "name": "Giza",
-            "label": "Giza",
-            "region": "",
-            "lat": 30.00944,
-            "lon": 31.20861
-      },
-      {
-            "id": "hokkaido",
-            "name": "北海道",
-            "label": "Hokkaido",
-            "region": "",
-            "lat": 43.0618,
-            "lon": 141.3545
-      },
-      {
-            "id": "ho-chi-minh-city",
-            "name": "Ho Chi Minh City",
-            "label": "Ho Chi Minh City",
-            "region": "",
-            "lat": 10.7769,
-            "lon": 106.7009
-      },
-      {
-            "id": "tehran",
-            "name": "Tehran",
-            "label": "Tehran",
-            "region": "",
-            "lat": 35.69439,
-            "lon": 51.42151
-      },
-      {
-            "id": "karachi",
-            "name": "Karachi",
-            "label": "Karachi",
-            "region": "",
-            "lat": 24.8608,
-            "lon": 67.0104
-      },
-      {
-            "id": "cusco",
-            "name": "Cusco",
-            "label": "Cusco",
-            "region": "",
-            "lat": -13.53188,
-            "lon": -71.96701
-      },
-      {
-            "id": "macau",
-            "name": "Macau",
-            "label": "Macau",
-            "region": "",
-            "lat": 22.1987,
-            "lon": 113.5439
-      },
-      {
-            "id": "havana",
-            "name": "Havana",
-            "label": "Havana",
-            "region": "",
-            "lat": 23.13302,
-            "lon": -82.38304
-      },
-      {
-            "id": "kathmandu",
-            "name": "Kathmandu",
-            "label": "Kathmandu",
-            "region": "",
-            "lat": 27.70169,
-            "lon": 85.3206
-      },
-      {
-            "id": "wadi-musa-petra",
-            "name": "Wadi Musa / Petra",
-            "label": "Wadi Musa / Petra",
-            "region": "",
-            "lat": 30.3285,
-            "lon": 35.4444
-      },
-      {
-            "id": "damascus",
-            "name": "Damascus",
-            "label": "Damascus",
-            "region": "",
-            "lat": 33.51307,
-            "lon": 36.309581
-      },
-      {
-            "id": "abu-dhabi",
-            "name": "Abu Dhabi",
-            "label": "Abu Dhabi",
-            "region": "",
-            "lat": 24.453835,
-            "lon": 54.377401
-      },
-      {
-            "id": "lhasa",
-            "name": "Lhasa",
-            "label": "Lhasa",
-            "region": "",
-            "lat": 29.65,
-            "lon": 91.1
-      },
-      {
-            "id": "perth",
-            "name": "Perth",
-            "label": "Perth",
-            "region": "",
-            "lat": -31.9523,
-            "lon": 115.8613
-      },
-      {
-            "id": "indianapolis",
-            "name": "Indianapolis",
-            "label": "Indianapolis",
-            "region": "",
-            "lat": 39.76838,
-            "lon": -86.15804
-      },
-      {
-            "id": "riverside",
-            "name": "Riverside",
-            "label": "Riverside",
-            "region": "",
-            "lat": 33.95335,
-            "lon": -117.39616
-      },
-      {
-            "id": "sacramento",
-            "name": "Sacramento",
-            "label": "Sacramento",
-            "region": "",
-            "lat": 38.58157,
-            "lon": -121.4944
-      },
-      {
-            "id": "cincinnati",
-            "name": "Cincinnati",
-            "label": "Cincinnati",
-            "region": "",
-            "lat": 39.12711,
-            "lon": -84.51439
-      },
-      {
-            "id": "budapest",
-            "name": "Budapest",
-            "label": "Budapest",
-            "region": "",
-            "lat": 47.497879,
-            "lon": 19.040238
-      },
-      {
-            "id": "luxor",
-            "name": "Luxor",
-            "label": "Luxor",
-            "region": "",
-            "lat": 25.69893,
-            "lon": 32.6421
-      },
-      {
-            "id": "siem-reap",
-            "name": "Siem Reap",
-            "label": "Siem Reap",
-            "region": "",
-            "lat": 13.36179,
-            "lon": 103.86056
-      },
-      {
-            "id": "salvador-bahia",
-            "name": "Salvador da Bahia",
-            "label": "Salvador da Bahia",
-            "region": "",
-            "lat": -12.9777,
-            "lon": -38.5016
-      },
-      {
-            "id": "cartagena",
-            "name": "Cartagena",
-            "label": "Cartagena",
-            "region": "",
-            "lat": 10.39817,
-            "lon": -75.49328
-      },
-      {
-            "id": "isfahan",
-            "name": "Isfahan",
-            "label": "Isfahan",
-            "region": "",
-            "lat": 32.65246,
-            "lon": 51.67462
-      },
-      {
-            "id": "nairobi",
-            "name": "Nairobi",
-            "label": "Nairobi",
-            "region": "",
-            "lat": -1.28333,
-            "lon": 36.81667
-      },
-      {
-            "id": "timbuktu",
-            "name": "Timbuktu",
-            "label": "Timbuktu",
-            "region": "",
-            "lat": 16.77348,
-            "lon": -3.00742
-      },
-      {
-            "id": "yangon",
-            "name": "Yangon",
-            "label": "Yangon",
-            "region": "",
-            "lat": 16.80528,
-            "lon": 96.15611
-      },
-      {
-            "id": "phuket",
-            "name": "Phuket",
-            "label": "Phuket",
-            "region": "",
-            "lat": 7.8804,
-            "lon": 98.3923
-      },
-      {
-            "id": "jeju",
-            "name": "Jeju",
-            "label": "Jeju",
-            "region": "",
-            "lat": 33.4996,
-            "lon": 126.5312
-      },
-      {
-            "id": "foz-do-iguacu",
-            "name": "Foz do Iguacu",
-            "label": "Foz do Iguacu",
-            "region": "",
-            "lat": -25.5163,
-            "lon": -54.5854
-      },
-      {
-            "id": "central-german",
-            "name": "Central German Metropolitan Region",
-            "label": "Central German Metropolitan Region",
-            "region": "",
-            "lat": 51.3397,
-            "lon": 12.3731
-      },
-      {
-            "id": "medellin",
-            "name": "Medellin",
-            "label": "Medellin",
-            "region": "",
-            "lat": 6.245,
-            "lon": -75.57151
-      },
-      {
-            "id": "karbala",
-            "name": "Karbala",
-            "label": "Karbala",
-            "region": "",
-            "lat": 32.61603,
-            "lon": 44.02488
-      },
-      {
-            "id": "sanaa",
-            "name": "Sanaa",
-            "label": "Sanaa",
-            "region": "",
-            "lat": 15.35,
-            "lon": 44.2
-      },
-      {
-            "id": "johannesburg",
-            "name": "Johannesburg",
-            "label": "Johannesburg",
-            "region": "",
-            "lat": -26.2041,
-            "lon": 28.0473
-      },
-      {
-            "id": "quebec-city",
-            "name": "Quebec City",
-            "label": "Quebec City",
-            "region": "",
-            "lat": 46.8139,
-            "lon": -71.2082
-      },
-      {
-            "id": "varanasi",
-            "name": "Varanasi",
-            "label": "Varanasi",
-            "region": "",
-            "lat": 25.31668,
-            "lon": 83.01041
-      },
-      {
-            "id": "zanzibar-city",
-            "name": "Zanzibar City",
-            "label": "Zanzibar City",
-            "region": "",
-            "lat": -6.1659,
-            "lon": 39.2026
-      },
-      {
-            "id": "harbin",
-            "name": "Harbin",
-            "label": "Harbin",
-            "region": "",
-            "lat": 45.8038,
-            "lon": 126.5349
-      },
-      {
-            "id": "alexandria",
-            "name": "Alexandria",
-            "label": "Alexandria",
-            "region": "",
-            "lat": 31.20176,
-            "lon": 29.91582
-      },
-      {
-            "id": "hanoi",
-            "name": "Hanoi",
-            "label": "Hanoi",
-            "region": "",
-            "lat": 21.0245,
-            "lon": 105.84117
-      },
-      {
-            "id": "ruhr",
-            "name": "Ruhr",
-            "label": "Ruhr",
-            "region": "",
-            "lat": 51.4556,
-            "lon": 7.0116
-      },
-      {
-            "id": "granada",
-            "name": "Granada",
-            "label": "Granada",
-            "region": "",
-            "lat": 37.18817,
-            "lon": -3.60667
-      },
-      {
-            "id": "lahore",
-            "name": "Lahore",
-            "label": "Lahore",
-            "region": "",
-            "lat": 31.558,
-            "lon": 74.35071
-      },
-      {
-            "id": "medina",
-            "name": "Medina",
-            "label": "Medina",
-            "region": "",
-            "lat": 24.46861,
-            "lon": 39.61417
-      },
-      {
-            "id": "yogyakarta",
-            "name": "Yogyakarta",
-            "label": "Yogyakarta",
-            "region": "",
-            "lat": -7.7956,
-            "lon": 110.3695
-      },
-      {
-            "id": "george-town-penang",
-            "name": "George Town, Penang",
-            "label": "George Town, Penang",
-            "region": "",
-            "lat": 5.4141,
-            "lon": 100.3288
-      },
-      {
-            "id": "memphis",
-            "name": "Memphis",
-            "label": "Memphis",
-            "region": "",
-            "lat": 35.1495,
-            "lon": -90.049
-      },
-      {
-            "id": "lalibela",
-            "name": "Lalibela",
-            "label": "Lalibela",
-            "region": "",
-            "lat": 12.0316,
-            "lon": 39.0476
-      },
-      {
-            "id": "algiers",
-            "name": "Algiers",
-            "label": "Algiers",
-            "region": "",
-            "lat": 36.73225,
-            "lon": 3.08746
-      },
-      {
-            "id": "naples",
-            "name": "Naples",
-            "label": "Naples",
-            "region": "",
-            "lat": 40.85216,
-            "lon": 14.26811
-      },
-      {
-            "id": "manaus",
-            "name": "Manaus",
-            "label": "Manaus",
-            "region": "",
-            "lat": -3.10194,
-            "lon": -60.025
-      },
-      {
-            "id": "addis-ababa",
-            "name": "Addis Ababa",
-            "label": "Addis Ababa",
-            "region": "",
-            "lat": 9.02497,
-            "lon": 38.74689
-      },
-      {
-            "id": "khartoum",
-            "name": "Khartoum",
-            "label": "Khartoum",
-            "region": "",
-            "lat": 15.55177,
-            "lon": 32.53241
-      },
-      {
-            "id": "guilin",
-            "name": "Guilin",
-            "label": "Guilin",
-            "region": "",
-            "lat": 25.2736,
-            "lon": 110.29
-      },
-      {
-            "id": "chiang-mai",
-            "name": "Chiang Mai",
-            "label": "Chiang Mai",
-            "region": "",
-            "lat": 18.7883,
-            "lon": 98.9853
-      },
-      {
-            "id": "oaxaca",
-            "name": "Oaxaca",
-            "label": "Oaxaca",
-            "region": "",
-            "lat": 17.0732,
-            "lon": -96.7266
-      },
-      {
-            "id": "tunis",
-            "name": "Tunis",
-            "label": "Tunis",
-            "region": "",
-            "lat": 36.81897,
-            "lon": 10.16579
-      },
-      {
-            "id": "fez",
-            "name": "Fez",
-            "label": "Fez",
-            "region": "",
-            "lat": 34.03313,
-            "lon": -5.00028
-      },
-      {
-            "id": "samarkand",
-            "name": "Samarkand",
-            "label": "Samarkand",
-            "region": "",
-            "lat": 39.65456,
-            "lon": 66.96445
-      },
-      {
-            "id": "shiraz",
-            "name": "Shiraz",
-            "label": "Shiraz",
-            "region": "",
-            "lat": 29.61031,
-            "lon": 52.53113
-      },
-      {
-            "id": "panama-city",
-            "name": "Panama City",
-            "label": "Panama City",
-            "region": "",
-            "lat": 8.9824,
-            "lon": -79.5199
-      },
-      {
-            "id": "cairns",
-            "name": "ケアンズ",
-            "label": "Cairns",
-            "region": "",
-            "lat": -16.9186,
-            "lon": 145.7781
-      },
-      {
-            "id": "amritsar",
-            "name": "Amritsar",
-            "label": "Amritsar",
-            "region": "",
-            "lat": 31.62234,
-            "lon": 74.87534
-      },
-      {
-            "id": "marseille",
-            "name": "Marseille",
-            "label": "Marseille",
-            "region": "",
-            "lat": 43.2965,
-            "lon": 5.3698
-      },
-      {
-            "id": "helsinki",
-            "name": "Helsinki",
-            "label": "Helsinki",
-            "region": "",
-            "lat": 60.16662,
-            "lon": 24.943541
-      },
-      {
-            "id": "quito",
-            "name": "Quito",
-            "label": "Quito",
-            "region": "",
-            "lat": -0.22985,
-            "lon": -78.52495
-      },
-      {
-            "id": "kinshasa",
-            "name": "Kinshasa",
-            "label": "Kinshasa",
-            "region": "",
-            "lat": -4.32758,
-            "lon": 15.31357
-      },
-      {
-            "id": "najaf",
-            "name": "Najaf",
-            "label": "Najaf",
-            "region": "",
-            "lat": 32.02594,
-            "lon": 44.34625
-      },
-      {
-            "id": "mont-saint-michel",
-            "name": "モン・サン＝ミシェル",
-            "label": "Mont Saint-Michel",
-            "region": "",
-            "lat": 48.6361,
-            "lon": -1.5115
-      },
-      {
-            "id": "versailles",
-            "name": "Versailles",
-            "label": "Versailles",
-            "region": "",
-            "lat": 48.8049,
-            "lon": 2.1204
-      },
-      {
-            "id": "hoi-an",
-            "name": "Hoi An",
-            "label": "Hoi An",
-            "region": "",
-            "lat": 15.8801,
-            "lon": 108.338
-      },
-      {
-            "id": "tbilisi",
-            "name": "Tbilisi",
-            "label": "Tbilisi",
-            "region": "",
-            "lat": 41.693459,
-            "lon": 44.801449
-      },
-      {
-            "id": "ankara",
-            "name": "Ankara",
-            "label": "Ankara",
-            "region": "",
-            "lat": 39.920776,
-            "lon": 32.85405
-      },
-      {
-            "id": "kuwait-city",
-            "name": "Kuwait City",
-            "label": "Kuwait City",
-            "region": "",
-            "lat": 29.379653,
-            "lon": 47.973417
-      },
-      {
-            "id": "nicosia",
-            "name": "Nicosia",
-            "label": "Nicosia",
-            "region": "",
-            "lat": 35.17284,
-            "lon": 33.35397
-      },
-      {
-            "id": "kabul",
-            "name": "Kabul",
-            "label": "Kabul",
-            "region": "",
-            "lat": 34.52813,
-            "lon": 69.17233
-      },
-      {
-            "id": "borobudur",
-            "name": "Borobudur",
-            "label": "Borobudur",
-            "region": "",
-            "lat": -7.6079,
-            "lon": 110.2038
-      },
-      {
-            "id": "ayutthaya",
-            "name": "Ayutthaya",
-            "label": "Ayutthaya",
-            "region": "",
-            "lat": 14.3532,
-            "lon": 100.5689
-      },
-      {
-            "id": "luoyang",
-            "name": "Luoyang",
-            "label": "Luoyang",
-            "region": "",
-            "lat": 34.6197,
-            "lon": 112.454
-      },
-      {
-            "id": "da-nang",
-            "name": "Da Nang",
-            "label": "Da Nang",
-            "region": "",
-            "lat": 16.0544,
-            "lon": 108.2022
-      },
-      {
-            "id": "doha",
-            "name": "Doha",
-            "label": "Doha",
-            "region": "",
-            "lat": 25.310881,
-            "lon": 51.508181
-      },
-      {
-            "id": "valparaiso",
-            "name": "Valparaiso",
-            "label": "Valparaiso",
-            "region": "",
-            "lat": -33.036,
-            "lon": -71.62963
-      },
-      {
-            "id": "dakar",
-            "name": "Dakar",
-            "label": "Dakar",
-            "region": "",
-            "lat": 14.6937,
-            "lon": -17.44406
-      },
-      {
-            "id": "ramallah",
-            "name": "Ramallah",
-            "label": "Ramallah",
-            "region": "",
-            "lat": 31.9038,
-            "lon": 35.2034
-      },
-      {
-            "id": "kingston",
-            "name": "Kingston",
-            "label": "Kingston",
-            "region": "",
-            "lat": 17.99702,
-            "lon": -76.79358
-      },
-      {
-            "id": "hue",
-            "name": "Hue",
-            "label": "Hue",
-            "region": "",
-            "lat": 16.4637,
-            "lon": 107.5909
-      },
-      {
-            "id": "edinburgh",
-            "name": "エディンバラ",
-            "label": "Edinburgh",
-            "region": "",
-            "lat": 55.9533,
-            "lon": -3.1883
-      },
-      {
-            "id": "oxford",
-            "name": "オックスフォード",
-            "label": "Oxford",
-            "region": "",
-            "lat": 51.752,
-            "lon": -1.2577
-      },
-      {
-            "id": "charleston",
-            "name": "Charleston",
-            "label": "Charleston",
-            "region": "",
-            "lat": 32.7765,
-            "lon": -79.9311
-      },
-      {
-            "id": "santa-fe",
-            "name": "Santa Fe",
-            "label": "Santa Fe",
-            "region": "",
-            "lat": 35.687,
-            "lon": -105.9378
-      },
-      {
-            "id": "chefchaouen",
-            "name": "Chefchaouen",
-            "label": "Chefchaouen",
-            "region": "",
-            "lat": 35.1688,
-            "lon": -5.2636
-      },
-      {
-            "id": "brasilia",
-            "name": "Brasilia",
-            "label": "Brasilia",
-            "region": "",
-            "lat": -15.77972,
-            "lon": -47.92972
-      },
-      {
-            "id": "aswan",
-            "name": "Aswan",
-            "label": "Aswan",
-            "region": "",
-            "lat": 24.09082,
-            "lon": 32.89942
-      },
-      {
-            "id": "mashhad",
-            "name": "Mashhad",
-            "label": "Mashhad",
-            "region": "",
-            "lat": 36.2605,
-            "lon": 59.6168
-      },
-      {
-            "id": "bodh-gaya",
-            "name": "Bodh Gaya",
-            "label": "Bodh Gaya",
-            "region": "",
-            "lat": 24.69808,
-            "lon": 84.9869
-      },
-      {
-            "id": "dunhuang",
-            "name": "Dunhuang",
-            "label": "Dunhuang",
-            "region": "",
-            "lat": 40.1421,
-            "lon": 94.6619
-      },
-      {
-            "id": "malacca",
-            "name": "Malacca",
-            "label": "Malacca",
-            "region": "",
-            "lat": 2.1896,
-            "lon": 102.2501
-      },
-      {
-            "id": "geneva",
-            "name": "ジュネーブ",
-            "label": "Geneva",
-            "region": "",
-            "lat": 46.2044,
-            "lon": 6.1432
-      },
-      {
-            "id": "urumqi",
-            "name": "Urumqi",
-            "label": "Urumqi",
-            "region": "",
-            "lat": 43.8256,
-            "lon": 87.6168
-      },
-      {
-            "id": "kaohsiung",
-            "name": "Kaohsiung",
-            "label": "Kaohsiung",
-            "region": "",
-            "lat": 22.6273,
-            "lon": 120.3014
-      },
-      {
-            "id": "durban",
-            "name": "Durban",
-            "label": "Durban",
-            "region": "",
-            "lat": -29.8587,
-            "lon": 31.0218
-      },
-      {
-            "id": "casablanca",
-            "name": "Casablanca",
-            "label": "Casablanca",
-            "region": "",
-            "lat": 33.58831,
-            "lon": -7.61138
-      },
-      {
-            "id": "goma",
-            "name": "Goma",
-            "label": "Goma",
-            "region": "",
-            "lat": -1.67409,
-            "lon": 29.22845
-      },
-      {
-            "id": "yerevan",
-            "name": "Yerevan",
-            "label": "Yerevan",
-            "region": "",
-            "lat": 40.177711,
-            "lon": 44.512623
-      },
-      {
-            "id": "seville",
-            "name": "Seville",
-            "label": "Seville",
-            "region": "",
-            "lat": 37.38283,
-            "lon": -5.97317
-      },
-      {
-            "id": "odesa",
-            "name": "Odesa",
-            "label": "Odesa",
-            "region": "",
-            "lat": 46.4825,
-            "lon": 30.7233
-      },
-      {
-            "id": "san-juan",
-            "name": "San Juan",
-            "label": "San Juan",
-            "region": "",
-            "lat": 18.4655,
-            "lon": -66.1057
-      },
-      {
-            "id": "la-paz",
-            "name": "La Paz",
-            "label": "La Paz",
-            "region": "",
-            "lat": -16.5,
-            "lon": -68.15
-      },
-      {
-            "id": "recife",
-            "name": "Recife",
-            "label": "Recife",
-            "region": "",
-            "lat": -8.05389,
-            "lon": -34.88111
-      },
-      {
-            "id": "gold-coast",
-            "name": "ゴールドコースト",
-            "label": "Gold Coast",
-            "region": "",
-            "lat": -28.0167,
-            "lon": 153.4
-      },
-      {
-            "id": "guam",
-            "name": "Guam",
-            "label": "Guam",
-            "region": "",
-            "lat": 13.4757,
-            "lon": 144.7489
-      },
-      {
-            "id": "bukhara",
-            "name": "Bukhara",
-            "label": "Bukhara",
-            "region": "",
-            "lat": 39.77026,
-            "lon": 64.43069
-      },
-      {
-            "id": "phnom-penh",
-            "name": "Phnom Penh",
-            "label": "Phnom Penh",
-            "region": "",
-            "lat": 11.56245,
-            "lon": 104.91601
-      },
-      {
-            "id": "santo-domingo",
-            "name": "Santo Domingo",
-            "label": "Santo Domingo",
-            "region": "",
-            "lat": 18.47186,
-            "lon": -69.89232
-      },
-      {
-            "id": "kigali",
-            "name": "Kigali",
-            "label": "Kigali",
-            "region": "",
-            "lat": -1.94995,
-            "lon": 30.05885
-      },
-      {
-            "id": "alula",
-            "name": "AlUla",
-            "label": "AlUla",
-            "region": "",
-            "lat": 26.6085,
-            "lon": 37.9232
-      },
-      {
-            "id": "liverpool",
-            "name": "リバプール",
-            "label": "Liverpool",
-            "region": "",
-            "lat": 53.4084,
-            "lon": -2.9916
-      },
-      {
-            "id": "cambridge",
-            "name": "ケンブリッジ",
-            "label": "Cambridge",
-            "region": "",
-            "lat": 52.2053,
-            "lon": 0.1218
-      },
-      {
-            "id": "incheon",
-            "name": "Incheon",
-            "label": "Incheon",
-            "region": "",
-            "lat": 37.4563,
-            "lon": 126.7052
-      },
-      {
-            "id": "amman",
-            "name": "Amman",
-            "label": "Amman",
-            "region": "",
-            "lat": 31.951569,
-            "lon": 35.923963
-      },
-      {
-            "id": "dubrovnik",
-            "name": "Dubrovnik",
-            "label": "Dubrovnik",
-            "region": "",
-            "lat": 42.64125,
-            "lon": 18.10909
-      },
-      {
-            "id": "lviv",
-            "name": "Lviv",
-            "label": "Lviv",
-            "region": "",
-            "lat": 49.83826,
-            "lon": 24.02324
-      },
-      {
-            "id": "guatemala-city",
-            "name": "Guatemala City",
-            "label": "Guatemala City",
-            "region": "",
-            "lat": 14.6349,
-            "lon": -90.5069
-      },
-      {
-            "id": "mogadishu",
-            "name": "Mogadishu",
-            "label": "Mogadishu",
-            "region": "",
-            "lat": 2.03711,
-            "lon": 45.34375
-      },
-      {
-            "id": "baku",
-            "name": "Baku",
-            "label": "Baku",
-            "region": "",
-            "lat": 40.375588,
-            "lon": 49.832801
-      },
-      {
-            "id": "palermo",
-            "name": "Palermo",
-            "label": "Palermo",
-            "region": "",
-            "lat": 38.1166,
-            "lon": 13.3636
-      },
-      {
-            "id": "qom",
-            "name": "Qom",
-            "label": "Qom",
-            "region": "",
-            "lat": 34.6416,
-            "lon": 50.8746
-      },
-      {
-            "id": "sarajevo",
-            "name": "Sarajevo",
-            "label": "Sarajevo",
-            "region": "",
-            "lat": 43.84864,
-            "lon": 18.35644
-      },
-      {
-            "id": "queenstown",
-            "name": "クイーンズタウン",
-            "label": "Queenstown",
-            "region": "",
-            "lat": -45.0312,
-            "lon": 168.6626
-      },
-      {
-            "id": "gyeongju",
-            "name": "Gyeongju",
-            "label": "Gyeongju",
-            "region": "",
-            "lat": 35.8562,
-            "lon": 129.2247
-      },
-      {
-            "id": "tainan",
-            "name": "Tainan",
-            "label": "Tainan",
-            "region": "",
-            "lat": 22.9999,
-            "lon": 120.227
-      },
-      {
-            "id": "strasbourg",
-            "name": "Strasbourg",
-            "label": "Strasbourg",
-            "region": "",
-            "lat": 48.5734,
-            "lon": 7.7521
-      },
-      {
-            "id": "yazd",
-            "name": "Yazd",
-            "label": "Yazd",
-            "region": "",
-            "lat": 31.89722,
-            "lon": 54.3675
-      },
-      {
-            "id": "gdansk",
-            "name": "Gdansk",
-            "label": "Gdansk",
-            "region": "",
-            "lat": 54.35227,
-            "lon": 18.64912
-      },
-      {
-            "id": "belem",
-            "name": "Belem",
-            "label": "Belem",
-            "region": "",
-            "lat": -1.45583,
-            "lon": -48.50444
-      },
-      {
-            "id": "juba",
-            "name": "Juba",
-            "label": "Juba",
-            "region": "",
-            "lat": 4.85165,
-            "lon": 31.58247
-      },
-      {
-            "id": "colombo",
-            "name": "Colombo",
-            "label": "Colombo",
-            "region": "",
-            "lat": 6.93548,
-            "lon": 79.84868
-      },
-      {
-            "id": "luang-prabang",
-            "name": "Luang Prabang",
-            "label": "Luang Prabang",
-            "region": "",
-            "lat": 19.8833,
-            "lon": 102.1333
-      },
-      {
-            "id": "cologne",
-            "name": "Cologne",
-            "label": "Cologne",
-            "region": "",
-            "lat": 50.9375,
-            "lon": 6.9603
-      },
-      {
-            "id": "port-louis",
-            "name": "Port Louis",
-            "label": "Port Louis",
-            "region": "",
-            "lat": -20.162452,
-            "lon": 57.502804
-      },
-      {
-            "id": "las-vegas",
-            "name": "Las Vegas",
-            "label": "Las Vegas",
-            "region": "",
-            "lat": 36.167426,
-            "lon": -115.148413
-      },
-      {
-            "id": "nice",
-            "name": "ニース",
-            "label": "Nice",
-            "region": "",
-            "lat": 43.7102,
-            "lon": 7.262
-      },
-      {
-            "id": "hualien",
-            "name": "Hualien",
-            "label": "Hualien",
-            "region": "",
-            "lat": 23.9872,
-            "lon": 121.6015
-      },
-      {
-            "id": "saipan",
-            "name": "Saipan",
-            "label": "Saipan",
-            "region": "",
-            "lat": 15.190983,
-            "lon": 145.746743
-      },
-      {
-            "id": "majuro",
-            "name": "Majuro",
-            "label": "Majuro",
-            "region": "",
-            "lat": 7.090992,
-            "lon": 171.381635
-      },
-      {
-            "id": "honiara",
-            "name": "Honiara",
-            "label": "Honiara",
-            "region": "",
-            "lat": -9.431077,
-            "lon": 159.955255
-      },
-      {
-            "id": "port-vila",
-            "name": "Port Vila",
-            "label": "Port Vila",
-            "region": "",
-            "lat": -17.741497,
-            "lon": 168.315016
-      },
-      {
-            "id": "sri-jayawardenepura-kotte",
-            "name": "Sri Jayawardenepura Kotte",
-            "label": "Sri Jayawardenepura Kotte",
-            "region": "",
-            "lat": 6.89955,
-            "lon": 79.905849
-      },
-      {
-            "id": "porto-novo",
-            "name": "Porto-Novo",
-            "label": "Porto-Novo",
-            "region": "",
-            "lat": 6.499072,
-            "lon": 2.625336
-      },
-      {
-            "id": "antananarivo",
-            "name": "Antananarivo",
-            "label": "Antananarivo",
-            "region": "",
-            "lat": -18.910012,
-            "lon": 47.525581
-      },
-      {
-            "id": "port-moresby",
-            "name": "Port Moresby",
-            "label": "Port Moresby",
-            "region": "",
-            "lat": -9.47433,
-            "lon": 147.15995
-      },
-      {
-            "id": "port-of-spain",
-            "name": "Port of Spain",
-            "label": "Port of Spain",
-            "region": "",
-            "lat": 10.657268,
-            "lon": -61.518017
-      },
-      {
-            "id": "male",
-            "name": "Male",
-            "label": "Male",
-            "region": "",
-            "lat": 4.177988,
-            "lon": 73.510739
-      },
-      {
-            "id": "victoria-seychelles",
-            "name": "Victoria",
-            "label": "Victoria",
-            "region": "",
-            "lat": -4.623208,
-            "lon": 55.452359
-      },
-      {
-            "id": "canberra",
-            "name": "Canberra",
-            "label": "Canberra",
-            "region": "",
-            "lat": -35.297591,
-            "lon": 149.101268
-      },
-      {
-            "id": "ottawa",
-            "name": "Ottawa",
-            "label": "Ottawa",
-            "region": "",
-            "lat": 45.420878,
-            "lon": -75.690111
-      },
-      {
-            "id": "bern",
-            "name": "Bern",
-            "label": "Bern",
-            "region": "",
-            "lat": 46.948474,
-            "lon": 7.452175
-      },
-      {
-            "id": "andorra-la-vella",
-            "name": "Andorra la Vella",
-            "label": "Andorra la Vella",
-            "region": "",
-            "lat": 42.497918,
-            "lon": 1.503226
-      },
-      {
-            "id": "luxembourg-city",
-            "name": "Luxembourg City",
-            "label": "Luxembourg City",
-            "region": "",
-            "lat": 49.601051,
-            "lon": 6.063995
-      },
-      {
-            "id": "monaco",
-            "name": "Monaco",
-            "label": "Monaco",
-            "region": "",
-            "lat": 43.73097,
-            "lon": 7.424815
-      },
-      {
-            "id": "port-au-prince",
-            "name": "Port-au-Prince",
-            "label": "Port-au-Prince",
-            "region": "",
-            "lat": 18.54349,
-            "lon": -72.33881
-      },
-      {
-            "id": "vancouver",
-            "name": "Vancouver",
-            "label": "Vancouver",
-            "region": "",
-            "lat": 49.260872,
-            "lon": -123.113952
-      },
-      {
-            "id": "salzburg",
-            "name": "Salzburg",
-            "label": "Salzburg",
-            "region": "",
-            "lat": 47.8095,
-            "lon": 13.055
-      },
-      {
-            "id": "cannes",
-            "name": "カンヌ",
-            "label": "Cannes",
-            "region": "",
-            "lat": 43.5528,
-            "lon": 7.0174
-      },
-      {
-            "id": "bath",
-            "name": "Bath",
-            "label": "Bath",
-            "region": "",
-            "lat": 51.3811,
-            "lon": -2.359
-      },
-      {
-            "id": "heidelberg",
-            "name": "Heidelberg",
-            "label": "Heidelberg",
-            "region": "",
-            "lat": 49.3988,
-            "lon": 8.6724
-      },
-      {
-            "id": "lourdes",
-            "name": "Lourdes",
-            "label": "Lourdes",
-            "region": "",
-            "lat": 43.095,
-            "lon": -0.0453
-      },
-      {
-            "id": "bangui",
-            "name": "Bangui",
-            "label": "Bangui",
-            "region": "",
-            "lat": 4.363512,
-            "lon": 18.583591
-      },
-      {
-            "id": "ndjamena",
-            "name": "N&#x27;Djamena",
-            "label": "N&#x27;Djamena",
-            "region": "",
-            "lat": 12.119154,
-            "lon": 15.050276
-      },
-      {
-            "id": "asmara",
-            "name": "Asmara",
-            "label": "Asmara",
-            "region": "",
-            "lat": 15.338967,
-            "lon": 38.932676
-      },
-      {
-            "id": "pristina",
-            "name": "Pristina",
-            "label": "Pristina",
-            "region": "",
-            "lat": 42.663877,
-            "lon": 21.164085
-      },
-      {
-            "id": "tripoli",
-            "name": "Tripoli",
-            "label": "Tripoli",
-            "region": "",
-            "lat": 32.896672,
-            "lon": 13.177792
-      },
-      {
-            "id": "praia",
-            "name": "Praia",
-            "label": "Praia",
-            "region": "",
-            "lat": 14.916281,
-            "lon": -23.50951
-      },
-      {
-            "id": "suva",
-            "name": "Suva",
-            "label": "Suva",
-            "region": "",
-            "lat": -18.141588,
-            "lon": 178.442166
-      },
-      {
-            "id": "south-tarawa",
-            "name": "South Tarawa",
-            "label": "South Tarawa",
-            "region": "",
-            "lat": 1.349078,
-            "lon": 173.038651
-      },
-      {
-            "id": "palikir",
-            "name": "Palikir",
-            "label": "Palikir",
-            "region": "",
-            "lat": 6.920744,
-            "lon": 158.162714
-      },
-      {
-            "id": "yaren",
-            "name": "Yaren",
-            "label": "Yaren",
-            "region": "",
-            "lat": -0.547106,
-            "lon": 166.916348
-      },
-      {
-            "id": "ngerulmud",
-            "name": "Ngerulmud",
-            "label": "Ngerulmud",
-            "region": "",
-            "lat": 7.500645,
-            "lon": 134.624286
-      },
-      {
-            "id": "apia",
-            "name": "Apia",
-            "label": "Apia",
-            "region": "",
-            "lat": -13.834523,
-            "lon": -171.763095
-      },
-      {
-            "id": "nukualofa",
-            "name": "Nuku&#x27;alofa",
-            "label": "Nuku&#x27;alofa",
-            "region": "",
-            "lat": -21.13434,
-            "lon": -175.201808
-      },
-      {
-            "id": "funafuti",
-            "name": "Funafuti",
-            "label": "Funafuti",
-            "region": "",
-            "lat": -8.519963,
-            "lon": 179.198255
-      },
-      {
-            "id": "rabat",
-            "name": "Rabat",
-            "label": "Rabat",
-            "region": "",
-            "lat": 34.021845,
-            "lon": -6.840893
-      },
-      {
-            "id": "abuja",
-            "name": "Abuja",
-            "label": "Abuja",
-            "region": "",
-            "lat": 9.064331,
-            "lon": 7.489297
-      },
-      {
-            "id": "bucharest",
-            "name": "Bucharest",
-            "label": "Bucharest",
-            "region": "",
-            "lat": 44.436141,
-            "lon": 26.102684
-      },
-      {
-            "id": "pretoria",
-            "name": "Pretoria",
-            "label": "Pretoria",
-            "region": "",
-            "lat": -25.745928,
-            "lon": 28.18791
-      },
-      {
-            "id": "bloemfontein",
-            "name": "Bloemfontein",
-            "label": "Bloemfontein",
-            "region": "",
-            "lat": -29.116395,
-            "lon": 26.215496
-      },
-      {
-            "id": "caracas",
-            "name": "Caracas",
-            "label": "Caracas",
-            "region": "",
-            "lat": 10.506093,
-            "lon": -66.914601
-      },
-      {
-            "id": "vaduz",
-            "name": "Vaduz",
-            "label": "Vaduz",
-            "region": "",
-            "lat": 47.139286,
-            "lon": 9.522796
-      },
-      {
-            "id": "san-marino",
-            "name": "San Marino",
-            "label": "San Marino",
-            "region": "",
-            "lat": 43.9364,
-            "lon": 12.446699
-      },
-      {
-            "id": "tirana",
-            "name": "Tirana",
-            "label": "Tirana",
-            "region": "",
-            "lat": 41.328148,
-            "lon": 19.818444
-      },
-      {
-            "id": "st-johns-antigua",
-            "name": "St. John&#x27;s",
-            "label": "St. John&#x27;s",
-            "region": "",
-            "lat": 17.118457,
-            "lon": -61.844851
-      },
-      {
-            "id": "nassau",
-            "name": "Nassau",
-            "label": "Nassau",
-            "region": "",
-            "lat": 25.078227,
-            "lon": -77.338344
-      },
-      {
-            "id": "manama",
-            "name": "Manama",
-            "label": "Manama",
-            "region": "",
-            "lat": 26.223504,
-            "lon": 50.582244
-      },
-      {
-            "id": "bridgetown",
-            "name": "Bridgetown",
-            "label": "Bridgetown",
-            "region": "",
-            "lat": 13.097783,
-            "lon": -59.618418
-      },
-      {
-            "id": "minsk",
-            "name": "Minsk",
-            "label": "Minsk",
-            "region": "",
-            "lat": 53.902472,
-            "lon": 27.561823
-      },
-      {
-            "id": "belmopan",
-            "name": "Belmopan",
-            "label": "Belmopan",
-            "region": "",
-            "lat": 17.250199,
-            "lon": -88.770018
-      },
-      {
-            "id": "thimphu",
-            "name": "Thimphu",
-            "label": "Thimphu",
-            "region": "",
-            "lat": 27.471355,
-            "lon": 89.633673
-      },
-      {
-            "id": "gaborone",
-            "name": "Gaborone",
-            "label": "Gaborone",
-            "region": "",
-            "lat": -24.658136,
-            "lon": 25.908847
-      },
-      {
-            "id": "bandar-seri-begawan",
-            "name": "Bandar Seri Begawan",
-            "label": "Bandar Seri Begawan",
-            "region": "",
-            "lat": 4.889545,
-            "lon": 114.941757
-      },
-      {
-            "id": "sofia",
-            "name": "Sofia",
-            "label": "Sofia",
-            "region": "",
-            "lat": 42.697703,
-            "lon": 23.321736
-      },
-      {
-            "id": "ouagadougou",
-            "name": "Ouagadougou",
-            "label": "Ouagadougou",
-            "region": "",
-            "lat": 12.368187,
-            "lon": -1.527094
-      },
-      {
-            "id": "gitega",
-            "name": "Gitega",
-            "label": "Gitega",
-            "region": "",
-            "lat": -3.428495,
-            "lon": 29.924972
-      },
-      {
-            "id": "yaounde",
-            "name": "Yaounde",
-            "label": "Yaounde",
-            "region": "",
-            "lat": 3.868987,
-            "lon": 11.521334
-      },
-      {
-            "id": "moroni",
-            "name": "Moroni",
-            "label": "Moroni",
-            "region": "",
-            "lat": -11.704031,
-            "lon": 43.251909
-      },
-      {
-            "id": "brazzaville",
-            "name": "Brazzaville",
-            "label": "Brazzaville",
-            "region": "",
-            "lat": -4.269441,
-            "lon": 15.271226
-      },
-      {
-            "id": "san-jose-costa-rica",
-            "name": "San Jose",
-            "label": "San Jose",
-            "region": "",
-            "lat": 9.932771,
-            "lon": -84.079614
-      },
-      {
-            "id": "yamoussoukro",
-            "name": "Yamoussoukro",
-            "label": "Yamoussoukro",
-            "region": "",
-            "lat": 6.8276,
-            "lon": -5.2893
-      },
-      {
-            "id": "zagreb",
-            "name": "Zagreb",
-            "label": "Zagreb",
-            "region": "",
-            "lat": 45.813097,
-            "lon": 15.977279
-      },
-      {
-            "id": "djibouti-city",
-            "name": "Djibouti City",
-            "label": "Djibouti City",
-            "region": "",
-            "lat": 11.5721,
-            "lon": 43.1456
-      },
-      {
-            "id": "roseau",
-            "name": "Roseau",
-            "label": "Roseau",
-            "region": "",
-            "lat": 15.299192,
-            "lon": -61.387287
-      },
-      {
-            "id": "malabo",
-            "name": "Malabo",
-            "label": "Malabo",
-            "region": "",
-            "lat": 3.741877,
-            "lon": 8.774066
-      },
-      {
-            "id": "mbabane",
-            "name": "Mbabane",
-            "label": "Mbabane",
-            "region": "",
-            "lat": -26.325745,
-            "lon": 31.144663
-      },
-      {
-            "id": "libreville",
-            "name": "Libreville",
-            "label": "Libreville",
-            "region": "",
-            "lat": 0.408652,
-            "lon": 9.441885
-      },
-      {
-            "id": "banjul",
-            "name": "Banjul",
-            "label": "Banjul",
-            "region": "",
-            "lat": 13.441016,
-            "lon": -16.562751
-      },
-      {
-            "id": "st-georges",
-            "name": "St. George&#x27;s",
-            "label": "St. George&#x27;s",
-            "region": "",
-            "lat": 12.053533,
-            "lon": -61.751805
-      },
-      {
-            "id": "conakry",
-            "name": "Conakry",
-            "label": "Conakry",
-            "region": "",
-            "lat": 9.51706,
-            "lon": -13.699843
-      },
-      {
-            "id": "bissau",
-            "name": "Bissau",
-            "label": "Bissau",
-            "region": "",
-            "lat": 11.861324,
-            "lon": -15.583055
-      },
-      {
-            "id": "georgetown-guyana",
-            "name": "Georgetown",
-            "label": "Georgetown",
-            "region": "",
-            "lat": 6.803256,
-            "lon": -58.14554
-      },
-      {
-            "id": "new-delhi",
-            "name": "New Delhi",
-            "label": "New Delhi",
-            "region": "",
-            "lat": 28.613895,
-            "lon": 77.209006
-      },
-      {
-            "id": "astana",
-            "name": "Astana",
-            "label": "Astana",
-            "region": "",
-            "lat": 51.115993,
-            "lon": 71.467706
-      },
-      {
-            "id": "bishkek",
-            "name": "Bishkek",
-            "label": "Bishkek",
-            "region": "",
-            "lat": 42.876142,
-            "lon": 74.603672
-      },
-      {
-            "id": "vientiane",
-            "name": "Vientiane",
-            "label": "Vientiane",
-            "region": "",
-            "lat": 17.964099,
-            "lon": 102.613371
-      },
-      {
-            "id": "maseru",
-            "name": "Maseru",
-            "label": "Maseru",
-            "region": "",
-            "lat": -29.310054,
-            "lon": 27.478222
-      },
-      {
-            "id": "monrovia",
-            "name": "Monrovia",
-            "label": "Monrovia",
-            "region": "",
-            "lat": 6.320356,
-            "lon": -10.806049
-      },
-      {
-            "id": "lilongwe",
-            "name": "Lilongwe",
-            "label": "Lilongwe",
-            "region": "",
-            "lat": -13.987511,
-            "lon": 33.768144
-      },
-      {
-            "id": "bamako",
-            "name": "Bamako",
-            "label": "Bamako",
-            "region": "",
-            "lat": 12.613266,
-            "lon": -7.984739
-      },
-      {
-            "id": "nouakchott",
-            "name": "Nouakchott",
-            "label": "Nouakchott",
-            "region": "",
-            "lat": 18.079238,
-            "lon": -15.978007
-      },
-      {
-            "id": "chisinau",
-            "name": "Chisinau",
-            "label": "Chisinau",
-            "region": "",
-            "lat": 47.024512,
-            "lon": 28.832292
-      },
-      {
-            "id": "ulaanbaatar",
-            "name": "Ulaanbaatar",
-            "label": "Ulaanbaatar",
-            "region": "",
-            "lat": 47.918468,
-            "lon": 106.917702
-      },
-      {
-            "id": "podgorica",
-            "name": "Podgorica",
-            "label": "Podgorica",
-            "region": "",
-            "lat": 42.441524,
-            "lon": 19.262108
-      },
-      {
-            "id": "naypyidaw",
-            "name": "Naypyidaw",
-            "label": "Naypyidaw",
-            "region": "",
-            "lat": 19.775329,
-            "lon": 96.103255
-      },
-      {
-            "id": "windhoek",
-            "name": "Windhoek",
-            "label": "Windhoek",
-            "region": "",
-            "lat": -22.57761,
-            "lon": 17.077274
-      },
-      {
-            "id": "wellington",
-            "name": "Wellington",
-            "label": "Wellington",
-            "region": "",
-            "lat": -41.288795,
-            "lon": 174.777211
-      },
-      {
-            "id": "niamey",
-            "name": "Niamey",
-            "label": "Niamey",
-            "region": "",
-            "lat": 13.524834,
-            "lon": 2.109823
-      },
-      {
-            "id": "pyongyang",
-            "name": "Pyongyang",
-            "label": "Pyongyang",
-            "region": "",
-            "lat": 39.016798,
-            "lon": 125.747361
-      },
-      {
-            "id": "skopje",
-            "name": "Skopje",
-            "label": "Skopje",
-            "region": "",
-            "lat": 41.996216,
-            "lon": 21.431894
-      },
-      {
-            "id": "oslo",
-            "name": "Oslo",
-            "label": "Oslo",
-            "region": "",
-            "lat": 59.91333,
-            "lon": 10.73897
-      },
-      {
-            "id": "muscat",
-            "name": "Muscat",
-            "label": "Muscat",
-            "region": "",
-            "lat": 23.612363,
-            "lon": 58.593813
-      },
-      {
-            "id": "islamabad",
-            "name": "Islamabad",
-            "label": "Islamabad",
-            "region": "",
-            "lat": 33.693812,
-            "lon": 73.065151
-      },
-      {
-            "id": "asuncion",
-            "name": "Asuncion",
-            "label": "Asuncion",
-            "region": "",
-            "lat": -25.280046,
-            "lon": -57.634381
-      },
-      {
-            "id": "basseterre",
-            "name": "Basseterre",
-            "label": "Basseterre",
-            "region": "",
-            "lat": 17.296092,
-            "lon": -62.722301
-      },
-      {
-            "id": "castries",
-            "name": "Castries",
-            "label": "Castries",
-            "region": "",
-            "lat": 14.009597,
-            "lon": -60.990236
-      },
-      {
-            "id": "kingstown",
-            "name": "Kingstown",
-            "label": "Kingstown",
-            "region": "",
-            "lat": 13.156186,
-            "lon": -61.227962
-      },
-      {
-            "id": "sao-tome",
-            "name": "Sao Tome",
-            "label": "Sao Tome",
-            "region": "",
-            "lat": 0.338924,
-            "lon": 6.731303
-      },
-      {
-            "id": "freetown",
-            "name": "Freetown",
-            "label": "Freetown",
-            "region": "",
-            "lat": 8.479004,
-            "lon": -13.26795
-      },
-      {
-            "id": "bratislava",
-            "name": "Bratislava",
-            "label": "Bratislava",
-            "region": "",
-            "lat": 48.151699,
-            "lon": 17.109306
-      },
-      {
-            "id": "ljubljana",
-            "name": "Ljubljana",
-            "label": "Ljubljana",
-            "region": "",
-            "lat": 46.050027,
-            "lon": 14.506929
-      },
-      {
-            "id": "paramaribo",
-            "name": "Paramaribo",
-            "label": "Paramaribo",
-            "region": "",
-            "lat": 5.824176,
-            "lon": -55.166281
-      },
-      {
-            "id": "dushanbe",
-            "name": "Dushanbe",
-            "label": "Dushanbe",
-            "region": "",
-            "lat": 38.576704,
-            "lon": 68.785433
-      },
-      {
-            "id": "dodoma",
-            "name": "Dodoma",
-            "label": "Dodoma",
-            "region": "",
-            "lat": -6.179118,
-            "lon": 35.746817
-      },
-      {
-            "id": "dili",
-            "name": "Dili",
-            "label": "Dili",
-            "region": "",
-            "lat": -8.553681,
-            "lon": 125.578409
-      },
-      {
-            "id": "lome",
-            "name": "Lome",
-            "label": "Lome",
-            "region": "",
-            "lat": 6.130419,
-            "lon": 1.215829
-      },
-      {
-            "id": "ashgabat",
-            "name": "Ashgabat",
-            "label": "Ashgabat",
-            "region": "",
-            "lat": 37.940465,
-            "lon": 58.382349
-      },
-      {
-            "id": "kampala",
-            "name": "Kampala",
-            "label": "Kampala",
-            "region": "",
-            "lat": 0.317714,
-            "lon": 32.581354
-      },
-      {
-            "id": "tashkent",
-            "name": "Tashkent",
-            "label": "Tashkent",
-            "region": "",
-            "lat": 41.312336,
-            "lon": 69.278708
-      },
-      {
-            "id": "lusaka",
-            "name": "Lusaka",
-            "label": "Lusaka",
-            "region": "",
-            "lat": -15.416339,
-            "lon": 28.281841
-      },
-      {
-            "id": "harare",
-            "name": "Harare",
-            "label": "Harare",
-            "region": "",
-            "lat": -17.856703,
-            "lon": 31.060158
-      },
-      {
-            "id": "sydney",
-            "name": "Sydney",
-            "label": "Sydney",
-            "region": "",
-            "lat": -33.86785,
-            "lon": 151.20732
-      },
-      {
-            "id": "stuttgart",
-            "name": "Stuttgart",
-            "label": "Stuttgart",
-            "region": "",
-            "lat": 48.78232,
-            "lon": 9.17702
-      },
-      {
-            "id": "kyiv",
-            "name": "Kyiv",
-            "label": "Kyiv",
-            "region": "",
-            "lat": 50.4501,
-            "lon": 30.5234
-      },
-      {
-            "id": "krakow",
-            "name": "Krakow",
-            "label": "Krakow",
-            "region": "",
-            "lat": 50.06143,
-            "lon": 19.93658
-      },
-      {
-            "id": "accra",
-            "name": "Accra",
-            "label": "Accra",
-            "region": "",
-            "lat": 5.55602,
-            "lon": -0.1969
-      },
-      {
-            "id": "khiva",
-            "name": "Khiva",
-            "label": "Khiva",
-            "region": "",
-            "lat": 41.38555,
-            "lon": 60.36408
-      },
-      {
-            "id": "mostar",
-            "name": "Mostar",
-            "label": "Mostar",
-            "region": "",
-            "lat": 43.34333,
-            "lon": 17.80806
-      },
-      {
-            "id": "belgrade",
-            "name": "Belgrade",
-            "label": "Belgrade",
-            "region": "",
-            "lat": 44.80401,
-            "lon": 20.46513
-      },
-      {
-            "id": "belfast",
-            "name": "Belfast",
-            "label": "Belfast",
-            "region": "",
-            "lat": 54.59682,
-            "lon": -5.92541
-      },
-      {
-            "id": "tallinn",
-            "name": "Tallinn",
-            "label": "Tallinn",
-            "region": "",
-            "lat": 59.43696,
-            "lon": 24.75353
-      },
-      {
-            "id": "riga",
-            "name": "Riga",
-            "label": "Riga",
-            "region": "",
-            "lat": 56.946,
-            "lon": 24.10589
-      },
-      {
-            "id": "vilnius",
-            "name": "Vilnius",
-            "label": "Vilnius",
-            "region": "",
-            "lat": 54.68916,
-            "lon": 25.2798
-      },
-      {
-            "id": "reykjavik",
-            "name": "Reykjavik",
-            "label": "Reykjavik",
-            "region": "",
-            "lat": 64.13548,
-            "lon": -21.89541
-      },
-      {
-            "id": "valletta",
-            "name": "Valletta",
-            "label": "Valletta",
-            "region": "",
-            "lat": 35.89968,
-            "lon": 14.5148
-      },
-      {
-            "id": "minneapolis",
-            "name": "Minneapolis",
-            "label": "Minneapolis",
-            "region": "",
-            "lat": 44.97997,
-            "lon": -93.26384
-      },
-      {
-            "id": "san-salvador",
-            "name": "San Salvador",
-            "label": "San Salvador",
-            "region": "",
-            "lat": 13.68935,
-            "lon": -89.18718
-      },
-      {
-            "id": "tegucigalpa",
-            "name": "Tegucigalpa",
-            "label": "Tegucigalpa",
-            "region": "",
-            "lat": 14.0818,
-            "lon": -87.20681
-      },
-      {
-            "id": "managua",
-            "name": "Managua",
-            "label": "Managua",
-            "region": "",
-            "lat": 12.13282,
-            "lon": -86.2504
-      },
-      {
-            "id": "sucre",
-            "name": "Sucre",
-            "label": "Sucre",
-            "region": "",
-            "lat": -19.03332,
-            "lon": -65.26274
-      },
-      {
-            "id": "montevideo",
-            "name": "Montevideo",
-            "label": "Montevideo",
-            "region": "",
-            "lat": -34.90328,
-            "lon": -56.18816
-      },
-      {
-            "id": "mombasa",
-            "name": "Mombasa",
-            "label": "Mombasa",
-            "region": "",
-            "lat": -4.05466,
-            "lon": 39.66359
-      },
-      {
-            "id": "luanda",
-            "name": "Luanda",
-            "label": "Luanda",
-            "region": "",
-            "lat": -8.83682,
-            "lon": 13.23432
-      },
-      {
-            "id": "maputo",
-            "name": "Maputo",
-            "label": "Maputo",
-            "region": "",
-            "lat": -25.96553,
-            "lon": 32.58322
-      },
-      {
-            "id": "hargeisa",
-            "name": "Hargeisa",
-            "label": "Hargeisa",
-            "region": "",
-            "lat": 9.56,
-            "lon": 44.065
-      }
-];
+          {
+                "id": "new-york",
+                "name": "ニューヨーク",
+                "label": "New York",
+                "region": "",
+                "lat": 40.7128,
+                "lon": -74.006
+          },
+          {
+                "id": "tokyo",
+                "name": "東京",
+                "label": "Tokyo",
+                "region": "",
+                "lat": 35.6895,
+                "lon": 139.69171
+          },
+          {
+                "id": "london",
+                "name": "ロンドン",
+                "label": "London",
+                "region": "",
+                "lat": 51.50853,
+                "lon": -0.12574
+          },
+          {
+                "id": "paris",
+                "name": "パリ",
+                "label": "Paris",
+                "region": "",
+                "lat": 48.85341,
+                "lon": 2.3488
+          },
+          {
+                "id": "los-angeles",
+                "name": "ロサンゼルス",
+                "label": "Los Angeles",
+                "region": "",
+                "lat": 34.05223,
+                "lon": -118.24368
+          },
+          {
+                "id": "seoul",
+                "name": "ソウル",
+                "label": "Seoul",
+                "region": "",
+                "lat": 37.566,
+                "lon": 126.9784
+          },
+          {
+                "id": "beijing",
+                "name": "北京",
+                "label": "Beijing",
+                "region": "",
+                "lat": 39.9075,
+                "lon": 116.39723
+          },
+          {
+                "id": "istanbul",
+                "name": "イスタンブール",
+                "label": "Istanbul",
+                "region": "",
+                "lat": 41.01384,
+                "lon": 28.94966
+          },
+          {
+                "id": "hong-kong",
+                "name": "香港",
+                "label": "Hong Kong",
+                "region": "",
+                "lat": 22.27832,
+                "lon": 114.17469
+          },
+          {
+                "id": "san-francisco",
+                "name": "サンフランシスコ",
+                "label": "San Francisco",
+                "region": "",
+                "lat": 37.77493,
+                "lon": -122.41942
+          },
+          {
+                "id": "washington-dc",
+                "name": "ワシントンDC",
+                "label": "Washington DC",
+                "region": "",
+                "lat": 38.9072,
+                "lon": -77.0369
+          },
+          {
+                "id": "moscow",
+                "name": "モスクワ",
+                "label": "Moscow",
+                "region": "",
+                "lat": 55.75204,
+                "lon": 37.61781
+          },
+          {
+                "id": "taipei",
+                "name": "Taipei",
+                "label": "Taipei",
+                "region": "",
+                "lat": 25.05306,
+                "lon": 121.52639
+          },
+          {
+                "id": "shanghai",
+                "name": "上海",
+                "label": "Shanghai",
+                "region": "",
+                "lat": 31.22222,
+                "lon": 121.45806
+          },
+          {
+                "id": "osaka",
+                "name": "大阪",
+                "label": "Osaka",
+                "region": "",
+                "lat": 34.69379,
+                "lon": 135.50107
+          },
+          {
+                "id": "mexico-city",
+                "name": "メキシコシティ",
+                "label": "Mexico City",
+                "region": "",
+                "lat": 19.4326,
+                "lon": -99.1332
+          },
+          {
+                "id": "berlin",
+                "name": "ベルリン",
+                "label": "Berlin",
+                "region": "",
+                "lat": 52.52437,
+                "lon": 13.41053
+          },
+          {
+                "id": "chicago",
+                "name": "シカゴ",
+                "label": "Chicago",
+                "region": "",
+                "lat": 41.85003,
+                "lon": -87.65005
+          },
+          {
+                "id": "singapore",
+                "name": "シンガポール",
+                "label": "Singapore",
+                "region": "",
+                "lat": 1.28967,
+                "lon": 103.85007
+          },
+          {
+                "id": "rio-de-janeiro",
+                "name": "Rio de Janeiro",
+                "label": "Rio de Janeiro",
+                "region": "",
+                "lat": -22.9068,
+                "lon": -43.1729
+          },
+          {
+                "id": "miami",
+                "name": "Miami",
+                "label": "Miami",
+                "region": "",
+                "lat": 25.77427,
+                "lon": -80.19366
+          },
+          {
+                "id": "rome",
+                "name": "Rome",
+                "label": "Rome",
+                "region": "",
+                "lat": 41.89193,
+                "lon": 12.51133
+          },
+          {
+                "id": "barcelona",
+                "name": "Barcelona",
+                "label": "Barcelona",
+                "region": "",
+                "lat": 41.38879,
+                "lon": 2.15899
+          },
+          {
+                "id": "tel-aviv",
+                "name": "Tel Aviv",
+                "label": "Tel Aviv",
+                "region": "",
+                "lat": 32.0853,
+                "lon": 34.7818
+          },
+          {
+                "id": "cairo",
+                "name": "カイロ",
+                "label": "Cairo",
+                "region": "",
+                "lat": 30.06263,
+                "lon": 31.24967
+          },
+          {
+                "id": "boston",
+                "name": "ボストン",
+                "label": "Boston",
+                "region": "",
+                "lat": 42.35843,
+                "lon": -71.05977
+          },
+          {
+                "id": "delhi",
+                "name": "デリー",
+                "label": "Delhi",
+                "region": "",
+                "lat": 28.6139,
+                "lon": 77.209
+          },
+          {
+                "id": "dubai",
+                "name": "ドバイ",
+                "label": "Dubai",
+                "region": "",
+                "lat": 25.07725,
+                "lon": 55.30927
+          },
+          {
+                "id": "buenos-aires",
+                "name": "Buenos Aires",
+                "label": "Buenos Aires",
+                "region": "",
+                "lat": -34.61315,
+                "lon": -58.37723
+          },
+          {
+                "id": "melbourne",
+                "name": "Melbourne",
+                "label": "Melbourne",
+                "region": "",
+                "lat": -37.814,
+                "lon": 144.96332
+          },
+          {
+                "id": "amsterdam",
+                "name": "Amsterdam",
+                "label": "Amsterdam",
+                "region": "",
+                "lat": 52.37403,
+                "lon": 4.88969
+          },
+          {
+                "id": "suzhou",
+                "name": "蘇州",
+                "label": "Suzhou",
+                "region": "",
+                "lat": 31.2989,
+                "lon": 120.5853
+          },
+          {
+                "id": "mumbai",
+                "name": "ムンバイ",
+                "label": "Mumbai",
+                "region": "",
+                "lat": 19.076,
+                "lon": 72.8777
+          },
+          {
+                "id": "bangkok",
+                "name": "バンコク",
+                "label": "Bangkok",
+                "region": "",
+                "lat": 13.75398,
+                "lon": 100.50144
+          },
+          {
+                "id": "orlando",
+                "name": "Orlando",
+                "label": "Orlando",
+                "region": "",
+                "lat": 28.53834,
+                "lon": -81.37924
+          },
+          {
+                "id": "seattle",
+                "name": "シアトル",
+                "label": "Seattle",
+                "region": "",
+                "lat": 47.60621,
+                "lon": -122.33207
+          },
+          {
+                "id": "madrid",
+                "name": "Madrid",
+                "label": "Madrid",
+                "region": "",
+                "lat": 40.4165,
+                "lon": -3.70256
+          },
+          {
+                "id": "munich",
+                "name": "Munich",
+                "label": "Munich",
+                "region": "",
+                "lat": 48.13743,
+                "lon": 11.57549
+          },
+          {
+                "id": "philadelphia",
+                "name": "フィラデルフィア",
+                "label": "Philadelphia",
+                "region": "",
+                "lat": 39.95238,
+                "lon": -75.16362
+          },
+          {
+                "id": "toronto",
+                "name": "Toronto",
+                "label": "Toronto",
+                "region": "",
+                "lat": 43.70643,
+                "lon": -79.39864
+          },
+          {
+                "id": "atlanta",
+                "name": "アトランタ",
+                "label": "Atlanta",
+                "region": "",
+                "lat": 33.749,
+                "lon": -84.38798
+          },
+          {
+                "id": "baghdad",
+                "name": "Baghdad",
+                "label": "Baghdad",
+                "region": "",
+                "lat": 33.34058,
+                "lon": 44.40088
+          },
+          {
+                "id": "guangzhou",
+                "name": "Guangzhou",
+                "label": "Guangzhou",
+                "region": "",
+                "lat": 23.11667,
+                "lon": 113.25
+          },
+          {
+                "id": "shenzhen",
+                "name": "Shenzhen",
+                "label": "Shenzhen",
+                "region": "",
+                "lat": 22.54554,
+                "lon": 114.0683
+          },
+          {
+                "id": "milan",
+                "name": "Milan",
+                "label": "Milan",
+                "region": "",
+                "lat": 45.46427,
+                "lon": 9.18951
+          },
+          {
+                "id": "hangzhou",
+                "name": "Hangzhou",
+                "label": "Hangzhou",
+                "region": "",
+                "lat": 30.29365,
+                "lon": 120.16142
+          },
+          {
+                "id": "new-orleans",
+                "name": "New Orleans",
+                "label": "New Orleans",
+                "region": "",
+                "lat": 29.95465,
+                "lon": -90.07507
+          },
+          {
+                "id": "houston",
+                "name": "ヒューストン",
+                "label": "Houston",
+                "region": "",
+                "lat": 29.76328,
+                "lon": -95.36327
+          },
+          {
+                "id": "chengdu",
+                "name": "Chengdu",
+                "label": "Chengdu",
+                "region": "",
+                "lat": 30.66667,
+                "lon": 104.06667
+          },
+          {
+                "id": "san-diego",
+                "name": "San Diego",
+                "label": "San Diego",
+                "region": "",
+                "lat": 32.71571,
+                "lon": -117.16472
+          },
+          {
+                "id": "jakarta",
+                "name": "ジャカルタ",
+                "label": "Jakarta",
+                "region": "",
+                "lat": -6.21462,
+                "lon": 106.84513
+          },
+          {
+                "id": "nanjing",
+                "name": "Nanjing",
+                "label": "Nanjing",
+                "region": "",
+                "lat": 32.06167,
+                "lon": 118.77778
+          },
+          {
+                "id": "nagoya",
+                "name": "名古屋",
+                "label": "Nagoya",
+                "region": "",
+                "lat": 35.18147,
+                "lon": 136.90641
+          },
+          {
+                "id": "detroit",
+                "name": "Detroit",
+                "label": "Detroit",
+                "region": "",
+                "lat": 42.33143,
+                "lon": -83.04575
+          },
+          {
+                "id": "sao-paulo",
+                "name": "サンパウロ",
+                "label": "Sao Paulo",
+                "region": "",
+                "lat": -23.550394,
+                "lon": -46.633947
+          },
+          {
+                "id": "jerusalem",
+                "name": "エルサレム",
+                "label": "Jerusalem",
+                "region": "",
+                "lat": 31.76904,
+                "lon": 35.21633
+          },
+          {
+                "id": "manila",
+                "name": "マニラ",
+                "label": "Manila",
+                "region": "",
+                "lat": 14.6042,
+                "lon": 120.9822
+          },
+          {
+                "id": "chongqing",
+                "name": "Chongqing",
+                "label": "Chongqing",
+                "region": "",
+                "lat": 29.56026,
+                "lon": 106.55771
+          },
+          {
+                "id": "dallas",
+                "name": "ダラス",
+                "label": "Dallas",
+                "region": "",
+                "lat": 32.78306,
+                "lon": -96.80667
+          },
+          {
+                "id": "lima",
+                "name": "Lima",
+                "label": "Lima",
+                "region": "",
+                "lat": -12.04318,
+                "lon": -77.02824
+          },
+          {
+                "id": "rhine-ruhr",
+                "name": "ライン・ルール",
+                "label": "Rhine-Ruhr",
+                "region": "",
+                "lat": 51.2277,
+                "lon": 6.7735
+          },
+          {
+                "id": "vienna",
+                "name": "Vienna",
+                "label": "Vienna",
+                "region": "",
+                "lat": 48.208354,
+                "lon": 16.372504
+          },
+          {
+                "id": "montreal",
+                "name": "Montreal",
+                "label": "Montreal",
+                "region": "",
+                "lat": 45.50884,
+                "lon": -73.58781
+          },
+          {
+                "id": "xian",
+                "name": "西安",
+                "label": "Xi&#x27;an",
+                "region": "",
+                "lat": 34.3416,
+                "lon": 108.9398
+          },
+          {
+                "id": "kolkata",
+                "name": "Kolkata",
+                "label": "Kolkata",
+                "region": "",
+                "lat": 22.5726,
+                "lon": 88.3639
+          },
+          {
+                "id": "bengaluru",
+                "name": "Bengaluru",
+                "label": "Bengaluru",
+                "region": "",
+                "lat": 12.9716,
+                "lon": 77.5946
+          },
+          {
+                "id": "busan",
+                "name": "Busan",
+                "label": "Busan",
+                "region": "",
+                "lat": 35.10168,
+                "lon": 129.03004
+          },
+          {
+                "id": "bogota",
+                "name": "Bogota",
+                "label": "Bogota",
+                "region": "",
+                "lat": 4.60971,
+                "lon": -74.08175
+          },
+          {
+                "id": "riyadh",
+                "name": "Riyadh",
+                "label": "Riyadh",
+                "region": "",
+                "lat": 24.68773,
+                "lon": 46.72185
+          },
+          {
+                "id": "wuhan",
+                "name": "Wuhan",
+                "label": "Wuhan",
+                "region": "",
+                "lat": 30.58333,
+                "lon": 114.26667
+          },
+          {
+                "id": "santiago",
+                "name": "Santiago",
+                "label": "Santiago",
+                "region": "",
+                "lat": -33.45694,
+                "lon": -70.64827
+          },
+          {
+                "id": "nashville",
+                "name": "Nashville",
+                "label": "Nashville",
+                "region": "",
+                "lat": 36.16589,
+                "lon": -86.78444
+          },
+          {
+                "id": "austin",
+                "name": "Austin",
+                "label": "Austin",
+                "region": "",
+                "lat": 30.26715,
+                "lon": -97.74306
+          },
+          {
+                "id": "qingdao",
+                "name": "Qingdao",
+                "label": "Qingdao",
+                "region": "",
+                "lat": 36.0671,
+                "lon": 120.3826
+          },
+          {
+                "id": "cape-town",
+                "name": "Cape Town",
+                "label": "Cape Town",
+                "region": "",
+                "lat": -33.92584,
+                "lon": 18.42322
+          },
+          {
+                "id": "frankfurt",
+                "name": "Frankfurt",
+                "label": "Frankfurt",
+                "region": "",
+                "lat": 50.11552,
+                "lon": 8.68417
+          },
+          {
+                "id": "baltimore",
+                "name": "Baltimore",
+                "label": "Baltimore",
+                "region": "",
+                "lat": 39.29038,
+                "lon": -76.61219
+          },
+          {
+                "id": "lisbon",
+                "name": "Lisbon",
+                "label": "Lisbon",
+                "region": "",
+                "lat": 38.72509,
+                "lon": -9.1498
+          },
+          {
+                "id": "hamburg",
+                "name": "Hamburg",
+                "label": "Hamburg",
+                "region": "",
+                "lat": 53.55073,
+                "lon": 9.99302
+          },
+          {
+                "id": "san-jose",
+                "name": "San Jose",
+                "label": "San Jose",
+                "region": "",
+                "lat": 37.33939,
+                "lon": -121.89496
+          },
+          {
+                "id": "prague",
+                "name": "Prague",
+                "label": "Prague",
+                "region": "",
+                "lat": 50.087465,
+                "lon": 14.421254
+          },
+          {
+                "id": "dublin",
+                "name": "Dublin",
+                "label": "Dublin",
+                "region": "",
+                "lat": 53.33306,
+                "lon": -6.24889
+          },
+          {
+                "id": "denver",
+                "name": "Denver",
+                "label": "Denver",
+                "region": "",
+                "lat": 39.73915,
+                "lon": -104.9847
+          },
+          {
+                "id": "brussels",
+                "name": "Brussels",
+                "label": "Brussels",
+                "region": "",
+                "lat": 50.85045,
+                "lon": 4.34878
+          },
+          {
+                "id": "zurich",
+                "name": "Zurich",
+                "label": "Zurich",
+                "region": "",
+                "lat": 47.36667,
+                "lon": 8.55
+          },
+          {
+                "id": "hawaii",
+                "name": "ハワイ",
+                "label": "Hawaii",
+                "region": "",
+                "lat": 21.3069,
+                "lon": -157.8583
+          },
+          {
+                "id": "kuala-lumpur",
+                "name": "Kuala Lumpur",
+                "label": "Kuala Lumpur",
+                "region": "",
+                "lat": 3.151696,
+                "lon": 101.694237
+          },
+          {
+                "id": "st-louis",
+                "name": "St. Louis",
+                "label": "St. Louis",
+                "region": "",
+                "lat": 38.627,
+                "lon": -90.1994
+          },
+          {
+                "id": "athens",
+                "name": "Athens",
+                "label": "Athens",
+                "region": "",
+                "lat": 37.975565,
+                "lon": 23.734832
+          },
+          {
+                "id": "phoenix",
+                "name": "Phoenix",
+                "label": "Phoenix",
+                "region": "",
+                "lat": 33.44838,
+                "lon": -112.07404
+          },
+          {
+                "id": "bali",
+                "name": "バリ",
+                "label": "Bali",
+                "region": "",
+                "lat": -8.6705,
+                "lon": 115.2126
+          },
+          {
+                "id": "lagos",
+                "name": "ラゴス",
+                "label": "Lagos",
+                "region": "",
+                "lat": 6.45407,
+                "lon": 3.39467
+          },
+          {
+                "id": "jeddah",
+                "name": "Jeddah",
+                "label": "Jeddah",
+                "region": "",
+                "lat": 21.4858,
+                "lon": 39.1925
+          },
+          {
+                "id": "okinawa",
+                "name": "沖縄",
+                "label": "Okinawa",
+                "region": "",
+                "lat": 26.2124,
+                "lon": 127.6792
+          },
+          {
+                "id": "copenhagen",
+                "name": "Copenhagen",
+                "label": "Copenhagen",
+                "region": "",
+                "lat": 55.686724,
+                "lon": 12.570072
+          },
+          {
+                "id": "chennai",
+                "name": "Chennai",
+                "label": "Chennai",
+                "region": "",
+                "lat": 13.0827,
+                "lon": 80.2707
+          },
+          {
+                "id": "portland",
+                "name": "Portland",
+                "label": "Portland",
+                "region": "",
+                "lat": 45.52345,
+                "lon": -122.67621
+          },
+          {
+                "id": "stockholm",
+                "name": "Stockholm",
+                "label": "Stockholm",
+                "region": "",
+                "lat": 59.32938,
+                "lon": 18.06871
+          },
+          {
+                "id": "tampa",
+                "name": "Tampa",
+                "label": "Tampa",
+                "region": "",
+                "lat": 27.94752,
+                "lon": -82.45843
+          },
+          {
+                "id": "tianjin",
+                "name": "Tianjin",
+                "label": "Tianjin",
+                "region": "",
+                "lat": 39.14222,
+                "lon": 117.17667
+          },
+          {
+                "id": "dhaka",
+                "name": "ダッカ",
+                "label": "Dhaka",
+                "region": "",
+                "lat": 23.7104,
+                "lon": 90.40744
+          },
+          {
+                "id": "charlotte",
+                "name": "Charlotte",
+                "label": "Charlotte",
+                "region": "",
+                "lat": 35.22709,
+                "lon": -80.84313
+          },
+          {
+                "id": "venice",
+                "name": "Venice",
+                "label": "Venice",
+                "region": "",
+                "lat": 45.4408,
+                "lon": 12.3155
+          },
+          {
+                "id": "agra",
+                "name": "アグラ",
+                "label": "Agra",
+                "region": "",
+                "lat": 27.1767,
+                "lon": 78.0081
+          },
+          {
+                "id": "bethlehem",
+                "name": "ベツレヘム",
+                "label": "Bethlehem",
+                "region": "",
+                "lat": 31.7054,
+                "lon": 35.2024
+          },
+          {
+                "id": "auckland",
+                "name": "Auckland",
+                "label": "Auckland",
+                "region": "",
+                "lat": -36.8485,
+                "lon": 174.7633
+          },
+          {
+                "id": "manchester",
+                "name": "マンチェスター",
+                "label": "Manchester",
+                "region": "",
+                "lat": 53.4808,
+                "lon": -2.2426
+          },
+          {
+                "id": "vatican-city",
+                "name": "Vatican City",
+                "label": "Vatican City",
+                "region": "",
+                "lat": 41.9029,
+                "lon": 12.4534
+          },
+          {
+                "id": "mecca",
+                "name": "Mecca",
+                "label": "Mecca",
+                "region": "",
+                "lat": 21.42664,
+                "lon": 39.82563
+          },
+          {
+                "id": "cancun",
+                "name": "カンクン",
+                "label": "Cancun",
+                "region": "",
+                "lat": 21.1619,
+                "lon": -86.8515
+          },
+          {
+                "id": "brisbane",
+                "name": "Brisbane",
+                "label": "Brisbane",
+                "region": "",
+                "lat": -27.4698,
+                "lon": 153.0251
+          },
+          {
+                "id": "warsaw",
+                "name": "Warsaw",
+                "label": "Warsaw",
+                "region": "",
+                "lat": 52.233374,
+                "lon": 21.071149
+          },
+          {
+                "id": "pittsburgh",
+                "name": "Pittsburgh",
+                "label": "Pittsburgh",
+                "region": "",
+                "lat": 40.44062,
+                "lon": -79.99589
+          },
+          {
+                "id": "florence",
+                "name": "Florence",
+                "label": "Florence",
+                "region": "",
+                "lat": 43.77925,
+                "lon": 11.24626
+          },
+          {
+                "id": "marrakech",
+                "name": "Marrakech",
+                "label": "Marrakech",
+                "region": "",
+                "lat": 31.63416,
+                "lon": -7.99994
+          },
+          {
+                "id": "beirut",
+                "name": "Beirut",
+                "label": "Beirut",
+                "region": "",
+                "lat": 33.89332,
+                "lon": 35.50157
+          },
+          {
+                "id": "aleppo",
+                "name": "アレッポ",
+                "label": "Aleppo",
+                "region": "",
+                "lat": 36.19924,
+                "lon": 37.163725
+          },
+          {
+                "id": "niagara-falls",
+                "name": "Niagara Falls",
+                "label": "Niagara Falls",
+                "region": "",
+                "lat": 43.0896,
+                "lon": -79.0849
+          },
+          {
+                "id": "giza",
+                "name": "Giza",
+                "label": "Giza",
+                "region": "",
+                "lat": 30.00944,
+                "lon": 31.20861
+          },
+          {
+                "id": "hokkaido",
+                "name": "北海道",
+                "label": "Hokkaido",
+                "region": "",
+                "lat": 43.0618,
+                "lon": 141.3545
+          },
+          {
+                "id": "ho-chi-minh-city",
+                "name": "Ho Chi Minh City",
+                "label": "Ho Chi Minh City",
+                "region": "",
+                "lat": 10.7769,
+                "lon": 106.7009
+          },
+          {
+                "id": "tehran",
+                "name": "Tehran",
+                "label": "Tehran",
+                "region": "",
+                "lat": 35.69439,
+                "lon": 51.42151
+          },
+          {
+                "id": "karachi",
+                "name": "Karachi",
+                "label": "Karachi",
+                "region": "",
+                "lat": 24.8608,
+                "lon": 67.0104
+          },
+          {
+                "id": "cusco",
+                "name": "Cusco",
+                "label": "Cusco",
+                "region": "",
+                "lat": -13.53188,
+                "lon": -71.96701
+          },
+          {
+                "id": "macau",
+                "name": "Macau",
+                "label": "Macau",
+                "region": "",
+                "lat": 22.1987,
+                "lon": 113.5439
+          },
+          {
+                "id": "havana",
+                "name": "Havana",
+                "label": "Havana",
+                "region": "",
+                "lat": 23.13302,
+                "lon": -82.38304
+          },
+          {
+                "id": "kathmandu",
+                "name": "Kathmandu",
+                "label": "Kathmandu",
+                "region": "",
+                "lat": 27.70169,
+                "lon": 85.3206
+          },
+          {
+                "id": "wadi-musa-petra",
+                "name": "Wadi Musa / Petra",
+                "label": "Wadi Musa / Petra",
+                "region": "",
+                "lat": 30.3285,
+                "lon": 35.4444
+          },
+          {
+                "id": "damascus",
+                "name": "Damascus",
+                "label": "Damascus",
+                "region": "",
+                "lat": 33.51307,
+                "lon": 36.309581
+          },
+          {
+                "id": "abu-dhabi",
+                "name": "Abu Dhabi",
+                "label": "Abu Dhabi",
+                "region": "",
+                "lat": 24.453835,
+                "lon": 54.377401
+          },
+          {
+                "id": "lhasa",
+                "name": "Lhasa",
+                "label": "Lhasa",
+                "region": "",
+                "lat": 29.65,
+                "lon": 91.1
+          },
+          {
+                "id": "perth",
+                "name": "Perth",
+                "label": "Perth",
+                "region": "",
+                "lat": -31.9523,
+                "lon": 115.8613
+          },
+          {
+                "id": "indianapolis",
+                "name": "Indianapolis",
+                "label": "Indianapolis",
+                "region": "",
+                "lat": 39.76838,
+                "lon": -86.15804
+          },
+          {
+                "id": "riverside",
+                "name": "Riverside",
+                "label": "Riverside",
+                "region": "",
+                "lat": 33.95335,
+                "lon": -117.39616
+          },
+          {
+                "id": "sacramento",
+                "name": "Sacramento",
+                "label": "Sacramento",
+                "region": "",
+                "lat": 38.58157,
+                "lon": -121.4944
+          },
+          {
+                "id": "cincinnati",
+                "name": "Cincinnati",
+                "label": "Cincinnati",
+                "region": "",
+                "lat": 39.12711,
+                "lon": -84.51439
+          },
+          {
+                "id": "budapest",
+                "name": "Budapest",
+                "label": "Budapest",
+                "region": "",
+                "lat": 47.497879,
+                "lon": 19.040238
+          },
+          {
+                "id": "luxor",
+                "name": "Luxor",
+                "label": "Luxor",
+                "region": "",
+                "lat": 25.69893,
+                "lon": 32.6421
+          },
+          {
+                "id": "siem-reap",
+                "name": "Siem Reap",
+                "label": "Siem Reap",
+                "region": "",
+                "lat": 13.36179,
+                "lon": 103.86056
+          },
+          {
+                "id": "salvador-bahia",
+                "name": "Salvador da Bahia",
+                "label": "Salvador da Bahia",
+                "region": "",
+                "lat": -12.9777,
+                "lon": -38.5016
+          },
+          {
+                "id": "cartagena",
+                "name": "Cartagena",
+                "label": "Cartagena",
+                "region": "",
+                "lat": 10.39817,
+                "lon": -75.49328
+          },
+          {
+                "id": "isfahan",
+                "name": "Isfahan",
+                "label": "Isfahan",
+                "region": "",
+                "lat": 32.65246,
+                "lon": 51.67462
+          },
+          {
+                "id": "nairobi",
+                "name": "Nairobi",
+                "label": "Nairobi",
+                "region": "",
+                "lat": -1.28333,
+                "lon": 36.81667
+          },
+          {
+                "id": "timbuktu",
+                "name": "Timbuktu",
+                "label": "Timbuktu",
+                "region": "",
+                "lat": 16.77348,
+                "lon": -3.00742
+          },
+          {
+                "id": "yangon",
+                "name": "Yangon",
+                "label": "Yangon",
+                "region": "",
+                "lat": 16.80528,
+                "lon": 96.15611
+          },
+          {
+                "id": "phuket",
+                "name": "Phuket",
+                "label": "Phuket",
+                "region": "",
+                "lat": 7.8804,
+                "lon": 98.3923
+          },
+          {
+                "id": "jeju",
+                "name": "Jeju",
+                "label": "Jeju",
+                "region": "",
+                "lat": 33.4996,
+                "lon": 126.5312
+          },
+          {
+                "id": "foz-do-iguacu",
+                "name": "Foz do Iguacu",
+                "label": "Foz do Iguacu",
+                "region": "",
+                "lat": -25.5163,
+                "lon": -54.5854
+          },
+          {
+                "id": "central-german",
+                "name": "Central German Metropolitan Region",
+                "label": "Central German Metropolitan Region",
+                "region": "",
+                "lat": 51.3397,
+                "lon": 12.3731
+          },
+          {
+                "id": "medellin",
+                "name": "Medellin",
+                "label": "Medellin",
+                "region": "",
+                "lat": 6.245,
+                "lon": -75.57151
+          },
+          {
+                "id": "karbala",
+                "name": "Karbala",
+                "label": "Karbala",
+                "region": "",
+                "lat": 32.61603,
+                "lon": 44.02488
+          },
+          {
+                "id": "sanaa",
+                "name": "Sanaa",
+                "label": "Sanaa",
+                "region": "",
+                "lat": 15.35,
+                "lon": 44.2
+          },
+          {
+                "id": "johannesburg",
+                "name": "Johannesburg",
+                "label": "Johannesburg",
+                "region": "",
+                "lat": -26.2041,
+                "lon": 28.0473
+          },
+          {
+                "id": "quebec-city",
+                "name": "Quebec City",
+                "label": "Quebec City",
+                "region": "",
+                "lat": 46.8139,
+                "lon": -71.2082
+          },
+          {
+                "id": "varanasi",
+                "name": "Varanasi",
+                "label": "Varanasi",
+                "region": "",
+                "lat": 25.31668,
+                "lon": 83.01041
+          },
+          {
+                "id": "zanzibar-city",
+                "name": "Zanzibar City",
+                "label": "Zanzibar City",
+                "region": "",
+                "lat": -6.1659,
+                "lon": 39.2026
+          },
+          {
+                "id": "harbin",
+                "name": "Harbin",
+                "label": "Harbin",
+                "region": "",
+                "lat": 45.8038,
+                "lon": 126.5349
+          },
+          {
+                "id": "alexandria",
+                "name": "Alexandria",
+                "label": "Alexandria",
+                "region": "",
+                "lat": 31.20176,
+                "lon": 29.91582
+          },
+          {
+                "id": "hanoi",
+                "name": "Hanoi",
+                "label": "Hanoi",
+                "region": "",
+                "lat": 21.0245,
+                "lon": 105.84117
+          },
+          {
+                "id": "ruhr",
+                "name": "Ruhr",
+                "label": "Ruhr",
+                "region": "",
+                "lat": 51.4556,
+                "lon": 7.0116
+          },
+          {
+                "id": "granada",
+                "name": "Granada",
+                "label": "Granada",
+                "region": "",
+                "lat": 37.18817,
+                "lon": -3.60667
+          },
+          {
+                "id": "lahore",
+                "name": "Lahore",
+                "label": "Lahore",
+                "region": "",
+                "lat": 31.558,
+                "lon": 74.35071
+          },
+          {
+                "id": "medina",
+                "name": "Medina",
+                "label": "Medina",
+                "region": "",
+                "lat": 24.46861,
+                "lon": 39.61417
+          },
+          {
+                "id": "yogyakarta",
+                "name": "Yogyakarta",
+                "label": "Yogyakarta",
+                "region": "",
+                "lat": -7.7956,
+                "lon": 110.3695
+          },
+          {
+                "id": "george-town-penang",
+                "name": "George Town, Penang",
+                "label": "George Town, Penang",
+                "region": "",
+                "lat": 5.4141,
+                "lon": 100.3288
+          },
+          {
+                "id": "memphis",
+                "name": "Memphis",
+                "label": "Memphis",
+                "region": "",
+                "lat": 35.1495,
+                "lon": -90.049
+          },
+          {
+                "id": "lalibela",
+                "name": "Lalibela",
+                "label": "Lalibela",
+                "region": "",
+                "lat": 12.0316,
+                "lon": 39.0476
+          },
+          {
+                "id": "algiers",
+                "name": "Algiers",
+                "label": "Algiers",
+                "region": "",
+                "lat": 36.73225,
+                "lon": 3.08746
+          },
+          {
+                "id": "naples",
+                "name": "Naples",
+                "label": "Naples",
+                "region": "",
+                "lat": 40.85216,
+                "lon": 14.26811
+          },
+          {
+                "id": "manaus",
+                "name": "Manaus",
+                "label": "Manaus",
+                "region": "",
+                "lat": -3.10194,
+                "lon": -60.025
+          },
+          {
+                "id": "addis-ababa",
+                "name": "Addis Ababa",
+                "label": "Addis Ababa",
+                "region": "",
+                "lat": 9.02497,
+                "lon": 38.74689
+          },
+          {
+                "id": "khartoum",
+                "name": "Khartoum",
+                "label": "Khartoum",
+                "region": "",
+                "lat": 15.55177,
+                "lon": 32.53241
+          },
+          {
+                "id": "guilin",
+                "name": "Guilin",
+                "label": "Guilin",
+                "region": "",
+                "lat": 25.2736,
+                "lon": 110.29
+          },
+          {
+                "id": "chiang-mai",
+                "name": "Chiang Mai",
+                "label": "Chiang Mai",
+                "region": "",
+                "lat": 18.7883,
+                "lon": 98.9853
+          },
+          {
+                "id": "oaxaca",
+                "name": "Oaxaca",
+                "label": "Oaxaca",
+                "region": "",
+                "lat": 17.0732,
+                "lon": -96.7266
+          },
+          {
+                "id": "tunis",
+                "name": "Tunis",
+                "label": "Tunis",
+                "region": "",
+                "lat": 36.81897,
+                "lon": 10.16579
+          },
+          {
+                "id": "fez",
+                "name": "Fez",
+                "label": "Fez",
+                "region": "",
+                "lat": 34.03313,
+                "lon": -5.00028
+          },
+          {
+                "id": "samarkand",
+                "name": "Samarkand",
+                "label": "Samarkand",
+                "region": "",
+                "lat": 39.65456,
+                "lon": 66.96445
+          },
+          {
+                "id": "shiraz",
+                "name": "Shiraz",
+                "label": "Shiraz",
+                "region": "",
+                "lat": 29.61031,
+                "lon": 52.53113
+          },
+          {
+                "id": "panama-city",
+                "name": "Panama City",
+                "label": "Panama City",
+                "region": "",
+                "lat": 8.9824,
+                "lon": -79.5199
+          },
+          {
+                "id": "cairns",
+                "name": "ケアンズ",
+                "label": "Cairns",
+                "region": "",
+                "lat": -16.9186,
+                "lon": 145.7781
+          },
+          {
+                "id": "amritsar",
+                "name": "Amritsar",
+                "label": "Amritsar",
+                "region": "",
+                "lat": 31.62234,
+                "lon": 74.87534
+          },
+          {
+                "id": "marseille",
+                "name": "Marseille",
+                "label": "Marseille",
+                "region": "",
+                "lat": 43.2965,
+                "lon": 5.3698
+          },
+          {
+                "id": "helsinki",
+                "name": "Helsinki",
+                "label": "Helsinki",
+                "region": "",
+                "lat": 60.16662,
+                "lon": 24.943541
+          },
+          {
+                "id": "quito",
+                "name": "Quito",
+                "label": "Quito",
+                "region": "",
+                "lat": -0.22985,
+                "lon": -78.52495
+          },
+          {
+                "id": "kinshasa",
+                "name": "Kinshasa",
+                "label": "Kinshasa",
+                "region": "",
+                "lat": -4.32758,
+                "lon": 15.31357
+          },
+          {
+                "id": "najaf",
+                "name": "Najaf",
+                "label": "Najaf",
+                "region": "",
+                "lat": 32.02594,
+                "lon": 44.34625
+          },
+          {
+                "id": "mont-saint-michel",
+                "name": "モン・サン＝ミシェル",
+                "label": "Mont Saint-Michel",
+                "region": "",
+                "lat": 48.6361,
+                "lon": -1.5115
+          },
+          {
+                "id": "versailles",
+                "name": "Versailles",
+                "label": "Versailles",
+                "region": "",
+                "lat": 48.8049,
+                "lon": 2.1204
+          },
+          {
+                "id": "hoi-an",
+                "name": "Hoi An",
+                "label": "Hoi An",
+                "region": "",
+                "lat": 15.8801,
+                "lon": 108.338
+          },
+          {
+                "id": "tbilisi",
+                "name": "Tbilisi",
+                "label": "Tbilisi",
+                "region": "",
+                "lat": 41.693459,
+                "lon": 44.801449
+          },
+          {
+                "id": "ankara",
+                "name": "Ankara",
+                "label": "Ankara",
+                "region": "",
+                "lat": 39.920776,
+                "lon": 32.85405
+          },
+          {
+                "id": "kuwait-city",
+                "name": "Kuwait City",
+                "label": "Kuwait City",
+                "region": "",
+                "lat": 29.379653,
+                "lon": 47.973417
+          },
+          {
+                "id": "nicosia",
+                "name": "Nicosia",
+                "label": "Nicosia",
+                "region": "",
+                "lat": 35.17284,
+                "lon": 33.35397
+          },
+          {
+                "id": "kabul",
+                "name": "Kabul",
+                "label": "Kabul",
+                "region": "",
+                "lat": 34.52813,
+                "lon": 69.17233
+          },
+          {
+                "id": "borobudur",
+                "name": "Borobudur",
+                "label": "Borobudur",
+                "region": "",
+                "lat": -7.6079,
+                "lon": 110.2038
+          },
+          {
+                "id": "ayutthaya",
+                "name": "Ayutthaya",
+                "label": "Ayutthaya",
+                "region": "",
+                "lat": 14.3532,
+                "lon": 100.5689
+          },
+          {
+                "id": "luoyang",
+                "name": "Luoyang",
+                "label": "Luoyang",
+                "region": "",
+                "lat": 34.6197,
+                "lon": 112.454
+          },
+          {
+                "id": "da-nang",
+                "name": "Da Nang",
+                "label": "Da Nang",
+                "region": "",
+                "lat": 16.0544,
+                "lon": 108.2022
+          },
+          {
+                "id": "doha",
+                "name": "Doha",
+                "label": "Doha",
+                "region": "",
+                "lat": 25.310881,
+                "lon": 51.508181
+          },
+          {
+                "id": "valparaiso",
+                "name": "Valparaiso",
+                "label": "Valparaiso",
+                "region": "",
+                "lat": -33.036,
+                "lon": -71.62963
+          },
+          {
+                "id": "dakar",
+                "name": "Dakar",
+                "label": "Dakar",
+                "region": "",
+                "lat": 14.6937,
+                "lon": -17.44406
+          },
+          {
+                "id": "ramallah",
+                "name": "Ramallah",
+                "label": "Ramallah",
+                "region": "",
+                "lat": 31.9038,
+                "lon": 35.2034
+          },
+          {
+                "id": "kingston",
+                "name": "Kingston",
+                "label": "Kingston",
+                "region": "",
+                "lat": 17.99702,
+                "lon": -76.79358
+          },
+          {
+                "id": "hue",
+                "name": "Hue",
+                "label": "Hue",
+                "region": "",
+                "lat": 16.4637,
+                "lon": 107.5909
+          },
+          {
+                "id": "edinburgh",
+                "name": "エディンバラ",
+                "label": "Edinburgh",
+                "region": "",
+                "lat": 55.9533,
+                "lon": -3.1883
+          },
+          {
+                "id": "oxford",
+                "name": "オックスフォード",
+                "label": "Oxford",
+                "region": "",
+                "lat": 51.752,
+                "lon": -1.2577
+          },
+          {
+                "id": "charleston",
+                "name": "Charleston",
+                "label": "Charleston",
+                "region": "",
+                "lat": 32.7765,
+                "lon": -79.9311
+          },
+          {
+                "id": "santa-fe",
+                "name": "Santa Fe",
+                "label": "Santa Fe",
+                "region": "",
+                "lat": 35.687,
+                "lon": -105.9378
+          },
+          {
+                "id": "chefchaouen",
+                "name": "Chefchaouen",
+                "label": "Chefchaouen",
+                "region": "",
+                "lat": 35.1688,
+                "lon": -5.2636
+          },
+          {
+                "id": "brasilia",
+                "name": "Brasilia",
+                "label": "Brasilia",
+                "region": "",
+                "lat": -15.77972,
+                "lon": -47.92972
+          },
+          {
+                "id": "aswan",
+                "name": "Aswan",
+                "label": "Aswan",
+                "region": "",
+                "lat": 24.09082,
+                "lon": 32.89942
+          },
+          {
+                "id": "mashhad",
+                "name": "Mashhad",
+                "label": "Mashhad",
+                "region": "",
+                "lat": 36.2605,
+                "lon": 59.6168
+          },
+          {
+                "id": "bodh-gaya",
+                "name": "Bodh Gaya",
+                "label": "Bodh Gaya",
+                "region": "",
+                "lat": 24.69808,
+                "lon": 84.9869
+          },
+          {
+                "id": "dunhuang",
+                "name": "Dunhuang",
+                "label": "Dunhuang",
+                "region": "",
+                "lat": 40.1421,
+                "lon": 94.6619
+          },
+          {
+                "id": "malacca",
+                "name": "Malacca",
+                "label": "Malacca",
+                "region": "",
+                "lat": 2.1896,
+                "lon": 102.2501
+          },
+          {
+                "id": "geneva",
+                "name": "ジュネーブ",
+                "label": "Geneva",
+                "region": "",
+                "lat": 46.2044,
+                "lon": 6.1432
+          },
+          {
+                "id": "urumqi",
+                "name": "Urumqi",
+                "label": "Urumqi",
+                "region": "",
+                "lat": 43.8256,
+                "lon": 87.6168
+          },
+          {
+                "id": "kaohsiung",
+                "name": "Kaohsiung",
+                "label": "Kaohsiung",
+                "region": "",
+                "lat": 22.6273,
+                "lon": 120.3014
+          },
+          {
+                "id": "durban",
+                "name": "Durban",
+                "label": "Durban",
+                "region": "",
+                "lat": -29.8587,
+                "lon": 31.0218
+          },
+          {
+                "id": "casablanca",
+                "name": "Casablanca",
+                "label": "Casablanca",
+                "region": "",
+                "lat": 33.58831,
+                "lon": -7.61138
+          },
+          {
+                "id": "goma",
+                "name": "Goma",
+                "label": "Goma",
+                "region": "",
+                "lat": -1.67409,
+                "lon": 29.22845
+          },
+          {
+                "id": "yerevan",
+                "name": "Yerevan",
+                "label": "Yerevan",
+                "region": "",
+                "lat": 40.177711,
+                "lon": 44.512623
+          },
+          {
+                "id": "seville",
+                "name": "Seville",
+                "label": "Seville",
+                "region": "",
+                "lat": 37.38283,
+                "lon": -5.97317
+          },
+          {
+                "id": "odesa",
+                "name": "Odesa",
+                "label": "Odesa",
+                "region": "",
+                "lat": 46.4825,
+                "lon": 30.7233
+          },
+          {
+                "id": "san-juan",
+                "name": "San Juan",
+                "label": "San Juan",
+                "region": "",
+                "lat": 18.4655,
+                "lon": -66.1057
+          },
+          {
+                "id": "la-paz",
+                "name": "La Paz",
+                "label": "La Paz",
+                "region": "",
+                "lat": -16.5,
+                "lon": -68.15
+          },
+          {
+                "id": "recife",
+                "name": "Recife",
+                "label": "Recife",
+                "region": "",
+                "lat": -8.05389,
+                "lon": -34.88111
+          },
+          {
+                "id": "gold-coast",
+                "name": "ゴールドコースト",
+                "label": "Gold Coast",
+                "region": "",
+                "lat": -28.0167,
+                "lon": 153.4
+          },
+          {
+                "id": "guam",
+                "name": "Guam",
+                "label": "Guam",
+                "region": "",
+                "lat": 13.4757,
+                "lon": 144.7489
+          },
+          {
+                "id": "bukhara",
+                "name": "Bukhara",
+                "label": "Bukhara",
+                "region": "",
+                "lat": 39.77026,
+                "lon": 64.43069
+          },
+          {
+                "id": "phnom-penh",
+                "name": "Phnom Penh",
+                "label": "Phnom Penh",
+                "region": "",
+                "lat": 11.56245,
+                "lon": 104.91601
+          },
+          {
+                "id": "santo-domingo",
+                "name": "Santo Domingo",
+                "label": "Santo Domingo",
+                "region": "",
+                "lat": 18.47186,
+                "lon": -69.89232
+          },
+          {
+                "id": "kigali",
+                "name": "Kigali",
+                "label": "Kigali",
+                "region": "",
+                "lat": -1.94995,
+                "lon": 30.05885
+          },
+          {
+                "id": "alula",
+                "name": "AlUla",
+                "label": "AlUla",
+                "region": "",
+                "lat": 26.6085,
+                "lon": 37.9232
+          },
+          {
+                "id": "liverpool",
+                "name": "リバプール",
+                "label": "Liverpool",
+                "region": "",
+                "lat": 53.4084,
+                "lon": -2.9916
+          },
+          {
+                "id": "cambridge",
+                "name": "ケンブリッジ",
+                "label": "Cambridge",
+                "region": "",
+                "lat": 52.2053,
+                "lon": 0.1218
+          },
+          {
+                "id": "incheon",
+                "name": "Incheon",
+                "label": "Incheon",
+                "region": "",
+                "lat": 37.4563,
+                "lon": 126.7052
+          },
+          {
+                "id": "amman",
+                "name": "Amman",
+                "label": "Amman",
+                "region": "",
+                "lat": 31.951569,
+                "lon": 35.923963
+          },
+          {
+                "id": "dubrovnik",
+                "name": "Dubrovnik",
+                "label": "Dubrovnik",
+                "region": "",
+                "lat": 42.64125,
+                "lon": 18.10909
+          },
+          {
+                "id": "lviv",
+                "name": "Lviv",
+                "label": "Lviv",
+                "region": "",
+                "lat": 49.83826,
+                "lon": 24.02324
+          },
+          {
+                "id": "guatemala-city",
+                "name": "Guatemala City",
+                "label": "Guatemala City",
+                "region": "",
+                "lat": 14.6349,
+                "lon": -90.5069
+          },
+          {
+                "id": "mogadishu",
+                "name": "Mogadishu",
+                "label": "Mogadishu",
+                "region": "",
+                "lat": 2.03711,
+                "lon": 45.34375
+          },
+          {
+                "id": "baku",
+                "name": "Baku",
+                "label": "Baku",
+                "region": "",
+                "lat": 40.375588,
+                "lon": 49.832801
+          },
+          {
+                "id": "palermo",
+                "name": "Palermo",
+                "label": "Palermo",
+                "region": "",
+                "lat": 38.1166,
+                "lon": 13.3636
+          },
+          {
+                "id": "qom",
+                "name": "Qom",
+                "label": "Qom",
+                "region": "",
+                "lat": 34.6416,
+                "lon": 50.8746
+          },
+          {
+                "id": "sarajevo",
+                "name": "Sarajevo",
+                "label": "Sarajevo",
+                "region": "",
+                "lat": 43.84864,
+                "lon": 18.35644
+          },
+          {
+                "id": "queenstown",
+                "name": "クイーンズタウン",
+                "label": "Queenstown",
+                "region": "",
+                "lat": -45.0312,
+                "lon": 168.6626
+          },
+          {
+                "id": "gyeongju",
+                "name": "Gyeongju",
+                "label": "Gyeongju",
+                "region": "",
+                "lat": 35.8562,
+                "lon": 129.2247
+          },
+          {
+                "id": "tainan",
+                "name": "Tainan",
+                "label": "Tainan",
+                "region": "",
+                "lat": 22.9999,
+                "lon": 120.227
+          },
+          {
+                "id": "strasbourg",
+                "name": "Strasbourg",
+                "label": "Strasbourg",
+                "region": "",
+                "lat": 48.5734,
+                "lon": 7.7521
+          },
+          {
+                "id": "yazd",
+                "name": "Yazd",
+                "label": "Yazd",
+                "region": "",
+                "lat": 31.89722,
+                "lon": 54.3675
+          },
+          {
+                "id": "gdansk",
+                "name": "Gdansk",
+                "label": "Gdansk",
+                "region": "",
+                "lat": 54.35227,
+                "lon": 18.64912
+          },
+          {
+                "id": "belem",
+                "name": "Belem",
+                "label": "Belem",
+                "region": "",
+                "lat": -1.45583,
+                "lon": -48.50444
+          },
+          {
+                "id": "juba",
+                "name": "Juba",
+                "label": "Juba",
+                "region": "",
+                "lat": 4.85165,
+                "lon": 31.58247
+          },
+          {
+                "id": "colombo",
+                "name": "Colombo",
+                "label": "Colombo",
+                "region": "",
+                "lat": 6.93548,
+                "lon": 79.84868
+          },
+          {
+                "id": "luang-prabang",
+                "name": "Luang Prabang",
+                "label": "Luang Prabang",
+                "region": "",
+                "lat": 19.8833,
+                "lon": 102.1333
+          },
+          {
+                "id": "cologne",
+                "name": "Cologne",
+                "label": "Cologne",
+                "region": "",
+                "lat": 50.9375,
+                "lon": 6.9603
+          },
+          {
+                "id": "port-louis",
+                "name": "Port Louis",
+                "label": "Port Louis",
+                "region": "",
+                "lat": -20.162452,
+                "lon": 57.502804
+          },
+          {
+                "id": "las-vegas",
+                "name": "Las Vegas",
+                "label": "Las Vegas",
+                "region": "",
+                "lat": 36.167426,
+                "lon": -115.148413
+          },
+          {
+                "id": "nice",
+                "name": "ニース",
+                "label": "Nice",
+                "region": "",
+                "lat": 43.7102,
+                "lon": 7.262
+          },
+          {
+                "id": "hualien",
+                "name": "Hualien",
+                "label": "Hualien",
+                "region": "",
+                "lat": 23.9872,
+                "lon": 121.6015
+          }
+    ];
 
     const MAP = { width: 1000, height: 560, latMax: 85, latMin: -60, centerLon: 150 };
     const LAND_PATHS = [
@@ -3582,11 +2478,268 @@
 
     const storageKey = "worldcityatlas.visited";
     const thumbnailCityIds = new Set([
-      "new-york", "tokyo", "london", "paris", "los-angeles", "seoul", "beijing", "istanbul",
-      "hong-kong", "san-francisco", "washington-dc", "moscow", "shanghai", "osaka", "mexico-city", "berlin",
-      "chicago", "singapore", "cairo", "boston", "delhi", "dubai", "mumbai", "bangkok",
-      "seattle", "philadelphia", "atlanta", "houston", "jakarta", "nagoya", "sao-paulo", "jerusalem",
-      "manila", "dallas", "rhine-ruhr", "lagos", "dhaka"
+          "new-york",
+          "tokyo",
+          "london",
+          "paris",
+          "los-angeles",
+          "seoul",
+          "beijing",
+          "istanbul",
+          "hong-kong",
+          "san-francisco",
+          "washington-dc",
+          "moscow",
+          "taipei",
+          "shanghai",
+          "osaka",
+          "mexico-city",
+          "berlin",
+          "chicago",
+          "singapore",
+          "rio-de-janeiro",
+          "miami",
+          "rome",
+          "barcelona",
+          "tel-aviv",
+          "cairo",
+          "boston",
+          "delhi",
+          "dubai",
+          "buenos-aires",
+          "melbourne",
+          "amsterdam",
+          "suzhou",
+          "mumbai",
+          "bangkok",
+          "orlando",
+          "seattle",
+          "madrid",
+          "munich",
+          "philadelphia",
+          "toronto",
+          "atlanta",
+          "baghdad",
+          "guangzhou",
+          "shenzhen",
+          "milan",
+          "hangzhou",
+          "new-orleans",
+          "houston",
+          "chengdu",
+          "san-diego",
+          "jakarta",
+          "nanjing",
+          "nagoya",
+          "detroit",
+          "sao-paulo",
+          "jerusalem",
+          "manila",
+          "chongqing",
+          "dallas",
+          "lima",
+          "rhine-ruhr",
+          "vienna",
+          "montreal",
+          "xian",
+          "kolkata",
+          "bengaluru",
+          "busan",
+          "bogota",
+          "riyadh",
+          "wuhan",
+          "santiago",
+          "nashville",
+          "austin",
+          "qingdao",
+          "cape-town",
+          "frankfurt",
+          "baltimore",
+          "lisbon",
+          "hamburg",
+          "san-jose",
+          "prague",
+          "dublin",
+          "denver",
+          "brussels",
+          "zurich",
+          "hawaii",
+          "kuala-lumpur",
+          "st-louis",
+          "athens",
+          "phoenix",
+          "bali",
+          "lagos",
+          "jeddah",
+          "okinawa",
+          "copenhagen",
+          "chennai",
+          "portland",
+          "stockholm",
+          "tampa",
+          "tianjin",
+          "dhaka",
+          "charlotte",
+          "venice",
+          "agra",
+          "bethlehem",
+          "auckland",
+          "manchester",
+          "vatican-city",
+          "mecca",
+          "cancun",
+          "brisbane",
+          "warsaw",
+          "pittsburgh",
+          "florence",
+          "marrakech",
+          "beirut",
+          "aleppo",
+          "niagara-falls",
+          "giza",
+          "hokkaido",
+          "ho-chi-minh-city",
+          "tehran",
+          "karachi",
+          "cusco",
+          "macau",
+          "havana",
+          "kathmandu",
+          "wadi-musa-petra",
+          "damascus",
+          "abu-dhabi",
+          "lhasa",
+          "perth",
+          "indianapolis",
+          "riverside",
+          "sacramento",
+          "cincinnati",
+          "budapest",
+          "luxor",
+          "siem-reap",
+          "salvador-bahia",
+          "cartagena",
+          "isfahan",
+          "nairobi",
+          "timbuktu",
+          "yangon",
+          "phuket",
+          "jeju",
+          "foz-do-iguacu",
+          "central-german",
+          "medellin",
+          "karbala",
+          "sanaa",
+          "johannesburg",
+          "quebec-city",
+          "varanasi",
+          "zanzibar-city",
+          "harbin",
+          "alexandria",
+          "hanoi",
+          "ruhr",
+          "granada",
+          "lahore",
+          "medina",
+          "yogyakarta",
+          "george-town-penang",
+          "memphis",
+          "lalibela",
+          "algiers",
+          "naples",
+          "manaus",
+          "addis-ababa",
+          "khartoum",
+          "guilin",
+          "chiang-mai",
+          "oaxaca",
+          "tunis",
+          "fez",
+          "samarkand",
+          "shiraz",
+          "panama-city",
+          "cairns",
+          "amritsar",
+          "marseille",
+          "helsinki",
+          "quito",
+          "kinshasa",
+          "najaf",
+          "mont-saint-michel",
+          "versailles",
+          "hoi-an",
+          "tbilisi",
+          "ankara",
+          "kuwait-city",
+          "nicosia",
+          "kabul",
+          "borobudur",
+          "ayutthaya",
+          "luoyang",
+          "da-nang",
+          "doha",
+          "valparaiso",
+          "dakar",
+          "ramallah",
+          "kingston",
+          "hue",
+          "edinburgh",
+          "oxford",
+          "charleston",
+          "santa-fe",
+          "chefchaouen",
+          "brasilia",
+          "aswan",
+          "mashhad",
+          "bodh-gaya",
+          "dunhuang",
+          "malacca",
+          "geneva",
+          "urumqi",
+          "kaohsiung",
+          "durban",
+          "casablanca",
+          "goma",
+          "yerevan",
+          "seville",
+          "odesa",
+          "san-juan",
+          "la-paz",
+          "recife",
+          "gold-coast",
+          "guam",
+          "bukhara",
+          "phnom-penh",
+          "santo-domingo",
+          "kigali",
+          "alula",
+          "liverpool",
+          "cambridge",
+          "incheon",
+          "amman",
+          "dubrovnik",
+          "lviv",
+          "guatemala-city",
+          "mogadishu",
+          "baku",
+          "palermo",
+          "qom",
+          "sarajevo",
+          "queenstown",
+          "gyeongju",
+          "tainan",
+          "strasbourg",
+          "yazd",
+          "gdansk",
+          "belem",
+          "juba",
+          "colombo",
+          "luang-prabang",
+          "cologne",
+          "port-louis",
+          "las-vegas",
+          "nice",
+          "hualien"
     ]);
     const currentLayer = document.querySelector("[data-current-layer]");
     const graticuleLayer = document.querySelector("[data-graticule-layer]");
