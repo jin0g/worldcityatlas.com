@@ -356,10 +356,10 @@ Progress notes:
 - [x] 274 `canberra` - Canberra - 計画首都、議会と行政、湖と丘陵、大学、先住民の記憶、国立文化機関、住宅、交通、火災、観光を扱う静的ページを実装済み。
 - [x] 275 `ottawa` - Ottawa - 国会丘、二言語都市、先住民の記憶、官庁経済、技術産業、冬の生活、博物館、移民、住宅、市場を扱う静的ページを実装済み。
 - [x] 276 `bern` - Bern - アーレ川地形、連邦政治、旧市街世界遺産、州経済、鉄道、大学医療、宗教、多文化、住宅、観光、気候を扱う静的ページを実装済み。
-- [ ] 277 `andorra-la-vella` - Andorra la Vella - Capital of Andorra
-- [ ] 278 `luxembourg-city` - Luxembourg City - Capital of Luxembourg
-- [ ] 279 `monaco` - Monaco - Capital of Monaco
-- [ ] 280 `port-au-prince` - Port-au-Prince
+- [x] 277 `andorra-la-vella` - Andorra la Vella - 共同公制度、小国外交、ピレネーの谷、観光と免税商業、金融と税制転換、カタルーニャ語、住宅、国境道路、雪山、山岳環境を扱う静的ページを実装済み。
+- [x] 278 `luxembourg-city` - Luxembourg City - EU機関、要塞と渓谷、金融とファンド、越境労働、多言語生活、無料交通、住宅格差、旧市街、宗教、市民文化を扱う静的ページを実装済み。
+- [x] 279 `monaco` - Monaco - 都市国家、断崖と埋立、金融透明性、不動産、居住資格、ヨット経済、カジノ、F1、越境労働、王室儀礼、海洋環境を扱う静的ページを実装済み。
+- [x] 280 `port-au-prince` - Port-au-Prince - 湾岸首都、港湾輸入、震災復興、治安危機、丘陵都市構造、市場、非公式労働、文化と信仰、移住送金、水衛生を扱う静的ページを実装済み。
 - [ ] 281 `vancouver` - Vancouver - Pacific Rim port, Asian migration, film industry, and mountain-coast urbanism
 - [ ] 282 `salzburg` - Salzburg - Mozart city, Baroque heritage, Alpine tourism, and music festival culture
 - [ ] 283 `cannes` - Cannes - Film festival city, Riviera tourism, luxury economy, and media spectacle

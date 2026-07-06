@@ -55,7 +55,7 @@ function renderSiteHeader() {
 }
 
 function renderSiteFooter() {
-  return `<footer class="site-footer"><p>© WORLD CITY ATLAS 2026</p></footer>`;
+  return `<footer class="site-footer"><p>© WORLD CITY ATLAS 2026</p><p>100% Generated AI</p></footer>`;
 }
 
 const VISITED_STORAGE_KEY = "worldcityatlas.visited";
