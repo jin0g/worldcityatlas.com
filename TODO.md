@@ -436,10 +436,10 @@ Progress notes:
 - [x] 354 `pyongyang` - Pyongyang - Capital of North Korea
 - [x] 355 `skopje` - Skopje - Capital of North Macedonia
 - [x] 356 `oslo` - Oslo - Capital of Norway
-- [ ] 357 `muscat` - Muscat - Capital of Oman
-- [ ] 358 `islamabad` - Islamabad - Capital of Pakistan
-- [ ] 359 `asuncion` - Asuncion - Capital of Paraguay
-- [ ] 360 `basseterre` - Basseterre - Capital of Saint Kitts and Nevis
+- [x] 357 `muscat` - Muscat - Capital of Oman
+- [x] 358 `islamabad` - Islamabad - Capital of Pakistan
+- [x] 359 `asuncion` - Asuncion - Capital of Paraguay
+- [x] 360 `basseterre` - Basseterre - Capital of Saint Kitts and Nevis
 - [ ] 361 `castries` - Castries - Capital of Saint Lucia
 - [ ] 362 `kingstown` - Kingstown - Capital of Saint Vincent and the Grenadines
 - [ ] 363 `sao-tome` - Sao Tome - Capital of Sao Tome and Principe
