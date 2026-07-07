@@ -416,10 +416,10 @@ Progress notes:
 - [x] 334 `st-georges` - St. George's - Capital of Grenada
 - [x] 335 `conakry` - Conakry - Capital of Guinea
 - [x] 336 `bissau` - Bissau - Capital of Guinea-Bissau
-- [ ] 337 `georgetown-guyana` - Georgetown - Capital of Guyana
-- [ ] 338 `new-delhi` - New Delhi - Capital of India
-- [ ] 339 `astana` - Astana - Capital of Kazakhstan
-- [ ] 340 `bishkek` - Bishkek - Capital of Kyrgyzstan
+- [x] 337 `georgetown-guyana` - Georgetown - Capital of Guyana
+- [x] 338 `new-delhi` - New Delhi - Capital of India
+- [x] 339 `astana` - Astana - Capital of Kazakhstan
+- [x] 340 `bishkek` - Bishkek - Capital of Kyrgyzstan
 - [ ] 341 `vientiane` - Vientiane - Capital of Laos
 - [ ] 342 `maseru` - Maseru - Capital of Lesotho
 - [ ] 343 `monrovia` - Monrovia - Capital of Liberia
