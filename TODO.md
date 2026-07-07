@@ -424,10 +424,10 @@ Progress notes:
 - [x] 342 `maseru` - Maseru - Capital of Lesotho
 - [x] 343 `monrovia` - Monrovia - Capital of Liberia
 - [x] 344 `lilongwe` - Lilongwe - Capital of Malawi
-- [ ] 345 `bamako` - Bamako - Capital of Mali
-- [ ] 346 `nouakchott` - Nouakchott - Capital of Mauritania
-- [ ] 347 `chisinau` - Chisinau - Capital of Moldova
-- [ ] 348 `ulaanbaatar` - Ulaanbaatar - Capital of Mongolia
+- [x] 345 `bamako` - Bamako - Capital of Mali
+- [x] 346 `nouakchott` - Nouakchott - Capital of Mauritania
+- [x] 347 `chisinau` - Chisinau - Capital of Moldova
+- [x] 348 `ulaanbaatar` - Ulaanbaatar - Capital of Mongolia
 - [ ] 349 `podgorica` - Podgorica - Capital of Montenegro
 - [ ] 350 `naypyidaw` - Naypyidaw - Capital of Myanmar
 - [ ] 351 `windhoek` - Windhoek - Capital of Namibia
