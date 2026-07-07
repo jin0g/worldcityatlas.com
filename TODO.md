@@ -44,6 +44,21 @@ Progress notes:
 - Los Angeles content enrichment pass completed: Lakers, Clippers, Dodgers, Rams, LAFC, Galaxy, surf/skate culture, food trucks, shopping/mall routes, street food smoke, night-event labor, and street sound details were integrated while keeping section counts within checker limits.
 - Seoul content enrichment pass completed: K-pop, drama, e-sports, baseball, football, night stalls, markets, exam culture, children/older residents, festivals, shopping, and Han River sensory details were integrated while keeping section counts within checker limits.
 - Beijing content enrichment pass completed: gaokao, universities, hutong sensory detail, Beijing food, markets, night dining, livehouses, Spring Festival temple fairs, Olympic legacy, children/older residents, basketball, and football were integrated while keeping section counts within checker limits.
+- Istanbul content enrichment pass completed: football clubs, university life, children/older residents, night music, street vendors, markets, shopping, food smoke, ferry sounds, and everyday sensory detail were integrated while keeping section counts within checker limits.
+- Hong Kong content enrichment pass completed: sports, Cantonese media, night music, education, festivals, children/older residents, street markets, shopping, migrant labor, food, and harbor sensory detail were integrated while keeping section counts within checker limits.
+- San Francisco content enrichment pass completed: Giants, Warriors, 49ers, park sports, Mission and Chinatown food, markets, shopping, jazz/live clubs, universities, Pride, children/older residents, street economy, media, and fog/bay sensory detail were integrated while keeping section counts within checker limits.
+- Washington DC content enrichment pass completed: Nationals, Wizards, Capitals, U Street music, go-go, food trucks, Eastern Market, schools, children/older residents, nightlife workers, shopping, and monument-area sensory detail were integrated while keeping section counts within checker limits.
+- Moscow content enrichment pass completed: Luzhniki, CSKA, Spartak, Dinamo, winter skating, theaters, conservatories, markets, Georgian/Central Asian food, children/older residents, metro night movement, media, shopping, and winter sensory detail were integrated while keeping section counts within checker limits.
+- Taipei content enrichment pass completed: baseball, basketball, Taipei Dome, night markets, morning markets, tea, xiaochi, KTV, livehouses, indie music, universities, temple festivals, children/older residents, street economy, media, shopping, humidity, food smell, and scooter sound were integrated while keeping section counts within checker limits.
+- Shanghai content enrichment pass completed: football clubs, Shanghai Masters, livehouses, university districts, night delivery work, morning markets, small shops, children/older residents, shopping, food smells, scooter sounds, and river-light sensory detail were integrated while keeping section counts within checker limits.
+- Osaka content enrichment pass completed: Tigers, Buffaloes, Koshien-area baseball culture, konamon, Kuromon Market, shotengai, street commerce, livehouses, comedy/media, education, Tenjin Festival, danjiri region, children/older residents, and bay/subway/loop-line sensory detail were integrated while keeping section counts within checker limits.
+- Mexico City content enrichment pass completed: football, Estadio Azteca, lucha libre, street food, markets, shopping, Zocalo festivals, Day of the Dead, universities, student movements, film/TV/media, mariachi, sonidero, children/older residents, street economy, metro sounds, chili/tortilla smells, and highland rain were integrated while keeping section counts within checker limits.
+- Berlin content enrichment pass completed: Hertha, Union Berlin, matchday street life, kebab and immigrant food, weekend markets, street commerce, children/older residents, schools, clubs, livehouses, night transit sounds, parks, lakes, flea markets, and sensory detail were integrated while keeping section counts within checker limits.
+- Chicago content enrichment pass completed: Cubs, White Sox, Bulls, Bears, Blackhawks, Chicago Marathon, blues, jazz, house, immigrant food, markets, universities, schools, summer festivals, parades, children/older residents, street commerce, local media, CTA sounds, lake wind, and winter sensory detail were integrated while keeping section counts within checker limits.
+- Singapore content enrichment pass completed: F1, football, badminton, marathon/park exercise, hawkers, wet markets, night stalls, clubs/live music, education pressure, Lunar New Year, Hari Raya, Deepavali, Thaipusam, children/older residents, migrant-worker weekends, Orchard/ethnic-district shopping, humidity, rain, spice smells, MRT sounds, and media were integrated while keeping section counts within checker limits.
+- Rio de Janeiro content enrichment pass completed: Flamengo, Fluminense, Vasco, Botafogo, beach sports, samba media, radio/TV, schools, children/older residents, street vendors, beach food smoke, night sound, markets, and sensory details were integrated while keeping section counts within checker limits.
+- Miami content enrichment pass completed: Heat, Dolphins, Marlins, Inter Miami, beach sports, Cuban/Caribbean/Haitian food, salsa/reggaeton/nightlife, education, festivals, children/older residents, street commerce, markets, shopping, Spanish-language media, humidity, tide, exhaust, and bass sounds were integrated while keeping section counts within checker limits.
+- Rome content enrichment pass completed: AS Roma, Lazio, marathon routes, trattorias, markets, espresso, gelato, film/broadcasting, universities, Holy Year and religious festivals, children/older residents, vendors, night piazzas, shopping streets, scooter sounds, cobblestones, bells, and heat were integrated while keeping section counts within checker limits.
 - New York, Tokyo, London, and Paris are completed under the current image-and-section template.
 - Los Angeles is completed under the current image-and-section template.
 - Istanbul is completed under the current image-and-section template.
@@ -460,10 +475,10 @@ Progress notes:
 - [x] 370 `dili` - Dili - Capital of Timor-Leste
 - [x] 371 `lome` - Lome - Capital of Togo
 - [x] 372 `ashgabat` - Ashgabat - Capital of Turkmenistan
-- [ ] 373 `kampala` - Kampala - Capital of Uganda
-- [ ] 374 `tashkent` - Tashkent - Capital of Uzbekistan
-- [ ] 375 `lusaka` - Lusaka - Capital of Zambia
-- [ ] 376 `harare` - Harare - Capital of Zimbabwe
+- [x] 373 `kampala` - Kampala - Capital of Uganda
+- [x] 374 `tashkent` - Tashkent - Capital of Uzbekistan
+- [x] 375 `lusaka` - Lusaka - Capital of Zambia
+- [x] 376 `harare` - Harare - Capital of Zimbabwe
 - [ ] 377 `sydney` - Sydney
 - [ ] 378 `stuttgart` - Stuttgart
 - [ ] 379 `kyiv` - Kyiv
