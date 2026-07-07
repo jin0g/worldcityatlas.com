@@ -313,36 +313,36 @@ Progress notes:
 - [x] 124 `cusco` - Cusco - Content enrichment reviewed: football viewing, Inti Raymi/festivals, Quechua schools/language, children/older residents, markets, night food, street vendors, tourism labor, Sacred Valley mobility, soup/herb smells, rain on stone, altitude, and sensory detail integrated while keeping section counts within checker limits.
 - [x] 125 `macau` - reviewed: heritage, casino labor, markets, schools, festivals, mobility
 - [x] 126 `havana` - reviewed: baseball, food, music/nightlife, schools, festivals, children/older residents, street economy, media, markets/shopping, sensory detail
-- [x] 127 `kathmandu` - Kathmandu
+- [x] 127 `kathmandu` - Kathmandu - Content enrichment reviewed: cricket/football viewing, Newar festivals, temple music, Thamel night, schools/students, children/older residents, street markets, migration/remittances, market smells, motorbike sounds, air, water, and sensory detail integrated while keeping section counts within checker limits.
 - [x] 128 `wadi-musa-petra` - reviewed: Petra heritage, tourism labor, food/markets, schools, festivals, children/older residents, street economy, media networks, sport, night music, sensory detail
 - [x] 129 `damascus` - Damascus - reviewed: careful conflict framing, football, food, music/night, universities, festivals, children/older residents, street economy, media, markets/shopping, water, and sensory detail
-- [x] 130 `abu-dhabi` - Abu Dhabi - Capital of United Arab Emirates
-- [x] 131 `lhasa` - Lhasa
-- [x] 132 `perth` - Perth - Indian Ocean city, mining economy, isolation, beaches, and Western Australian identity
-- [x] 133 `indianapolis` - Indianapolis
-- [x] 134 `riverside` - Riverside
-- [x] 135 `sacramento` - Sacramento
-- [x] 136 `cincinnati` - Cincinnati
-- [x] 137 `budapest` - Budapest - Capital of Hungary
-- [x] 138 `luxor` - Luxor
-- [x] 139 `siem-reap` - Siem Reap
-- [x] 140 `salvador-bahia` - Salvador da Bahia
-- [x] 141 `cartagena` - Cartagena
-- [x] 142 `isfahan` - Isfahan
-- [x] 143 `nairobi` - Nairobi
-- [x] 144 `timbuktu` - Timbuktu
-- [x] 145 `yangon` - Yangon
-- [x] 146 `phuket` - Phuket - Thai island tourism, migration, and coastal risk
-- [x] 147 `jeju` - Jeju - Korean island tourism, volcanic landscape, migration, and modern memory
-- [x] 148 `foz-do-iguacu` - Foz do Iguacu - Iguazu Falls gateway, tri-border life, and hydroelectric landscape
-- [x] 149 `central-german` - Central German Metropolitan Region - German polycentric region, logistics, research, culture, lignite transition, reunification memory
-- [x] 150 `medellin` - Medellin - Aburra Valley, metro cable, industry transition, conflict memory, and social urbanism
-- [x] 151 `karbala` - Karbala - Shia shrine city, Arbaeen pilgrimage, hospitality economy, water, heat, and security
-- [x] 152 `sanaa` - Sanaa - Yemeni highland capital, old city heritage, water scarcity, conflict memory, and daily life
-- [x] 153 `johannesburg` - Johannesburg - Mining metropolis, finance, apartheid memory, Soweto, migration, and housing inequality
-- [x] 154 `quebec-city` - Quebec City - Francophone North America, fortified old town, winter identity, river port, and Indigenous memory
-- [x] 155 `varanasi` - Varanasi - Ganges pilgrimage, cremation ghats, silk craft, learning, river ecology, and sacred daily life
-- [x] 156 `zanzibar-city` - Zanzibar City - Stone Town, Swahili culture, Indian Ocean trade, Islam, slavery memory, spices, tourism, and coastal risk
+- [x] 130 `abu-dhabi` - Abu Dhabi - Content enrichment reviewed: F1/football, museum and university culture, Ramadan/family ritual, migrant worker food halls, children/older residents, malls/markets, night dining, coastal heat, sea wind, dates/coffee, and sensory detail integrated while keeping checker limits.
+- [x] 131 `lhasa` - Lhasa content enrichment pass completed: sport/recreation, food, music/night, education/schools, festivals, children/older residents, street economy, media/info networks, markets/shopping, and sensory detail were integrated with careful cultural/political framing while keeping checker limits.
+- [x] 132 `perth` - Perth content enrichment reviewed: AFL/cricket, beach recreation, food/markets, music/night, universities, festivals, children/older residents, street economy, media, shopping, and sensory detail integrated while keeping checker limits.
+- [x] 133 `indianapolis` - Indianapolis - reviewed: motor racing, football/basketball, food and breweries, Black church and jazz memory, universities, children/older residents, logistics labor, local media, shopping distances, climate, and greenway sensory detail integrated while keeping checker limits.
+- [x] 134 `riverside` - Riverside - reviewed: river parks/sports, tacos and markets, music/nightlife, UCR/RCC/schools, festivals, children/older residents, street economy, local media, shopping, dry heat, traffic sound, citrus, and food sensory detail integrated while keeping checker limits.
+- [x] 135 `sacramento` - Sacramento - reviewed: Kings, minor-league baseball, river recreation, food and markets, music/night, schools/universities, festivals, children/older residents, street economy, media, shopping, heat, river, market, and civic sensory detail integrated while keeping checker limits.
+- [x] 136 `cincinnati` - Cincinnati - reviewed: Reds/Bengals/soccer, chili and breweries, German festivals, Black church history, universities/schools, children/older residents, local media, markets/shopping, nightlife, river climate, and hillside sensory detail integrated while keeping checker limits.
+- [x] 137 `budapest` - Budapest - Capital of Hungary - reviewed: added sports/recreation, food, music/nightlife, universities, festivals, children/older residents, street work, media, markets/shopping, and sensory details.
+- [x] 138 `luxor` - Luxor - reviewed: football/recreation, food, music/night, schools/archaeology training, festivals, children/older residents, street economy, media/info networks, markets/shopping, crafts, Nile/desert sensory detail, and careful heritage/tourism/agriculture/religion framing integrated while keeping checker limits.
+- [x] 139 `siem-reap` - Siem Reap - reviewed: football/recreation, schools, monk education, markets/food, night streets, dance/festivals, children/older residents, tourism labor, local info networks, water, rain, temple, and market sensory detail integrated while keeping checker limits.
+- [x] 140 `salvador-bahia` - Salvador da Bahia - reviewed: football/beach recreation, food/markets, music/night, schools/universities, Carnaval/festivals, children/older residents, street economy, local media/info networks, tourism labor, inequality, violence, and sensory detail integrated with careful religious framing while keeping checker limits.
+- [x] 141 `cartagena` - Cartagena - reviewed: baseball/football/beach recreation, food, music/night, schools/universities, festivals, children/older residents, street economy, local media, markets/shopping, sensory detail, and careful tourism/port/climate/inequality framing integrated while keeping checker limits.
+- [x] 142 `isfahan` - Isfahan - reviewed: football viewing, food/tea, night walks, schools/universities, religious festivals, children/older residents, bazaar shopping, local media/SNS, water stress, craft labor, and bridge/market sensory detail integrated while keeping checker limits.
+- [x] 143 `nairobi` - Nairobi - reviewed: football/rugby/running and recreation, food/markets/shopping, music/nightlife, schools/universities, festivals, children/older residents, street economy, media/info networks, matatu visual culture, sensory detail, and careful settlement/security/inequality/conservation/tech-labor framing integrated while keeping checker limits.
+- [x] 144 `timbuktu` - Timbuktu - reviewed: football/recreation, tea/food, careful music/night references, Quranic learning and manuscript scholarship, festivals, children/older residents, street economy, radio/info networks, markets/shopping, crafts, desert/river sensory detail, and careful security/heritage/Islam/climate framing integrated while keeping checker limits.
+- [x] 145 `yangon` - Yangon - reviewed: football, tea shops, markets/food, film/music, schools/monastic education, children/older residents, street economy, local media/SNS, night life under constraints, flood/heat, port labor, and careful political/social framing integrated while keeping checker limits.
+- [x] 146 `phuket` - Phuket - reviewed: football/sea recreation, food/night markets, music/nightlife, training/schools, festivals, children/older residents, migrant worker life, street economy, local media/info networks, markets/shopping, sensory detail, and careful tourism pressure/coastal risk/tsunami memory/inequality framing integrated while keeping checker limits.
+- [x] 147 `jeju` - Jeju - reviewed: tightened stat/mini text; added Dongmun Market food/street economy, Olle recreation, Jeju United, music/nightlife, Jeju National University, festivals, children/older residents, local media/info networks, and environmental/tourism-pressure framing
+- [x] 148 `foz-do-iguacu` - Foz do Iguacu - reviewed: football/recreation, food/markets, music/night, schools/UNILA/training, festivals, children/older residents, street economy, local info networks, cross-border shopping, sensory detail, and careful Falls/Itaipu/tri-border/conservation/inequality framing integrated while keeping checker limits.
+- [x] 149 `central-german` - Central German Metropolitan Region - reviewed: football/handball/recreation, food/markets/shopping, music/nightlife, universities/schools, festivals, children/older residents, street economy, local media/info networks, sensory detail, and careful polycentric/logistics/research/manufacturing/lignite/reunification/housing/religion framing integrated while keeping checker limits.
+- [x] 150 `medellin` - Medellin - reviewed: football, reggaeton/hip-hop/nightlife, food and markets, universities/libraries, flower festival, children/older residents, street economy, local media/info networks, hillside daily life, conflict memory, and careful tourism/inequality framing integrated while keeping checker limits.
+- [x] 151 `karbala` - Karbala - reviewed: football/recreation in daily life, tea/food/markets, religious chants and night service work, schools/religious education, children/older residents, street economy, info networks, heat/water, pilgrimage services, and careful Shia shrine/security framing integrated while keeping checker limits.
+- [x] 152 `sanaa` - Sanaa - reviewed: football/recreation, food/qat/markets, careful music/night, universities/Quranic learning, festivals, children/older residents, street economy, radio/info networks, shopping/souks, sensory detail, and careful conflict/heritage/water/Islam/displacement/poverty framing integrated while keeping checker limits.
+- [x] 153 `johannesburg` - Johannesburg - reviewed: football/rugby/cricket recreation, food/markets, music/nightlife, universities/schools, children/older residents, street economy, media/info networks, malls/shopping, sensory detail, and careful apartheid/Soweto/security/migration/housing/transport framing integrated while keeping checker limits.
+- [x] 154 `quebec-city` - Quebec City - reviewed: hockey/winter recreation, food/markets, music/theatre, universities, winter festivals, children/older residents, service labor, local media/info networks, Indigenous relations, port work, snow/river sensory detail, and careful Francophone/heritage framing integrated while keeping checker limits.
+- [x] 155 `varanasi` - Varanasi - reviewed: tightened stat/mini counts; added cricket/recreation, food and markets, classical music/night, Sanskrit learning, festivals, children/older residents, street economy, local info networks, silk shopping, sensory detail, and careful sacred-river/death-ritual/tourism framing.
+- [x] 156 `zanzibar-city` - Zanzibar City - reviewed: football/beach recreation, food and markets, taarab/music/night, schools/madrasa/universities, festivals, children/older residents, street economy, local media/info networks, shopping, spice sensory detail, and careful Stone Town/Swahili culture/Islam/slavery memory/trade/tourism pressure/coastal risk/inequality framing integrated while keeping checker limits.
 - [x] 157 `harbin` - Harbin - Russian architecture, ice festival, Manchurian history, railway city, industry, and winter daily life
 - [x] 158 `alexandria` - Alexandria - Mediterranean port, Hellenistic memory, library, Corniche, industry, faith, housing, climate risk, and food culture
 - [x] 159 `hanoi` - Hanoi - Red River delta, old quarter, political capital, industry, education, ritual life, street food, housing, mobility, and climate risk
@@ -583,7 +583,7 @@ Progress notes:
 - [x] 394 `managua` - Managua
 - [x] 395 `sucre` - Sucre
 - [x] 396 `montevideo` - Montevideo
-- [ ] 397 `mombasa` - Mombasa
-- [ ] 398 `luanda` - Luanda
-- [ ] 399 `maputo` - Maputo
-- [ ] 400 `hargeisa` - Hargeisa
+- [x] 397 `mombasa` - Mombasa
+- [x] 398 `luanda` - Luanda
+- [x] 399 `maputo` - Maputo
+- [x] 400 `hargeisa` - Hargeisa
