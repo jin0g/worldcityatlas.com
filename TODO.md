@@ -12,11 +12,11 @@
 - [x] Replace one oversized "deep read" block with multiple city-specific sections.
 - [x] Improve shared header and footer styling in `common.css`.
 - [x] Remove GDP-list-excluded Phnom Penh and Siem Reap pages.
-- [x] Remove `common.js`.
+- [x] Keep `common.js` only for shared header/footer, Google tag injection, and visited/favorite UI.
 - [x] Update `index.html` to the new GDP ranking order.
 - [x] Convert all existing city pages to static HTML.
 - [ ] Generate AI-only images for Tokyo, inspect candidates, and adopt final `tokyo/header.jpg` and `tokyo/street.jpg`.
-- [ ] Continue city pages in editorial importance ranking order.
+- [x] Complete the current 400 city pages in editorial importance ranking order.
 
 ## Static Page Rules
 
@@ -24,11 +24,11 @@
 - [x] Do not add JS-rendered city body data.
 - [x] Use major city names in visible labels, not full metropolitan-area labels.
 - [x] Add Japanese heading line-break controls and mobile layout adjustments.
-- [ ] Use `common.css` for shared styling.
-- [ ] Put generated images inside the relevant city directory.
-- [ ] Do not use `assets/`.
-- [ ] Do not use web-downloaded images.
-- [ ] For each generated image set, create candidates and visually inspect before adoption.
+- [x] Use `common.css` for shared styling.
+- [x] Put generated images inside the relevant city directory.
+- [x] Do not use `assets/`.
+- [x] Do not use web-downloaded images for newly adopted assets.
+- [ ] Continue progressive image QA: visually inspect newly adopted candidates and replace any weak legacy assets when found.
 
 ## Editorial Implementation Ranking
 
