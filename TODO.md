@@ -293,29 +293,29 @@ Progress notes:
 - [x] 104 `agra` - Agra - Taj Mahal city, Mughal urban history, craft labor, and Yamuna riverfront
 - [x] 105 `bethlehem` - Bethlehem - Christian pilgrimage city, Palestinian urban life, and separation-wall geography
 - [x] 106 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
-- [x] 107 `manchester` - Manchester - Industrial revolution city, music, football, migration, and media economy
-- [x] 108 `vatican-city` - Vatican City
-- [x] 109 `mecca` - Mecca
-- [x] 110 `cancun` - Cancun - Caribbean resort city, Mayan tourism gateway, and coastal risk
-- [x] 111 `brisbane` - Brisbane - Subtropical Australian metropolis, river life, floods, and Queensland tourism gateway
-- [x] 112 `warsaw` - Warsaw - Capital of Poland
-- [x] 113 `pittsburgh` - Pittsburgh
-- [x] 114 `florence` - Florence
-- [x] 115 `marrakech` - Marrakech
-- [x] 116 `beirut` - Beirut
-- [x] 117 `aleppo` - Aleppo - Ancient trading city, souk heritage, war damage, and reconstruction memory
-- [x] 118 `niagara-falls` - Niagara Falls - Waterfall tourism, border city, hydroelectricity, and mass leisure history
-- [x] 119 `giza` - Giza
-- [x] 120 `hokkaido` - Hokkaido / Sapporo - Northern Japan, Ainu history, climate, and food culture
-- [x] 121 `ho-chi-minh-city` - Ho Chi Minh City
-- [x] 122 `tehran` - Tehran
-- [x] 123 `karachi` - Karachi
-- [x] 124 `cusco` - Cusco
-- [x] 125 `macau` - Macau - Lusophone Chinese port, casino economy, and heritage city
-- [x] 126 `havana` - Havana
+- [x] 107 `manchester` - Manchester - Industrial revolution city with Manchester United/City, Old Trafford cricket, MediaCity, universities, Curry Mile, markets, music/nightlife, migration, housing, rain, and sensory street detail reviewed.
+- [x] 108 `vatican-city` - Vatican City - Sovereign religious city with Vatican Athletics/worker sport, Swiss Guard routines, papal liturgy, choirs, Vatican media, museums/bookshops, Borgo/Prati food interface, pilgrims, accessibility, security, and sensory ritual detail reviewed.
+- [x] 109 `mecca` - Mecca - Pilgrimage city with tawaf/sa'i walking, Hajj/Ramadan/Eid seasons, Qur'an recitation, families/children/older/disabled pilgrims, migrant labor, hotels/malls/souqs, food, crowd transport, heat, Zamzam water, and sensory detail reviewed.
+- [x] 110 `cancun` - Cancun - Caribbean resort city with water sports, hotel-zone shopping/nightlife, Yucatan food, markets, family street life, tourism labor, Mayan gateway routes, housing growth, coastal risk, reefs, and sensory beach/detail reviewed.
+- [x] 111 `brisbane` - Brisbane - Subtropical river city with rugby league, cricket, Olympic preparation, universities, South Bank/West End/Valley, Riverfire, migrant food, markets, children/older residents, flood memory, heat, airport gateway, and sensory river detail reviewed.
+- [x] 112 `warsaw` - Warsaw - Capital of Poland with Legia, Vistula sport/walks, Chopin, jazz/clubs, universities/research, media/publishing, Jewish memory, milk bars, markets, vegan/new food, winter light, children/older residents, trams/metro, and national festivals reviewed.
+- [x] 113 `pittsburgh` - Pittsburgh - Post-industrial river city with Steelers/Pirates/Penguins culture, jazz/university radio/live bars, Strip District markets, immigrant food, children/older residents, bridges, medical/university economy, housing inequity, river fog, and sensory detail reviewed.
+- [x] 114 `florence` - Florence - Renaissance preservation city with Calcio Storico, religious festivals, Arno risk, art schools/restoration labor, markets, leather/paper/gold crafts, food, students, older residents, tourism pressure, bells, stone, coffee, and workshop sensory detail reviewed.
+- [x] 115 `marrakech` - Marrakech - Atlas foothill imperial city with Jemaa el-Fna night, Gnawa/Andalusian music, souks/crafts, spices/tajine/mint tea, Ramadan, neighborhood football, children/older residents, street economy, gardens/water, heat, and sensory detail reviewed.
+- [x] 116 `beirut` - Beirut - Eastern Mediterranean capital with football/basketball talk, Corniche runners, food/nightlife/live music, Hamra/Gemmayzeh/Mar Mikhael media culture, universities, street shops/pharmacies/delivery, children/older residents, housing/infrastructure strain, port memory, sea breeze, generator noise, and sensory detail reviewed.
+- [x] 117 `aleppo` - Aleppo - Ancient trading and reconstruction city with careful war-damage framing, local football, children/older residents, souk shopping, street economy, music/festivals, education, crafts, market sound/smell, and sensory detail reviewed.
+- [x] 118 `niagara-falls` - Niagara Falls - Waterfall tourism, border city, hydroelectricity, Indigenous memory, hotel labor, children/older residents, local shopping/markets, street music, night festivals, education, winter sensory detail, and everyday life reviewed.
+- [x] 119 `giza` - Giza - Nile west-bank heritage city with pyramid labor, youth skills, children/older residents, neighborhood football, markets, night shopping, street economy, schools, Ramadan food, desert heat, sand, bread, camel bells, and sensory detail reviewed.
+- [x] 120 `hokkaido` - Hokkaido / Sapporo - Northern Japan and Sapporo hub with Ainu memory, markets/shopping, local media, Susukino night food, children/older residents, regional economy, snow walking, festivals/sport broadcasting, market smells, snow sounds, and everyday sensory detail reviewed.
+- [x] 121 `ho-chi-minh-city` - Ho Chi Minh City - Content enrichment reviewed: football viewing, karaoke, night logistics, media, universities/students, children/older residents, street and market economy, shopping, food, Tet/ritual life, wet pavement, river wind, motorbike sound, fish sauce, diesel, and heat/flood sensory detail integrated while keeping section counts within checker limits.
+- [x] 122 `tehran` - Tehran - Mountain-foot capital with sanctions economy, bazaar shopping, football, film/media, universities, night cafes, children/older residents, street and repair economy, metro commuting, air pollution, tea/spice/leather smells, mountain wind, and sensory detail reviewed.
+- [x] 123 `karachi` - Karachi - Content enrichment reviewed: cricket/stadium life, music, night food and shopping, universities/students, children/older residents, street and market economy, media, Saddar/Tariq Road retail, fish markets, sea wind, spice smells, heat/water stress, and everyday sensory detail integrated while keeping section counts within checker limits.
+- [x] 124 `cusco` - Cusco - Content enrichment reviewed: football viewing, Inti Raymi/festivals, Quechua schools/language, children/older residents, markets, night food, street vendors, tourism labor, Sacred Valley mobility, soup/herb smells, rain on stone, altitude, and sensory detail integrated while keeping section counts within checker limits.
+- [x] 125 `macau` - reviewed: heritage, casino labor, markets, schools, festivals, mobility
+- [x] 126 `havana` - reviewed: baseball, food, music/nightlife, schools, festivals, children/older residents, street economy, media, markets/shopping, sensory detail
 - [x] 127 `kathmandu` - Kathmandu
-- [x] 128 `wadi-musa-petra` - Wadi Musa / Petra
-- [x] 129 `damascus` - Damascus - Capital of Syria
+- [x] 128 `wadi-musa-petra` - reviewed: Petra heritage, tourism labor, food/markets, schools, festivals, children/older residents, street economy, media networks, sport, night music, sensory detail
+- [x] 129 `damascus` - Damascus - reviewed: careful conflict framing, football, food, music/night, universities, festivals, children/older residents, street economy, media, markets/shopping, water, and sensory detail
 - [x] 130 `abu-dhabi` - Abu Dhabi - Capital of United Arab Emirates
 - [x] 131 `lhasa` - Lhasa
 - [x] 132 `perth` - Perth - Indian Ocean city, mining economy, isolation, beaches, and Western Australian identity
@@ -579,10 +579,10 @@ Progress notes:
 - [x] 390 `valletta` - Valletta
 - [x] 391 `minneapolis` - Minneapolis
 - [x] 392 `san-salvador` - San Salvador
-- [ ] 393 `tegucigalpa` - Tegucigalpa
-- [ ] 394 `managua` - Managua
-- [ ] 395 `sucre` - Sucre
-- [ ] 396 `montevideo` - Montevideo
+- [x] 393 `tegucigalpa` - Tegucigalpa
+- [x] 394 `managua` - Managua
+- [x] 395 `sucre` - Sucre
+- [x] 396 `montevideo` - Montevideo
 - [ ] 397 `mombasa` - Mombasa
 - [ ] 398 `luanda` - Luanda
 - [ ] 399 `maputo` - Maputo
