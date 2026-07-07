@@ -432,10 +432,10 @@ Progress notes:
 - [x] 350 `naypyidaw` - Naypyidaw - Capital of Myanmar
 - [x] 351 `windhoek` - Windhoek - Capital of Namibia
 - [x] 352 `wellington` - Wellington - Capital of New Zealand
-- [ ] 353 `niamey` - Niamey - Capital of Niger
-- [ ] 354 `pyongyang` - Pyongyang - Capital of North Korea
-- [ ] 355 `skopje` - Skopje - Capital of North Macedonia
-- [ ] 356 `oslo` - Oslo - Capital of Norway
+- [x] 353 `niamey` - Niamey - Capital of Niger
+- [x] 354 `pyongyang` - Pyongyang - Capital of North Korea
+- [x] 355 `skopje` - Skopje - Capital of North Macedonia
+- [x] 356 `oslo` - Oslo - Capital of Norway
 - [ ] 357 `muscat` - Muscat - Capital of Oman
 - [ ] 358 `islamabad` - Islamabad - Capital of Pakistan
 - [ ] 359 `asuncion` - Asuncion - Capital of Paraguay
