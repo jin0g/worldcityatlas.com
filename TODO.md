@@ -36,6 +36,14 @@ Implement the 400-city atlas in this order. The first four are fixed by instruct
 
 Progress notes:
 
+- Content enrichment audit started from 001: add city-specific elements such as sports, food, music/nightlife, education, festivals, children and older residents, street economy, media, markets, shopping, and sensory detail by integrating them into existing sections rather than simply lengthening pages.
+- New York content enrichment pass completed: sports/public space, jazz/nightlife, food markets, children/older residents, street vendors, shopping, and sensory details were integrated while keeping section counts within the current checker limits.
+- Tokyo content enrichment pass completed: baseball, sumo, National Stadium, Tokyo Marathon, night music, students, children/older residents, festivals, pop culture/media, Toyosu/Tsukiji, Ameyoko, and sensory street details were integrated while reducing sections back within checker limits.
+- London content enrichment pass completed: Premier League, Wimbledon, cricket, grime/club music, food markets, pub life, children/older residents, public services, and sensory street details were integrated while keeping section counts within checker limits.
+- Paris content enrichment pass completed: Roland-Garros, PSG, post-Olympic public space, suburban rap/soccer culture, nightlife, food markets, fashion labor, and sensory street details were integrated while keeping section counts within checker limits.
+- Los Angeles content enrichment pass completed: Lakers, Clippers, Dodgers, Rams, LAFC, Galaxy, surf/skate culture, food trucks, shopping/mall routes, street food smoke, night-event labor, and street sound details were integrated while keeping section counts within checker limits.
+- Seoul content enrichment pass completed: K-pop, drama, e-sports, baseball, football, night stalls, markets, exam culture, children/older residents, festivals, shopping, and Han River sensory details were integrated while keeping section counts within checker limits.
+- Beijing content enrichment pass completed: gaokao, universities, hutong sensory detail, Beijing food, markets, night dining, livehouses, Spring Festival temple fairs, Olympic legacy, children/older residents, basketball, and football were integrated while keeping section counts within checker limits.
 - New York, Tokyo, London, and Paris are completed under the current image-and-section template.
 - Los Angeles is completed under the current image-and-section template.
 - Istanbul is completed under the current image-and-section template.
@@ -448,10 +456,10 @@ Progress notes:
 - [x] 366 `ljubljana` - Ljubljana - Capital of Slovenia
 - [x] 367 `paramaribo` - Paramaribo - Capital of Suriname
 - [x] 368 `dushanbe` - Dushanbe - Capital of Tajikistan
-- [ ] 369 `dodoma` - Dodoma - Capital of Tanzania
-- [ ] 370 `dili` - Dili - Capital of Timor-Leste
-- [ ] 371 `lome` - Lome - Capital of Togo
-- [ ] 372 `ashgabat` - Ashgabat - Capital of Turkmenistan
+- [x] 369 `dodoma` - Dodoma - Capital of Tanzania
+- [x] 370 `dili` - Dili - Capital of Timor-Leste
+- [x] 371 `lome` - Lome - Capital of Togo
+- [x] 372 `ashgabat` - Ashgabat - Capital of Turkmenistan
 - [ ] 373 `kampala` - Kampala - Capital of Uganda
 - [ ] 374 `tashkent` - Tashkent - Capital of Uzbekistan
 - [ ] 375 `lusaka` - Lusaka - Capital of Zambia
