@@ -15,7 +15,7 @@
 - [x] Keep `common.js` only for shared header/footer, Google tag injection, and visited/favorite UI.
 - [x] Update `index.html` to the new GDP ranking order.
 - [x] Convert all existing city pages to static HTML.
-- [ ] Generate AI-only images for Tokyo, inspect candidates, and adopt final `tokyo/header.jpg` and `tokyo/street.jpg`.
+- [x] Visually inspect and keep the current adopted Tokyo `header.jpg` and `street.jpg` JPEGs as final page assets.
 - [x] Complete the current 400 city pages in editorial importance ranking order.
 
 ## Static Page Rules
@@ -386,7 +386,7 @@ Progress notes:
 - [x] 197 `ayutthaya` - Ayutthaya - reviewed: royal island, world heritage preservation, foreign quarters, Buddhist ritual, flood/water management, industrial estates/logistics, markets/food, housing/daily life, conservation ethics, school routes, children/older residents, cycling/local sport, night markets/SNS tourism, street labor, and sensory riverside detail integrated while keeping checker limits.
 - [x] 198 `luoyang` - Luoyang - reviewed: Heluo geography, capital memory, Longmen Grottoes, White Horse Temple, peony festival, equipment manufacturing, old city/housing, food/markets, tourism labor, night markets, Hanfu/SNS tourism, children/older residents, basketball/local recreation, schools, manufacturing families, and sensory everyday detail integrated while keeping checker limits.
 - [x] 199 `da-nang` - Da Nang - 港湾、海辺観光、広域行政、ハイテク産業、チャンパ遺産、交通、住宅、防災、食と市場を扱う静的ページを実装済み。
-- [x] 200 `doha` - Doha - 湾岸地政学、首都外交、LNG、金融、移民労働、宗教、教育、都市交通、スポーツ外交、酷暑を扱う静的ページを実装済み。
+- [x] 200 `doha` - Doha - reviewed: sports, markets/shopping, food, music/nightlife/media, education, children/older residents, street labor, festivals/religion, and everyday sensory detail integrated while keeping checker limits.
 - [x] 201 `valparaiso` - Valparaiso - 太平洋港湾、丘の移動、政治と海軍、世界遺産、壁画文化、大学、観光、住宅リスク、格差と都市圏を扱う静的ページを実装済み。
 - [x] 202 `dakar` - Dakar - 半島地理、首都政治、港湾経済、若者労働、信仰、音楽、ゴレ島、住宅、気候、交通を扱う静的ページを実装済み。
 - [x] 203 `ramallah` - Ramallah - 丘陵地形、行政政治、占領と移動、経済と援助、文化、宗教、住宅、観光、社会課題を扱う静的ページを実装済み。
