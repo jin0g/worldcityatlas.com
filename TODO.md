@@ -420,10 +420,10 @@ Progress notes:
 - [x] 338 `new-delhi` - New Delhi - Capital of India
 - [x] 339 `astana` - Astana - Capital of Kazakhstan
 - [x] 340 `bishkek` - Bishkek - Capital of Kyrgyzstan
-- [ ] 341 `vientiane` - Vientiane - Capital of Laos
-- [ ] 342 `maseru` - Maseru - Capital of Lesotho
-- [ ] 343 `monrovia` - Monrovia - Capital of Liberia
-- [ ] 344 `lilongwe` - Lilongwe - Capital of Malawi
+- [x] 341 `vientiane` - Vientiane - Capital of Laos
+- [x] 342 `maseru` - Maseru - Capital of Lesotho
+- [x] 343 `monrovia` - Monrovia - Capital of Liberia
+- [x] 344 `lilongwe` - Lilongwe - Capital of Malawi
 - [ ] 345 `bamako` - Bamako - Capital of Mali
 - [ ] 346 `nouakchott` - Nouakchott - Capital of Mauritania
 - [ ] 347 `chisinau` - Chisinau - Capital of Moldova
