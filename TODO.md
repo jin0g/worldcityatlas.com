@@ -440,10 +440,10 @@ Progress notes:
 - [x] 358 `islamabad` - Islamabad - Capital of Pakistan
 - [x] 359 `asuncion` - Asuncion - Capital of Paraguay
 - [x] 360 `basseterre` - Basseterre - Capital of Saint Kitts and Nevis
-- [ ] 361 `castries` - Castries - Capital of Saint Lucia
-- [ ] 362 `kingstown` - Kingstown - Capital of Saint Vincent and the Grenadines
-- [ ] 363 `sao-tome` - Sao Tome - Capital of Sao Tome and Principe
-- [ ] 364 `freetown` - Freetown - Capital of Sierra Leone
+- [x] 361 `castries` - Castries - Capital of Saint Lucia
+- [x] 362 `kingstown` - Kingstown - Capital of Saint Vincent and the Grenadines
+- [x] 363 `sao-tome` - Sao Tome - Capital of Sao Tome and Principe
+- [x] 364 `freetown` - Freetown - Capital of Sierra Leone
 - [ ] 365 `bratislava` - Bratislava - Capital of Slovakia
 - [ ] 366 `ljubljana` - Ljubljana - Capital of Slovenia
 - [ ] 367 `paramaribo` - Paramaribo - Capital of Suriname
