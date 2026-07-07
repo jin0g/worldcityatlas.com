@@ -387,7 +387,7 @@ Progress notes:
 - [x] 198 `luoyang` - Luoyang - reviewed: Heluo geography, capital memory, Longmen Grottoes, White Horse Temple, peony festival, equipment manufacturing, old city/housing, food/markets, tourism labor, night markets, Hanfu/SNS tourism, children/older residents, basketball/local recreation, schools, manufacturing families, and sensory everyday detail integrated while keeping checker limits.
 - [x] 199 `da-nang` - Da Nang - reviewed: port/geopolitics, coastal tourism, administrative expansion, tech/industry, Cham heritage/faith, transport/logistics, housing/daily life, climate risk, food/markets, beach sport, children/older residents, night markets/SNS tourism, street labor, and sensory seaside detail integrated while keeping checker limits.
 - [x] 200 `doha` - Doha - reviewed: sports, markets/shopping, food, music/nightlife/media, education, children/older residents, street labor, festivals/religion, and everyday sensory detail integrated while keeping checker limits.
-- [x] 201 `valparaiso` - Valparaiso - 太平洋港湾、丘の移動、政治と海軍、世界遺産、壁画文化、大学、観光、住宅リスク、格差と都市圏を扱う静的ページを実装済み。
+- [x] 201 `valparaiso` - Valparaiso - reviewed: Pacific port, hill mobility, politics/navy, world heritage preservation, murals/culture, university youth, tourism/daily life, disaster housing, inequality, metro relations, football/futsal, markets/food, students, older residents, and sensory port-hill detail integrated while keeping checker limits.
 - [x] 202 `dakar` - Dakar - 半島地理、首都政治、港湾経済、若者労働、信仰、音楽、ゴレ島、住宅、気候、交通を扱う静的ページを実装済み。
 - [x] 203 `ramallah` - Ramallah - 丘陵地形、行政政治、占領と移動、経済と援助、文化、宗教、住宅、観光、社会課題を扱う静的ページを実装済み。
 - [x] 204 `kingston` - Kingston - 自然港、首都行政、港湾物流、金融、音楽、住宅分断、市場、共同体、観光再生、気候リスクを扱う静的ページを実装済み。
