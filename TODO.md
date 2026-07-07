@@ -396,10 +396,10 @@ Progress notes:
 - [x] 207 `oxford` - Oxford - reviewed: university city, colleges, research economy, publishing/libraries/media, rivers/floodplain, faith/ritual, student/class life, housing/commute, transport/cycling, tourism/heritage, rowing/rugby/cricket, food/markets/shopping, music/night, children/older residents, and sensory book-stone detail integrated while keeping checker limits.
 - [x] 208 `charleston` - Charleston - reviewed: Atlantic harbor, slavery memory, Gullah/Lowcountry culture, port/aerospace, churches/faith, preservation/tourism, housing/suburbanization, food/waterfront, climate risk, athletics/football, schools, children/older residents, street economy, media, shopping, festivals/nightlife, and sensory coastal detail integrated while keeping checker limits.
 - [x] 209 `santa-fe` - Santa Fe - reviewed: sports/recreation, food/markets/shopping, music/nightlife/media, education, festivals/religion, children/older residents, street labor, sensory detail, and everyday high-desert life integrated while keeping checker limits.
-- [x] 210 `chefchaouen` - Chefchaouen - 青いメディナ、カスバ、リーフ山地、アンダルス記憶、信仰、水、手工芸、観光労働、山村、住宅生活を扱う静的ページを実装済み。
-- [x] 211 `brasilia` - Brasilia - 計画首都、連邦政治、セラード、水、モダニズム建築、衛星都市、行政経済、宗教、観光、住宅生活を扱う静的ページを実装済み。
-- [x] 212 `aswan` - Aswan - ナイル南端、ハイダム、ヌビア文化、島と船、神殿救出、採石、観光労働、農業市場、暑さ、信仰を扱う静的ページを実装済み。
-- [x] 213 `mashhad` - Mashhad - ホラーサーン地理、イマーム・レザー廟、巡礼経済、国境交易、バザール、神学教育、住宅郊外、交通、水、社会課題を扱う静的ページを実装済み。
+- [x] 210 `chefchaouen` - Chefchaouen - reviewed: Rif mountain geography, kasbah/frontier memory, blue medina landscape, Andalusian migration, faith/water, tourism labor, crafts/markets, rural hinterland, housing/daily life, quiet-street pressure, and sensory mountain detail integrated while keeping checker limits.
+- [x] 211 `brasilia` - Brasilia - reviewed: planned capital, federal politics, cerrado/water, modernist architecture, satellite-city commute, administrative economy, inequality, faith/public space, heritage tourism, housing/daily life, and sensory highland detail integrated while keeping checker limits.
+- [x] 212 `aswan` - Aswan - reviewed: Nile frontier, High Dam/water politics, Nubian memory, islands/boats, temple rescue, ancient quarrying, tourism labor, agriculture/markets, heat/housing, faith/daily life, and sensory river-desert detail integrated while keeping checker limits.
+- [x] 213 `mashhad` - Mashhad - reviewed: Khorasan geography, Imam Reza shrine, pilgrimage economy, border trade/migration, bazaar crafts, theology/education, housing/suburbs, transport gateway, water/climate risk, social tensions, and naturalized mini-section prose while keeping checker limits.
 - [x] 214 `bodh-gaya` - Bodh Gaya - 悟りの地理、大菩提寺、国際僧院街、巡礼と瞑想、観光経済、農村生活、ガヤ交通、治安、衛生福祉を扱う静的ページを実装済み。
 - [x] 215 `dunhuang` - Dunhuang - 河西回廊、莫高窟、鳴沙山・月牙泉、陽関、玉門関、党河、水管理、観光労働、オアシス農業、砂漠環境を扱う静的ページを実装済み。
 - [x] 216 `malacca` - Malacca - マラッカ海峡、世界遺産旧市街、マレー・華人・プラナカン文化、植民地記憶、観光労働、港湾、食、信仰を扱う静的ページを実装済み。
