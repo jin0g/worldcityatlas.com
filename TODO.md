@@ -404,10 +404,10 @@ Progress notes:
 - [x] 215 `dunhuang` - Dunhuang - reviewed: Hexi corridor, Mogao preservation, Crescent Lake/desert, Yangguan/Yumen frontier, Danghe water management, tourism labor, oasis agriculture, faith/performance, desert environment, and naturalized mini-section prose while keeping checker limits.
 - [x] 216 `malacca` - Malacca - reviewed: strait geography, colonial layers, Peranakan culture, Malay kampung/river, port trade, tourism labor, food/markets, faith/ritual, housing/riverfront, and naturalized geopolitical mini-section prose while keeping checker limits.
 - [x] 217 `geneva` - Geneva - reviewed: lake/border geography, diplomacy district, humanitarian memory, watch/finance economy, CERN/science, cross-border labor, Reformation old town, housing/price pressure, tourism/lakefront, neutrality limits, and SEO title improved while keeping checker limits.
-- [x] 218 `urumqi` - Urumqi - 天山北麓、バザール労働、エネルギー物流、多民族街区、治安と記憶、食文化、移住住宅、気候と水、観光玄関口を扱う静的ページを実装済み。
-- [x] 219 `kaohsiung` - Kaohsiung - 高雄港、重工業転換、愛河、左営寺廟、夜市、港湾労働、民主化の記憶、気候リスク、創意水辺を扱う静的ページを実装済み。
-- [x] 220 `durban` - Durban - インド洋港湾、海岸観光、インド系社会、ズールー地域、住宅、物流労働、記憶と分断、洪水リスク、食市場を扱う静的ページを実装済み。
-- [x] 221 `casablanca` - Casablanca - 大西洋港湾、ハサン2世モスク、金融と業務地区、アールデコ、労働住宅、食市場、移民記憶、海岸リスク、路面電車を扱う静的ページを実装済み。
+- [x] 218 `urumqi` - Urumqi - reviewed: Tianshan geography, bazaar labor, energy/logistics, ethnic neighborhoods, security/memory, food culture, migration/housing, climate/water, tourism gateway, and naturalized mini-section prose while keeping checker limits.
+- [x] 219 `kaohsiung` - Kaohsiung - reviewed: harbor geography, heavy-industry transition, Love River daily life, Zuoying temples, night markets/food, port labor, democracy memory, climate risk, creative waterfront, and SEO title improved while keeping checker limits.
+- [x] 220 `durban` - Durban - reviewed: Indian Ocean port, beachfront tourism, Indian diaspora, Zulu region, township housing, logistics labor, apartheid memory, climate/flood risk, food/markets, everyday sport/media detail, and checker-limit fixes integrated.
+- [x] 221 `casablanca` - Casablanca - reviewed: Atlantic port, Hassan II Mosque, finance/business district, art deco/medina, labor/housing, food/markets, migration memory, coastal risk, tram mobility, naturalized mini-section prose, and SEO title improved while keeping checker limits.
 - [x] 222 `goma` - Goma - キブ湖と火山、国境経済、人道都市、紛争の記憶、溶岩の都市形態、市場労働、交通、若者教育、気候災害を扱う静的ページを実装済み。
 - [x] 223 `yerevan` - Yerevan - アララトの地理、共和国広場、カスケード文化、虐殺の記憶、ITとディアスポラ、市場食、ソ連都市計画、水と気候、宗教と教会を扱う静的ページを実装済み。
 - [x] 224 `seville` - Seville - グアダルキビル川と港、大聖堂、アルカサル、トリアナとフラメンコ、聖週間、観光労働、酷暑、大学、食市場を扱う静的ページを実装済み。
