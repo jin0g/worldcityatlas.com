@@ -412,10 +412,10 @@ Progress notes:
 - [x] 330 `malabo` - Malabo - Capital of Equatorial Guinea
 - [x] 331 `mbabane` - Mbabane - Capital of Eswatini
 - [x] 332 `libreville` - Libreville - Capital of Gabon
-- [ ] 333 `banjul` - Banjul - Capital of Gambia
-- [ ] 334 `st-georges` - St. George's - Capital of Grenada
-- [ ] 335 `conakry` - Conakry - Capital of Guinea
-- [ ] 336 `bissau` - Bissau - Capital of Guinea-Bissau
+- [x] 333 `banjul` - Banjul - Capital of Gambia
+- [x] 334 `st-georges` - St. George's - Capital of Grenada
+- [x] 335 `conakry` - Conakry - Capital of Guinea
+- [x] 336 `bissau` - Bissau - Capital of Guinea-Bissau
 - [ ] 337 `georgetown-guyana` - Georgetown - Capital of Guyana
 - [ ] 338 `new-delhi` - New Delhi - Capital of India
 - [ ] 339 `astana` - Astana - Capital of Kazakhstan
