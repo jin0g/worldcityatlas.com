@@ -428,10 +428,10 @@ Progress notes:
 - [x] 346 `nouakchott` - Nouakchott - Capital of Mauritania
 - [x] 347 `chisinau` - Chisinau - Capital of Moldova
 - [x] 348 `ulaanbaatar` - Ulaanbaatar - Capital of Mongolia
-- [ ] 349 `podgorica` - Podgorica - Capital of Montenegro
-- [ ] 350 `naypyidaw` - Naypyidaw - Capital of Myanmar
-- [ ] 351 `windhoek` - Windhoek - Capital of Namibia
-- [ ] 352 `wellington` - Wellington - Capital of New Zealand
+- [x] 349 `podgorica` - Podgorica - Capital of Montenegro
+- [x] 350 `naypyidaw` - Naypyidaw - Capital of Myanmar
+- [x] 351 `windhoek` - Windhoek - Capital of Namibia
+- [x] 352 `wellington` - Wellington - Capital of New Zealand
 - [ ] 353 `niamey` - Niamey - Capital of Niger
 - [ ] 354 `pyongyang` - Pyongyang - Capital of North Korea
 - [ ] 355 `skopje` - Skopje - Capital of North Macedonia
