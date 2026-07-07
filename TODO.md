@@ -444,10 +444,10 @@ Progress notes:
 - [x] 362 `kingstown` - Kingstown - Capital of Saint Vincent and the Grenadines
 - [x] 363 `sao-tome` - Sao Tome - Capital of Sao Tome and Principe
 - [x] 364 `freetown` - Freetown - Capital of Sierra Leone
-- [ ] 365 `bratislava` - Bratislava - Capital of Slovakia
-- [ ] 366 `ljubljana` - Ljubljana - Capital of Slovenia
-- [ ] 367 `paramaribo` - Paramaribo - Capital of Suriname
-- [ ] 368 `dushanbe` - Dushanbe - Capital of Tajikistan
+- [x] 365 `bratislava` - Bratislava - Capital of Slovakia
+- [x] 366 `ljubljana` - Ljubljana - Capital of Slovenia
+- [x] 367 `paramaribo` - Paramaribo - Capital of Suriname
+- [x] 368 `dushanbe` - Dushanbe - Capital of Tajikistan
 - [ ] 369 `dodoma` - Dodoma - Capital of Tanzania
 - [ ] 370 `dili` - Dili - Capital of Timor-Leste
 - [ ] 371 `lome` - Lome - Capital of Togo
