@@ -219,10 +219,10 @@ Progress notes:
 - [x] 030 `melbourne` - Melbourne - reviewed: 湾岸地理、移民近隣、教育研究、金融港湾、芸術スポーツ、住宅、交通、気候火災、先住民記憶を確認・整備。
 - [x] 031 `amsterdam` - Amsterdam - reviewed: 運河、交易金融、港湾、移民近隣、美術館、宗教寛容、住宅観光、自転車、水リスク、夜の管理を確認。
 - [x] 032 `suzhou` - Suzhou - reviewed: 大運河、古典園林、絹工芸、工業園区、金鶏湖、移住労働、水郷観光、住宅、交通、水リスクを確認。
-- [x] 033 `mumbai` - Mumbai - DONE
-- [x] 034 `bangkok` - Bangkok - DONE
-- [x] 035 `orlando` - Orlando - DONE - theme parks, tourism labor, suburban growth, wetlands, and housing inequality
-- [x] 036 `seattle` - Seattle - DONE - technology, port logistics, aerospace, music, rain, Indigenous memory, and housing pressure
+- [x] 033 `mumbai` - Mumbai - reviewed: 金融、港湾、映画、鉄道、宗教祭礼、食と市場、クリケット、買い物、子ども・高齢者、ラジオ/SNS、雨季感覚、洪水リスクを確認・補強。
+- [x] 034 `bangkok` - Bangkok - reviewed: 低地地理、王権政治、仏教儀礼、観光労働、屋台市場、ナイトマーケット、移民労働、ムエタイ、ラジオ/SNS、暑熱洪水を確認・補強。
+- [x] 035 `orlando` - Orlando - reviewed: テーマパーク経済、観光労働、郊外成長、空港、ラテン系移住、Magic/Orlando City/Pride、湿地、住宅格差、エンタメ、災害リスクを確認・整備。
+- [x] 036 `seattle` - Seattle - reviewed: テック、港湾、航空宇宙、音楽、Pike Place、市場と食、球場/スポーツ、雨と水辺、先住民記憶、大学研究、住宅格差を確認。
 - [x] 037 `madrid` - Madrid - DONE - capital functions, museums, finance, migration, housing pressure, heat, football, and late-night food culture
 - [x] 038 `munich` - Munich - DONE - Bavarian capital, automotive engineering, science, beer gardens, housing pressure, memory politics, and Alpine urban nature
 - [x] 039 `philadelphia` - Philadelphia - DONE - founding memory, universities and medicine, manufacturing labor, Black history, immigrant food, rowhouses, murals, sports, transit, and river climate
