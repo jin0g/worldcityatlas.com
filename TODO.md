@@ -471,11 +471,11 @@ Progress notes:
 - [x] 282 `salzburg` - Salzburg - reviewed: 川と丘の地形、司教領の都、旧市街世界遺産、音楽祭、観光労働、州経済、交通、宗教、住宅、気候適応に加え、アイスホッケー・サッカー、国境を越える試合観戦、移民商店、市場の食、夜の街、学生・子ども・高齢者、祭礼と感覚描写を本文へ統合済み。
 - [x] 283 `cannes` - Cannes - reviewed: 映画祭、クロワゼット、旧港、会議観光、ラ・ボカの宇宙産業、レランス諸島、住宅、季節労働、海岸リスクに加え、地元市場、夜の音楽、ビーチスポーツ・ヨット、子どもの通学、高齢者、地元ニュース・SNS、買い物と港の感覚描写を本文へ統合済み。
 - [x] 284 `bath` - Bath - reviewed: ローマ浴場、ジョージアン建築、世界遺産保全、観光労働、大学、住宅、文学、修道院、交通、気候適応に加え、ラグビー・クリケット・大学スポーツ、飲食市場、夜のパブ、学生イベント、子ども・高齢者、地元メディア、祭りと石・湯・坂の感覚描写を本文へ統合済み。
-- [x] 285 `heidelberg` - Heidelberg - University town, castle landscape, romantic tourism, and student culture
-- [x] 286 `lourdes` - Lourdes - Catholic pilgrimage, healing faith, hotels, and religious tourism economy
-- [x] 287 `bangui` - Bangui - Capital of Central African Republic
-- [x] 288 `ndjamena` - N'Djamena - Capital of Chad
-- [x] 289 `asmara` - Asmara - Capital of Eritrea
+- [x] 285 `heidelberg` - Heidelberg - reviewed: 大学都市、古城景観、研究医療、出版、宗教改革、米軍跡地、住宅、観光労働、川辺気候に加え、スポーツ、食と市場、音楽、夜、教育、子ども・高齢者、地元メディア・SNS、買い物、街路感覚を本文へ統合済み。
+- [x] 286 `lourdes` - Lourdes - reviewed: 巡礼儀礼、洞窟と聖水、たいまつ行列、病者・高齢者・障害のある巡礼者、介助労働、ホテル経済、食、夜、土産物店と街路経済、市場、学校と子ども、地元ニュース・SNS、ピレネーのスポーツ・レクリエーション、洪水リスク、聖歌と水辺の感覚描写を本文へ統合済み。
+- [x] 287 `bangui` - Bangui - reviewed: ウバンギ川の国境首都、国家行政、河港と市場、紛争後の統治、地区格差、信仰と和解、生活インフラ、資源経済、食と市場労働、観光記憶に加え、サッカー場周りの小商い、ラジオ、夜の移動と屋台、学校、子ども、街路の水・電気・市場感覚を本文へ統合済み。
+- [x] 288 `ndjamena` - N'Djamena - reviewed: チャリ川とロゴン川の国境首都、首都政治、市場と畜産、石油財政、信仰と言語、避難民と援助、住宅インフラ、気候洪水、内陸物流、記憶文化に加え、サッカー観戦、学校周りの小商い、市場の食と茶、音楽、子ども・高齢者、治安情報と砂塵・家畜市場の感覚を本文へ統合済み。
+- [x] 289 `asmara` - Asmara - reviewed: 高地首都、近代建築世界遺産、独立国家の中枢、宗教共存、紅海物流、ディアスポラ、水と住宅、食とカフェ、教育と若者、歩く遺産、気候制約に加え、夜のカフェ、サッカー観戦、試合結果、ラジオ・口コミ、スポーツと音楽、若者・高齢者、コーヒーと高地の感覚を本文へ統合済み。
 - [x] 290 `pristina` - Pristina - Capital of Kosovo
 - [x] 291 `tripoli` - Tripoli - Capital of Libya
 - [x] 292 `praia` - Praia - Capital of Cape Verde
