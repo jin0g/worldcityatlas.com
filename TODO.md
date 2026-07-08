@@ -287,10 +287,10 @@ Progress notes:
 - [x] 098 `stockholm` - Stockholm - reviewed: 島と群島の地理、首都国家機能、テック産業、福祉労働、住宅郊外、移民政治、AIK/Hammarby/Djurgarden、Nobel/Midsommar、デザイン音楽、公共放送、市場と買い物、水と気候、観光遺産を確認・整備。
 - [x] 099 `tampa` - Tampa - reviewed: 湾の地理、港湾物流、観光スポーツ、Buccaneers/Rays/Lightning、ラテン文化、Ybor City、住宅成長、ハリケーン、移民労働、自然水辺、食と日常、夜の湾岸観光を確認・整備。
 - [x] 100 `tianjin` - Tianjin - reviewed: 海河と港湾地理、北京の海の玄関、天津港産業、租界遺産、製造業労働、相声と朝食文化、古文化街、住宅新市街、湾岸気候、観光文化、首都圏物流を確認・整備。
-- [x] 101 `dhaka` - Dhaka - DONE
-- [x] 102 `charlotte` - Charlotte - 銀行街と高層都市、南部成長、鉄道空港物流、金融労働、公民権、住宅、スポーツ文化、食と移民、気候緑道、都市読解を扱う静的ページを実装済み。
-- [x] 103 `venice` - Venice - 潟の地理、海洋共和国の記憶、観光圧力、芸術儀礼、住民生活、水と気候、工芸労働、港湾本土、食と日常、都市読解を扱う静的ページを実装済み。
-- [x] 104 `agra` - Agra - Taj Mahal city, Mughal urban history, craft labor, and Yamuna riverfront
+- [x] 101 `dhaka` - Dhaka - reviewed: デルタ地理、首都政治、縫製労働、旧市街河港、リキシャ交通、宗教と言語、Ekushey Book Fair/Pahela Baishakh、クリケット、テレビ/新聞/SNS、住宅移住、食市場、教育医療、気候環境、観光遺産を確認・整備。
+- [x] 102 `charlotte` - Charlotte - reviewed: 銀行街と高層都市、南部成長、鉄道空港物流、金融労働、公民権、黒人教会/地域新聞、住宅、NASCAR/Panthers/Hornets/Charlotte FC、食と移民、ファーマーズマーケット、夜の音楽、気候緑道を確認・整備。
+- [x] 103 `venice` - Venice - reviewed: 潟の地理、海洋共和国の記憶、レガッタ/ボート競技、観光圧力、芸術儀礼、Biennale/映画祭/La Fenice、Venezia FC、住民生活、水と気候、工芸労働、港湾本土、食と日常を確認・整備。
+- [x] 104 `agra` - Agra - reviewed: ヤムナー川地理、ムガル帝国の都、Taj Mahal観光、工芸労働、旧市街市場、宗教と日常、Taj Mahotsav、クリケット、住宅移住、大気汚染、食と夜市、都市読解を確認・整備。
 - [x] 105 `bethlehem` - Bethlehem - Christian pilgrimage city, Palestinian urban life, and separation-wall geography
 - [x] 106 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
 - [x] 107 `manchester` - Manchester - Industrial revolution city with Manchester United/City, Old Trafford cricket, MediaCity, universities, Curry Mile, markets, music/nightlife, migration, housing, rain, and sensory street detail reviewed.
