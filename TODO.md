@@ -491,11 +491,11 @@ Progress notes:
 - [x] 302 `abuja` - Abuja - reviewed: 夜の屋台、路上経済、配車アプリ、ラジオ/SNS、祝祭、音楽、サッカー、雨季・乾季の感覚描写を本文へ統合し、不自然な文を整理済み。
 - [x] 303 `bucharest` - Bucharest - reviewed: 市場、夜の音、宗教暦、ラジオ/SNS、子ども・高齢者、暑さと地震リスクを本文へ統合し、仮文調を修正済み。
 - [x] 304 `pretoria` - Pretoria - reviewed: ラジオ/SNS、ミニバスタクシー、雷雨、スパザショップ、路上経済、停電時の生活感を本文へ統合し、仮文調を修正済み。
-- [x] 305 `bloemfontein` - Bloemfontein - Capital of South Africa
-- [x] 306 `caracas` - Caracas - Capital of Venezuela
-- [x] 307 `vaduz` - Vaduz - Capital of Liechtenstein
-- [x] 308 `san-marino` - San Marino - Capital of San Marino
-- [x] 309 `tirana` - Tirana - Capital of Albania
+- [x] 305 `bloemfontein` - Bloemfontein - reviewed: 司法首都、州都、大学、農業サービス、鉄道、タウンシップ、信仰、博物館、水に加え、ラグビー/クリケット、学生音楽、祝祭の食卓、地域ラジオ、市場とスパザショップ、夜の帰宅、子ども・高齢者、乾いた風と雷雨の感覚を本文へ統合済み。
+- [x] 306 `caracas` - Caracas - reviewed: 旧仮文調を整理し、本文量を維持しながらスポーツ、音楽、SNS/ラジオ、夜、教育、子ども・高齢者、路上経済、市場の感覚描写を反映済み。
+- [x] 307 `vaduz` - Vaduz - reviewed: 小都市の生活密度に合わせ、国境買い物、クラブ活動、学校行事、祝祭、地域メディア、食とワイン、夜の静けさ、子ども・高齢者の視点を反映済み。
+- [x] 308 `san-marino` - San Marino - reviewed: 食・市場・夜・祝祭・教育・子ども/高齢者・メディア/SNS・坂道や石畳の感覚描写を補強し、禁止表現を解消済み。
+- [x] 309 `tirana` - Tirana - reviewed: 食・音楽・スポーツ・夜・教育・子ども/高齢者・市場/買い物・路上経済・メディア/SNSを自然に反映し、仮文調を修正済み。
 - [x] 310 `st-johns-antigua` - St. John's - Capital of Antigua and Barbuda
 - [x] 311 `nassau` - Nassau - Capital of Bahamas
 - [x] 312 `manama` - Manama - Capital of Bahrain
