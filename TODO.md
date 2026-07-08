@@ -187,14 +187,14 @@ Progress notes:
 - Existing Python-generated `street.jpg` files also need AI abstract illustration replacements; update them progressively, including Tokyo, London, Paris, and all older placeholder cities.
 - Index cards exist for all 400 cities; pages are implemented progressively in this scored order.
 
-- [x] 001 `new-york` - New York - DONE
-- [x] 002 `tokyo` - Tokyo - DONE
-- [x] 003 `london` - London - DONE
-- [x] 004 `paris` - Paris - DONE
-- [x] 005 `los-angeles` - Los Angeles - DONE
-- [x] 006 `seoul` - Seoul - DONE
-- [x] 007 `beijing` - Beijing - DONE
-- [x] 008 `istanbul` - Istanbul - DONE
+- [x] 001 `new-york` - New York - reviewed: 試合帰りの歓声、屋台の匂い、地下鉄内の音、ラジオ/スマホ情報、SNS、ボデガ、露店、古着市、夜の光を補強。
+- [x] 002 `tokyo` - Tokyo - reviewed: ラジオ、SNS遅延情報、駅前ビジョン、朝市、総菜店、路上屋台、子ども・高齢者の買い物導線、野球・相撲・マラソン、夜の音楽を補強。
+- [x] 003 `london` - London - reviewed: フットボール、ウィンブルドン、クリケット、ローカルラジオ/SNS、週末マーケット、夜の橋の光、パブの歌声、子ども・高齢者、公共サービスを補強。
+- [x] 004 `paris` - Paris - reviewed: PSG、全仏オープン、音楽祭、ラジオ/SNS、朝市、夜のケバブ店、パンと市場の匂い、子ども・高齢者、郊外の球音と生活路を補強。
+- [x] 005 `los-angeles` - Los Angeles - reviewed: FMラジオ、ポッドキャスト、SNS、移民地区の匂いと音、多言語の学校前、子どものスポーツリーグ、高齢者の昼食会、試合日の照明・応援歌・屋台を補強。
+- [x] 006 `seoul` - Seoul - reviewed: Kカルチャーのラジオ、音楽チャート、SNS、夜の自習室、親のSNS情報、市場の油の匂い・鉄板音・値切り声、ネオン、スマホ決済、配達バイク音を補強。
+- [x] 007 `beijing` - Beijing - reviewed: 大学と進学競争、子どもと祖父母、胡同の朝食と会話、廟会、五輪公園スポーツ、夜のライブ/小劇場、市場・配達・路上経済、大気と水の感覚を補強。
+- [x] 008 `istanbul` - Istanbul - reviewed: バザールの呼び込み、焼き栗・とうもろこし屋台、茶の配達、フェリー食、ラマダン、ガラタサライ/フェネルバフチェ/ベシクタシュ、夜のカドゥキョイ/ベイオール、ラジオ/SNS的な都市情報を補強。
 - [x] 009 `hong-kong` - Hong Kong - DONE
 - [x] 010 `san-francisco` - San Francisco - DONE
 - [x] 011 `washington-dc` - Washington DC - DONE
