@@ -207,10 +207,10 @@ Progress notes:
 - [x] 018 `chicago` - Chicago - reviewed: 湖風、地域ラジオ、SNS、スポーツ、移民食、市場、住宅分断、近隣商店など生活の感覚描写を補強。
 - [x] 019 `singapore` - Singapore - reviewed: 水と気候の生活感、スコール、MRT冷房、屋根付き通路、再生水への信頼をデスマス調で整備。
 - [x] 020 `rio-de-janeiro` - Rio de Janeiro - reviewed: サンバ、ファヴェーラ、治安、交通、環境、スポーツイベントの本文をデスマス調で確認・整備。
-- [x] 021 `miami` - Miami - DONE
-- [x] 022 `rome` - Rome - DONE
-- [x] 023 `barcelona` - Barcelona - DONE
-- [x] 024 `tel-aviv` - Tel Aviv - DONE
+- [x] 021 `miami` - Miami - reviewed: キューバ系ラジオ、SNS、ハリケーン後の救援、ラテン音楽、夜の店先、市場・食の匂い、子ども・高齢者を補強。
+- [x] 022 `rome` - Rome - reviewed: ラジオ/SNS、復活祭・地区祭礼、市場名、ローマ料理、大学・放課後・介護、地下鉄/バスの熱気、ASローマ/ラツィオ、夜の広場を補強。
+- [x] 023 `barcelona` - Barcelona - reviewed: 産業労働、気候リスク、サッカー公共文化の本文をデスマス調で確認・整備。
+- [x] 024 `tel-aviv` - Tel Aviv - reviewed: 地政学、文化宗教、暮らし、ハイテク、白い街、夜文化、移民社会の本文をデスマス調で確認・整備。
 - [x] 025 `cairo` - Cairo - DONE
 - [x] 026 `boston` - Boston - DONE
 - [x] 027 `delhi` - Delhi - DONE
