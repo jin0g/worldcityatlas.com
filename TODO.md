@@ -291,8 +291,8 @@ Progress notes:
 - [x] 102 `charlotte` - Charlotte - reviewed: 銀行街と高層都市、南部成長、鉄道空港物流、金融労働、公民権、黒人教会/地域新聞、住宅、NASCAR/Panthers/Hornets/Charlotte FC、食と移民、ファーマーズマーケット、夜の音楽、気候緑道を確認・整備。
 - [x] 103 `venice` - Venice - reviewed: 潟の地理、海洋共和国の記憶、レガッタ/ボート競技、観光圧力、芸術儀礼、Biennale/映画祭/La Fenice、Venezia FC、住民生活、水と気候、工芸労働、港湾本土、食と日常を確認・整備。
 - [x] 104 `agra` - Agra - reviewed: ヤムナー川地理、ムガル帝国の都、Taj Mahal観光、工芸労働、旧市街市場、宗教と日常、Taj Mahotsav、クリケット、住宅移住、大気汚染、食と夜市、都市読解を確認・整備。
-- [x] 105 `bethlehem` - Bethlehem - Christian pilgrimage city, Palestinian urban life, and separation-wall geography
-- [x] 106 `auckland` - Auckland - Polynesian and Pacific gateway, harbor city, and New Zealand growth center
+- [x] 105 `bethlehem` - Bethlehem - reviewed: 丘の地理、降誕教会、巡礼、パレスチナの日常、分離壁と検問、観光経済、オリーブ木工芸、複数暦のクリスマス、教会音楽、大学/病院、市場と食堂、子ども/高齢者、夜の広場を確認・整備。
+- [x] 106 `auckland` - Auckland - reviewed: 港と火山地形、太平洋の玄関口、マオリ史とマウンガ、住宅成長、港湾空港物流、Pasifika/Matariki、All Blacks/Warriors/Auckland FC/クリケット、夜市と食文化、大学技術、海岸気候、島観光を確認・整備。
 - [x] 107 `manchester` - Manchester - Industrial revolution city with Manchester United/City, Old Trafford cricket, MediaCity, universities, Curry Mile, markets, music/nightlife, migration, housing, rain, and sensory street detail reviewed.
 - [x] 108 `vatican-city` - Vatican City - Sovereign religious city with Vatican Athletics/worker sport, Swiss Guard routines, papal liturgy, choirs, Vatican media, museums/bookshops, Borgo/Prati food interface, pilgrims, accessibility, security, and sensory ritual detail reviewed.
 - [x] 109 `mecca` - Mecca - Pilgrimage city with tawaf/sa'i walking, Hajj/Ramadan/Eid seasons, Qur'an recitation, families/children/older/disabled pilgrims, migrant labor, hotels/malls/souqs, food, crowd transport, heat, Zamzam water, and sensory detail reviewed.
