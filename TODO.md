@@ -464,13 +464,13 @@ Progress notes:
 - [x] 275 `ottawa` - Ottawa - reviewed: federal capital politics, bilingual Ottawa-Gatineau life, Indigenous memory, public-service work, Kanata tech, universities, Rideau Canal skating, Winterlude/Tulip Festival/Bluesfest, hockey/football, ByWard food and nightlife, immigrant faith and markets, children/older residents, street economy, media/SNS, housing/transit, and sensory river-snow-market detail integrated while keeping checker limits.
 - [x] 276 `bern` - Bern - reviewed: Aare river geography, federal politics, old-town heritage, canton economy/labor, rail mobility, university/healthcare, Reformed and migrant faiths, housing/welfare, markets, SC Bern sports culture, river swimming/cycling, children/older residents, tourism/daily life, climate/flood risk, and sensory stone-river-tram detail integrated while keeping checker limits.
 - [x] 277 `andorra-la-vella` - Andorra la Vella - reviewed: co-principality diplomacy, Pyrenean valley urban form, shopping and tax tourism, finance/tax transition, Catalan language and faith, housing/migration pressure, border roads, ski and summer mountain labor, night shopping/food, futsal/trail running, children/older residents, climate/water risk, and sensory stone-snow-valley detail integrated while keeping checker limits.
-- [x] 278 `luxembourg-city` - Luxembourg City - EU機関、要塞と渓谷、金融とファンド、越境労働、多言語生活、無料交通、住宅格差、旧市街、宗教、市民文化を扱う静的ページを実装済み。
-- [x] 279 `monaco` - Monaco - 都市国家、断崖と埋立、金融透明性、不動産、居住資格、ヨット経済、カジノ、F1、越境労働、王室儀礼、海洋環境を扱う静的ページを実装済み。
-- [x] 280 `port-au-prince` - Port-au-Prince - 湾岸首都、港湾輸入、震災復興、治安危機、丘陵都市構造、市場、非公式労働、文化と信仰、移住送金、水衛生を扱う静的ページを実装済み。
-- [x] 281 `vancouver` - Vancouver - 太平洋港湾、先住民の土地、アジア太平洋貿易、住宅危機、映画と技術、移民と信仰、交通、自然と気候、食と労働を扱う静的ページを実装済み。
-- [x] 282 `salzburg` - Salzburg - 川と丘の地形、司教領の都、旧市街世界遺産、音楽祭、観光労働、州経済、交通、宗教、住宅、気候適応を扱う静的ページを実装済み。
-- [x] 283 `cannes` - Cannes - 映画祭、クロワゼット、旧港、会議観光、ラ・ボカの宇宙産業、レランス諸島、住宅、季節労働、海岸リスクを扱う静的ページを実装済み。
-- [x] 284 `bath` - Bath - ローマ浴場、ジョージアン建築、世界遺産保全、観光労働、大学、住宅、文学、修道院、交通、気候適応を扱う静的ページを実装済み。
+- [x] 278 `luxembourg-city` - Luxembourg City - reviewed: EU機関、要塞と渓谷、金融とファンド、越境労働、多言語生活、無料交通、住宅格差、旧市街、宗教、市民文化に加え、市場、夜の谷、音楽、新聞・SNS、地域スポーツ、子どもと学校、越境通勤後の買い物を本文へ統合済み。
+- [x] 279 `monaco` - Monaco - reviewed: 都市国家、断崖と埋立、金融透明性、不動産、居住資格、ヨット経済、カジノ、F1、越境労働、王室儀礼、海洋環境に加え、ASモナコ、バスケ、国際放送・SNS、コンダミーヌ市場、夜の飲食、子ども・高齢者の動線を本文へ統合済み。
+- [x] 280 `port-au-prince` - Port-au-Prince - reviewed: 湾岸首都、港湾輸入、震災復興、治安危機、丘陵都市構造、市場、非公式労働、文化と信仰、移住送金、水衛生に加え、食、音楽、夜、教育、子ども・高齢者、スポーツ、ラジオ・SNS、買い物、街路感覚を本文へ統合済み。
+- [x] 281 `vancouver` - Vancouver - reviewed: 太平洋港湾、先住民の土地、住宅危機、映画・技術・大学、移民と信仰、交通郊外、自然と気候、食と労働に加え、スポーツ、音楽祭、夜市、子ども・高齢者、地元ニュース・SNS、買い物、市場、雨と港の感覚を本文へ統合済み。
+- [x] 282 `salzburg` - Salzburg - reviewed: 川と丘の地形、司教領の都、旧市街世界遺産、音楽祭、観光労働、州経済、交通、宗教、住宅、気候適応に加え、アイスホッケー・サッカー、国境を越える試合観戦、移民商店、市場の食、夜の街、学生・子ども・高齢者、祭礼と感覚描写を本文へ統合済み。
+- [x] 283 `cannes` - Cannes - reviewed: 映画祭、クロワゼット、旧港、会議観光、ラ・ボカの宇宙産業、レランス諸島、住宅、季節労働、海岸リスクに加え、地元市場、夜の音楽、ビーチスポーツ・ヨット、子どもの通学、高齢者、地元ニュース・SNS、買い物と港の感覚描写を本文へ統合済み。
+- [x] 284 `bath` - Bath - reviewed: ローマ浴場、ジョージアン建築、世界遺産保全、観光労働、大学、住宅、文学、修道院、交通、気候適応に加え、ラグビー・クリケット・大学スポーツ、飲食市場、夜のパブ、学生イベント、子ども・高齢者、地元メディア、祭りと石・湯・坂の感覚描写を本文へ統合済み。
 - [x] 285 `heidelberg` - Heidelberg - University town, castle landscape, romantic tourism, and student culture
 - [x] 286 `lourdes` - Lourdes - Catholic pilgrimage, healing faith, hotels, and religious tourism economy
 - [x] 287 `bangui` - Bangui - Capital of Central African Republic
