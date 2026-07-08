@@ -516,11 +516,11 @@ Progress notes:
 - [x] 327 `zagreb` - Zagreb - reviewed: EU and regional position, state administration, upper/lower town, industry, religion and memory, migration, trams, Sava urban form, culture tourism, earthquake recovery, plus sport, food, music/night, universities, festivals, children/older residents, kiosks, markets, shopping, media/radio/SNS, and sensory detail integrated while keeping checker limits.
 - [x] 328 `djibouti-city` - Djibouti City - reviewed: strait geopolitics, port logistics, railway corridor, military bases, diplomacy, old port culture, Islam, migration/refugees, housing and water, heat, salt-lake routes, plus sport, food, music, night, markets, shopping, children/older residents, radio/SNS, street economy, and sensory detail integrated while keeping checker limits.
 - [x] 329 `roseau` - Roseau - reviewed: mountain-and-sea capital form, state administration, port economy, Creole culture and faith, market households, nature tourism, hurricane recovery, housing services, youth, Kalinago relations, climate resilience, plus sport, festivals, food, music, night, children/older residents, SNS/radio, shopping, and sensory detail integrated while keeping checker limits.
-- [x] 330 `malabo` - Malabo - Capital of Equatorial Guinea
-- [x] 331 `mbabane` - Mbabane - Capital of Eswatini
-- [x] 332 `libreville` - Libreville - Capital of Gabon
-- [x] 333 `banjul` - Banjul - Capital of Gambia
-- [x] 334 `st-georges` - St. George's - Capital of Grenada
+- [x] 330 `malabo` - Malabo - reviewed: island former-capital politics, oil/gas, port work, colonial memory, Bubi society, religion, climate, services, tourism, inequality, plus radio/SNS, football, markets, street food, night work, children/older residents, shopping, and sensory detail integrated while keeping checker limits.
+- [x] 331 `mbabane` - Mbabane - reviewed: mountain capital, government, finance, commuters, Swazi monarchy context, services, markets, housing, tourism, plus radio/SNS, market food, children/older residents, football, night roads, and sensory detail integrated while keeping checker limits.
+- [x] 332 `libreville` - Libreville - reviewed: estuary capital, oil politics, port/wood economy, markets, faith, tourism, housing, youth inequality, plus radio, children, smoked fish, fried banana, night music, SNS/digital expression, street economy, and sensory detail integrated while keeping checker limits.
+- [x] 333 `banjul` - Banjul - reviewed: river-island capital, port, state functions, markets, Islam, migration, housing, tourism, climate, plus radio, SNS sales, football, night stalls, children/older residents, digital street trade, food, and sensory detail integrated while keeping checker limits.
+- [x] 334 `st-georges` - St. George's - reviewed: harbor capital, government, tourism/cruise, spice economy, churches, carnival, hurricane risk, housing, services, plus SNS bookings, radio debate, night bars/stalls/music, after-school life, snacks, children/older residents, outage/evacuation information, and sensory detail integrated while keeping checker limits.
 - [x] 335 `conakry` - Conakry - Capital of Guinea
 - [x] 336 `bissau` - Bissau - Capital of Guinea-Bissau
 - [x] 337 `georgetown-guyana` - Georgetown - Capital of Guyana
