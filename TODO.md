@@ -223,14 +223,14 @@ Progress notes:
 - [x] 034 `bangkok` - Bangkok - reviewed: 低地地理、王権政治、仏教儀礼、観光労働、屋台市場、ナイトマーケット、移民労働、ムエタイ、ラジオ/SNS、暑熱洪水を確認・補強。
 - [x] 035 `orlando` - Orlando - reviewed: テーマパーク経済、観光労働、郊外成長、空港、ラテン系移住、Magic/Orlando City/Pride、湿地、住宅格差、エンタメ、災害リスクを確認・整備。
 - [x] 036 `seattle` - Seattle - reviewed: テック、港湾、航空宇宙、音楽、Pike Place、市場と食、球場/スポーツ、雨と水辺、先住民記憶、大学研究、住宅格差を確認。
-- [x] 037 `madrid` - Madrid - DONE - capital functions, museums, finance, migration, housing pressure, heat, football, and late-night food culture
-- [x] 038 `munich` - Munich - DONE - Bavarian capital, automotive engineering, science, beer gardens, housing pressure, memory politics, and Alpine urban nature
-- [x] 039 `philadelphia` - Philadelphia - DONE - founding memory, universities and medicine, manufacturing labor, Black history, immigrant food, rowhouses, murals, sports, transit, and river climate
-- [x] 040 `toronto` - Toronto - DONE - finance, immigration neighborhoods, housing pressure, universities, transit, Lake Ontario, food culture, Indigenous memory, film, and inequality
-- [x] 041 `atlanta` - Atlanta - DONE - civil rights memory, airport logistics, Black culture, corporate media, sprawl, universities, immigration, highways, tree canopy, and sports
-- [x] 042 `baghdad` - Baghdad - DONE - Tigris geography, Abbasid memory, state politics, war memory, oil services, markets, religion, education, housing, climate, and recovery
-- [x] 043 `guangzhou` - Guangzhou - 珠江デルタ、広交会、製造業、広東語文化、飲茶、市場、城中村、地下鉄、アフリカ交易、洪水、歴史遺産を扱う静的ページを実装済み。
-- [x] 044 `shenzhen` - Shenzhen - 改革開放、テック製造、華強北、移民労働、城中村、金融、香港境界、デザイン文化、住宅圧力、気候リスクを扱う静的ページを実装済み。
+- [x] 037 `madrid` - Madrid - reviewed: 首都機能、美術館、金融、移民地区、住宅圧力、暑熱、地下鉄、サッカー、夜と食、内戦記憶、観光化と生活騒音を確認・整備。
+- [x] 038 `munich` - Munich - reviewed: バイエルン州都、自動車産業、科学大学、ビール庭園、住宅圧力、移民労働、記憶政治、鉄道、アルプス自然、サッカー文化を確認・整備。
+- [x] 039 `philadelphia` - Philadelphia - reviewed: 建国記憶、大学医療、製造労働、黒人史、移民食、市場、ロウハウス、壁画、スポーツ、交通、川と気候を確認・整備。
+- [x] 040 `toronto` - Toronto - reviewed: 金融、移民地区、住宅圧力、大学研究、交通、湖と気候、食と祭り、先住民記憶、映画・メディア、スポーツ、社会格差を確認・整備。
+- [x] 041 `atlanta` - Atlanta - reviewed: 公民権記憶、空港物流、黒人文化と音楽、企業・メディア、住宅スプロール、大学、移民、交通、樹冠、スポーツ、市場と日常移動を確認・整備。
+- [x] 042 `baghdad` - Baghdad - reviewed: チグリス地理、アッバース朝記憶、国家政治、戦争記憶、石油サービス、市場と食、宗教儀礼、教育文化、住宅電力、気候と水を確認・整備。
+- [x] 043 `guangzhou` - Guangzhou - reviewed: 珠江デルタ、広交会、製造業、広東語文化、飲茶、市場、城中村、地下鉄、アフリカ交易、湿暑洪水、歴史遺産を確認・整備。
+- [x] 044 `shenzhen` - Shenzhen - reviewed: 改革開放、テック製造、華強北、移民労働、城中村、金融、香港境界、デザイン文化、住宅圧力、週末スポーツ、気候リスクを確認・整備。
 - [x] 045 `milan` - Milan - 金融、製造、ファッション、デザイン、大聖堂、移民労働、鉄道、食、オペラ、住宅格差、気候と大気を扱う静的ページを実装済み。
 - [x] 046 `hangzhou` - Hangzhou - 西湖、デジタル経済、運河物流、龍井茶、宋代遺産、観光混雑、住宅郊外化、若者労働、宗教儀礼、湿潤気候と水害を扱う静的ページを実装済み。
 - [x] 047 `new-orleans` - New Orleans - ミシシッピ川、港湾物流、ジャズ、クレオール食、フレンチクォーター、カトリーナの記憶、黒人史、観光夜間経済、住宅格差、湿地と気候リスクを扱う静的ページを実装済み。
