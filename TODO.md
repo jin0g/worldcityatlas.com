@@ -429,14 +429,14 @@ Progress notes:
 - [x] 240 `dubrovnik` - Dubrovnik - reviewed: walls/harbor, republic memory, tourism pressure, war memory, old-town housing, Adriatic climate, festivals/culture, access/transport, coastal risk, and SEO/prose polish integrated while keeping checker limits.
 - [x] 241 `lviv` - Lviv - reviewed: border/backstage role, old-town heritage, multi-confessional religion, IT/universities, rail logistics, displaced people/medical support, cafe/publishing culture, housing, tourism risk, and SEO/mini-section polish integrated while keeping checker limits.
 - [x] 242 `guatemala-city` - Guatemala City - reviewed: highland basin/volcanoes, capital politics, markets/wholesale, transport division, Maya and colonial memory, religion, housing/security, migration/remittances, disaster risk, and SEO/prose polish integrated while keeping checker limits.
-- [x] 243 `mogadishu` - Mogadishu - インド洋港湾、首都と国家、紛争と再建、市場労働、宗教、ディアスポラ送金、住宅治安、海岸気候、文化と食を扱い、SEOと本文表現をレビュー済み。
-- [x] 244 `baku` - Baku - カスピ海岸、石油とガス、旧市街遺産、首都地政学、文化音楽、宗教、住宅格差、交通物流、風と気候を扱い、SEOと本文表現をレビュー済み。
-- [x] 245 `palermo` - Palermo - 地中海港湾、アラブ・ノルマン遺産、市場と食、反マフィアの市民記憶、宗教祭礼、移民、住宅、気候を扱い、SEOと本文表現をレビュー済み。
-- [x] 246 `qom` - Qom - 聖廟、神学校、革命後の政治、首都回廊、巡礼経済、住宅、砂漠気候、出版、社会課題を扱い、SEOと本文表現をレビュー済み。
-- [x] 247 `sarajevo` - Sarajevo - 谷の地形、オスマン旧市街、ハプスブルク都市、多宗教、包囲戦の記憶、産業、映画祭、住宅、山岳観光を扱う静的ページを実装済み。
-- [x] 248 `queenstown` - Queenstown - 湖と山、冒険観光、季節労働、マオリの景観記憶、住宅圧力、気候リスク、交通、食と夜、スキー文化を扱う静的ページを実装済み。
-- [x] 249 `gyeongju` - Gyeongju - 新羅王都、仏教遺産、王陵と古墳、考古学、漢屋の日常、観光圧力、教育工芸、広域交通を扱う静的ページを実装済み。
-- [x] 250 `tainan` - Tainan - 台湾の古都、廟と儀礼、食市場、安平港、オランダの記憶、半導体産業、住宅日常、水と気候を扱う静的ページを実装済み。
+- [x] 243 `mogadishu` - Mogadishu - reviewed: Indian Ocean port logistics, capital governance, conflict recovery, markets/street labor, mosques/faith, diaspora remittances, housing/security, coastal climate, food/music/media, football/recreation, children/older residents, and sensory tea-sea-market detail integrated while keeping checker limits.
+- [x] 244 `baku` - Baku - reviewed: Caspian waterfront, oil/gas economy, old-city heritage, capital geopolitics, mugham/music/media, faith/secular life, housing inequality, transport/logistics, F1/sports events, children/older residents, shopping/cafes, and sensory wind-food-metro detail integrated while keeping checker limits.
+- [x] 245 `palermo` - Palermo - reviewed: Mediterranean port, Arab-Norman heritage, markets/food, anti-mafia civic memory, religion/festivals, housing/daily life, opera/music/night, migration, climate/coast, football/recreation, education, children/older residents, street economy, media/shopping, and sensory market-sea detail integrated while keeping checker limits.
+- [x] 246 `qom` - Qom - reviewed: shrine urban core, seminaries/religious education, post-revolution politics, Tehran corridor, pilgrimage economy, old-town housing, desert water/climate, Jamkaran pilgrimage, publishing/media, visitor etiquette, social issues, food/markets, children/older residents, and sensory ritual-street detail integrated while keeping checker limits.
+- [x] 247 `sarajevo` - Sarajevo - 谷の地形、オスマン旧市街、ハプスブルク都市、多宗教、包囲戦の記憶、産業、映画祭、住宅、山岳観光を扱い、SEO・ルート・本文表現をレビュー済み。
+- [x] 248 `queenstown` - Queenstown - 湖と山、冒険観光、季節労働、マオリの景観記憶、住宅圧力、気候リスク、交通、食と夜、スキー文化を扱い、SEO・ルート・本文表現をレビュー済み。
+- [x] 249 `gyeongju` - Gyeongju - 新羅王都、仏教遺産、王陵と古墳、考古学、漢屋の日常、観光圧力、教育工芸、広域交通を扱い、SEOと本文表現をレビュー済み。
+- [x] 250 `tainan` - Tainan - 台湾の古都、廟と儀礼、食市場、安平港、オランダの記憶、半導体産業、住宅日常、水と気候を扱い、SEOと本文表現をレビュー済み。
 - [x] 251 `strasbourg` - Strasbourg - ライン国境、大聖堂と旧市街、欧州機関、運河住宅、アルザス文化、トラム労働、宗教記憶、観光圧力、気候と川を扱う静的ページを実装済み。
 - [x] 252 `yazd` - Yazd - 砂漠都市、風塔と水の技術、ゾロアスター教の記憶、バザール、モスク儀礼、住宅日常、世界遺産観光、酷暑、産業労働を扱う静的ページを実装済み。
 - [x] 253 `gdansk` - Gdansk - バルト海の港、ハンザ旧市街、造船所と連帯、戦争記憶、琥珀と工芸、住宅日常、観光水辺、大学技術、海岸気候を扱う静的ページを実装済み。
