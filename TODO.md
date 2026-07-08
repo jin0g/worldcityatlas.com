@@ -425,10 +425,10 @@ Progress notes:
 - [x] 236 `liverpool` - Liverpool - reviewed: Mersey river/port, maritime empire memory, music culture, football, working-class identity, Irish migration, waterfront regeneration, health inequality, universities/knowledge industry, and mini-section prose polish integrated while keeping checker limits.
 - [x] 237 `cambridge` - Cambridge - reviewed: Cam river geography, university institutions, Silicon Fen science cluster, student life, housing pressure, heritage tourism, knowledge economy, fenland climate, cycling mobility, and SEO title polish integrated while keeping checker limits.
 - [x] 238 `incheon` - Incheon - reviewed: airport/port logistics, Songdo planning, open-port memory, Korean War landing, industrial labor, islands/tidelands, housing/commuting, food/culture, coastal climate, tourism heritage, and heading-style checks integrated while keeping checker limits.
-- [x] 239 `amman` - Amman - 丘の都市形態、首都機能、難民と移住、水と気候、スーク、食文化、産業サービス、宗教、住宅格差を扱う静的ページを実装済み。
-- [x] 240 `dubrovnik` - Dubrovnik - 城壁と港、共和国の記憶、観光圧力、戦争の記憶、住宅と旧市街、気候、文化祭、交通、沿岸リスクを扱う静的ページを実装済み。
-- [x] 241 `lviv` - Lviv - 国境と後方拠点、旧市街遺産、宗教、ITと大学、鉄道物流、避難民支援、カフェ出版文化、住宅、観光リスクを扱う静的ページを実装済み。
-- [x] 242 `guatemala-city` - Guatemala City - 高原盆地と火山、首都政治、市場、交通、マヤと植民地の記憶、宗教、住宅治安、移民送金、災害リスクを扱う静的ページを実装済み。
+- [x] 239 `amman` - Amman - reviewed: hill urban form, capital governance/diplomacy, refugees and migration, water scarcity/climate, downtown souks, food/cafe culture, services economy, religion, housing inequality, and SEO/prose polish integrated while keeping checker limits.
+- [x] 240 `dubrovnik` - Dubrovnik - reviewed: walls/harbor, republic memory, tourism pressure, war memory, old-town housing, Adriatic climate, festivals/culture, access/transport, coastal risk, and SEO/prose polish integrated while keeping checker limits.
+- [x] 241 `lviv` - Lviv - reviewed: border/backstage role, old-town heritage, multi-confessional religion, IT/universities, rail logistics, displaced people/medical support, cafe/publishing culture, housing, tourism risk, and SEO/mini-section polish integrated while keeping checker limits.
+- [x] 242 `guatemala-city` - Guatemala City - reviewed: highland basin/volcanoes, capital politics, markets/wholesale, transport division, Maya and colonial memory, religion, housing/security, migration/remittances, disaster risk, and SEO/prose polish integrated while keeping checker limits.
 - [x] 243 `mogadishu` - Mogadishu - インド洋港湾、首都と国家、紛争と再建、市場労働、宗教、ディアスポラ送金、住宅治安、海岸気候、文化と食を扱う静的ページを実装済み。
 - [x] 244 `baku` - Baku - カスピ海岸、石油とガス、旧市街遺産、首都地政学、文化音楽、宗教、住宅格差、交通物流、風と気候を扱う静的ページを実装済み。
 - [x] 245 `palermo` - Palermo - 地中海港湾、アラブ・ノルマン遺産、市場と食、反マフィアの市民記憶、宗教祭礼、移民、住宅、気候を扱う静的ページを実装済み。
