@@ -211,14 +211,14 @@ Progress notes:
 - [x] 022 `rome` - Rome - reviewed: ラジオ/SNS、復活祭・地区祭礼、市場名、ローマ料理、大学・放課後・介護、地下鉄/バスの熱気、ASローマ/ラツィオ、夜の広場を補強。
 - [x] 023 `barcelona` - Barcelona - reviewed: 産業労働、気候リスク、サッカー公共文化の本文をデスマス調で確認・整備。
 - [x] 024 `tel-aviv` - Tel Aviv - reviewed: 地政学、文化宗教、暮らし、ハイテク、白い街、夜文化、移民社会の本文をデスマス調で確認・整備。
-- [x] 025 `cairo` - Cairo - reviewed: ナイル地理、旧市街、ギザ観光、産業労働、住宅、交通、文化メディア、環境気候の本文を確認・整備。
-- [x] 026 `boston` - Boston - reviewed: 革命記憶、医療バイオ、金融港湾、住宅、交通、気候、観光文化の本文を確認・整備。
-- [x] 027 `delhi` - Delhi - reviewed: 住宅、衛星都市経済、メディア、通勤、首都圏労働の本文をデスマス調で確認・整備。
-- [x] 028 `dubai` - Dubai - reviewed: 暮らしと観光、不動産景観、メトロ移動、暑熱と格差の本文をデスマス調で確認・整備。
-- [x] 029 `buenos-aires` - Buenos Aires - DONE
-- [x] 030 `melbourne` - Melbourne - DONE
-- [x] 031 `amsterdam` - Amsterdam - DONE
-- [x] 032 `suzhou` - Suzhou - DONE - Jiangnan gardens, canals, silk culture, and water-town urbanism
+- [x] 025 `cairo` - Cairo - reviewed: 市場・露店、屋台の匂い、路上経済、サッカー中継、映画/テレビ/ラジオ、子ども・高齢者、地下鉄と渋滞を確認・補強。
+- [x] 026 `boston` - Boston - reviewed: フードトラック、大学街の日常、学生、港と食、スポーツ、医療バイオ、住宅費、冬と沿岸リスクを確認・補強。
+- [x] 027 `delhi` - Delhi - reviewed: クリケット、旧市街市場、宗教祝祭、メトロ、住宅、衛星都市経済、メディア、通勤、首都圏労働を確認・整備。
+- [x] 028 `dubai` - Dubai - reviewed: クリケット/サッカー、スーク、モール、移民労働、ラマダン、空港、暮らしと観光、不動産、メトロ、暑熱と格差を確認・整備。
+- [x] 029 `buenos-aires` - Buenos Aires - reviewed: 国家政治、港湾経済、タンゴ、移民街区、食と市場、サッカー、住宅、交通、洪水の本文と見出しを確認。
+- [x] 030 `melbourne` - Melbourne - reviewed: 湾岸地理、移民近隣、教育研究、金融港湾、芸術スポーツ、住宅、交通、気候火災、先住民記憶を確認・整備。
+- [x] 031 `amsterdam` - Amsterdam - reviewed: 運河、交易金融、港湾、移民近隣、美術館、宗教寛容、住宅観光、自転車、水リスク、夜の管理を確認。
+- [x] 032 `suzhou` - Suzhou - reviewed: 大運河、古典園林、絹工芸、工業園区、金鶏湖、移住労働、水郷観光、住宅、交通、水リスクを確認。
 - [x] 033 `mumbai` - Mumbai - DONE
 - [x] 034 `bangkok` - Bangkok - DONE
 - [x] 035 `orlando` - Orlando - DONE - theme parks, tourism labor, suburban growth, wetlands, and housing inequality
