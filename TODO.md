@@ -199,14 +199,14 @@ Progress notes:
 - [x] 010 `san-francisco` - San Francisco - reviewed: スペイン語ラジオ、生活買い物、世代間通訳、移民地区の市場感、LGBTQ文化、テック労働と住宅負担の表現を補強。
 - [x] 011 `washington-dc` - Washington DC - reviewed: 黒人教会、ゴーゴー、Uストリート、記念碑の夜景、フードトラック、Eastern Market、大学・博物館教育、子ども・高齢者、野球/バスケ/アイスホッケー、抗議とメディアを補強。
 - [x] 012 `moscow` - Moscow - reviewed: 正教祝祭、劇場・音楽院、地下鉄の音と匂い、市場と移民食、冬の通学・高齢者移動、サッカー/アイスホッケー、商品棚と制裁下の暮らしを補強。
-- [x] 013 `taipei` - Taipei - DONE
-- [x] 014 `shanghai` - Shanghai - DONE
-- [x] 015 `osaka` - Osaka - DONE
-- [x] 016 `mexico-city` - Mexico City - DONE
-- [x] 017 `berlin` - Berlin - DONE
-- [x] 018 `chicago` - Chicago - DONE
-- [x] 019 `singapore` - Singapore - DONE
-- [x] 020 `rio-de-janeiro` - Rio de Janeiro - DONE
+- [x] 013 `taipei` - Taipei - reviewed: 野球、KTV/ライブ、SNS、ラジオ/屋台テレビ、教育・塾、子ども、湿気・雨音・警報などの感覚描写を補強。
+- [x] 014 `shanghai` - Shanghai - reviewed: 球場、ライブハウス、ラジオ、市場・路上小商い、湿気、SNS/短い動画、食と買い物の生活描写を補強。
+- [x] 015 `osaka` - Osaka - reviewed: 阪神/オリックス/高校野球、ライブハウス、テレビ/ラジオ、黒門市場・商店街、子ども・高齢者、夜の店舗と防災の表現を確認・整備。
+- [x] 016 `mexico-city` - Mexico City - reviewed: サッカー、ルチャリブレ、マリアッチ、ソニデロ、死者の日、屋台・メルカド、ラジオ/テレビ、子ども・高齢者、地震警報を確認・整備。
+- [x] 017 `berlin` - Berlin - reviewed: 地元ラジオ/SNS、住宅・保育負担、市場とケバブ店、季節の匂い、観光と記憶、気候・暖房費の生活感を補強。
+- [x] 018 `chicago` - Chicago - reviewed: 湖風、地域ラジオ、SNS、スポーツ、移民食、市場、住宅分断、近隣商店など生活の感覚描写を補強。
+- [x] 019 `singapore` - Singapore - reviewed: 水と気候の生活感、スコール、MRT冷房、屋根付き通路、再生水への信頼をデスマス調で整備。
+- [x] 020 `rio-de-janeiro` - Rio de Janeiro - reviewed: サンバ、ファヴェーラ、治安、交通、環境、スポーツイベントの本文をデスマス調で確認・整備。
 - [x] 021 `miami` - Miami - DONE
 - [x] 022 `rome` - Rome - DONE
 - [x] 023 `barcelona` - Barcelona - DONE
