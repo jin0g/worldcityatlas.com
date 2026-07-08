@@ -486,11 +486,11 @@ Progress notes:
 - [x] 297 `ngerulmud` - Ngerulmud - reviewed: 政府中枢、コロールとの二重構造、自由連合、海洋保全、観光経済、土地と伝統、道路、教育、信仰、気候、遺産、日常生活に加え、ラジオ/SNS、コロールでの買い物と通勤、子ども・高齢者、祈りと歌声、強い日差しと雨、湿った道、生活費と物流を本文へ統合済み。
 - [x] 298 `apia` - Apia - reviewed: 湾岸首都、独立政治、港湾物流、ファア・サモア、教会、日曜、市場、送金、観光、住宅、気候、教育、公共性に加え、市場労働、暑さと雨、ラグビー、音楽、教会の歌声、祝祭の夜、SNSでつながる海外家族、買い物の音と光を本文へ統合済み。
 - [x] 299 `nukualofa` - Nuku'alofa - reviewed: 王国首都、港と物流、市場と食卓、教会と日曜、礁湖、送金労働、王室文化、噴火と津波、住宅、観光、気候適応、地域外交に加え、ラグビー、カヴァ、合唱、祝祭、夜の小商い、子どもの通学、高齢者、ラジオ/SNS、海風と暑さを本文へ統合済み。
-- [x] 300 `funafuti` - Funafuti - Capital of Tuvalu
-- [x] 301 `rabat` - Rabat - Capital of Morocco
-- [x] 302 `abuja` - Abuja - Capital of Nigeria
-- [x] 303 `bucharest` - Bucharest - Capital of Romania
-- [x] 304 `pretoria` - Pretoria - Capital of South Africa
+- [x] 300 `funafuti` - Funafuti - reviewed: 環礁首都、国家行政、気候危機、水と衛生、港湾輸入、住宅と土地、教会共同体、空港と交通、教育、食、観光保護区に加え、滑走路のスポーツ、夜の合唱、ラジオ/SNS、露店・魚売り・店の掛け売り、子ども・高齢者、海風と油音の感覚を本文へ統合済み。
+- [x] 301 `rabat` - Rabat - reviewed: 市場、音楽祭、食、海風、子ども・高齢者、ラジオ/SNS、広場や水辺の感覚を本文へ統合し、仮文調を整理済み。
+- [x] 302 `abuja` - Abuja - reviewed: 夜の屋台、路上経済、配車アプリ、ラジオ/SNS、祝祭、音楽、サッカー、雨季・乾季の感覚描写を本文へ統合し、不自然な文を整理済み。
+- [x] 303 `bucharest` - Bucharest - reviewed: 市場、夜の音、宗教暦、ラジオ/SNS、子ども・高齢者、暑さと地震リスクを本文へ統合し、仮文調を修正済み。
+- [x] 304 `pretoria` - Pretoria - reviewed: ラジオ/SNS、ミニバスタクシー、雷雨、スパザショップ、路上経済、停電時の生活感を本文へ統合し、仮文調を修正済み。
 - [x] 305 `bloemfontein` - Bloemfontein - Capital of South Africa
 - [x] 306 `caracas` - Caracas - Capital of Venezuela
 - [x] 307 `vaduz` - Vaduz - Capital of Liechtenstein
