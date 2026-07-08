@@ -560,7 +560,7 @@ Progress notes:
 - [x] 371 `lome` - Lome - Capital of Togo
 - [x] 372 `ashgabat` - Ashgabat - Capital of Turkmenistan
 - [x] 373 `kampala` - Kampala - Capital of Uganda
-- [x] 374 `tashkent` - Tashkent - Capital of Uzbekistan
+- [x] 374 `tashkent` - Tashkent - reviewed: oasis crossroads, national administration, Soviet reconstruction, bazaar economy, industry/finance reform, Islam and multiethnic life, metro/rail transport, housing development, water/green/air issues, tourism, plus SEO title and smoother prose integrated while keeping checker limits.
 - [x] 375 `lusaka` - Lusaka - Capital of Zambia
 - [x] 376 `harare` - Harare - Capital of Zimbabwe
 - [x] 377 `sydney` - Sydney
