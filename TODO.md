@@ -37,6 +37,7 @@ Implement the 400-city atlas in this order. The first four are fixed by instruct
 Progress notes:
 
 - Content enrichment audit started from 001: add city-specific elements such as sports, food, music/nightlife, education, festivals, children and older residents, street economy, media, markets, shopping, and sensory detail by integrating them into existing sections rather than simply lengthening pages.
+- Content enrichment post-audit for 350-400 completed: sub-agent review confirmed broad coverage of sports/recreation, food/markets/shopping, music/night, education, children/older residents, street economy, media/SNS, and sensory detail; weak mini-section phrasing and checker-sensitive wording were tightened while preserving section length limits.
 - New York content enrichment pass completed: sports/public space, jazz/nightlife, food markets, children/older residents, street vendors, shopping, and sensory details were integrated while keeping section counts within the current checker limits.
 - Tokyo content enrichment pass completed: baseball, sumo, National Stadium, Tokyo Marathon, night music, students, children/older residents, festivals, pop culture/media, Toyosu/Tsukiji, Ameyoko, and sensory street details were integrated while reducing sections back within checker limits.
 - London content enrichment pass completed: Premier League, Wimbledon, cricket, grime/club music, food markets, pub life, children/older residents, public services, and sensory street details were integrated while keeping section counts within checker limits.
