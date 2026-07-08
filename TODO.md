@@ -568,9 +568,9 @@ Progress notes:
 - [x] 379 `kyiv` - Kyiv - reviewed: 戦時首都、正教会、IT/労働、地下鉄避難、住宅と日常、独立広場、観光と追悼に加え、サッカー、食卓、市場、カフェ、SNS/メディア、子ども・高齢者、警報・発電機・川風の感覚を補強。
 - [x] 380 `krakow` - Krakow
 - [x] 381 `accra` - Accra
-- [x] 382 `khiva` - Khiva
-- [x] 383 `mostar` - Mostar
-- [x] 384 `belgrade` - Belgrade
+- [x] 382 `khiva` - Khiva - reviewed: イチャン・カラ、ホラズム、城壁、水と砂漠、観光労働、手工芸、奴隷交易の記憶、信仰、住宅、交通、食文化を補強。
+- [x] 383 `mostar` - Mostar - reviewed: ネレトヴァ川、旧橋、世界遺産、戦争記憶、分断、観光労働、大学と若者、宗教、住宅、交通、食文化を補強。
+- [x] 384 `belgrade` - Belgrade - reviewed: ドナウ・サヴァ合流点、首都政治、IT/物流、ニュー・ベオグラード、旧ユーゴの記憶、宗教、住宅、夜文化、再開発、環境を補強。
 - [x] 385 `belfast` - Belfast
 - [x] 386 `tallinn` - Tallinn
 - [x] 387 `riga` - Riga
