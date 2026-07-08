@@ -571,18 +571,18 @@ Progress notes:
 - [x] 382 `khiva` - Khiva - reviewed: 露店、SNS予約、水売り、ラジオ/SNSでの観光発信、子どもの手伝いと通学、高齢者の中庭、ナンの匂い、祭りの夜、学校サッカー、クラッシュを補強。
 - [x] 383 `mostar` - Mostar - reviewed: セヴダ、地域ラジオ/SNS、サッカー、夜のライブ音楽、ストリートフード、熱い石畳、コーヒーの匂い、市場・買い物、子どもの遊び場、高齢者・学生の交通負担を補強。
 - [x] 384 `belgrade` - Belgrade - reviewed: 新聞/ラジオ/SNS、露店・修理・配達、スラヴァの食卓、市場、サッカー、チェヴァピとブレク、子ども・高齢者、工事音・粉じん・川風、河岸の夜文化を補強。
-- [x] 385 `belfast` - Belfast - reviewed: ラガン川、港湾、自治政治、和平、造船と産業転換、壁画、宗教境界、映画、大学、住宅、食と音楽、気候を確認。
-- [x] 386 `tallinn` - Tallinn - reviewed: フィンランド湾、旧市街、ハンザ、電子政府、サイバー安全保障、港湾、ロシア語圏、多言語社会、住宅、歌の文化を確認。
-- [x] 387 `riga` - Riga - reviewed: ダウガヴァ川、港湾、EU/NATO東端、ハンザ旧市街、アールヌーボー、木造街区、ICT、言語、宗教、市場を確認。
-- [x] 388 `vilnius` - Vilnius - reviewed: 丘と川、リトアニア大公国、EU/NATO東縁、金融とIT、大学、多言語社会、ユダヤ史、バロック、住宅、観光を確認。
-- [x] 389 `reykjavik` - Reykjavik - reviewed: 湾と火山地形、国家首都、港と航空、地熱、観光労働、住宅難、音楽、多文化、自然観光、災害と気候を確認。
+- [x] 385 `belfast` - Belfast - reviewed: ラグビー/サッカー、BBC/地域ラジオ/SNS、夏の行進・祭り、学生向け食堂、ソーダブレッドとアルスター・フライ、市場の匂い、雨に濡れた石畳、映像産業と大学を補強。
+- [x] 386 `tallinn` - Tallinn - reviewed: TalTech/タリン大学、ERR/メディア/SNS、テリスキヴィの夜音楽、Tallinn Music Week/Jazzkaar、黒パン・燻製魚・ベリー菓子、Balti Jaama市場、子どものスポーツ空間を補強。
+- [x] 387 `riga` - Riga - reviewed: 市場の小商い、配達・サービス労働、燻製魚・黒パン・蜂蜜、トラムと貨物の音、濡れた石畳、ラジオ/SNS、学校訓練、歌と踊りの祭典/ヤーニ、アイスホッケー/バスケットボールを補強。
+- [x] 388 `vilnius` - Vilnius - reviewed: 冬の街路感覚、カジューカス市、LRT/独立系メディア/SNS、配達労働、学生夜文化、ライブ/映画/討論、ハレス市場、ツェペリナイと冷製ビーツスープ、買い物、バスケットボールを補強。
+- [x] 389 `reykjavik` - Reykjavik - reviewed: 港の鳥声と魚の匂い、ホットドッグと魚料理、Iceland Airwaves/文化の夜/プライド、RUV/SNS、ハンドボール/サッカー、プールに通う子どもと高齢者、地熱と観光労働を補強。
 - [x] 390 `valletta` - Valletta - reviewed: 城壁都市、聖ヨハネ騎士団、港湾、小国政治とEU、世界遺産、宗教祭礼、住民減少、文化施設、水制約を確認。
 - [x] 391 `minneapolis` - Minneapolis - reviewed: ミシシッピ川、湖と公園、ツインシティ政治、製粉と食品産業、医療、移民と宗教、音楽、警察改革、住宅を確認。
 - [x] 392 `san-salvador` - San Salvador - reviewed: 火山の谷、国家政治、旧市街、送金経済、信仰と社会正義、治安、交通、若者、住宅格差、食と市場を確認。
-- [x] 393 `tegucigalpa` - Tegucigalpa
-- [x] 394 `managua` - Managua
-- [x] 395 `sucre` - Sucre
-- [x] 396 `montevideo` - Montevideo
+- [x] 393 `tegucigalpa` - Tegucigalpa - reviewed: 山間盆地、国家機関、銀鉱の記憶、チョルテカ川と災害、送金経済、治安と若者、スヤパ信仰、斜面住宅、交通を確認。
+- [x] 394 `managua` - Managua - reviewed: ショロトラン湖岸、地震後の都市形、国家政治、市場と商業、食文化、宗教、郊外化、火山湖観光、移住家族、若者を確認。
+- [x] 395 `sucre` - Sucre - reviewed: 憲法上の首都、白い旧市街、独立の記憶、大学、ケチュア社会、世界遺産観光、司法、市場、坂道生活を確認。
+- [x] 396 `montevideo` - Montevideo - reviewed: ラプラタ川と港、小国外交、畜産経済、ランブラ、旧市街、移民と世俗性、住宅、サッカー、気候リスクを確認。
 - [x] 397 `mombasa` - Mombasa
 - [x] 398 `luanda` - Luanda
 - [x] 399 `maputo` - Maputo
