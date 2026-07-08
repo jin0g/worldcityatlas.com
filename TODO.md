@@ -511,11 +511,11 @@ Progress notes:
 - [x] 322 `yaounde` - Yaounde - reviewed: 本文を大きく増やさず、食、夜、音楽、サッカー中継、SNS/ラジオ、市場の買い物、子ども、高齢者、祝祭、匂い/音などの感覚描写を自然に追加済み。
 - [x] 323 `moroni` - Moroni - reviewed: 本文を大きく増やさず、路上販売、ラジオ/SNS、港前の食、夜の買い物、祝祭、音楽、子ども、高齢者、サッカー、海辺の感覚描写を補強済み。
 - [x] 324 `brazzaville` - Brazzaville - reviewed: 本文を大きく増やさず、夜の音楽、市場と買い物、食、ラジオ/SNS、祝祭、子どもの聖歌隊、高齢者訪問、路地のサッカー、川辺の感覚描写を補強済み。
-- [x] 325 `san-jose-costa-rica` - San Jose - Capital of Costa Rica
-- [x] 326 `yamoussoukro` - Yamoussoukro - Capital of Cote dIvoire
-- [x] 327 `zagreb` - Zagreb - Capital of Croatia
-- [x] 328 `djibouti-city` - Djibouti City - Capital of Djibouti
-- [x] 329 `roseau` - Roseau - Capital of Dominica
+- [x] 325 `san-jose-costa-rica` - San Jose - reviewed: central-basin geography, no-army democracy, diplomacy, free zones, medical devices, central market, religion, migration, traffic, volcano tourism, public space, climate risk, plus football, night buses, food stalls, delivery work, students, children/older residents, radio/SNS, shopping, and sensory detail integrated while keeping checker limits.
+- [x] 326 `yamoussoukro` - Yamoussoukro - reviewed: capital transfer, broad avenues, basilica and faith, Abidjan relationship, agriculture, markets, education, Baoule society, urban services, tourism, climate, plus shopping, street food, music, night, children/older residents, sport, festivals, SNS/radio, street economy, and sensory detail integrated while keeping checker limits.
+- [x] 327 `zagreb` - Zagreb - reviewed: EU and regional position, state administration, upper/lower town, industry, religion and memory, migration, trams, Sava urban form, culture tourism, earthquake recovery, plus sport, food, music/night, universities, festivals, children/older residents, kiosks, markets, shopping, media/radio/SNS, and sensory detail integrated while keeping checker limits.
+- [x] 328 `djibouti-city` - Djibouti City - reviewed: strait geopolitics, port logistics, railway corridor, military bases, diplomacy, old port culture, Islam, migration/refugees, housing and water, heat, salt-lake routes, plus sport, food, music, night, markets, shopping, children/older residents, radio/SNS, street economy, and sensory detail integrated while keeping checker limits.
+- [x] 329 `roseau` - Roseau - reviewed: mountain-and-sea capital form, state administration, port economy, Creole culture and faith, market households, nature tourism, hurricane recovery, housing services, youth, Kalinago relations, climate resilience, plus sport, festivals, food, music, night, children/older residents, SNS/radio, shopping, and sensory detail integrated while keeping checker limits.
 - [x] 330 `malabo` - Malabo - Capital of Equatorial Guinea
 - [x] 331 `mbabane` - Mbabane - Capital of Eswatini
 - [x] 332 `libreville` - Libreville - Capital of Gabon
