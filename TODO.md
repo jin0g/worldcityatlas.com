@@ -501,11 +501,11 @@ Progress notes:
 - [x] 312 `manama` - Manama - reviewed: 本文を大幅増量せず、湾岸政治、金融、石油後の多角化、真珠交易、宗派政治、移民労働に加え、夜市、音楽、SNS/ラジオ、F1、教育、子ども・高齢者、路上経済、食と市場描写を補強済み。
 - [x] 313 `bridgetown` - Bridgetown - reviewed: 本文を圧縮置換し、港湾首都、砂糖と奴隷制の記憶、観光、地域外交、クリケット、Crop Over、食、市場、夜、教育、子ども・高齢者、ラジオ/SNS、島内交通の感覚描写を補強済み。
 - [x] 314 `minsk` - Minsk - reviewed: 本文を大幅増量せず、戦後大通り、国家機能、工業とIT、戦争記憶、政治と抗議に加え、ホッケー/サッカー、教育、音楽、祝祭、夜、子ども・高齢者、メディア/SNS、市場/小売、冬の感覚描写を補強済み。
-- [x] 315 `belmopan` - Belmopan - Capital of Belize
-- [x] 316 `thimphu` - Thimphu - Capital of Bhutan
-- [x] 317 `gaborone` - Gaborone - Capital of Botswana
-- [x] 318 `bandar-seri-begawan` - Bandar Seri Begawan - Capital of Brunei
-- [x] 319 `sofia` - Sofia - Capital of Bulgaria
+- [x] 315 `belmopan` - Belmopan - reviewed: 計画首都、政府中枢、ハリケーン記憶、多民族社会、教育、住宅、内陸観光、農業市場、川と気候に加え、サッカー/クリケット、夜の食堂、市場屋台、ラジオ広告、SNS告知、子ども・高齢者、雨の匂いと買い物帰りの会話を本文へ統合済み。
+- [x] 316 `thimphu` - Thimphu - reviewed: ヒマラヤ谷の首都、王政と民主制、仏教、行政、住宅成長、教育に加え、ラジオ/SNS、弓術・サッカー、夜のライブ、市場、屋台の香り、子ども、高齢者、通院、台所の湯気、路上の小商いを本文へ統合済み。
+- [x] 317 `gaborone` - Gaborone - reviewed: 計画首都、政府中枢、ダイヤモンド経済、水不足、住宅成長、教育、SADC外交に加え、ラジオ/SNS、週末サッカー、学生ダンス、夜のライブ、セスワー/ボゴベ/焼いた肉、市場・露店、子ども、高齢者、夕方の音と匂いを本文へ統合済み。
+- [x] 318 `bandar-seri-begawan` - Bandar Seri Begawan - reviewed: 王制、石油・ガス、水上集落、イスラム文化、教育、低層住宅、熱帯雨林、モスク観光に加え、食・市場・夜・祝祭・子ども/高齢者・メディア/SNS・スポーツ・買い物・感覚描写を本文へ統合済み。
+- [x] 319 `sofia` - Sofia - reviewed: ヴィトシャ山麓、政府とEU、IT産業、正教会、ローマ・オスマン・社会主義の層、住宅、地下鉄、空気に加え、食・市場・夜・教育・祝祭・子ども/高齢者・メディア/SNS・スポーツ・買い物・感覚描写を本文へ統合済み。
 - [x] 320 `ouagadougou` - Ouagadougou - Capital of Burkina Faso
 - [x] 321 `gitega` - Gitega - Capital of Burundi
 - [x] 322 `yaounde` - Yaounde - Capital of Cameroon
