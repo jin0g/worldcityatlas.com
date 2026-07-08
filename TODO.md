@@ -496,11 +496,11 @@ Progress notes:
 - [x] 307 `vaduz` - Vaduz - reviewed: 小都市の生活密度に合わせ、国境買い物、クラブ活動、学校行事、祝祭、地域メディア、食とワイン、夜の静けさ、子ども・高齢者の視点を反映済み。
 - [x] 308 `san-marino` - San Marino - reviewed: 食・市場・夜・祝祭・教育・子ども/高齢者・メディア/SNS・坂道や石畳の感覚描写を補強し、禁止表現を解消済み。
 - [x] 309 `tirana` - Tirana - reviewed: 食・音楽・スポーツ・夜・教育・子ども/高齢者・市場/買い物・路上経済・メディア/SNSを自然に反映し、仮文調を修正済み。
-- [x] 310 `st-johns-antigua` - St. John's - Capital of Antigua and Barbuda
-- [x] 311 `nassau` - Nassau - Capital of Bahamas
-- [x] 312 `manama` - Manama - Capital of Bahrain
-- [x] 313 `bridgetown` - Bridgetown - Capital of Barbados
-- [x] 314 `minsk` - Minsk - Capital of Belarus
+- [x] 310 `st-johns-antigua` - St. John's - reviewed: 港湾首都、クルーズ観光、砂糖植民地記憶、カーニバル、信仰、市場、要塞、住宅、ハリケーン、島内交通に加え、クリケット、音楽、夜の帰宅、学校、子ども・高齢者、路上商い、ラジオ、買い物と海風の感覚を本文へ統合済み。
+- [x] 311 `nassau` - Nassau - reviewed: 本文を圧縮置換し、港湾首都、クルーズ経済、オフショア金融、植民地と海賊の記憶、ジャンカヌー、夜、市場、路上経済、子ども・高齢者、ラジオ/SNS、浜辺と遺産の感覚描写を補強済み。
+- [x] 312 `manama` - Manama - reviewed: 本文を大幅増量せず、湾岸政治、金融、石油後の多角化、真珠交易、宗派政治、移民労働に加え、夜市、音楽、SNS/ラジオ、F1、教育、子ども・高齢者、路上経済、食と市場描写を補強済み。
+- [x] 313 `bridgetown` - Bridgetown - reviewed: 本文を圧縮置換し、港湾首都、砂糖と奴隷制の記憶、観光、地域外交、クリケット、Crop Over、食、市場、夜、教育、子ども・高齢者、ラジオ/SNS、島内交通の感覚描写を補強済み。
+- [x] 314 `minsk` - Minsk - reviewed: 本文を大幅増量せず、戦後大通り、国家機能、工業とIT、戦争記憶、政治と抗議に加え、ホッケー/サッカー、教育、音楽、祝祭、夜、子ども・高齢者、メディア/SNS、市場/小売、冬の感覚描写を補強済み。
 - [x] 315 `belmopan` - Belmopan - Capital of Belize
 - [x] 316 `thimphu` - Thimphu - Capital of Bhutan
 - [x] 317 `gaborone` - Gaborone - Capital of Botswana
