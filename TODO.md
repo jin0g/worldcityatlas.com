@@ -561,11 +561,11 @@ Progress notes:
 - [x] 372 `ashgabat` - Ashgabat - reviewed: desert planned capital, state symbolism, gas economy, white-marble urban form, bazaars, housing, water/heat, transport, tourism, plus football, festive food, night music, bazaar small commerce, radio/SNS, children education, older residents' clinic trips, dust smells, fountains, cleaning-truck sounds, and sensory detail integrated while keeping checker limits.
 - [x] 373 `kampala` - Kampala - reviewed: hill capital, Buganda and national politics, markets, boda-boda mobility, university/media life, faith, housing, drainage, Lake Victoria links, tourism, plus sports, food, music/night, festivals, children/older residents, street commerce, radio debate, SNS videos, markets/shopping, rain, traffic sounds, and sensory detail integrated while keeping checker limits.
 - [x] 374 `tashkent` - Tashkent - reviewed: oasis crossroads, national administration, Soviet reconstruction, bazaar economy, industry/finance reform, Islam and multiethnic life, metro/rail transport, housing development, water/green/air issues, tourism, plus bazaar food, sports, night culture, media/SNS, children/older residents, street commerce, market smells, metro sounds, summer shade, winter air, and sensory detail integrated while keeping checker limits.
-- [x] 375 `lusaka` - Lusaka - Capital of Zambia
-- [x] 376 `harare` - Harare - Capital of Zimbabwe
-- [x] 377 `sydney` - Sydney
-- [x] 378 `stuttgart` - Stuttgart
-- [x] 379 `kyiv` - Kyiv
+- [x] 375 `lusaka` - Lusaka - reviewed: 市場、ミニバス、ニシマ、サッカー、ゴスペルと夜の音楽、学校行事、子ども・高齢者、SNS/ラジオ、露店・配達・修理の小商いを補強。
+- [x] 376 `harare` - Harare - reviewed: ムバレ市場、サザ、Zimdancehall、サッカー/クリケット、教会・使徒派、学校/医療、子ども・高齢者、ラジオ/新聞/SNS、停電・水・高原気候の感覚描写を補強。
+- [x] 377 `sydney` - Sydney - reviewed: 港の潮・汽笛・カモメ、州政治とメディア、多文化市場、魚市場、ラグビー/クリケット/サーフィン、夜のライブ、子ども・高齢者、気候リスクを補強。
+- [x] 378 `stuttgart` - Stuttgart - reviewed: 自動車転換、職業教育、SWR/地域メディア、移民小商い、VfB、音楽夜文化、ワイン祭り/フォルクスフェスト、マルクトハレ、坂道生活を補強。
+- [x] 379 `kyiv` - Kyiv - reviewed: 戦時首都、正教会、IT/労働、地下鉄避難、住宅と日常、独立広場、観光と追悼に加え、サッカー、食卓、市場、カフェ、SNS/メディア、子ども・高齢者、警報・発電機・川風の感覚を補強。
 - [x] 380 `krakow` - Krakow
 - [x] 381 `accra` - Accra
 - [x] 382 `khiva` - Khiva
