@@ -506,11 +506,11 @@ Progress notes:
 - [x] 317 `gaborone` - Gaborone - reviewed: 計画首都、政府中枢、ダイヤモンド経済、水不足、住宅成長、教育、SADC外交に加え、ラジオ/SNS、週末サッカー、学生ダンス、夜のライブ、セスワー/ボゴベ/焼いた肉、市場・露店、子ども、高齢者、夕方の音と匂いを本文へ統合済み。
 - [x] 318 `bandar-seri-begawan` - Bandar Seri Begawan - reviewed: 王制、石油・ガス、水上集落、イスラム文化、教育、低層住宅、熱帯雨林、モスク観光に加え、食・市場・夜・祝祭・子ども/高齢者・メディア/SNS・スポーツ・買い物・感覚描写を本文へ統合済み。
 - [x] 319 `sofia` - Sofia - reviewed: ヴィトシャ山麓、政府とEU、IT産業、正教会、ローマ・オスマン・社会主義の層、住宅、地下鉄、空気に加え、食・市場・夜・教育・祝祭・子ども/高齢者・メディア/SNS・スポーツ・買い物・感覚描写を本文へ統合済み。
-- [x] 320 `ouagadougou` - Ouagadougou - Capital of Burkina Faso
-- [x] 321 `gitega` - Gitega - Capital of Burundi
-- [x] 322 `yaounde` - Yaounde - Capital of Cameroon
-- [x] 323 `moroni` - Moroni - Capital of Comoros
-- [x] 324 `brazzaville` - Brazzaville - Capital of Republic of the Congo
+- [x] 320 `ouagadougou` - Ouagadougou - reviewed: サヘル首都、政府と治安、非公式経済、映画祭、市場と工芸、住宅、水と暑さ、交通、宗教、地域危機に加え、サッカー、屋台、ラジオ、夜の上映、学生、子ども・高齢者、赤土と砂塵の感覚を本文へ統合済み。
+- [x] 321 `gitega` - Gitega - reviewed: 本文を大きく増やさず、路上経済、買い物、携帯送金、ラジオ/SNS、サッカー観戦、子ども、高齢者、夜の売店、食、音楽/太鼓、祝祭、感覚描写を自然に拡充済み。
+- [x] 322 `yaounde` - Yaounde - reviewed: 本文を大きく増やさず、食、夜、音楽、サッカー中継、SNS/ラジオ、市場の買い物、子ども、高齢者、祝祭、匂い/音などの感覚描写を自然に追加済み。
+- [x] 323 `moroni` - Moroni - reviewed: 本文を大きく増やさず、路上販売、ラジオ/SNS、港前の食、夜の買い物、祝祭、音楽、子ども、高齢者、サッカー、海辺の感覚描写を補強済み。
+- [x] 324 `brazzaville` - Brazzaville - reviewed: 本文を大きく増やさず、夜の音楽、市場と買い物、食、ラジオ/SNS、祝祭、子どもの聖歌隊、高齢者訪問、路地のサッカー、川辺の感覚描写を補強済み。
 - [x] 325 `san-jose-costa-rica` - San Jose - Capital of Costa Rica
 - [x] 326 `yamoussoukro` - Yamoussoukro - Capital of Cote dIvoire
 - [x] 327 `zagreb` - Zagreb - Capital of Croatia
