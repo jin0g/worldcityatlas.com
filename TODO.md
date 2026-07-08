@@ -195,10 +195,10 @@ Progress notes:
 - [x] 006 `seoul` - Seoul - reviewed: Kカルチャーのラジオ、音楽チャート、SNS、夜の自習室、親のSNS情報、市場の油の匂い・鉄板音・値切り声、ネオン、スマホ決済、配達バイク音を補強。
 - [x] 007 `beijing` - Beijing - reviewed: 大学と進学競争、子どもと祖父母、胡同の朝食と会話、廟会、五輪公園スポーツ、夜のライブ/小劇場、市場・配達・路上経済、大気と水の感覚を補強。
 - [x] 008 `istanbul` - Istanbul - reviewed: バザールの呼び込み、焼き栗・とうもろこし屋台、茶の配達、フェリー食、ラマダン、ガラタサライ/フェネルバフチェ/ベシクタシュ、夜のカドゥキョイ/ベイオール、ラジオ/SNS的な都市情報を補強。
-- [x] 009 `hong-kong` - Hong Kong - DONE
-- [x] 010 `san-francisco` - San Francisco - DONE
-- [x] 011 `washington-dc` - Washington DC - DONE
-- [x] 012 `moscow` - Moscow - DONE
+- [x] 009 `hong-kong` - Hong Kong - reviewed: ラジオ/SNS/オンラインメディア、夜の音、街市、高齢者と子どもの生活導線、住宅負担と密度の表現を補強。
+- [x] 010 `san-francisco` - San Francisco - reviewed: スペイン語ラジオ、生活買い物、世代間通訳、移民地区の市場感、LGBTQ文化、テック労働と住宅負担の表現を補強。
+- [x] 011 `washington-dc` - Washington DC - reviewed: 黒人教会、ゴーゴー、Uストリート、記念碑の夜景、フードトラック、Eastern Market、大学・博物館教育、子ども・高齢者、野球/バスケ/アイスホッケー、抗議とメディアを補強。
+- [x] 012 `moscow` - Moscow - reviewed: 正教祝祭、劇場・音楽院、地下鉄の音と匂い、市場と移民食、冬の通学・高齢者移動、サッカー/アイスホッケー、商品棚と制裁下の暮らしを補強。
 - [x] 013 `taipei` - Taipei - DONE
 - [x] 014 `shanghai` - Shanghai - DONE
 - [x] 015 `osaka` - Osaka - DONE
