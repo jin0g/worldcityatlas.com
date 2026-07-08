@@ -211,10 +211,10 @@ Progress notes:
 - [x] 022 `rome` - Rome - reviewed: ラジオ/SNS、復活祭・地区祭礼、市場名、ローマ料理、大学・放課後・介護、地下鉄/バスの熱気、ASローマ/ラツィオ、夜の広場を補強。
 - [x] 023 `barcelona` - Barcelona - reviewed: 産業労働、気候リスク、サッカー公共文化の本文をデスマス調で確認・整備。
 - [x] 024 `tel-aviv` - Tel Aviv - reviewed: 地政学、文化宗教、暮らし、ハイテク、白い街、夜文化、移民社会の本文をデスマス調で確認・整備。
-- [x] 025 `cairo` - Cairo - DONE
-- [x] 026 `boston` - Boston - DONE
-- [x] 027 `delhi` - Delhi - DONE
-- [x] 028 `dubai` - Dubai - DONE
+- [x] 025 `cairo` - Cairo - reviewed: ナイル地理、旧市街、ギザ観光、産業労働、住宅、交通、文化メディア、環境気候の本文を確認・整備。
+- [x] 026 `boston` - Boston - reviewed: 革命記憶、医療バイオ、金融港湾、住宅、交通、気候、観光文化の本文を確認・整備。
+- [x] 027 `delhi` - Delhi - reviewed: 住宅、衛星都市経済、メディア、通勤、首都圏労働の本文をデスマス調で確認・整備。
+- [x] 028 `dubai` - Dubai - reviewed: 暮らしと観光、不動産景観、メトロ移動、暑熱と格差の本文をデスマス調で確認・整備。
 - [x] 029 `buenos-aires` - Buenos Aires - DONE
 - [x] 030 `melbourne` - Melbourne - DONE
 - [x] 031 `amsterdam` - Amsterdam - DONE
