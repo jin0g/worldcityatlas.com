@@ -575,10 +575,10 @@ Progress notes:
 - [x] 386 `tallinn` - Tallinn - reviewed: フィンランド湾、旧市街、ハンザ、電子政府、サイバー安全保障、港湾、ロシア語圏、多言語社会、住宅、歌の文化を確認。
 - [x] 387 `riga` - Riga - reviewed: ダウガヴァ川、港湾、EU/NATO東端、ハンザ旧市街、アールヌーボー、木造街区、ICT、言語、宗教、市場を確認。
 - [x] 388 `vilnius` - Vilnius - reviewed: 丘と川、リトアニア大公国、EU/NATO東縁、金融とIT、大学、多言語社会、ユダヤ史、バロック、住宅、観光を確認。
-- [x] 389 `reykjavik` - Reykjavik
-- [x] 390 `valletta` - Valletta
-- [x] 391 `minneapolis` - Minneapolis
-- [x] 392 `san-salvador` - San Salvador
+- [x] 389 `reykjavik` - Reykjavik - reviewed: 湾と火山地形、国家首都、港と航空、地熱、観光労働、住宅難、音楽、多文化、自然観光、災害と気候を確認。
+- [x] 390 `valletta` - Valletta - reviewed: 城壁都市、聖ヨハネ騎士団、港湾、小国政治とEU、世界遺産、宗教祭礼、住民減少、文化施設、水制約を確認。
+- [x] 391 `minneapolis` - Minneapolis - reviewed: ミシシッピ川、湖と公園、ツインシティ政治、製粉と食品産業、医療、移民と宗教、音楽、警察改革、住宅を確認。
+- [x] 392 `san-salvador` - San Salvador - reviewed: 火山の谷、国家政治、旧市街、送金経済、信仰と社会正義、治安、交通、若者、住宅格差、食と市場を確認。
 - [x] 393 `tegucigalpa` - Tegucigalpa
 - [x] 394 `managua` - Managua
 - [x] 395 `sucre` - Sucre
