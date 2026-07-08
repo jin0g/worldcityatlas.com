@@ -576,14 +576,14 @@ Progress notes:
 - [x] 387 `riga` - Riga - reviewed: 市場の小商い、配達・サービス労働、燻製魚・黒パン・蜂蜜、トラムと貨物の音、濡れた石畳、ラジオ/SNS、学校訓練、歌と踊りの祭典/ヤーニ、アイスホッケー/バスケットボールを補強。
 - [x] 388 `vilnius` - Vilnius - reviewed: 冬の街路感覚、カジューカス市、LRT/独立系メディア/SNS、配達労働、学生夜文化、ライブ/映画/討論、ハレス市場、ツェペリナイと冷製ビーツスープ、買い物、バスケットボールを補強。
 - [x] 389 `reykjavik` - Reykjavik - reviewed: 港の鳥声と魚の匂い、ホットドッグと魚料理、Iceland Airwaves/文化の夜/プライド、RUV/SNS、ハンドボール/サッカー、プールに通う子どもと高齢者、地熱と観光労働を補強。
-- [x] 390 `valletta` - Valletta - reviewed: 城壁都市、聖ヨハネ騎士団、港湾、小国政治とEU、世界遺産、宗教祭礼、住民減少、文化施設、水制約を確認。
-- [x] 391 `minneapolis` - Minneapolis - reviewed: ミシシッピ川、湖と公園、ツインシティ政治、製粉と食品産業、医療、移民と宗教、音楽、警察改革、住宅を確認。
-- [x] 392 `san-salvador` - San Salvador - reviewed: 火山の谷、国家政治、旧市街、送金経済、信仰と社会正義、治安、交通、若者、住宅格差、食と市場を確認。
-- [x] 393 `tegucigalpa` - Tegucigalpa - reviewed: 山間盆地、国家機関、銀鉱の記憶、チョルテカ川と災害、送金経済、治安と若者、スヤパ信仰、斜面住宅、交通を確認。
-- [x] 394 `managua` - Managua - reviewed: ショロトラン湖岸、地震後の都市形、国家政治、市場と商業、食文化、宗教、郊外化、火山湖観光、移住家族、若者を確認。
-- [x] 395 `sucre` - Sucre - reviewed: 憲法上の首都、白い旧市街、独立の記憶、大学、ケチュア社会、世界遺産観光、司法、市場、坂道生活を確認。
-- [x] 396 `montevideo` - Montevideo - reviewed: ラプラタ川と港、小国外交、畜産経済、ランブラ、旧市街、移民と世俗性、住宅、サッカー、気候リスクを確認。
-- [x] 397 `mombasa` - Mombasa
-- [x] 398 `luanda` - Luanda
-- [x] 399 `maputo` - Maputo
-- [x] 400 `hargeisa` - Hargeisa
+- [x] 390 `valletta` - Valletta - reviewed: パスティッツィ、イス・スーク・タルベルト、フェスタの吹奏楽隊・爆竹、子どもと高齢者、ラジオ/SNS、ヴァレッタFC、ジャズ/バー夜文化、石畳・海風・小商いを補強。
+- [x] 391 `minneapolis` - Minneapolis - reviewed: ツインズ/ティンバーウルブズ/リンクス/バイキングス、大学の学生街、ラジオ/SNS、冬のライブ、子どものサッカー、高齢者の通院、フードトラック、ミッドタウン市場、ジューシー・ルーシー、ソマリ茶、Aquatennial/Prideを補強。
+- [x] 392 `san-salvador` - San Salvador - reviewed: 中央市場と買い物、Metrocentro/Escalon、露店、子ども・高齢者、八月守護聖人祭、ラジオ/SNS、クスカトラン競技場/Alianza FC、ライブ音楽とレゲトン、雨に濡れた舗道を補強。
+- [x] 393 `tegucigalpa` - Tegucigalpa - reviewed: 新聞/ラジオ/SNS、コマヤグエラ市場と修理・小売、Olimpia/Motagua、夜のライブ音楽、スヤパ巡礼、バレアダ・コーヒー・乳製品、雨土の匂いと競技場の音を補強。
+- [x] 394 `managua` - Managua - reviewed: 市場の小商い、配達・修理・家族経営、ラジオ/SNS、野球、夜の音楽、湖岸の夜風、屋台の匂い、子どもの通学、高齢者の通院、公共空間を補強。
+- [x] 395 `sucre` - Sucre - reviewed: 大学生活、夜の広場、ラジオ/SNS、市場の匂いと音、路上販売、子どもの通学、高齢者の通院、坂道の日常を補強。
+- [x] 396 `montevideo` - Montevideo - reviewed: ラジオ討論/SNS、路上経済、日曜市、ランブラの夜、子ども・高齢者、旧市街の夜間生活、港市場の匂い、熱波時の防災連絡を補強。
+- [x] 397 `mombasa` - Mombasa - reviewed: フェリー待ちの音と匂い、夜の市場、路上経済、スポーツ、ラジオ/SNS、買い物、子ども・高齢者の生活感を補強。
+- [x] 398 `luanda` - Luanda - reviewed: カンドンゲイロ待ち、発電機音、夜の光と音楽、市場価格、ラジオ/SNS、学校・祝祭・サッカー、水運び、子ども・高齢者を補強。
+- [x] 399 `maputo` - Maputo - reviewed: サッカー、ラジオ/SNS、炭火の匂い、市場の呼び込み、子どもの通学、高齢者の通院、夜の音楽、郊外通勤と海岸余暇を補強。
+- [x] 400 `hargeisa` - Hargeisa - reviewed: サッカー場、茶店、ラジオ/SNS動画、子どもの通学、高齢者の通院、衣料・香辛料店、茶の香り、砂ぼこりの光、移動安全を補強。
