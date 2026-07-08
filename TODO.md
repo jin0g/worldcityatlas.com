@@ -521,11 +521,11 @@ Progress notes:
 - [x] 332 `libreville` - Libreville - reviewed: estuary capital, oil politics, port/wood economy, markets, faith, tourism, housing, youth inequality, plus radio, children, smoked fish, fried banana, night music, SNS/digital expression, street economy, and sensory detail integrated while keeping checker limits.
 - [x] 333 `banjul` - Banjul - reviewed: river-island capital, port, state functions, markets, Islam, migration, housing, tourism, climate, plus radio, SNS sales, football, night stalls, children/older residents, digital street trade, food, and sensory detail integrated while keeping checker limits.
 - [x] 334 `st-georges` - St. George's - reviewed: harbor capital, government, tourism/cruise, spice economy, churches, carnival, hurricane risk, housing, services, plus SNS bookings, radio debate, night bars/stalls/music, after-school life, snacks, children/older residents, outage/evacuation information, and sensory detail integrated while keeping checker limits.
-- [x] 335 `conakry` - Conakry - Capital of Guinea
-- [x] 336 `bissau` - Bissau - Capital of Guinea-Bissau
-- [x] 337 `georgetown-guyana` - Georgetown - Capital of Guyana
-- [x] 338 `new-delhi` - New Delhi - Capital of India
-- [x] 339 `astana` - Astana - Capital of Kazakhstan
+- [x] 335 `conakry` - Conakry - reviewed: peninsula capital form, port/bauxite exports, political memory, informal markets, water/electricity, Islam, music culture, seaside tourism, youth housing, climate hygiene, plus street food, delivery, night work, children/older residents, shopping, football, radio/SNS, and sensory detail integrated while keeping checker limits.
+- [x] 336 `bissau` - Bissau - reviewed: Geba River mouth, cashew port economy, independence/political instability, Creole culture, faith/kinship, housing, rainy-season flooding, Bijagos gateway, plus markets, food, music, night sound, radio/SNS, children/older residents, street economy, shopping, and sensory detail integrated while keeping checker limits.
+- [x] 337 `georgetown-guyana` - Georgetown - reviewed: lowland seawall capital, CARICOM politics, oil economy, port growth, multiethnic religion, timber architecture, drainage/climate risk, Indigenous/interior ties, public space, tourism, plus markets, food, cricket, festivals, night, education, children/older residents, media, and sensory detail integrated while keeping checker limits.
+- [x] 338 `new-delhi` - New Delhi - reviewed: national capital axis, administration, diplomacy, Old Delhi relationship, religion/ritual, Connaught Place commerce, metro, housing hierarchy, heritage, air/heat/water stress, plus radio/TV/SNS, street food, markets, qawwali, night, cricket, children/older residents, street economy, and sensory detail integrated while keeping checker limits.
+- [x] 339 `astana` - Astana - reviewed: steppe planned capital, relocation politics, energy-state finance, symbolic architecture, winter infrastructure, multiethnic religion, housing growth, transport corridors, youth/knowledge city, tourism, plus markets, canteens, snow sensory detail, SNS/news, malls, children/older residents, Nauryz, food, music, sport, and nightscape integrated while keeping checker limits.
 - [x] 340 `bishkek` - Bishkek - Capital of Kyrgyzstan
 - [x] 341 `vientiane` - Vientiane - Capital of Laos
 - [x] 342 `maseru` - Maseru - Capital of Lesotho
